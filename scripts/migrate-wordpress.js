@@ -10,6 +10,8 @@ function htmlToMarkdown(html) {
   
   const preBlocks = [];
   let preIndex = 0;
+  const blockquotes = [];
+  let blockquoteIndex = 0;
   
   // Extract and preserve pre blocks with class="brush: language"
   // Match patterns like: <pre class="brush: bash"> or <pre class="brush:js">
@@ -54,6 +56,27 @@ function htmlToMarkdown(html) {
     return placeholder;
   });
   
+  // Extract and preserve blockquote blocks to handle nested content
+  processedHtml = processedHtml.replace(/<blockquote[^>]*>([\s\S]*?)<\/blockquote>/gi, (match, content) => {
+    const placeholder = `BLOCKQUOTE_${blockquoteIndex}`;
+    // Decode HTML entities in blockquote content
+    const decodedContent = content
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .replace(/&nbsp;/g, ' ')
+      .replace(/<br\s*\/?>/gi, '\n')
+      .replace(/<p[^>]*>/g, '\n\n')
+      .replace(/<\/p>/g, '')
+      .replace(/<[^>]+>/g, ''); // Remove remaining HTML tags
+    
+    blockquotes[blockquoteIndex] = `\n\n\`\`\`\n${decodedContent.trim()}\n\`\`\`\n\n`;
+    blockquoteIndex++;
+    return placeholder;
+  });
+  
   // Convert the rest of the HTML
   let markdown = processedHtml
     // Remove style attributes
@@ -61,6 +84,9 @@ function htmlToMarkdown(html) {
     // Convert paragraphs
     .replace(/<p[^>]*>/g, '\n\n')
     .replace(/<\/p>/g, '')
+    // Convert images - must come before removing all tags
+    .replace(/<img\s+[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*\/?>/gi, '\n\n![$2]($1)\n\n')
+    .replace(/<img\s+[^>]*src="([^"]+)"[^>]*\/?>/gi, '\n\n![]($1)\n\n')
     // Convert links
     .replace(/<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>/g, '[$2]($1)')
     // Convert bold
@@ -69,9 +95,6 @@ function htmlToMarkdown(html) {
     // Convert italic
     .replace(/<em[^>]*>([^<]+)<\/em>/g, '*$1*')
     .replace(/<i[^>]*>([^<]+)<\/i>/g, '*$1*')
-    // Convert blockquotes
-    .replace(/<blockquote[^>]*>/g, '\n\n> ')
-    .replace(/<\/blockquote>/g, '\n\n')
     // Convert line breaks
     .replace(/<br\s*\/?>/g, '\n')
     // Convert headers
@@ -93,6 +116,11 @@ function htmlToMarkdown(html) {
   // Restore pre blocks
   for (let i = 0; i < preBlocks.length; i++) {
     markdown = markdown.replace(`PRE_BLOCK_${i}`, preBlocks[i]);
+  }
+  
+  // Restore blockquotes
+  for (let i = 0; i < blockquotes.length; i++) {
+    markdown = markdown.replace(`BLOCKQUOTE_${i}`, blockquotes[i]);
   }
   
   return markdown;
