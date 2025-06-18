@@ -1,6 +1,11 @@
+"use client";
+
 import Link from "next/link";
+import { useTheme } from "./ThemeProvider";
 
 export default function Header() {
+  const { isDark, toggleDark } = useTheme();
+
   return (
     <header className="sticky top-0 z-50 w-full glass-effect">
       <nav className="mx-auto flex h-20 max-w-screen-xl items-center justify-between px-4 sm:px-6 lg:px-8">
@@ -39,10 +44,17 @@ export default function Header() {
           <button
             className="relative p-3 rounded-xl hover:bg-foreground/5 transition-colors duration-300 group"
             aria-label="Toggle theme"
+            onClick={toggleDark}
           >
-            <svg className="h-5 w-5 text-foreground/70 group-hover:text-foreground transition-colors duration-300" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
-              <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-            </svg>
+            {isDark ? (
+              <svg className="h-5 w-5 text-foreground/70 group-hover:text-foreground transition-colors duration-300" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              </svg>
+            ) : (
+              <svg className="h-5 w-5 text-foreground/70 group-hover:text-foreground transition-colors duration-300" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            )}
           </button>
           
           {/* Language toggle */}

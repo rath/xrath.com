@@ -3,6 +3,8 @@ import { Inter, Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -35,9 +37,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${notoSansKr.variable}`}>
       <body className="flex min-h-screen flex-col antialiased">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <ThemeProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <ThemeSwitcher />
+        </ThemeProvider>
       </body>
     </html>
   );

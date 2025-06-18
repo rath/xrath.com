@@ -1,25 +1,132 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background-light: #ffffff;
-  --color-background-dark: #0a0a0b;
-  --color-foreground-light: #09090b;
-  --color-foreground-dark: #fafafa;
-  --color-primary: #0ea5e9;
-  --color-primary-hover: #0284c7;
-  --color-secondary: #8b5cf6;
-  --color-secondary-hover: #7c3aed;
-  --color-accent: #f59e0b;
-  --color-accent-hover: #d97706;
-  --color-success: #10b981;
-  --color-surface-light: #f8fafc;
-  --color-surface-dark: #18181b;
-  --color-border-light: #e2e8f0;
-  --color-border-dark: #27272a;
-  
   --font-family-sans: Inter, "Noto Sans KR", system-ui, sans-serif;
 }
 
+/* Default Theme Variables */
+:root {
+  /* Azure Theme (Default) - Modern tech blue */
+  --color-background-light: #ffffff;
+  --color-background-dark: #0f0f10;
+  --color-foreground-light: #1a1a1c;
+  --color-foreground-dark: #f0f0f2;
+  --color-surface-light: #f7f8fa;
+  --color-surface-dark: #1a1a1d;
+  --color-border-light: #e4e4e7;
+  --color-border-dark: #2a2a2d;
+  
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-light: #60a5fa;
+  --color-primary-dark: #1d4ed8;
+  
+  --color-secondary: #0ea5e9;
+  --color-secondary-hover: #0284c7;
+  --color-secondary-light: #38bdf8;
+  --color-secondary-dark: #0369a1;
+  
+  --color-accent: #06b6d4;
+  --color-accent-hover: #0891b2;
+  --color-accent-light: #22d3ee;
+  --color-accent-dark: #0e7490;
+  
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+}
+
+/* Emerald Theme - Nature inspired green */
+[data-theme="emerald"] {
+  --color-primary: #10b981;
+  --color-primary-hover: #059669;
+  --color-primary-light: #34d399;
+  --color-primary-dark: #047857;
+  
+  --color-secondary: #06b6d4;
+  --color-secondary-hover: #0891b2;
+  --color-secondary-light: #22d3ee;
+  --color-secondary-dark: #0e7490;
+  
+  --color-accent: #14b8a6;
+  --color-accent-hover: #0d9488;
+  --color-accent-light: #2dd4bf;
+  --color-accent-dark: #0f766e;
+}
+
+/* Rose Theme - Elegant pink/red */
+[data-theme="rose"] {
+  --color-primary: #f43f5e;
+  --color-primary-hover: #e11d48;
+  --color-primary-light: #fb7185;
+  --color-primary-dark: #be123c;
+  
+  --color-secondary: #ec4899;
+  --color-secondary-hover: #db2777;
+  --color-secondary-light: #f472b6;
+  --color-secondary-dark: #be185d;
+  
+  --color-accent: #f97316;
+  --color-accent-hover: #ea580c;
+  --color-accent-light: #fb923c;
+  --color-accent-dark: #c2410c;
+}
+
+/* Violet Theme - Royal purple */
+[data-theme="violet"] {
+  --color-primary: #8b5cf6;
+  --color-primary-hover: #7c3aed;
+  --color-primary-light: #a78bfa;
+  --color-primary-dark: #6d28d9;
+  
+  --color-secondary: #a855f7;
+  --color-secondary-hover: #9333ea;
+  --color-secondary-light: #c084fc;
+  --color-secondary-dark: #7e22ce;
+  
+  --color-accent: #6366f1;
+  --color-accent-hover: #4f46e5;
+  --color-accent-light: #818cf8;
+  --color-accent-dark: #4338ca;
+}
+
+/* Amber Theme - Warm golden */
+[data-theme="amber"] {
+  --color-primary: #f59e0b;
+  --color-primary-hover: #d97706;
+  --color-primary-light: #fbbf24;
+  --color-primary-dark: #b45309;
+  
+  --color-secondary: #f97316;
+  --color-secondary-hover: #ea580c;
+  --color-secondary-light: #fb923c;
+  --color-secondary-dark: #c2410c;
+  
+  --color-accent: #ef4444;
+  --color-accent-hover: #dc2626;
+  --color-accent-light: #f87171;
+  --color-accent-dark: #b91c1c;
+}
+
+/* Slate Theme - Professional gray */
+[data-theme="slate"] {
+  --color-primary: #64748b;
+  --color-primary-hover: #475569;
+  --color-primary-light: #94a3b8;
+  --color-primary-dark: #334155;
+  
+  --color-secondary: #6b7280;
+  --color-secondary-hover: #4b5563;
+  --color-secondary-light: #9ca3af;
+  --color-secondary-dark: #374151;
+  
+  --color-accent: #3b82f6;
+  --color-accent-hover: #2563eb;
+  --color-accent-light: #60a5fa;
+  --color-accent-dark: #1d4ed8;
+}
+
+/* Apply theme variables */
 :root {
   --background: var(--color-background-light);
   --foreground: var(--color-foreground-light);
