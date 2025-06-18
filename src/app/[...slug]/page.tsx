@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getPostBySlug, getAllPosts } from '@/lib/posts';
 import ReactMarkdown from 'react-markdown';
 import type { Components } from 'react-markdown';
+import { generateExcerpt } from '@/lib/excerpt';
 
 interface PageProps {
   params: Promise<{ slug: string[] }>;
@@ -27,9 +28,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const description = await generateExcerpt(post.content, 160);
+  
   return {
     title: post.title,
-    description: post.content.substring(0, 160) + '...',
+    description,
   };
 }
 
@@ -99,7 +102,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     },
     pre: ({ children }) => {
       // Check if the code block has a language identifier
-      const codeElement = children && typeof children === 'object' && 'props' in children ? children : null;
+      const codeElement = children && typeof children === 'object' && 'props' in children ? children as any : null;
       const className = codeElement?.props?.className || '';
       const hasLanguage = className.includes('language-');
       

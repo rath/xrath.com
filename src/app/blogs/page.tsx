@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { getPaginatedPosts } from '@/lib/posts';
+import { generateExcerpt } from '@/lib/excerpt';
 
 export const metadata: Metadata = {
   title: 'Blogs',
@@ -26,25 +27,29 @@ export default async function BlogsPage({ searchParams }: PageProps) {
       </header>
 
       <div className="space-y-12">
-        {posts.map((post) => (
-          <article key={post.slug} className="border-b border-foreground/10 pb-8">
-            <Link href={`/${post.slug}`} className="block group">
-              <h2 className="text-2xl font-semibold mb-2 group-hover:text-indigo-600 transition-colors">
-                {post.title}
-              </h2>
-              <time className="text-sm text-foreground/60" dateTime={post.date}>
-                {new Date(post.date).toLocaleDateString('ko-KR', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric',
-                })}
-              </time>
-              <p className="mt-3 text-foreground/80 line-clamp-3">
-                {post.content.substring(0, 200)}...
-              </p>
-            </Link>
-          </article>
-        ))}
+        {await Promise.all(posts.map(async (post) => {
+          const excerpt = await generateExcerpt(post.content, 200);
+          
+          return (
+            <article key={post.slug} className="border-b border-foreground/10 pb-8">
+              <Link href={`/${post.slug}`} className="block group">
+                <h2 className="text-2xl font-semibold mb-2 group-hover:text-indigo-600 transition-colors">
+                  {post.title}
+                </h2>
+                <time className="text-sm text-foreground/60" dateTime={post.date}>
+                  {new Date(post.date).toLocaleDateString('ko-KR', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </time>
+                <p className="mt-3 text-foreground/80 line-clamp-3">
+                  {excerpt}
+                </p>
+              </Link>
+            </article>
+          );
+        }))}
       </div>
 
       {totalPages > 1 && (

@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
 import { getLatestPosts } from "@/lib/posts";
+import { generateExcerpt } from "@/lib/excerpt";
 
 export default async function HomePage() {
   const latestPosts = await getLatestPosts(6);
@@ -27,15 +28,18 @@ export default async function HomePage() {
           </div>
           
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {latestPosts.map((post) => (
-              <BlogCard 
-                key={post.slug} 
-                title={post.title}
-                date={post.date}
-                excerpt={post.content.substring(0, 150) + '...'}
-                slug={post.slug}
-              />
-            ))}
+            {await Promise.all(latestPosts.map(async (post) => {
+              const excerpt = await generateExcerpt(post.content, 150);
+              return (
+                <BlogCard 
+                  key={post.slug} 
+                  title={post.title}
+                  date={post.date}
+                  excerpt={excerpt}
+                  slug={post.slug}
+                />
+              );
+            }))}
           </div>
         </div>
       </section>
