@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background-light: #ffffff;
+  --color-background-dark: #0a0a0b;
+  --color-foreground-light: #09090b;
+  --color-foreground-dark: #fafafa;
+  --color-primary: #0ea5e9;
+  --color-primary-hover: #0284c7;
+  --color-secondary: #8b5cf6;
+  --color-secondary-hover: #7c3aed;
+  --color-accent: #f59e0b;
+  --color-accent-hover: #d97706;
+  --color-success: #10b981;
+  --color-surface-light: #f8fafc;
+  --color-surface-dark: #18181b;
+  --color-border-light: #e2e8f0;
+  --color-border-dark: #27272a;
+  
+  --font-family-sans: Inter, "Noto Sans KR", system-ui, sans-serif;
+}
+
+:root {
+  --background: var(--color-background-light);
+  --foreground: var(--color-foreground-light);
+  --surface: var(--color-surface-light);
+  --border: var(--color-border-light);
+}
+
+.dark {
+  --background: var(--color-background-dark);
+  --foreground: var(--color-foreground-dark);
+  --surface: var(--color-surface-dark);
+  --border: var(--color-border-dark);
+}
+
+@layer base {
+  body {
+    background: linear-gradient(135deg, var(--background) 0%, var(--surface) 100%);
+    color: var(--foreground);
+    min-height: 100vh;
+  }
+  
+  ::selection {
+    background: var(--color-primary);
+    color: white;
+  }
+  
+  ::-moz-selection {
+    background: var(--color-primary);
+    color: white;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .gradient-primary {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  }
+  
+  .gradient-accent {
+    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-primary) 100%);
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glass-effect {
+    backdrop-filter: blur(16px);
+    background: color-mix(in srgb, var(--background) 80%, transparent);
+    border: 1px solid color-mix(in srgb, var(--border) 50%, transparent);
+  }
+  
+  .card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px color-mix(in srgb, var(--color-primary) 20%, transparent);
+  }
+}
