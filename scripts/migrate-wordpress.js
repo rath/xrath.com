@@ -176,8 +176,10 @@ async function migrate() {
       }
       
       // Create markdown file content with frontmatter
+      // Escape double quotes in title
+      const escapedTitle = post.title.replace(/"/g, '\\"');
       const fileContent = `---
-title: "${post.title}"
+title: "${escapedTitle}"
 date: ${formatDate(post.created)}
 slug: ${year}/${month}/${slug}
 lang: ko
