@@ -58,9 +58,20 @@ export async function getAllPosts(): Promise<Post[]> {
 
   // Sort posts by date (newest first)
   posts.sort((a, b) => {
-    const dateA = new Date(a.date);
-    const dateB = new Date(b.date);
-    return dateB.getTime() - dateA.getTime();
+    const timeA = new Date(a.date).getTime();
+    const timeB = new Date(b.date).getTime();
+
+    const isValidA = !isNaN(timeA);
+    const isValidB = !isNaN(timeB);
+
+    if (isValidA && isValidB) {
+      return timeB - timeA; // Sort newest first
+    } else if (isValidA) {
+      return -1; // Valid dates come before invalid dates (a is valid, b is not)
+    } else if (isValidB) {
+      return 1;  // Valid dates come before invalid dates (b is valid, a is not)
+    }
+    return 0; // Both are invalid, keep original order relative to each other
   });
 
   return posts;
