@@ -129,7 +129,7 @@ function formatDate(dateStr) {
   return date.toISOString().split('T')[0];
 }
 
-const INPUT_JSON_PATH = path.join(__dirname, '../tmp/published_posts.json');
+const INPUT_JSON_PATH = path.join(__dirname, './wp_posts.json');
 const OUTPUT_POSTS_DIR = path.join(__dirname, '../content/posts');
 
 async function migrate() {
@@ -158,6 +158,20 @@ async function migrate() {
       // Convert content to markdown
       const markdownContent = htmlToMarkdown(post.content);
       
+      // Process comments if they exist
+      let commentsSection = '';
+      if (post.comments && post.comments.length > 0) {
+        commentsSection = '\n\n## Comments\n\n';
+        for (const comment of post.comments) {
+          const commentDate = new Date(comment.created + ' GMT').toISOString();
+          const commentContent = htmlToMarkdown(comment.content);
+          commentsSection += `### ${comment.author}\n`;
+          commentsSection += `*${commentDate}*\n\n`;
+          commentsSection += `${commentContent}\n\n`;
+          commentsSection += '---\n\n';
+        }
+      }
+      
       // Create markdown file content with frontmatter
       const fileContent = `---
 title: "${post.title}"
@@ -166,17 +180,14 @@ slug: ${year}/${month}/${slug}
 lang: ko
 ---
 
-${markdownContent}
-
----
-`;
+${markdownContent}${commentsSection}`;
       
       // Write the file
       const fileName = `${slug}.md`;
       const filePath = path.join(postDir, fileName);
       await fs.writeFile(filePath, fileContent, 'utf-8');
       
-      console.log(`✓ Migrated: ${year}/${month}/${slug}`);
+      console.log(`✓ Migrated: ${year}/${month}/${slug}${post.comments ? ` (${post.comments.length} comments)` : ''}`);
     }
     
     console.log('\n✅ Migration completed successfully!');
