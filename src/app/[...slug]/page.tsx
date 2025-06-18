@@ -52,15 +52,45 @@ function parseComments(content: string) {
     if (!block.trim()) continue;
 
     const authorMatch = block.match(/^### (.+)$/m);
-    const dateMatch = block.match(/^\*(.+)\*$/m);
-
-    if (authorMatch && dateMatch) {
-      const author = authorMatch[1];
-      const dateStr = dateMatch[1];
-      const contentStart = block.indexOf(dateMatch[0]) + dateMatch[0].length;
-      const content = block.substring(contentStart).trim();
-
-      comments.push({ author, date: dateStr, content });
+    const lines = block.split('\n');
+    
+    let author = '';
+    let authorUrl = '';
+    let dateStr = '';
+    let contentStart = 0;
+    
+    if (authorMatch) {
+      author = authorMatch[1];
+      
+      // Find the italic lines after the author
+      let lineIndex = lines.findIndex(line => line.includes(authorMatch[0])) + 1;
+      
+      // Check if the next line is a URL (first italic line)
+      if (lineIndex < lines.length && lines[lineIndex].match(/^\*(.+)\*$/)) {
+        const match = lines[lineIndex].match(/^\*(.+)\*$/);
+        if (match) {
+          const content = match[1];
+          // Check if it's a URL
+          if (content.startsWith('http://') || content.startsWith('https://')) {
+            authorUrl = content;
+            lineIndex++;
+          }
+        }
+      }
+      
+      // The next italic line should be the date
+      if (lineIndex < lines.length && lines[lineIndex].match(/^\*(.+)\*$/)) {
+        const match = lines[lineIndex].match(/^\*(.+)\*$/);
+        if (match) {
+          dateStr = match[1];
+          contentStart = block.indexOf(lines[lineIndex]) + lines[lineIndex].length;
+        }
+      }
+      
+      if (author && dateStr) {
+        const content = block.substring(contentStart).trim();
+        comments.push({ author, authorUrl, date: dateStr, content });
+      }
     }
   }
 
@@ -189,7 +219,20 @@ export default async function BlogPostPage({ params }: PageProps) {
             {comments.map((comment, index) => (
               <div key={index} className="bg-surface rounded-lg p-6">
                 <div className="flex items-baseline justify-between mb-4">
-                  <h3 className="text-lg font-semibold text-foreground">{comment.author}</h3>
+                  <h3 className="text-lg font-semibold text-foreground">
+                    {comment.authorUrl ? (
+                      <a 
+                        href={comment.authorUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:text-primary transition-colors"
+                      >
+                        {comment.author}
+                      </a>
+                    ) : (
+                      comment.author
+                    )}
+                  </h3>
                   <time className="text-sm text-foreground/60">
                     <CommentDateFormatter date={comment.date} />
                   </time>

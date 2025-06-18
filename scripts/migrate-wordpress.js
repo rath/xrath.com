@@ -166,6 +166,9 @@ async function migrate() {
           const commentDate = new Date(comment.created + ' GMT').toISOString();
           const commentContent = htmlToMarkdown(comment.content);
           commentsSection += `### ${comment.author}\n`;
+          if (comment.author_url) {
+            commentsSection += `*${comment.author_url}*\n`;
+          }
           commentsSection += `*${commentDate}*\n\n`;
           commentsSection += `${commentContent}\n\n`;
           commentsSection += '---\n\n';
