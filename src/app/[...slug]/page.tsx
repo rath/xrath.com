@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getPostBySlug, getAllPosts } from '@/lib/posts';
 import ReactMarkdown from 'react-markdown';
 import type { Components } from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { generateExcerpt } from '@/lib/excerpt';
 import { CommentDateFormatter } from '@/components/CommentDateFormatter';
 
@@ -193,6 +194,32 @@ export default async function BlogPostPage({ params }: PageProps) {
     em: ({ children }) => (
       <em className="italic text-foreground/90">{children}</em>
     ),
+    table: ({ children }) => (
+      <div className="my-6 overflow-x-auto">
+        <table className="min-w-full divide-y divide-border">
+          {children}
+        </table>
+      </div>
+    ),
+    thead: ({ children }) => (
+      <thead className="bg-surface">{children}</thead>
+    ),
+    tbody: ({ children }) => (
+      <tbody className="divide-y divide-border">{children}</tbody>
+    ),
+    tr: ({ children }) => (
+      <tr className="hover:bg-surface/50 transition-colors">{children}</tr>
+    ),
+    th: ({ children }) => (
+      <th className="px-6 py-3 text-left text-xs font-medium text-foreground/70 uppercase tracking-wider">
+        {children}
+      </th>
+    ),
+    td: ({ children }) => (
+      <td className="px-6 py-4 text-sm text-foreground/90">
+        {children}
+      </td>
+    ),
   };
 
   return (
@@ -209,7 +236,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       </header>
 
       <div className="prose prose-lg dark:prose-invert max-w-none prose-headings:text-foreground prose-p:text-foreground/90 prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-strong:text-foreground prose-code:text-primary prose-code:bg-surface prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:before:content-[''] prose-code:after:content-[''] prose-pre:bg-surface prose-blockquote:border-l-primary/30 prose-blockquote:text-foreground/80 prose-li:text-foreground/90">
-        <ReactMarkdown components={components}>{postContent}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>{postContent}</ReactMarkdown>
       </div>
 
       {comments.length > 0 && (
@@ -238,7 +265,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   </time>
                 </div>
                 <div className="prose prose-sm dark:prose-invert max-w-none prose-p:text-foreground/80">
-                  <ReactMarkdown components={components}>{comment.content}</ReactMarkdown>
+                  <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>{comment.content}</ReactMarkdown>
                 </div>
               </div>
             ))}
