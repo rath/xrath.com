@@ -1,31 +1,9 @@
 import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
+import { getLatestPosts } from "@/lib/posts";
 
-const mockPosts = [
-  {
-    title: "Getting Started with Next.js 15",
-    date: "2025-01-15",
-    excerpt: "Explore the latest features and improvements in Next.js 15, including enhanced performance, better developer experience, and new APIs.",
-    slug: "getting-started-nextjs-15",
-    tags: ["Next.js", "React", "Web Development"],
-  },
-  {
-    title: "Building Scalable Applications with TypeScript",
-    date: "2024-12-20",
-    excerpt: "Learn best practices for building large-scale applications with TypeScript, including advanced type patterns and architecture decisions.",
-    slug: "scalable-apps-typescript",
-    tags: ["TypeScript", "Architecture"],
-  },
-  {
-    title: "The Future of AI in Software Development",
-    date: "2024-11-10",
-    excerpt: "How AI is transforming the way we write code, from intelligent code completion to automated testing and beyond.",
-    slug: "ai-software-development",
-    tags: ["AI", "LLM", "Future Tech"],
-  },
-];
-
-export default function HomePage() {
+export default async function HomePage() {
+  const latestPosts = await getLatestPosts(6);
   return (
     <>
       <Hero />
@@ -49,8 +27,14 @@ export default function HomePage() {
           </div>
           
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {mockPosts.map((post) => (
-              <BlogCard key={post.slug} {...post} />
+            {latestPosts.map((post) => (
+              <BlogCard 
+                key={post.slug} 
+                title={post.title}
+                date={post.date}
+                excerpt={post.content.substring(0, 150) + '...'}
+                slug={post.slug}
+              />
             ))}
           </div>
         </div>

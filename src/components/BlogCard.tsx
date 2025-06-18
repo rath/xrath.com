@@ -26,7 +26,7 @@ export default function BlogCard({ title, date, excerpt, slug, tags = [] }: Blog
         </div>
         
         <h3 className="text-xl font-bold group-hover:gradient-text transition-all duration-300 line-clamp-2">
-          <Link href={`/blogs/${slug}`}>
+          <Link href={`/${slug}`}>
             <span className="absolute inset-0" />
             {title}
           </Link>

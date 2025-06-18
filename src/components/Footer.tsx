@@ -53,7 +53,7 @@ export default function Footer() {
               </Link>
               
               <Link
-                href="https://linkedin.com/in/jangho-hwang"
+                href="https://www.linkedin.com/in/jang-ho-hwang-a2630170/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-2 rounded-lg bg-foreground/5 hover:bg-foreground/10 transition-all duration-300 hover:scale-110"
