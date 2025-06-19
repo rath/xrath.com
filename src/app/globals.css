@@ -7,14 +7,10 @@
 /* Default Theme Variables */
 :root {
   /* Azure Theme (Default) - Modern tech blue */
-  --color-background-light: #ffffff;
-  --color-background-dark: #0f0f10;
-  --color-foreground-light: #1a1a1c;
-  --color-foreground-dark: #f0f0f2;
-  --color-surface-light: #f7f8fa;
-  --color-surface-dark: #1a1a1d;
-  --color-border-light: #e4e4e7;
-  --color-border-dark: #2a2a2d;
+  --color-background: #ffffff;
+  --color-foreground: #1a1a1c;
+  --color-surface: #f7f8fa;
+  --color-border: #e4e4e7;
   
   --color-primary: #3b82f6;
   --color-primary-hover: #2563eb;
@@ -128,17 +124,10 @@
 
 /* Apply theme variables */
 :root {
-  --background: var(--color-background-light);
-  --foreground: var(--color-foreground-light);
-  --surface: var(--color-surface-light);
-  --border: var(--color-border-light);
-}
-
-.dark {
-  --background: var(--color-background-dark);
-  --foreground: var(--color-foreground-dark);
-  --surface: var(--color-surface-dark);
-  --border: var(--color-border-dark);
+  --background: var(--color-background);
+  --foreground: var(--color-foreground);
+  --surface: var(--color-surface);
+  --border: var(--color-border);
 }
 
 @layer base {

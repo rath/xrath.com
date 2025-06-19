@@ -235,7 +235,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </time>
       </header>
 
-      <div className="prose prose-lg dark:prose-invert max-w-none prose-headings:text-foreground prose-p:text-foreground/90 prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-strong:text-foreground prose-code:text-primary prose-code:bg-surface prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:before:content-[''] prose-code:after:content-[''] prose-pre:bg-surface prose-blockquote:border-l-primary/30 prose-blockquote:text-foreground/80 prose-li:text-foreground/90">
+      <div className="prose prose-lg max-w-none prose-headings:text-foreground prose-p:text-foreground/90 prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-strong:text-foreground prose-code:text-primary prose-code:bg-surface prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:before:content-[''] prose-code:after:content-[''] prose-pre:bg-surface prose-blockquote:border-l-primary/30 prose-blockquote:text-foreground/80 prose-li:text-foreground/90">
         <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>{postContent}</ReactMarkdown>
       </div>
 
@@ -264,7 +264,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                     <CommentDateFormatter date={comment.date} />
                   </time>
                 </div>
-                <div className="prose prose-sm dark:prose-invert max-w-none prose-p:text-foreground/80">
+                <div className="prose prose-sm max-w-none prose-p:text-foreground/80">
                   <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>{comment.content}</ReactMarkdown>
                 </div>
               </div>
