@@ -13,8 +13,10 @@ export default async function HomePage() {
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-12">
             <div>
-              <h2 className="text-3xl font-bold sm:text-4xl gradient-text">Recent Posts</h2>
-              <p className="mt-2 text-lg text-foreground/70">Thoughts on technology, development, and innovation</p>
+              <h2 className="text-3xl font-bold sm:text-4xl gradient-text">Latest Posts</h2>
+              <p className="mt-2 text-lg text-foreground/70">
+                Reflection, Self-awareness, and Thoughts
+              </p>
             </div>
             <a
               href="/blogs"
@@ -53,11 +55,11 @@ export default async function HomePage() {
         <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6">
-              Thoughts in <span className="gradient-text">motion</span>
+              Code, Create, <span className="gradient-text">Connect</span>
             </h2>
             <p className="text-xl text-foreground/70 mb-10 max-w-2xl mx-auto">
-              Ideas evolve through dialogue. If something here resonates with you,
-              or if you see connections I've missed, I'd love to hear from you.
+              Take a look at the iPhone apps and projects I've developed
+              to get a better sense of who I am as a person and a developer.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a

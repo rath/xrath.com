@@ -10,10 +10,10 @@ export default function Footer() {
           {/* Brand section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <span className="text-xl font-bold gradient-text">Rath World</span>
+              <span className="text-xl font-bold gradient-text">Jang-Ho Hwang</span>
             </div>
             <p className="text-sm text-foreground/70 max-w-xs">
-              Building digital experiences through curiosity, creativity, and continuous learning.
+              Personal stories and events from 25 years of building apps.
             </p>
           </div>
 

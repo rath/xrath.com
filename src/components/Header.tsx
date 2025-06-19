@@ -7,7 +7,7 @@ export default function Header() {
       <nav className="mx-auto flex h-20 max-w-screen-xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="group">
           <span className="text-xl font-bold gradient-text group-hover:scale-105 transition-transform duration-300">
-            Rath World
+            Jang-Ho
           </span>
         </Link>
 

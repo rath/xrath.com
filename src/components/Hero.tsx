@@ -12,15 +12,15 @@ export default function Hero() {
           {/* Main heading with gradient */}
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-7xl lg:text-8xl">
             <span className="block gradient-text text-balance">
-              Building bridges between ideas
+              Rath World
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="mt-8 text-xl leading-relaxed text-foreground/70 sm:text-2xl max-w-3xl mx-auto">
-            Building digital experiences that feel inevitable—
+            A developer's reflections on building meaningful software
             <br className="hidden sm:inline" />
-            as if they had always existed, waiting to be <span className="gradient-text font-semibold">discovered</span>
+            in an <span className="gradient-text font-semibold">ever-evolving digital landscape.</span>
           </p>
 
           {/* CTA buttons */}
@@ -29,7 +29,7 @@ export default function Hero() {
               href="/blogs"
               className="group inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-foreground/80 hover:text-foreground border-2 border-foreground/20 hover:border-foreground/40 rounded-2xl transition-all duration-300 hover:scale-105"
             >
-              Read Blog Archives
+              Read My Thoughts
               <svg className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
