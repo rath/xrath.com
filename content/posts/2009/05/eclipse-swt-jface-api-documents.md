@@ -12,7 +12,7 @@ lang: ko
 
 그렇게  투덜거리다 [미투데이에 투덜거리는 글](http://me2day.net/rath/2009/05/07#11:13:15)을 올렸고, 친구들이 SWT/JFace로 넘어오라는 댓글들에 힘입어,
 
-**The Definitive Guide to SWT and JFace**** **
+**The Definitive Guide to SWT and JFace**
 
 를 질렀습니다! (하지만 정작 SWT/JFace 에도 Generic 지원은 없음; )
 

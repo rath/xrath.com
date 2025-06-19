@@ -7,11 +7,7 @@ lang: ko
 
 짜잔 **$61,210**!!!
 
-[
-
 ![ParkingWars - RV with Icecream Truck](http://farm4.static.flickr.com/3149/3003325146_7d7061a61c_o.png)
-
-](http://www.flickr.com/photos/xrath/3003325146/)
 
 슬슬 지겨워집니다....
 
