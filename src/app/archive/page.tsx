@@ -4,8 +4,8 @@ import { getPaginatedPosts } from '@/lib/posts';
 import { generateExcerpt } from '@/lib/excerpt';
 
 export const metadata: Metadata = {
-  title: 'Blogs',
-  description: 'All blog posts from xrath.com',
+  title: 'Blog Archive',
+  description: 'All archived posts from xrath.com',
 };
 
 interface PageProps {

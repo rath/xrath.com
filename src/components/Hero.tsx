@@ -149,18 +149,18 @@ export default function Hero() {
             >
               {/* Animated background */}
               <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-              
+
               {/* Glass effect background */}
               <span className="absolute inset-0 glass-effect rounded-2xl"></span>
-              
+
               {/* Border gradient */}
               <span className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 p-px">
                 <span className="flex h-full w-full items-center justify-center rounded-2xl bg-background/80"></span>
               </span>
-              
+
               {/* Content */}
               <span className="relative flex items-center text-foreground/80 group-hover:text-white transition-colors duration-300">
-                Read My Thoughts
+                Read Blog Archive
                 <svg className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
