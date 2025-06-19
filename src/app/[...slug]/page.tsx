@@ -447,7 +447,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             {/* View all posts link */}
             <div className="mt-10 text-center">
               <Link
-                href="/blogs"
+                href="/archive"
                 className="group inline-flex items-center text-foreground/80 hover:text-foreground transition-colors duration-300"
               >
                 <span className="font-medium">View all posts</span>

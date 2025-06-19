@@ -5,7 +5,7 @@ import { generateExcerpt } from '@/lib/excerpt';
 
 export const metadata: Metadata = {
   title: 'Blog Archive',
-  description: 'All archived posts from xrath.com',
+  description: 'All archived Posts from xrath.com',
 };
 
 interface PageProps {
@@ -120,7 +120,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             {/* Previous button */}
             {currentPage > 1 && (
               <Link
-                href={`/blogs?page=${currentPage - 1}`}
+                href={`/archive?page=${currentPage - 1}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
@@ -151,7 +151,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
                 return (
                   <Link
                     key={i}
-                    href={`/blogs?page=${pageNumber}`}
+                    href={`/archive?page=${pageNumber}`}
                     className={`
                       relative w-10 h-10 flex items-center justify-center rounded-lg text-sm font-medium
                       transition-all duration-300 hover:scale-110
@@ -170,7 +170,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             {/* Next button */}
             {currentPage < totalPages && (
               <Link
-                href={`/blogs?page=${currentPage + 1}`}
+                href={`/archive?page=${currentPage + 1}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
