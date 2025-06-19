@@ -131,16 +131,16 @@ export default async function BlogPostPage({ params }: PageProps) {
       );
     },
     h1: ({ children }) => (
-      <h1 className="text-3xl font-bold mt-8 mb-4 text-foreground">{children}</h1>
+      <h1 className="text-4xl font-semibold mt-10 mb-6 text-foreground">{children}</h1>
     ),
     h2: ({ children }) => (
-      <h2 className="text-2xl font-bold mt-8 mb-4 text-foreground">{children}</h2>
+      <h2 className="text-3xl font-semibold mt-10 mb-5 text-foreground">{children}</h2>
     ),
     h3: ({ children }) => (
-      <h3 className="text-xl font-bold mt-6 mb-3 text-foreground">{children}</h3>
+      <h3 className="text-2xl font-medium mt-8 mb-4 text-foreground">{children}</h3>
     ),
     p: ({ children }) => (
-      <p className="mb-4 leading-relaxed text-foreground/90">{children}</p>
+      <p className="mb-6 leading-relaxed text-lg font-light text-foreground/85">{children}</p>
     ),
     ul: ({ children }) => (
       <ul className="mb-4 ml-6 list-disc space-y-2">{children}</ul>
@@ -149,10 +149,10 @@ export default async function BlogPostPage({ params }: PageProps) {
       <ol className="mb-4 ml-6 list-decimal space-y-2">{children}</ol>
     ),
     li: ({ children }) => (
-      <li className="text-foreground/90">{children}</li>
+      <li className="text-lg text-foreground/85 leading-relaxed font-light">{children}</li>
     ),
     blockquote: ({ children }) => (
-      <blockquote className="border-l-4 border-primary/30 pl-4 my-4 italic text-foreground/80">
+      <blockquote className="border-l-4 border-primary/30 pl-4 my-4 italic text-lg text-foreground/80">
         {children}
       </blockquote>
     ),
@@ -296,7 +296,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <div className="absolute top-0 left-0 w-20 h-20 border-t-2 border-l-2 border-primary/20 rounded-tl-2xl"></div>
           <div className="absolute bottom-0 right-0 w-20 h-20 border-b-2 border-r-2 border-secondary/20 rounded-br-2xl"></div>
 
-          <div className="prose prose-lg max-w-none prose-headings:text-foreground prose-p:text-foreground/90 prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-strong:text-foreground prose-code:text-primary prose-code:bg-surface prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:before:content-[''] prose-code:after:content-[''] prose-pre:bg-surface prose-blockquote:border-l-primary/30 prose-blockquote:text-foreground/80 prose-li:text-foreground/90">
+          <div className="prose prose-xl max-w-none prose-headings:text-foreground prose-headings:font-semibold prose-p:text-foreground/85 prose-p:leading-loose prose-p:font-light prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-strong:text-foreground prose-strong:font-medium prose-code:text-primary prose-code:bg-surface prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:before:content-[''] prose-code:after:content-[''] prose-pre:bg-surface prose-blockquote:border-l-primary/30 prose-blockquote:text-foreground/80 prose-li:text-foreground/85 prose-li:leading-relaxed prose-li:font-light">
             <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>{postContent}</ReactMarkdown>
           </div>
         </div>
@@ -365,7 +365,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                         </div>
                       </div>
 
-                      <div className="prose prose-sm max-w-none prose-p:text-foreground/80 prose-a:text-primary prose-a:no-underline hover:prose-a:underline">
+                      <div className="prose prose-sm max-w-none prose-p:text-foreground/80 prose-p:leading-relaxed prose-p:font-light prose-a:text-primary prose-a:no-underline hover:prose-a:underline">
                         <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>{comment.content}</ReactMarkdown>
                       </div>
                     </div>
@@ -421,7 +421,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                           })}
                         </time>
 
-                        <p className="text-sm text-foreground/70 line-clamp-3 leading-relaxed flex-1">
+                        <p className="text-sm text-foreground/70 line-clamp-3 leading-loose font-light flex-1">
                           {excerpt}
                         </p>
 
