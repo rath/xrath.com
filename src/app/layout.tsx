@@ -17,11 +17,11 @@ const notoSansKr = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: "Jang-Ho Hwang - Code, Create, Reflect",
+  title: "Jang-Ho Hwang - Rath World",
   description: "Personal website of Jang-Ho Hwang - exploring the intersection of technology, creativity, and human experience",
   metadataBase: new URL("https://rath.told.me"),
   openGraph: {
-    title: "Jang-Ho Hwang - Code, Create, Reflect",
+    title: "Jang-Ho Hwang - Rath World",
     description: "Personal website of Jang-Ho Hwang - exploring the intersection of technology, creativity, and human experience",
     type: "website",
   },
