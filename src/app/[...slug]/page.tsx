@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getPostBySlug, getAllPosts } from '@/lib/posts';
+import Link from 'next/link';
+import { getPostBySlug, getAllPosts, getLatestPosts } from '@/lib/posts';
 import ReactMarkdown from 'react-markdown';
 import type { Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -110,6 +111,10 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   // Parse comments from the post content
   const { content: postContent, comments } = parseComments(post.content);
+
+  // Get more posts for navigation (excluding current post)
+  const allPosts = await getLatestPosts(7); // Get 7 to ensure we have 6 after filtering
+  const morePosts = allPosts.filter(p => p.slug !== post.slug).slice(0, 6);
 
   const components: Components = {
     a: ({ href, children }) => {
@@ -372,6 +377,84 @@ export default async function BlogPostPage({ params }: PageProps) {
                   </div>
                 </div>
               ))}
+            </div>
+          </section>
+        )}
+
+        {/* More posts section */}
+        {morePosts.length > 0 && (
+          <section className="mt-20 animate-fade-in-up" style={{ animationDelay: `${comments.length > 0 ? '0.6s' : '0.4s'}` }}>
+            {/* Section header */}
+            <div className="relative mb-10">
+              <h2 className="text-3xl font-bold gradient-text mb-2">Continue Reading</h2>
+              <p className="text-foreground/60">Discover more thoughts and insights</p>
+              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-primary via-secondary to-accent rounded-full opacity-50"></div>
+            </div>
+
+            {/* Posts grid */}
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {await Promise.all(morePosts.map(async (relatedPost, index) => {
+                const excerpt = await generateExcerpt(relatedPost.content, 120);
+
+                return (
+                  <Link
+                    key={relatedPost.slug}
+                    href={`/${relatedPost.slug}`}
+                    className="group animate-fade-in-up"
+                    style={{ animationDelay: `${(comments.length > 0 ? 0.7 : 0.5) + index * 0.1}s` }}
+                  >
+                    <article className="relative h-full rounded-2xl glass-effect border border-foreground/10 p-6 transition-all duration-300 hover:border-foreground/20 overflow-hidden">
+                      {/* Hover gradient overlay */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                      {/* Content */}
+                      <div className="relative flex flex-col h-full">
+                        <h3 className="text-lg font-bold mb-2 line-clamp-2 transition-all duration-300 group-hover:gradient-text">
+                          {relatedPost.title}
+                        </h3>
+
+                        <time className="text-xs text-foreground/60 mb-3">
+                          {new Date(relatedPost.date).toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric',
+                          })}
+                        </time>
+
+                        <p className="text-sm text-foreground/70 line-clamp-3 leading-relaxed flex-1">
+                          {excerpt}
+                        </p>
+
+                        {/* Read more indicator */}
+                        <div className="mt-4 flex items-center text-sm font-medium text-primary/80 group-hover:text-primary transition-colors">
+                          <span>Read more</span>
+                          <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                          </svg>
+                        </div>
+                      </div>
+
+                      {/* Decorative accent */}
+                      <div className="absolute top-0 right-0 w-16 h-16 overflow-hidden rounded-2xl">
+                        <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-primary/10 to-secondary/10 translate-x-12 -translate-y-12 rotate-45 group-hover:scale-150 transition-transform duration-700"></div>
+                      </div>
+                    </article>
+                  </Link>
+                );
+              }))}
+            </div>
+
+            {/* View all posts link */}
+            <div className="mt-10 text-center">
+              <Link
+                href="/blogs"
+                className="group inline-flex items-center text-foreground/80 hover:text-foreground transition-colors duration-300"
+              >
+                <span className="font-medium">View all posts</span>
+                <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
             </div>
           </section>
         )}
