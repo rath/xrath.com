@@ -35,23 +35,6 @@ export default function Hero() {
               </svg>
             </a>
           </div>
-
-          {/* Philosophy showcase */}
-          <div className="mt-16">
-            <p className="text-sm font-medium text-foreground/60 uppercase tracking-wider mb-6">
-              Current Interests
-            </p>
-            <div className="flex flex-wrap items-center justify-center gap-4">
-              {['AI & Creativity', 'Human-Computer Interaction', 'Distributed Systems', 'Mobile Innovation', 'Digital Philosophy'].map((interest) => (
-                <span
-                  key={interest}
-                  className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-white/10 backdrop-blur text-foreground/80 border border-white/20 hover:bg-white/20 transition-colors duration-300"
-                >
-                  {interest}
-                </span>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
 

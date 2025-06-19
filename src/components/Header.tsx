@@ -14,13 +14,13 @@ export default function Header() {
             Rath World
           </span>
         </Link>
-        
+
         <div className="hidden md:flex items-center space-x-8">
-          <Link 
-            href="/blogs" 
+          <Link
+            href="/blogs"
             className="relative text-sm font-medium text-foreground/80 hover:text-foreground transition-colors duration-300 group"
           >
-            Blog Archives
+            Blog
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 gradient-primary group-hover:w-full transition-all duration-300"></span>
           </Link>
         </div>
@@ -42,15 +42,6 @@ export default function Header() {
               </svg>
             )}
           </button>
-          
-          {/* Language toggle */}
-          <button
-            className="relative p-3 rounded-xl hover:bg-foreground/5 transition-colors duration-300 group"
-            aria-label="Toggle language"
-          >
-            <span className="text-sm font-medium text-foreground/70 group-hover:text-foreground transition-colors duration-300">EN</span>
-          </button>
-
 
           {/* Mobile menu button */}
           <button

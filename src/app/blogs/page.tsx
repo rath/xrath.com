@@ -20,7 +20,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
   return (
     <div className="mx-auto max-w-screen-lg px-4 py-12 sm:px-6 lg:px-8">
       <header className="mb-12">
-        <h1 className="text-4xl font-bold gradient-text mb-4">Blog Archives</h1>
+        <h1 className="text-4xl font-bold gradient-text mb-4">All Posts</h1>
         <p className="text-lg text-foreground/70">
           {totalPosts} posts from 2004 to present
         </p>
@@ -29,7 +29,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
       <div className="space-y-12">
         {await Promise.all(posts.map(async (post) => {
           const excerpt = await generateExcerpt(post.content, 200);
-          
+
           return (
             <article key={post.slug} className="border-b border-foreground/10 pb-8">
               <Link href={`/${post.slug}`} className="block group">
@@ -62,11 +62,11 @@ export default async function BlogsPage({ searchParams }: PageProps) {
               Previous
             </Link>
           )}
-          
+
           <span className="px-4 py-2 text-sm text-foreground/60">
             Page {currentPage} of {totalPages}
           </span>
-          
+
           {currentPage < totalPages && (
             <Link
               href={`/blogs?page=${currentPage + 1}`}
