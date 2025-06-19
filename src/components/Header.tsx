@@ -11,30 +11,16 @@ export default function Header() {
       <nav className="mx-auto flex h-20 max-w-screen-xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="group">
           <span className="text-xl font-bold gradient-text group-hover:scale-105 transition-transform duration-300">
-            Rath
+            Rath World
           </span>
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">
           <Link 
-            href="/about" 
-            className="relative text-sm font-medium text-foreground/80 hover:text-foreground transition-colors duration-300 group"
-          >
-            About
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 gradient-primary group-hover:w-full transition-all duration-300"></span>
-          </Link>
-          <Link 
-            href="/portfolio" 
-            className="relative text-sm font-medium text-foreground/80 hover:text-foreground transition-colors duration-300 group"
-          >
-            Portfolio
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 gradient-primary group-hover:w-full transition-all duration-300"></span>
-          </Link>
-          <Link 
             href="/blogs" 
             className="relative text-sm font-medium text-foreground/80 hover:text-foreground transition-colors duration-300 group"
           >
-            Blog
+            Blog Archives
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 gradient-primary group-hover:w-full transition-all duration-300"></span>
           </Link>
         </div>

@@ -20,7 +20,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
   return (
     <div className="mx-auto max-w-screen-lg px-4 py-12 sm:px-6 lg:px-8">
       <header className="mb-12">
-        <h1 className="text-4xl font-bold gradient-text mb-4">All Posts</h1>
+        <h1 className="text-4xl font-bold gradient-text mb-4">Blog Archives</h1>
         <p className="text-lg text-foreground/70">
           {totalPosts} posts from 2004 to present
         </p>

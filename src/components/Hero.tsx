@@ -26,17 +26,10 @@ export default function Hero() {
           {/* CTA buttons */}
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="/about"
-              className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white overflow-hidden rounded-2xl gradient-primary hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
-            >
-              <span className="relative z-10">About My Journey</span>
-              <div className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
-            </a>
-            <a
               href="/blogs"
               className="group inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-foreground/80 hover:text-foreground border-2 border-foreground/20 hover:border-foreground/40 rounded-2xl transition-all duration-300 hover:scale-105"
             >
-              Read My Thoughts
+              Read Blog Archives
               <svg className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
