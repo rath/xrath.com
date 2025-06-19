@@ -23,8 +23,8 @@ export default async function BlogsPage({ searchParams }: PageProps) {
       <section className="relative overflow-hidden py-16 sm:py-24">
         {/* Animated background elements */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute top-0 left-1/4 w-72 h-72 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-full blur-3xl animate-float"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gradient-to-br from-secondary/10 to-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }}></div>
+          <div className="absolute top-0 left-1/4 w-72 h-72 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gradient-to-br from-secondary/10 to-accent/10 rounded-full blur-3xl"></div>
 
           {/* Grid pattern overlay */}
           <svg className="absolute inset-0 w-full h-full opacity-[0.02]" preserveAspectRatio="none">
@@ -39,16 +39,15 @@ export default async function BlogsPage({ searchParams }: PageProps) {
 
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <header className="text-center">
-            <h1 className="text-5xl sm:text-6xl font-bold mb-6 animate-fade-in">
+            <h1 className="text-5xl sm:text-6xl font-bold mb-6">
               <span className="gradient-text">Blog Archive</span>
             </h1>
             <p className="text-xl text-foreground/70 max-w-2xl mx-auto animate-fade-in-up">
-              <span className="font-semibold text-foreground">{totalPosts}</span> posts chronicling a journey through code,
-              creativity, and continuous learning from 2004 to present
+              <span className="font-semibold text-foreground">{totalPosts}</span> posts from 2004 to present
             </p>
 
             {/* Decorative divider */}
-            <div className="mt-8 flex items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+            <div className="mt-8 flex items-center justify-center gap-4">
               <div className="h-px w-16 bg-gradient-to-r from-transparent to-primary/50"></div>
               <div className="w-2 h-2 rounded-full bg-primary/50"></div>
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-primary/50"></div>
@@ -66,8 +65,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             return (
               <article
                 key={post.slug}
-                className="group relative animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.05}s` }}
+                className="group relative"
               >
                 <Link href={`/${post.slug}`} className="block">
                   <div className="relative h-full rounded-2xl border border-foreground/10 p-6 transition-all duration-300 hover:border-foreground/20 glass-effect overflow-hidden flex flex-col">

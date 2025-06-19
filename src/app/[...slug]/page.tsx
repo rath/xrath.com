@@ -233,8 +233,8 @@ export default async function BlogPostPage({ params }: PageProps) {
       <section className="relative overflow-hidden py-16 sm:py-24">
         {/* Animated background elements */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute top-0 right-1/4 w-96 h-96 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-full blur-3xl animate-float"></div>
-          <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-gradient-to-br from-secondary/10 to-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "3s" }}></div>
+          <div className="absolute top-0 right-1/4 w-96 h-96 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-gradient-to-br from-secondary/10 to-accent/10 rounded-full blur-3xl"></div>
 
           {/* Grid pattern overlay */}
           <svg className="absolute inset-0 w-full h-full opacity-[0.01]" preserveAspectRatio="none">
@@ -249,12 +249,12 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         <div className="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
           <header className="text-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
               <span className="gradient-text leading-tight">{post.title}</span>
             </h1>
 
             {/* Post metadata */}
-            <div className="flex items-center justify-center gap-6 text-sm animate-fade-in-up">
+            <div className="flex items-center justify-center gap-6 text-sm">
               <time className="inline-flex items-center text-foreground/60 bg-gradient-to-r from-primary/10 to-secondary/10 px-4 py-2 rounded-full glass-effect" dateTime={post.date}>
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -291,7 +291,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       {/* Main content */}
       <article className="mx-auto max-w-screen-lg px-4 pb-20 sm:px-6 lg:px-8">
-        <div className="relative rounded-2xl glass-effect border border-foreground/10 p-8 sm:p-12 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+        <div className="relative rounded-2xl glass-effect border border-foreground/10 p-8 sm:p-12">
           {/* Decorative corner accents */}
           <div className="absolute top-0 left-0 w-20 h-20 border-t-2 border-l-2 border-primary/20 rounded-tl-2xl"></div>
           <div className="absolute bottom-0 right-0 w-20 h-20 border-b-2 border-r-2 border-secondary/20 rounded-br-2xl"></div>
