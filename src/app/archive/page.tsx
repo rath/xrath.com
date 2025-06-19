@@ -43,7 +43,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
               <span className="gradient-text">Blog Archive</span>
             </h1>
             <p className="text-xl text-foreground/70 max-w-2xl mx-auto animate-fade-in-up">
-              <span className="font-semibold text-foreground">{totalPosts}</span> posts from 2004 to present
+              <span className="font-semibold text-foreground">{totalPosts}</span> posts from 2004 to 2015
             </p>
 
             {/* Decorative divider */}
