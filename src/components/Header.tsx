@@ -77,31 +77,42 @@ export default function Header() {
       />
 
       {/* Mobile menu panel */}
-      <div className={`fixed right-0 top-0 h-full w-56 bg-white shadow-xl transition-transform duration-300 transform z-50 md:hidden ${
+      <div className={`fixed right-0 top-0 h-full w-50 bg-white shadow-2xl transition-transform duration-300 transform z-50 md:hidden ${
         isMenuOpen ? 'translate-x-0' : 'translate-x-full'
       }`}>
-        <div className="flex h-20 items-center justify-between px-4 border-b border-border">
-          <span className="text-lg font-semibold">Menu</span>
-          <button
-            onClick={() => setIsMenuOpen(false)}
-            className="p-2 rounded-lg hover:bg-foreground/5 transition-colors"
-            aria-label="Close menu"
-          >
-            <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
+        <div className="p-6">
+          <div className="flex items-center justify-between mb-8">
+            <Link href="/" onClick={() => setIsMenuOpen(false)} className="text-lg font-bold gradient-text">
+              Go to
+            </Link>
+            <button
+              onClick={() => setIsMenuOpen(false)}
+              className="p-2.5 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+              aria-label="Close menu"
+            >
+              <svg className="h-4 w-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
 
-        <nav className="p-4">
-          <Link
-            href="/archive"
-            onClick={() => setIsMenuOpen(false)}
-            className="block py-3 px-4 rounded-lg text-foreground/80 hover:text-foreground hover:bg-foreground/5 transition-colors duration-200"
-          >
-            Archive
-          </Link>
-        </nav>
+          <nav className="space-y-1">
+            <Link
+              href="/"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-3 px-4 rounded-xl text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-all duration-200 font-medium text-right"
+            >
+              Home
+            </Link>
+            <Link
+              href="/archive"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-3 px-4 rounded-xl text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-all duration-200 font-medium text-right"
+            >
+              Archive
+            </Link>
+          </nav>
+        </div>
       </div>
     </>
   );
