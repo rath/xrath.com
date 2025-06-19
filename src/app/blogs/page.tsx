@@ -37,7 +37,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
           </svg>
         </div>
 
-        <div className="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <header className="text-center">
             <h1 className="text-5xl sm:text-6xl font-bold mb-6 animate-fade-in">
               <span className="gradient-text">Blog Archive</span>
@@ -58,10 +58,10 @@ export default async function BlogsPage({ searchParams }: PageProps) {
       </section>
 
       {/* Main content */}
-      <section className="mx-auto max-w-screen-lg px-4 pb-20 sm:px-6 lg:px-8">
-        <div className="grid gap-6">
+      <section className="mx-auto max-w-screen-xl px-4 pb-20 sm:px-6 lg:px-8">
+        <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
           {await Promise.all(posts.map(async (post, index) => {
-            const excerpt = await generateExcerpt(post.content, 200);
+            const excerpt = await generateExcerpt(post.content, 150);
 
             return (
               <article
@@ -70,38 +70,29 @@ export default async function BlogsPage({ searchParams }: PageProps) {
                 style={{ animationDelay: `${index * 0.05}s` }}
               >
                 <Link href={`/${post.slug}`} className="block">
-                  <div className="relative rounded-2xl border border-foreground/10 p-8 transition-all duration-300 hover:border-foreground/20 glass-effect overflow-hidden">
+                  <div className="relative h-full rounded-2xl border border-foreground/10 p-6 transition-all duration-300 hover:border-foreground/20 glass-effect overflow-hidden flex flex-col">
                     {/* Hover gradient overlay */}
                     <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
-                    {/* Number indicator */}
-                    <div className="absolute top-6 right-6 w-12 h-12 rounded-full bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
-                      <span className="text-xs font-bold gradient-text">
-                        {String(index + 1 + (currentPage - 1) * 10).padStart(2, '0')}
-                      </span>
-                    </div>
-
                     {/* Content */}
-                    <div className="relative">
-                      <div className="flex items-start justify-between mb-4">
-                        <div className="flex-1">
-                          <h2 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:gradient-text line-clamp-2">
-                            {post.title}
-                          </h2>
-                          <time className="inline-flex items-center text-sm text-foreground/60 bg-gradient-to-r from-primary/10 to-secondary/10 px-3 py-1 rounded-full" dateTime={post.date}>
-                            <svg className="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                            </svg>
-                            {new Date(post.date).toLocaleDateString('en-US', {
-                              year: 'numeric',
-                              month: 'long',
-                              day: 'numeric',
-                            })}
-                          </time>
-                        </div>
+                    <div className="relative flex-1 flex flex-col">
+                      <div className="mb-3">
+                        <h2 className="text-xl lg:text-lg xl:text-xl font-bold mb-2 transition-all duration-300 group-hover:gradient-text line-clamp-2">
+                          {post.title}
+                        </h2>
+                        <time className="inline-flex items-center text-xs text-foreground/60 bg-gradient-to-r from-primary/10 to-secondary/10 px-2.5 py-1 rounded-full" dateTime={post.date}>
+                          <svg className="w-3.5 h-3.5 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                          </svg>
+                          {new Date(post.date).toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric',
+                          })}
+                        </time>
                       </div>
 
-                      <p className="text-foreground/70 line-clamp-3 leading-relaxed">
+                      <p className="text-sm text-foreground/70 line-clamp-3 leading-relaxed flex-1">
                         {excerpt}
                       </p>
 
