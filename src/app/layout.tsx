@@ -38,8 +38,21 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${notoSansKr.variable}`}>
       <head>
+        {/* Primary favicon - works in modern browsers */}
+        <link rel="icon" href="/favicon-slash.svg" type="image/svg+xml" />
+        
+        {/* Fallback for older browsers - you'll need to generate these files */}
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        
+        {/* Apple devices */}
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        
+        {/* RSS/Atom feeds */}
         <link rel="alternate" type="application/rss+xml" title={`${siteConfig.name} - RSS Feed`} href="/feed.xml" />
         <link rel="alternate" type="application/atom+xml" title={`${siteConfig.name} - Atom Feed`} href="/atom.xml" />
+        
         <JsonLd data={organizationSchema} />
       </head>
       <body className="flex min-h-screen flex-col antialiased">
