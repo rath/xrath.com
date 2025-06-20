@@ -36,6 +36,7 @@ This is a bilingual personal homepage for a software developer. The site feature
   - Reading time estimates
   - Breadcrumb navigation
 - **GitHub Flavored Markdown** - Tables and extended syntax
+- **Search Functionality** - Full-text search for blog posts at `/archive`
 - **Emoji Support** - MSN-style emoticons in posts and comments
   - Supports :( :@ :$ (@) :'( (7) (&) (L) :| :p :P (H) :S ;)
   - Client-side rendering with inline images
@@ -44,10 +45,6 @@ This is a bilingual personal homepage for a software developer. The site feature
   - Cache headers for static assets
   - Font preloading
   - Security headers
-
-### Implemented ✅
-
-- **Search Functionality** - Full-text search for blog posts at `/archive`
 
 ### Planned 🚧
 
