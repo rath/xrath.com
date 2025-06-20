@@ -11,15 +11,15 @@
   --color-surface: #f7f8fa;
   --color-border: #e4e4e7;
 
-  --color-primary: #64748b;
-  --color-primary-hover: #475569;
-  --color-primary-light: #94a3b8;
-  --color-primary-dark: #334155;
+  --color-primary: #52525b; /* zinc-600 */
+  --color-primary-hover: #3f3f46; /* zinc-700 */
+  --color-primary-light: #71717a; /* zinc-500 */
+  --color-primary-dark: #27272a; /* zinc-800 */
 
-  --color-secondary: #6b7280;
-  --color-secondary-hover: #4b5563;
-  --color-secondary-light: #9ca3af;
-  --color-secondary-dark: #374151;
+  --color-secondary: #71717a; /* zinc-500 */
+  --color-secondary-hover: #52525b; /* zinc-600 */
+  --color-secondary-light: #a1a1aa; /* zinc-400 */
+  --color-secondary-dark: #3f3f46; /* zinc-700 */
 
   --color-accent: #3b82f6;
   --color-accent-hover: #2563eb;
