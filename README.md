@@ -36,6 +36,9 @@ This is a bilingual personal homepage for a software developer. The site feature
   - Reading time estimates
   - Breadcrumb navigation
 - **GitHub Flavored Markdown** - Tables and extended syntax
+- **Emoji Support** - MSN-style emoticons in posts and comments
+  - Supports :( :@ :$ (@) :'( (7) (&) (L) :| :p :P (H) :S ;)
+  - Client-side rendering with inline images
 - **Performance Optimizations**
   - Image optimization with lazy loading
   - Cache headers for static assets
@@ -67,11 +70,15 @@ This is a bilingual personal homepage for a software developer. The site feature
 │   │   ├── Breadcrumb.tsx # Breadcrumb navigation
 │   │   ├── JsonLd.tsx    # Structured data component
 │   │   ├── OptimizedImage.tsx # Image optimization
-│   │   └── MDXImage.tsx  # Markdown image component
+│   │   ├── MDXImage.tsx  # Markdown image component
+│   │   ├── EmojiText.tsx # Emoji rendering component
+│   │   ├── BlogPostContent.tsx # Blog post markdown renderer
+│   │   └── CommentContent.tsx # Comment markdown renderer
 │   └── lib/             # Utility functions
 │       ├── posts.ts      # Post data handling
 │       ├── excerpt.ts    # Excerpt generation
-│       └── seo.ts        # SEO utilities
+│       ├── seo.ts        # SEO utilities
+│       └── emoji.ts      # Emoji mapping configuration
 ├── content/
 │   ├── posts/           # Markdown blog posts (year/month structure)
 │   └── images/          # Image resources for posts
@@ -79,7 +86,8 @@ This is a bilingual personal homepage for a software developer. The site feature
 │   ├── robots.txt       # Search engine crawling rules
 │   ├── sitemap.xml      # Generated sitemap
 │   ├── feed.xml         # RSS feed
-│   └── atom.xml         # Atom feed
+│   ├── atom.xml         # Atom feed
+│   └── emoticons/       # Emoji image assets
 ├── scripts/             # Build and utility scripts
 │   ├── generate-sitemap.js # Sitemap generation
 │   └── generate-feeds.js   # RSS/Atom feed generation
