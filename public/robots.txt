@@ -3,6 +3,35 @@
 
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /_next/
+Crawl-delay: 1
 
 # Sitemap location
 Sitemap: https://xrath.com/sitemap.xml
+
+# Additional crawl optimization
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Crawl-delay: 1
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 0
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0

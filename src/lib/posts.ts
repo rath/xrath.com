@@ -8,6 +8,7 @@ export interface Post {
   date: string;
   content: string;
   lang: string;
+  tags?: string[];
 }
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
@@ -26,6 +27,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       date: data.date || '',
       content,
       lang: data.lang || 'ko',
+      tags: data.tags || [],
     };
   } catch (error) {
     return null;

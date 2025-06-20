@@ -7,6 +7,9 @@ import type { Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { generateExcerpt } from '@/lib/excerpt';
 import { CommentDateFormatter } from '@/components/CommentDateFormatter';
+import JsonLd from '@/components/JsonLd';
+import Breadcrumb from '@/components/Breadcrumb';
+import { generateSEO, generateArticleSchema, generateBreadcrumbSchema, getReadingTime } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{ slug: string[] }>;
@@ -45,29 +48,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!post) {
     return {
       title: 'Post Not Found',
+      robots: { index: false },
     };
   }
 
   const description = await generateExcerpt(post.content, 160);
   const firstImage = extractFirstImage(post.content);
+  const postUrl = `https://xrath.com/${slug}`;
 
-  return {
+  // Extract tags from frontmatter if available
+  const keywords = post.tags || [];
+
+  return generateSEO({
     title: post.title,
     description,
-    openGraph: {
-      title: post.title,
-      description,
-      type: 'article',
-      publishedTime: post.date,
-      ...(firstImage && { images: [{ url: firstImage }] }),
-    },
-    twitter: {
-      card: firstImage ? 'summary_large_image' : 'summary',
-      title: post.title,
-      description,
-      ...(firstImage && { images: [firstImage] }),
-    },
-  };
+    url: postUrl,
+    type: 'article',
+    publishedTime: post.date,
+    image: firstImage,
+    keywords,
+  });
 }
 
 // Parse comments from markdown content
@@ -146,6 +146,42 @@ export default async function BlogPostPage({ params }: PageProps) {
   // Get more posts for navigation (excluding current post)
   const allPosts = await getLatestPosts(7); // Get 7 to ensure we have 6 after filtering
   const morePosts = allPosts.filter(p => p.slug !== post.slug).slice(0, 6);
+
+  // Generate structured data
+  const postUrl = `https://xrath.com/${slug}`;
+  const description = await generateExcerpt(post.content, 160);
+  const firstImage = extractFirstImage(post.content);
+  const readingTime = getReadingTime(postContent);
+
+  const articleSchema = generateArticleSchema({
+    title: post.title,
+    description,
+    url: postUrl,
+    publishedTime: post.date,
+    image: firstImage,
+  });
+
+  // Generate breadcrumb data
+  const pathSegments = slug.split('/');
+  const breadcrumbItems = [
+    { name: 'Home', url: 'https://xrath.com' },
+    { name: 'Archive', url: 'https://xrath.com/archive' },
+  ];
+  
+  // Add year if present
+  if (pathSegments.length > 0 && /^\d{4}$/.test(pathSegments[0])) {
+    breadcrumbItems.push({
+      name: pathSegments[0],
+      url: `https://xrath.com/archive?year=${pathSegments[0]}`,
+    });
+  }
+  
+  breadcrumbItems.push({
+    name: post.title,
+    url: postUrl,
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems);
 
   const components: Components = {
     a: ({ href, children }) => {
@@ -260,6 +296,8 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   return (
     <>
+      <JsonLd data={articleSchema} />
+      <JsonLd data={breadcrumbSchema} />
       {/* Hero section with animated background */}
       <section className="relative overflow-hidden py-16 sm:py-24">
         {/* Animated background elements */}
@@ -279,6 +317,15 @@ export default async function BlogPostPage({ params }: PageProps) {
         </div>
 
         <div className="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
+          {/* Breadcrumb navigation */}
+          <Breadcrumb 
+            items={breadcrumbItems.map(item => ({ 
+              name: item.name, 
+              url: item.url !== postUrl ? item.url : undefined 
+            }))} 
+            className="mb-8 animate-fade-in"
+          />
+          
           <header className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
               <span className="gradient-text leading-tight">{post.title}</span>
@@ -302,7 +349,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                {Math.ceil(post.content.split(' ').length / 200)} min read
+                {readingTime} min read
               </span>
             </div>
 

@@ -2,11 +2,14 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { getPaginatedPosts } from '@/lib/posts';
 import { generateExcerpt } from '@/lib/excerpt';
+import { generateSEO } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = generateSEO({
   title: 'Blog Archive',
-  description: 'All archived Posts from xrath.com',
-};
+  description: 'Browse through all blog posts from 2004 to present. Thoughts on software development, technology, and life.',
+  url: 'https://xrath.com/archive',
+  keywords: ['blog', 'archive', 'software development', 'technology', 'programming'],
+});
 
 interface PageProps {
   searchParams: Promise<{ page?: string }>;
