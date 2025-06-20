@@ -1,0 +1,8 @@
+# Robots.txt for xrath.com
+# Open policy - all crawlers welcome
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://xrath.com/sitemap.xml
