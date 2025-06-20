@@ -45,9 +45,12 @@ This is a bilingual personal homepage for a software developer. The site feature
   - Font preloading
   - Security headers
 
+### Implemented ✅
+
+- **Search Functionality** - Full-text search for blog posts at `/archive`
+
 ### Planned 🚧
 
-- Search functionality for blog posts
 - Tag/category filtering
 - Portfolio/Work section
 
