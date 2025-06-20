@@ -20,6 +20,23 @@ export async function generateStaticParams() {
   }));
 }
 
+// Extract first image from markdown content
+function extractFirstImage(content: string): string | null {
+  // Match markdown image syntax: ![alt](url)
+  const markdownImageMatch = content.match(/!\[.*?\]\((.*?)\)/);
+  if (markdownImageMatch) {
+    return markdownImageMatch[1];
+  }
+
+  // Also check for HTML img tags
+  const htmlImageMatch = content.match(/<img.*?src=["'](.*?)["']/);
+  if (htmlImageMatch) {
+    return htmlImageMatch[1];
+  }
+
+  return null;
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const resolvedParams = await params;
   const slug = resolvedParams.slug.map(segment => decodeURIComponent(segment)).join('/');
@@ -32,10 +49,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const description = await generateExcerpt(post.content, 160);
+  const firstImage = extractFirstImage(post.content);
 
   return {
     title: post.title,
     description,
+    openGraph: {
+      title: post.title,
+      description,
+      type: 'article',
+      publishedTime: post.date,
+      ...(firstImage && { images: [{ url: firstImage }] }),
+    },
+    twitter: {
+      card: firstImage ? 'summary_large_image' : 'summary',
+      title: post.title,
+      description,
+      ...(firstImage && { images: [firstImage] }),
+    },
   };
 }
 
