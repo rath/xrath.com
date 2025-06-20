@@ -24,13 +24,13 @@ export default function Footer() {
               <Link href="/archive" className="text-sm text-foreground/70 hover:text-foreground hover:gradient-text transition-colors duration-300">
                 Archive
               </Link>
-              <Link href="mailto:rath@told.me" className="text-sm text-foreground/70 hover:text-foreground hover:gradient-text transition-colors duration-300">
+              <Link href="mailto:rath@xrath.com" className="text-sm text-foreground/70 hover:text-foreground hover:gradient-text transition-colors duration-300">
                 Contact
               </Link>
             </div>
           </div>
 
-          {/* Social & Contact */}
+          {/* Social */}
           <div className="space-y-4">
             <h3 className="text-sm font-semibold text-foreground/90 uppercase tracking-wider">Connect</h3>
             <div className="flex items-center gap-4">
@@ -57,22 +57,12 @@ export default function Footer() {
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>
               </Link>
-
-              <Link
-                href="mailto:rath@told.me"
-                className="group p-2 rounded-lg bg-foreground/5 hover:bg-foreground/10 transition-all duration-300 hover:scale-110"
-                aria-label="Email"
-              >
-                <svg className="h-5 w-5 text-foreground/70 group-hover:text-foreground transition-colors duration-300" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
-                  <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </Link>
             </div>
 
             <div className="text-sm text-foreground/60">
               <p>Berlin, Germany</p>
-              <Link href="mailto:rath@told.me" className="hover:gradient-text transition-colors duration-300">
-                rath@told.me
+              <Link href="mailto:rath@xrath.com" className="hover:gradient-text transition-colors duration-300">
+                rath@xrath.com
               </Link>
             </div>
           </div>
