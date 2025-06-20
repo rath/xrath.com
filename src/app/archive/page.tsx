@@ -12,13 +12,14 @@ export const metadata: Metadata = generateSEO({
 });
 
 interface PageProps {
-  searchParams: Promise<{ page?: string }>;
+  searchParams: Promise<{ page?: string; year?: string }>;
 }
 
 export default async function BlogsPage({ searchParams }: PageProps) {
   const resolvedSearchParams = await searchParams;
   const currentPage = Number(resolvedSearchParams.page) || 1;
-  const { posts, totalPages, totalPosts } = await getPaginatedPosts(currentPage);
+  const year = resolvedSearchParams.year ? Number(resolvedSearchParams.year) : undefined;
+  const { posts, totalPages, totalPosts } = await getPaginatedPosts(currentPage, 20, year);
 
   return (
     <>
@@ -46,7 +47,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
               <span className="gradient-text">Blog Archive</span>
             </h1>
             <p className="text-xl text-foreground/70 max-w-2xl mx-auto animate-fade-in-up">
-              <span className="font-semibold text-foreground">{totalPosts}</span> posts from 2004 to 2015
+              <span className="font-semibold text-foreground">{totalPosts}</span> posts{year ? ` from ${year}` : ' from 2004 to 2015'}
             </p>
 
             {/* Decorative divider */}
@@ -123,7 +124,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             {/* Previous button */}
             {currentPage > 1 && (
               <Link
-                href={`/archive?page=${currentPage - 1}`}
+                href={`/archive?page=${currentPage - 1}${year ? `&year=${year}` : ''}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
@@ -154,7 +155,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
                 return (
                   <Link
                     key={i}
-                    href={`/archive?page=${pageNumber}`}
+                    href={`/archive?page=${pageNumber}${year ? `&year=${year}` : ''}`}
                     className={`
                       relative w-10 h-10 flex items-center justify-center rounded-lg text-sm font-medium
                       transition-all duration-300 hover:scale-110
@@ -173,7 +174,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             {/* Next button */}
             {currentPage < totalPages && (
               <Link
-                href={`/archive?page=${currentPage + 1}`}
+                href={`/archive?page=${currentPage + 1}${year ? `&year=${year}` : ''}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>

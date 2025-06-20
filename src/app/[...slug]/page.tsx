@@ -164,15 +164,15 @@ export default async function BlogPostPage({ params }: PageProps) {
   // Generate breadcrumb data
   const pathSegments = slug.split('/');
   const breadcrumbItems = [
-    { name: 'Home', url: 'https://xrath.com' },
-    { name: 'Archive', url: 'https://xrath.com/archive' },
+    { name: 'Home', url: '/' },
+    { name: 'Archive', url: '/archive' },
   ];
   
   // Add year if present
   if (pathSegments.length > 0 && /^\d{4}$/.test(pathSegments[0])) {
     breadcrumbItems.push({
       name: pathSegments[0],
-      url: `https://xrath.com/archive?year=${pathSegments[0]}`,
+      url: `/archive?year=${pathSegments[0]}`,
     });
   }
   

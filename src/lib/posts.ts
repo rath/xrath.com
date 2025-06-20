@@ -86,15 +86,24 @@ export async function getLatestPosts(limit: number = 10): Promise<Post[]> {
 }
 
 // Get posts for blogs page with pagination
-export async function getPaginatedPosts(page: number = 1, perPage: number = 20) {
-  const allPosts = await getAllPosts();
-  const totalPosts = allPosts.length;
+export async function getPaginatedPosts(page: number = 1, perPage: number = 20, year?: number) {
+  let posts = await getAllPosts();
+  
+  // Filter by year if provided
+  if (year) {
+    posts = posts.filter(post => {
+      const postYear = new Date(post.date).getFullYear();
+      return postYear === year;
+    });
+  }
+  
+  const totalPosts = posts.length;
   const totalPages = Math.ceil(totalPosts / perPage);
   const start = (page - 1) * perPage;
   const end = start + perPage;
   
   return {
-    posts: allPosts.slice(start, end),
+    posts: posts.slice(start, end),
     totalPosts,
     totalPages,
     currentPage: page,
