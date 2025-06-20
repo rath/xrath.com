@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getPostBySlug, getAllPosts, getLatestPosts } from '@/lib/posts';
+import { getPostBySlug, getAllPosts, getRandomPosts } from '@/lib/posts';
 import ReactMarkdown from 'react-markdown';
 import type { Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -143,9 +143,8 @@ export default async function BlogPostPage({ params }: PageProps) {
   // Parse comments from the post content
   const { content: postContent, comments } = parseComments(post.content);
 
-  // Get more posts for navigation (excluding current post)
-  const allPosts = await getLatestPosts(7); // Get 7 to ensure we have 6 after filtering
-  const morePosts = allPosts.filter(p => p.slug !== post.slug).slice(0, 6);
+  // Get random posts for navigation (excluding current post)
+  const morePosts = await getRandomPosts(3, post.slug);
 
   // Generate structured data
   const postUrl = `https://xrath.com/${slug}`;

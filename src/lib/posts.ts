@@ -88,7 +88,7 @@ export async function getLatestPosts(limit: number = 10): Promise<Post[]> {
 // Get posts for blogs page with pagination
 export async function getPaginatedPosts(page: number = 1, perPage: number = 20, year?: number) {
   let posts = await getAllPosts();
-  
+
   // Filter by year if provided
   if (year) {
     posts = posts.filter(post => {
@@ -96,16 +96,31 @@ export async function getPaginatedPosts(page: number = 1, perPage: number = 20, 
       return postYear === year;
     });
   }
-  
+
   const totalPosts = posts.length;
   const totalPages = Math.ceil(totalPosts / perPage);
   const start = (page - 1) * perPage;
   const end = start + perPage;
-  
+
   return {
     posts: posts.slice(start, end),
     totalPosts,
     totalPages,
     currentPage: page,
   };
+}
+
+// Get random posts
+export async function getRandomPosts(count: number, excludeSlug?: string): Promise<Post[]> {
+  const allPosts = await getAllPosts();
+  const filteredPosts = excludeSlug ? allPosts.filter(p => p.slug !== excludeSlug) : allPosts;
+
+  // Shuffle array using Fisher-Yates algorithm
+  const shuffled = [...filteredPosts];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return shuffled.slice(0, count);
 }
