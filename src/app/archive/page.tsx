@@ -1,8 +1,9 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getPaginatedPosts } from '@/lib/posts';
+import { getPaginatedPosts, searchPosts } from '@/lib/posts';
 import { generateExcerpt } from '@/lib/excerpt';
 import { generateSEO } from '@/lib/seo';
+import SearchBar from '@/components/SearchBar';
 
 export const metadata: Metadata = generateSEO({
   title: 'Blog Archive',
@@ -12,14 +13,18 @@ export const metadata: Metadata = generateSEO({
 });
 
 interface PageProps {
-  searchParams: Promise<{ page?: string; year?: string }>;
+  searchParams: Promise<{ page?: string; year?: string; q?: string }>;
 }
 
 export default async function BlogsPage({ searchParams }: PageProps) {
   const resolvedSearchParams = await searchParams;
   const currentPage = Number(resolvedSearchParams.page) || 1;
   const year = resolvedSearchParams.year ? Number(resolvedSearchParams.year) : undefined;
-  const { posts, totalPages, totalPosts } = await getPaginatedPosts(currentPage, 20, year);
+  const query = resolvedSearchParams.q || '';
+
+  const { posts, totalPages, totalPosts } = query
+    ? await searchPosts(query, currentPage, 20, year)
+    : await getPaginatedPosts(currentPage, 20, year);
 
   return (
     <>
@@ -47,7 +52,16 @@ export default async function BlogsPage({ searchParams }: PageProps) {
               <span className="gradient-text">Blog Archive</span>
             </h1>
             <p className="text-xl text-foreground/70 max-w-2xl mx-auto animate-fade-in-up">
-              <span className="font-semibold text-foreground">{totalPosts}</span> posts{year ? ` from ${year}` : ' from 2004 to 2015'}
+              {query ? (
+                <>
+                  <span className="font-semibold text-foreground">{totalPosts}</span> results for &ldquo;{query}&rdquo;
+                  {year && ` from ${year}`}
+                </>
+              ) : (
+                <>
+                  <span className="font-semibold text-foreground">{totalPosts}</span> posts{year ? ` from ${year}` : ' from 2004 to 2015'}
+                </>
+              )}
             </p>
 
             {/* Decorative divider */}
@@ -60,10 +74,34 @@ export default async function BlogsPage({ searchParams }: PageProps) {
         </div>
       </section>
 
+      {/* Search section */}
+      <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <SearchBar />
+      </section>
+
       {/* Main content */}
       <section className="mx-auto max-w-screen-xl px-4 pb-20 sm:px-6 lg:px-8">
-        <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
-          {await Promise.all(posts.map(async (post, index) => {
+        {posts.length === 0 ? (
+          <div className="text-center py-20">
+            <svg className="w-16 h-16 mx-auto mb-4 text-foreground/20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <h3 className="text-xl font-semibold mb-2 text-foreground/80">No posts found</h3>
+            <p className="text-foreground/60 mb-6">
+              {query ? `No posts match "${query}". Try different keywords.` : 'No posts available.'}
+            </p>
+            {query && (
+              <Link
+                href="/archive"
+                className="inline-flex items-center px-4 py-2 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
+              >
+                Clear search
+              </Link>
+            )}
+          </div>
+        ) : (
+          <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
+            {await Promise.all(posts.map(async (post, index) => {
             const excerpt = await generateExcerpt(post.content, 150);
 
             return (
@@ -116,15 +154,16 @@ export default async function BlogsPage({ searchParams }: PageProps) {
               </article>
             );
           }))}
-        </div>
+          </div>
+        )}
 
         {/* Enhanced pagination */}
-        {totalPages > 1 && (
+        {totalPages > 1 && posts.length > 0 && (
           <nav className="mt-16 flex items-center justify-center gap-2">
             {/* Previous button */}
             {currentPage > 1 && (
               <Link
-                href={`/archive?page=${currentPage - 1}${year ? `&year=${year}` : ''}`}
+                href={`/archive?page=${currentPage - 1}${year ? `&year=${year}` : ''}${query ? `&q=${encodeURIComponent(query)}` : ''}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
@@ -155,7 +194,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
                 return (
                   <Link
                     key={i}
-                    href={`/archive?page=${pageNumber}${year ? `&year=${year}` : ''}`}
+                    href={`/archive?page=${pageNumber}${year ? `&year=${year}` : ''}${query ? `&q=${encodeURIComponent(query)}` : ''}`}
                     className={`
                       relative w-10 h-10 flex items-center justify-center rounded-lg text-sm font-medium
                       transition-all duration-300 hover:scale-110
@@ -174,7 +213,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             {/* Next button */}
             {currentPage < totalPages && (
               <Link
-                href={`/archive?page=${currentPage + 1}${year ? `&year=${year}` : ''}`}
+                href={`/archive?page=${currentPage + 1}${year ? `&year=${year}` : ''}${query ? `&q=${encodeURIComponent(query)}` : ''}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>

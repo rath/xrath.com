@@ -124,3 +124,37 @@ export async function getRandomPosts(count: number, excludeSlug?: string): Promi
 
   return shuffled.slice(0, count);
 }
+
+// Search posts by query
+export async function searchPosts(query: string, page: number = 1, perPage: number = 20, year?: number) {
+  let posts = await getAllPosts();
+
+  // Filter by search query
+  if (query) {
+    const searchTerms = query.toLowerCase().split(' ').filter(term => term.length > 0);
+    posts = posts.filter(post => {
+      const searchableContent = `${post.title} ${post.content} ${(post.tags || []).join(' ')}`.toLowerCase();
+      return searchTerms.every(term => searchableContent.includes(term));
+    });
+  }
+
+  // Filter by year if provided
+  if (year) {
+    posts = posts.filter(post => {
+      const postYear = new Date(post.date).getFullYear();
+      return postYear === year;
+    });
+  }
+
+  const totalPosts = posts.length;
+  const totalPages = Math.ceil(totalPosts / perPage);
+  const start = (page - 1) * perPage;
+  const end = start + perPage;
+
+  return {
+    posts: posts.slice(start, end),
+    totalPosts,
+    totalPages,
+    currentPage: page,
+  };
+}
