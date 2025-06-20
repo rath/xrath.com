@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     url: postUrl,
     type: 'article',
     publishedTime: post.date,
-    image: firstImage,
+    image: firstImage || undefined,
     keywords,
   });
 }
@@ -158,7 +158,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     description,
     url: postUrl,
     publishedTime: post.date,
-    image: firstImage,
+    image: firstImage || undefined,
   });
 
   // Generate breadcrumb data
