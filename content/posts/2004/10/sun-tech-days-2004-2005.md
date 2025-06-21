@@ -1,8 +1,9 @@
 ---
 title: "Sun Tech Days 2004-2005"
-date: 2004-10-06
+date: Wed Oct 06 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/10/sun-tech-days-2004-2005
 lang: ko
+tags: ["sun-tech-days", "java", "conference", "technology-event"]
 ---
 
 오늘은 [Sun Tech Days](http://www.suntechdays.co.kr)가 열리는 날입니다!
@@ -40,4 +41,3 @@ Sun Shop에서 직접 판매하기도 합니다. 썬 자격증이 있으면 썬 
 나도 가고싶었는데... 일이 넘 많당.. ㅠㅠ
 
 ---
-

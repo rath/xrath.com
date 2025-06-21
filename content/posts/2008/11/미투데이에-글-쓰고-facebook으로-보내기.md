@@ -1,8 +1,9 @@
 ---
 title: "미투데이에 글 쓰고 Facebook으로 보내기"
-date: 2008-11-04
+date: Tue Nov 04 2008 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2008/11/미투데이에-글-쓰고-facebook으로-보내기
 lang: ko
+tags: ["facebook-api", "social-media-integration", "me2day"]
 ---
 
 [me2day api](http://codian.springnote.com/pages/89009)를 사용해 [facebook 어플리케이션](http://www.facebook.com/apps/application.php?id=21311568362)을 만들어봤습니다.

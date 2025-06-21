@@ -1,8 +1,9 @@
 ---
 title: "Play! 프로세스 제목이 너무 길어서"
-date: 2012-03-10
+date: Sat Mar 10 2012 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2012/03/detach-extraordinary-long-classpath-proctitle-with-playframework
 lang: ko
+tags: ["play-framework", "java", "programming-tools"]
 ---
 
 [Play! framework](http://www.playframework.org/)에 한가지 불만이 있다면 $ ps -ef | grep play.server 의 결과가 너무 길다는 것이다. 내 개발환경에서는 4KB가 넘는다.
@@ -69,4 +70,3 @@ $ curl http://xrath.com/files/detach-classpath-into-env.patch | patch -p1
 하셔도 됩니다.
 
 ---
-

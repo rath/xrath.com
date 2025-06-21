@@ -1,8 +1,9 @@
 ---
 title: "홈피 개편 - Ajax & etc"
-date: 2006-12-31
+date: Sun Dec 31 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/홈피-개편-ajax-etc
 lang: ko
+tags: ["web-development", "ajax", "javascript"]
 ---
 
 내 홈피에 [Ajax](http://en.wikipedia.org/wiki/Ajax_%28programming%29)를 적용해봤다. 요리조리 공부하다보니 [REST](http://en.wikipedia.org/wiki/REST) 란 것도 둘러보게 됐고 

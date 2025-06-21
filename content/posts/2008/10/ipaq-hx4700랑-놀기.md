@@ -1,8 +1,9 @@
 ---
 title: "iPAQ hx4700랑 놀기"
-date: 2008-10-15
+date: Wed Oct 15 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/ipaq-hx4700랑-놀기
 lang: ko
+tags: ["mobile-os", "windows-mobile", "j2me-sdk", "mobile-development"]
 ---
 
 바야흐로 모바일 전국시대 -_-

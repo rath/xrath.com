@@ -1,8 +1,9 @@
 ---
 title: "간만에 Jikes와 춤을!"
-date: 2004-12-22
+date: Wed Dec 22 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/12/간만에-jikes와-춤을
 lang: ko
+tags: ["java", "compiler", "jikes", "programming"]
 ---
 
 매우 빠른 IBM의 Java compiler가 어느덧 1.22 릴리즈가 되었다. (이 사실을 portage에서 확인;)
@@ -108,4 +109,3 @@ make: Fatal error: Command failed for target `install-recursive'
 부탁드립니다.
 
 ---
-

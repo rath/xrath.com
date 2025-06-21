@@ -1,8 +1,9 @@
 ---
 title: "What's New in Internet Explorer 7"
-date: 2006-10-25
+date: Wed Oct 25 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/10/whats-new-in-internet-explorer-7
 lang: ko
+tags: ["technology", "internet-explorer", "web-development", "software-release"]
 ---
 
 오랜만에 msdn.microsoft.com에 가봤다.
@@ -57,4 +58,3 @@ Improved Platform for Web Development and **Manageability**:Enhancements to the 
 아 그래? -_-; 조심해야겠군.. 덜덜덜
 
 ---
-

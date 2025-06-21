@@ -1,8 +1,9 @@
 ---
 title: "xrath.com에 Lucene으로 검색엔진 붙였다."
-date: 2007-01-18
+date: Thu Jan 18 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/xrathcom에-lucene으로-검색엔진-붙였다
 lang: ko
+tags: ["technology", "search-engine", "lucene", "java"]
 ---
 
 좌측 내 얼굴 :$ 밑에 조그마한 검색창을 하나 넣어놨다.
@@ -144,4 +145,3 @@ Query 만들 때 (subject:"" AND content:"") 이 되버려서 파싱 에러가 �
 그나저나 정말 Lucene 좋아요~! (H)
 
 ---
-

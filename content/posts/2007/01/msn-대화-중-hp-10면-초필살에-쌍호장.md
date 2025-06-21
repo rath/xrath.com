@@ -1,8 +1,9 @@
 ---
 title: "MSN 대화 중 - H.P. 10%면 초필살에 쌍호장"
-date: 2007-01-25
+date: Thu Jan 25 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/msn-대화-중-hp-10면-초필살에-쌍호장
 lang: ko
+tags: ["daily-life", "communication", "msn", "personal-reflection"]
 ---
 
 어제 저녁 9시에 잠들어 오늘 02:30에 일어나버린 나

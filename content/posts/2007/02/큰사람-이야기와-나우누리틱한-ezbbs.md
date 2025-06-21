@@ -1,8 +1,9 @@
 ---
 title: "큰사람 '이야기'와 나우누리틱한 EZBBS"
-date: 2007-02-15
+date: Thu Feb 15 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/큰사람-이야기와-나우누리틱한-ezbbs
 lang: ko
+tags: ["technology", "bbs", "personal-experience"]
 ---
 
 오늘은 '진짜' 일찍 자려고 했는데 남중위와 메신저질을 하다가!
@@ -144,4 +145,3 @@ telnet -8 bbs.xrath.com 접속해서 가입한 담에 메시지해.
 go univchat 해서 채팅하자 ㅋㅋ
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "OpenID 붙이기 시작"
-date: 2007-03-09
+date: Fri Mar 09 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/openid-붙이기-시작
 lang: ko
+tags: ["technology", "openid", "web-development"]
 ---
 
 xrath.com 에 [OpenID](http://openid.net/)를 붙여보기로 했습니다.
@@ -98,4 +99,3 @@ me2day나 스프링노트, lifepod과 같이 OpenID로 쓸 수 있는 훌륭한 
 물론 OpenID Attribute Exchange를 사용해서 매번 홈페이지 주소를 입력하지 않게 할 수도 있지만, 아직 체계가 잡혀있지는 않네요. 안된다기보다는 좀 더 OpenID를 지켜보시면 많은 새로운 아이디어가 창출될거라 생각합니다.
 
 ---
-

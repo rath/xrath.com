@@ -1,8 +1,9 @@
 ---
 title: "홈피 Trackback 일지 중지"
-date: 2007-07-05
+date: Thu Jul 05 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/07/홈피-trackback-일지-중지
 lang: ko
+tags: ["blogging", "spam-prevention", "web-technology"]
 ---
 
 제 홈피에 트랙백 거는 기능을 잠시 닫아두었습니다.
@@ -41,4 +42,3 @@ lang: ko
 '이 글의 트랙백 주소 받기' 를 누르면 페이지가 이동하고 간단한 capcha 를 보여주고 인간이 맞으면 그때 ?34287493827497 이런 querystring을 붙인 것을 주고 3분간만 유효하도록 ^_^;
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "SMS로 미투데이에 포스트 남기기"
-date: 2007-04-07
+date: Sat Apr 07 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/sms로-미투데이에-포스트-남기기
 lang: ko
+tags: ["api", "sms-integration", "programming"]
 ---
 
 [codian님](http://codian.net/wp/)의 OpenAPI 지원으로 SMS으로 미투데이에 글 쓰기를 실현하게 되었습니다.
@@ -273,4 +274,3 @@ nova: ㅇ.ㅇ 이제 더이상 @xrath.com James 메일섭에 무의미한 계정
 heesun님 우는 아이에겐 산타할아버지가 선물 안주신데요 ㅠ.ㅠ
 
 ---
-

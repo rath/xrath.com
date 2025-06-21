@@ -1,8 +1,9 @@
 ---
 title: "JMSN 0.9.9-b11 Mac OS X 패키지"
-date: 2007-03-18
+date: Sun Mar 18 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/jmsn-099-b11-mac-os-x-패키지
 lang: ko
+tags: ["technology", "programming", "instant-messaging"]
 ---
 
 [심장군](http://buzzler.tistory.com/)으로부터 [iBook](http://lowendmac.com/pb2/ibook600.html)을 되받고 [JMSN](http://en.wikipedia.org/wiki/JMSN) 맥패키징을 해봤습니다.
@@ -93,4 +94,3 @@ dmg 마운트 하고, 커피잔 위에 JMSN이라고 그려진 아이콘 더블�
 원인이 뭔가요?
 
 ---
-

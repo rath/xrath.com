@@ -1,8 +1,9 @@
 ---
 title: "Acer의 Android Netbook이 도착했습니다."
-date: 2009-11-11
+date: Wed Nov 11 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/11/purchased-acer-android-netbook
 lang: ko
+tags: ["android", "netbook", "hardware-review", "mobile-technology"]
 ---
 
 [Acer가 만든 10.1인치 안드로이드 넷북](http://www.amazon.com/gp/product/B002P8M7BA/ref=ox_ya_oh_product)을 구입하였습니다.
@@ -136,4 +137,3 @@ U.S. shipping only 더라고요. 미국에 사는 누나에게 부탁해서 구�
 영광이라니요~ ^^;
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "리버스가 잘 안되서 JVM 소스 구경중"
-date: 2005-01-01
+date: Sat Jan 01 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/01/리버스가-잘-안되서-jvm-소스-구경중
 lang: ko
+tags: ["reverse-engineering", "java", "source-code-analysis", "programming"]
 ---
 
 여러가지 일이 겹쳤다는 핑계를 둘러댄다 할지라도, 아무튼 -- V-Share 및 역어셈블에 대한 진도가 정말 조금씩밖에 못나가고 있고, V-Share의 SGM.dll 은 이번달 안에는 힘들다고 확신을 하게 될 지경이 되었습니다 -_-

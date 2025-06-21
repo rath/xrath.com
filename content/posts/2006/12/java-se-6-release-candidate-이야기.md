@@ -1,8 +1,9 @@
 ---
 title: "Java SE 6 Release Candidate 이야기"
-date: 2006-12-01
+date: Fri Dec 01 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/12/java-se-6-release-candidate-이야기
 lang: ko
+tags: ["java", "jdk6", "api-updates", "programming"]
 ---
 
 릴리즈 노트를 보다보니, 재미난 것들이 참 많아 몇 가지를 정리해 올려본다.
@@ -133,4 +134,3 @@ javac -cp "*.jar" test.java 하면 아예 못잡고
 javac -cp "*" test.java 해야 하네요~ (7)
 
 ---
-

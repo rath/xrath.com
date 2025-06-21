@@ -1,8 +1,9 @@
 ---
 title: "Quercus 님에게 낚이다"
-date: 2007-02-10
+date: Sat Feb 10 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/quercus-님에게-낚이다
 lang: ko
+tags: ["programming", "php", "java", "opensource"]
 ---
 
 수년간 위키를 한번도 안써봤다. 그런데 얼마전 들어간 회사에서는 위키를 쓴다.
@@ -55,4 +56,3 @@ Quercus에서 *.php 매핑 끄고 그렇게하면 되요..
 그러려면 php 깔아야 되는데 그렇게 되면 원래 의도랑 좀 달라서 ~.~
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "구글 맵 vs 야후 맵"
-date: 2008-11-07
+date: Fri Nov 07 2008 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2008/11/구글-맵-vs-야후-맵
 lang: ko
+tags: ["maps", "google-maps", "yahoo-maps", "location-services"]
 ---
 
 헤이님의 미투에서 본 소식, [구글맵 한국 서비스 시작](http://me2day.net/heycalmdown/2008/11/07#12:17:37)! 을 보고 몇 자 남겨봅니다.&#13;
@@ -59,4 +60,3 @@ lang: ko
 1~2년 정도로 생각했는데.. 3년이라니;; 놀랍군요
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "T-Mobile USB 모뎀의 진실"
-date: 2009-09-05
+date: Sat Sep 05 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/t-mobile-usb-모뎀의-진실
 lang: ko
+tags: ["t-mobile", "usb-modem", "internet", "network-limitation"]
 ---
 
 7월 25일에 런던에 입국한 나, shared room을 빌려 256Byte/s 의 인터넷 속도를 즐기다가.
@@ -233,4 +234,3 @@ BTOpenzone 쓰려고 잠시 T-Mobile USB Connector를 언인스톨했는데, 스
 실력은 Jenix님이나 다른 분들이 더 좋을꺼에요~ 저는 뭔가 혼자 뚝딱뚝딱 만들어서 뿅~ 하는걸 좋아해서 그렇죠 뭐 흐흐;
 
 ---
-

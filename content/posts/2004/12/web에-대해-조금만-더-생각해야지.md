@@ -1,8 +1,9 @@
 ---
 title: "Web에 대해 조금만 더 생각해야지"
-date: 2004-12-03
+date: Fri Dec 03 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/12/web에-대해-조금만-더-생각해야지
 lang: ko
+tags: ["web-development", "personal-blog", "web-culture"]
 ---
 
 아시다시피 /home 날린 후 제 사이트에는 달랑 **Memo**와 **블로그**가 있습니다. About Me도 있긴하지만, 서명하듯이 휘갈긴 무성의한 자기소개입니다. 

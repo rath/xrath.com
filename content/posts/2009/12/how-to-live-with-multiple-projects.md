@@ -1,8 +1,9 @@
 ---
 title: "여러개의 프로젝트를 진행하려면"
-date: 2009-12-19
+date: Sat Dec 19 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/12/how-to-live-with-multiple-projects
 lang: ko
+tags: ["productivity", "time-management", "focus", "self-improvement"]
 ---
 
 한번에 하나의 프로젝트에만 관심을 쏟아야 한다. 한번에 하나씩만 해야 한다.
@@ -104,4 +105,3 @@ T_T 그렇구나.. 난 왜이리 주제파악(?)을 못할고.. 흑....
 밍기적 대게 되는 안습의 상황은 어떻게...
 
 ---
-

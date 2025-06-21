@@ -1,8 +1,9 @@
 ---
 title: "OpenID Consumer 연동 후기"
-date: 2007-03-11
+date: Sun Mar 11 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/openid-consumer-연동-후기
 lang: ko
+tags: ["technology", "openid", "java"]
 ---
 
 [OpenID4Java](http://code.sxip.com/openid4java/)로 직접 만든 블로그에 OpenID로 코멘트 쓰기를 붙이면서 겪었던 것들을 몇가지 정리해봅니다.
@@ -472,4 +473,3 @@ index.jsp파일 내용이 user.jsp안의 내용으로 되어있어서 그런지 
 SampleConsumer를 그대로 쓰면 안되는 것이였군요.
 
 ---
-

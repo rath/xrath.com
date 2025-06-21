@@ -1,8 +1,9 @@
 ---
 title: "iBATIS 접견"
-date: 2008-06-27
+date: Fri Jun 27 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/06/ibatis-접견
 lang: ko
+tags: ["ibatis", "apache-wicket", "java-web", "orm"]
 ---
 
 나는 언제까지 원시인 코딩을 계속 할 것인가.
@@ -88,4 +89,3 @@ JMSN swing 코드를 보면서 감탄을 했었어요..
 역시 rath옹은 초고수 !
 
 ---
-

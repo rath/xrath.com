@@ -1,8 +1,9 @@
 ---
 title: "Java SE 6 Documentation 한글 버전"
-date: 2008-05-23
+date: Fri May 23 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/05/java-se-6-documentation-한글-버전
 lang: ko
+tags: ["java", "documentation", "translation", "open-source"]
 ---
 
 Java SE 6 한글 문서 1차 버전을 완성하였습니다.
@@ -134,4 +135,3 @@ API문서 정말 유용하게 잘 사용하고 있습니다!
 잘쓰고있엇는데 갑자기 막히니 까막눈이 된기분입니다
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "트레인스포팅 (Trainspotting)"
-date: 2004-09-14
+date: Tue Sep 14 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/09/트레인스포팅-trainspotting
 lang: ko
+tags: ["trainspotting", "movie-reflection", "change", "philosophy"]
 ---
 
 며칠전 95년도 영화인 [트레인스포팅](http://movie.naver.com/search/movie.php?code=A7967)을 봤다.
@@ -43,4 +44,3 @@ lang: ko
 이거 가족영화아닌데 -_-;;;
 
 ---
-

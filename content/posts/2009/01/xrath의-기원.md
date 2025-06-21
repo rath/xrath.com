@@ -1,8 +1,9 @@
 ---
 title: "xrath의 기원"
-date: 2009-01-02
+date: Fri Jan 02 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/01/xrath의-기원
 lang: ko
+tags: ["personal-story", "nickname", "humor"]
 ---
 
 1997년말부터 rath 란 닉네임을 사용하고 있습니다.
@@ -65,4 +66,3 @@ xhoto, 도끼만 안사면 된다 -_-
 이해는 되는데 받아들이기 힘들다... -_-;
 
 ---
-

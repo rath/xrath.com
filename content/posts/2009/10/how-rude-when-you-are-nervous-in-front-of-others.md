@@ -1,8 +1,9 @@
 ---
 title: "긴장한 모습을 보이는 것은 얼마나 무례한가"
-date: 2009-10-06
+date: Tue Oct 06 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/10/how-rude-when-you-are-nervous-in-front-of-others
 lang: ko
+tags: ["communication", "nervousness", "social-skills", "self-improvement"]
 ---
 
 그대와 의사소통하고자 하는 사람이 앞에 서 있다. 그리고 당신은 긴장하고 있다.

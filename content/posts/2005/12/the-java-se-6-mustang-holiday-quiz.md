@@ -1,8 +1,9 @@
 ---
 title: "The Java SE 6 (Mustang) Holiday Quiz"
-date: 2005-12-23
+date: Fri Dec 23 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/12/the-java-se-6-mustang-holiday-quiz
 lang: ko
+tags: ["technology", "java", "programming", "learning"]
 ---
 
 [The Java SE 6 (Mustang) Holiday Quiz](http://java.sun.com/developer/Quizzes/mustang_holiday)

@@ -1,8 +1,9 @@
 ---
 title: "Listening 공부의 어려움"
-date: 2009-03-05
+date: Thu Mar 05 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/03/problems-in-listening
 lang: ko
+tags: ["language-learning", "listening-skills", "self-improvement"]
 ---
 
 Listening 공부가 어려운 이유에 대해 생각해본다.
@@ -60,4 +61,3 @@ Podcast를 듣는다. youtube에서 좋아하는 사람이나 주제로 검색�
 할부지 아가 사진 보고싶다
 
 ---
-

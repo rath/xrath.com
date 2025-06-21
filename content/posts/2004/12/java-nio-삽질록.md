@@ -1,8 +1,9 @@
 ---
 title: "Java NIO 삽질록"
-date: 2004-12-06
+date: Mon Dec 06 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/12/java-nio-삽질록
 lang: ko
+tags: ["java", "nio", "network-programming", "debugging"]
 ---
 
 요즘 하는 알바중에 [nio](http://java.sun.com/j2se/1.4.2/docs/guide/nio/) 쓰는 일이 있습니다.

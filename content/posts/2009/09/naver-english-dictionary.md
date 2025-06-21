@@ -1,8 +1,9 @@
 ---
 title: "야매로 만든 네이버 영영/영한/한영사전"
-date: 2009-09-23
+date: Wed Sep 23 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/naver-english-dictionary
 lang: ko
+tags: ["technology", "desktop-application", "java", "dictionary"]
 ---
 
 ![네이버 영어사전 in Dock](http://farm4.static.flickr.com/3438/3947326705_6b4fa5fe9f_o.png)
@@ -222,4 +223,3 @@ API를 사용하지 않은 비공식 어플리케이션입니다. 네이버 사�
 감사합니다. :-)
 
 ---
-

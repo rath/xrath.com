@@ -1,8 +1,9 @@
 ---
 title: "Versign Seatbelt 에서 myID.net 오류 뜨는 분들 보세요"
-date: 2008-06-01
+date: Sun Jun 01 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/06/versign-seatbelt-에서-myidnet-오류-뜨는-분들-보세요
 lang: ko
+tags: ["openid", "firefox-extension", "security", "certificate"]
 ---
 
 Firefox Extension 인 [Versign Seatbelt](https://pip.verisignlabs.com/seatbelt.do) 에 myID.net 프로바이더를 사용중이신 분들은 지난 5월 28일부터 아래와 같은 스크립트 창에게 괴롭힘을 당하셨을겁니다.

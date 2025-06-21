@@ -1,8 +1,9 @@
 ---
 title: "어느덧 J2SE 5 정식 릴리즈"
-date: 2004-10-02
+date: Sat Oct 02 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/10/어느덧-j2se-5-정식-릴리즈
 lang: ko
+tags: ["java-5", "java", "java-upgrade", "technology"]
 ---
 
 J2SE 5 RC 가 나온지 얼마 안되었던것 같은데,

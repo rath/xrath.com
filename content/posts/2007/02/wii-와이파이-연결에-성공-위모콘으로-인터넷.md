@@ -1,8 +1,9 @@
 ---
 title: "Wii 와이파이 연결에 성공. 위모콘으로 인터넷"
-date: 2007-01-31
+date: Wed Jan 31 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/wii-와이파이-연결에-성공-위모콘으로-인터넷
 lang: ko
+tags: ["gaming", "networking", "wii", "windows"]
 ---
 
 Nintendo Wi-Fi USB Connector가 Windows XP 32bit 말고는 어디서도 돌아가지 않는다는 말에
@@ -70,4 +71,3 @@ tcpdump 님으로 확인한 User-Agent는 **Opera/9.00 (Nintendo Wii; U; ; 1309-
 헛 그렇군요 으흐흐 요새 정말 Wii 덕분에 재미있는것 천지에요 ㅎㅎ
 
 ---
-

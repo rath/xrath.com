@@ -1,8 +1,9 @@
 ---
 title: "KBS 해피투게더 출연"
-date: 2007-05-18
+date: Fri May 18 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/05/kbs-해피투게더-출연
 lang: ko
+tags: ["daily-life", "television", "personal-experience", "entertainment"]
 ---
 
 지난주 금요일인 5월 11일.
@@ -466,4 +467,3 @@ Hezron, ㅋㅋㅋ 아놔 살 수가 없어 ㅡ,.ㅡ
 하하하.. 사이트 동영상들을 desk.xrath.com 서버에 보관하고 있었는데, 집에 인터넷전화기 설치하면서 inbound 80이 없어졌어요 ㅠ
 
 ---
-

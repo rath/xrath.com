@@ -1,8 +1,9 @@
 ---
 title: "About Sleep"
-date: 2006-10-07
+date: Sat Oct 07 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/10/about-sleep
 lang: ko
+tags: ["health", "sleep", "self-improvement"]
 ---
 
 **How Much Sleep Do I Need?**
@@ -45,4 +46,3 @@ The amount of sleep you need decreases with age. A newborn baby might sleep 20 h
 아 정리해보니, 수면부족 맞구나 -_-;
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "Ben Folds Five ~"
-date: 2007-12-16
+date: Sun Dec 16 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/12/ben-folds-five
 lang: ko
+tags: ["music", "ben-folds-five", "entertainment"]
 ---
 
 처음 Ben Folds Five 를 접한 건 Army 란 노래를 통해서다.
@@ -36,4 +37,3 @@ Because I'm free Nothing's worrying me.
 Ben Folds Five.. 나중에 뵙게 되면 DVD 빌려드릴께요. 정말 환상적이에요 ㅎㅎ
 
 ---
-

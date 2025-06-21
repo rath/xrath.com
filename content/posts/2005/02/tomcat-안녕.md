@@ -1,8 +1,9 @@
 ---
 title: "Tomcat 안녕"
-date: 2005-02-03
+date: Thu Feb 03 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/02/tomcat-안녕
 lang: ko
+tags: ["resin", "java-application-server", "web-development"]
 ---
 
 Resin 3.0.10 으로 바꿨다. 
@@ -80,4 +81,3 @@ session-persistence로 검색해보시면 많은 자료가 나옵니다.
 http://www.caucho.com/resin-3.0/config/sessions.xtp 문서를 참조하시면 도움이 될 듯 합니다. ^^
 
 ---
-

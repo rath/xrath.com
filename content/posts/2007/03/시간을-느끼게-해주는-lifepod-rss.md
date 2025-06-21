@@ -1,8 +1,9 @@
 ---
 title: "시간을 느끼게 해주는 Lifepod RSS"
-date: 2007-03-23
+date: Fri Mar 23 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/시간을-느끼게-해주는-lifepod-rss
 lang: ko
+tags: ["rss", "time-management", "web-tools", "productivity"]
 ---
 
 [신기배님](http://lifepod.tistory.com/)이 만든 [Lifepod](http://www.lifepod.co.kr) 을 사용한지 어느덧 1달이 되갑니다. 
@@ -121,4 +122,3 @@ reserve, 가끔은 글을 쓰기 위해 살아가고 있는게 아닌가도 싶�
 소타, 손으로 수동 트랙백 날렸음 ㅋㅋㅋㅋ
 
 ---
-

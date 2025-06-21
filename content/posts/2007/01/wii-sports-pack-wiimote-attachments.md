@@ -1,8 +1,9 @@
 ---
 title: "Wii Sports Pack Wiimote Attachments"
-date: 2007-01-25
+date: Thu Jan 25 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/wii-sports-pack-wiimote-attachments
 lang: ko
+tags: ["technology", "gaming", "wii", "accessories"]
 ---
 
 왠지 있을 것 같아 검색해보니 역시 있다 -_-;
@@ -29,4 +30,3 @@ lang: ko
 듣고 쓰고 친해지는 DS 영어삼매경 구입!
 
 ---
-

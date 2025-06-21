@@ -1,8 +1,9 @@
 ---
 title: "Do, or do not. There is no try."
-date: 2009-03-15
+date: Sun Mar 15 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/03/do-or-do-not-there-is-no-try
 lang: ko
+tags: ["quotes", "culture", "star-wars", "motivation"]
 ---
 
 Rebel Zen에서 포스트 하나를 읽다가 간지 대마왕 요다의 인용구에 흥건히 젖어버렸습니다.
@@ -51,4 +52,3 @@ Rebel Zen에서 포스트 하나를 읽다가 간지 대마왕 요다의 인용�
 이번 한 주도 포스가 가득하시길 바랍니다.
 
 ---
-

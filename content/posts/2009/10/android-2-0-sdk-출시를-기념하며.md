@@ -1,8 +1,9 @@
 ---
 title: "Android 2.0 SDK 출시를 기념하며"
-date: 2009-10-29
+date: Thu Oct 29 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/10/android-2-0-sdk-출시를-기념하며
 lang: ko
+tags: ["android", "android-sdk", "mobile-development", "programming"]
 ---
 
 며칠전 [구글 안드로이드 SDK에 Android 2.0 지원](http://android-developers.blogspot.com/2009/10/announcing-android-20-support-in-sdk.html)이 들어갔습니다.
@@ -121,4 +122,3 @@ lang: ko
 ti 89 정도는 돼야지 ㅎㅎ
 
 ---
-

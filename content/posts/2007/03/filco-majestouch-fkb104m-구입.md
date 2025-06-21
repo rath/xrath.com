@@ -1,8 +1,9 @@
 ---
 title: "Filco Majestouch FKB104M  구입"
-date: 2007-03-03
+date: Sat Mar 03 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/filco-majestouch-fkb104m-구입
 lang: ko
+tags: ["technology", "hardware", "keyboards"]
 ---
 
 지난주 야근을 즐기던 어느 밤, [처로님](http://churo.tistory.com/)(미투데이 [alexchoi](http://me2day.net/alexchoi), 지난주 목요일 제게 영화 300을 보여주신 세상에서 가장 멋있는 분)의 소개로 IOMania에서 **복지카드**로 [Filco 마제스터치](http://www.iomania.co.kr/frontstore/Item/item_zoom.asp?item_num=666&catalog_num=103897&mart_id=iomall&level=&mother_catalog_num=103895)를 구입했습니다.

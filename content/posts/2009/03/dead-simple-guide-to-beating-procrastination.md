@@ -1,8 +1,9 @@
 ---
 title: "꾸물거림을 없애줄 초간단 가이드라인"
-date: 2009-03-26
+date: Thu Mar 26 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/03/dead-simple-guide-to-beating-procrastination
 lang: ko
+tags: ["self-improvement", "productivity", "time-management"]
 ---
 
 오랜만에 zebhabits에 깔끔한 글이 올라와 번역해봅니다. 
@@ -37,4 +38,3 @@ lang: ko
 쥑이네염. +_+
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "놀고 있다가 J2SE 1.5.0 Update 8 나온거 이제 알았네~"
-date: 2006-08-10
+date: Thu Aug 10 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/08/놀고-있다가-j2se-150-update-8-나온거-이제-알았네
 lang: ko
+tags: ["java", "software-update", "programming"]
 ---
 
 놀고 있다가 J2SE 1.5.0 Update 8 나온거 이제 알았네~

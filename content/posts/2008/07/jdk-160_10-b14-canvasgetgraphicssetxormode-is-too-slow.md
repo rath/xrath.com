@@ -1,8 +1,9 @@
 ---
 title: "jdk 1.6.0_10 b14: Canvas.getGraphics().setXORMode is too slow"
-date: 2008-07-14
+date: Mon Jul 14 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/07/jdk-160_10-b14-canvasgetgraphicssetxormode-is-too-slow
 lang: ko
+tags: ["java", "graphics", "performance-issue"]
 ---
 
 야밤을 틈타 옛 생각에 물들어.. 한창 애플릿 클라이언트 만들던 2000-2001년 시절 백업해둔 시디를 뒤져보다가, [겨니](http://me2day.net/masterpc)와 열심히 만들던 가빠채팅 -_- 을 찾게 되었다.
@@ -132,4 +133,3 @@ java 쪽 살짝 개발할 일 있어서, jdk 1.6.0_10 받아서 봤는데, 문�
 근데 최신 그래픽 드라이버에 DirectX 9.0c 이상, Shader 2.0 이상의 VGA 요구 사항이 있는데, 이 정도면 Shader로 발라주면 될텐데... 아마 나중에는 고쳐서 나올 듯?
 
 ---
-

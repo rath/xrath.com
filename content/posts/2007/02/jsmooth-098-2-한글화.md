@@ -1,8 +1,9 @@
 ---
 title: "JSmooth 0.9.8-2 한글화"
-date: 2007-02-27
+date: Tue Feb 27 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/jsmooth-098-2-한글화
 lang: ko
+tags: ["programming", "java", "localization", "opensource"]
 ---
 
 Java 프로그램을 EXE로 만들어주는 오픈소스 프로그램인 [JSmooth](http://jsmooth.sourceforge.net) 0.9.8-2를 한글화했다.
@@ -51,4 +52,3 @@ NSIS(Nullsoft scriptable install system)과 JSmooth가 결합하면 좋은 배�
 (참 재미난 mo 서비스 없을까요~?)
 
 ---
-

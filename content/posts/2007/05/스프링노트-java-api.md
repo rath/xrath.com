@@ -1,8 +1,9 @@
 ---
 title: "스프링노트 Java API"
-date: 2007-05-05
+date: Sat May 05 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/05/스프링노트-java-api
 lang: ko
+tags: ["technology", "java", "api", "springnote"]
 ---
 
 개인 위키이자, 온라인 메모장으로 최근 선풍적(?)인 인기를 끌고 있는 스프링노트를 이용한 응용 어플리케이션을 만들기 위한 **스프링노트 Java API** 를 완성했습니다.
@@ -58,4 +59,3 @@ sn.**downloadAttachment**( at, new File("baseball-test.avi") ); // 파일 다운
 sn.**removeAttachment**( at ); // 파일 삭제
 sn.**removePage**(createdPage.getId());  // 페이지 삭제
 ```
-

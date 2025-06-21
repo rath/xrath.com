@@ -1,8 +1,9 @@
 ---
 title: "IDC 비용 압박을 해결하기 위해 저도 애드센스 달아볼까요"
-date: 2007-04-03
+date: Tue Apr 03 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/idc-비용-압박을-해결하기-위해-저도-애드센스-달아볼까
 lang: ko
+tags: ["server-management", "adsense", "technology"]
 ---
 
 xrath.com 이 위치해 있는 곳은 [케알라인 IDC](http://www.krline.net/' target=) 입니다.
@@ -151,4 +152,3 @@ pistos, 히히 화이팅입니다 ^_^/
 꾹 참고 2달정도 유지해보렵니다. ;)
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "Consumer JRE: Leaner, Meaner Java Technology"
-date: 2007-05-24
+date: Thu May 24 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/05/consumer-jre-leaner-meaner-java-technology
 lang: ko
+tags: ["technology", "java", "consumer-jre", "desktop-applications"]
 ---
 
 Desktop Java Application 이 RIA 가 될 수 있도록 [Chet Haase](http://weblogs.java.net/blog/chet/) 가 열심히 준비중인 
@@ -203,4 +204,3 @@ Consumer JRE가 빨리 나왔으면 좋겠습니다 ^_^
 SWT는 원활하게 돌아가는거에요? 리눅스에서 SWT 써본 기억이 별로 없어서 잘 모르겠네요 ㅎㅎ 된다면.. 정말 대부분의 장난감들 만들 플랫폼으로 SWT 옮겨타볼까도 싶네요 ;)
 
 ---
-

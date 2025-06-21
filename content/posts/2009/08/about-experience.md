@@ -1,8 +1,9 @@
 ---
 title: "구직을 시작하며 드는 생각: 경험이란 무엇일까"
-date: 2009-08-19
+date: Wed Aug 19 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/08/about-experience
 lang: ko
+tags: ["daily-life", "career", "job-search", "self-improvement"]
 ---
 
 런던에 와서 영어에 자신감을 가지기 위해 language swapping을 하며 조금씩 런던에 익숙해지고 있다. 그러던 며칠전 집을 렌트하고 어제는 IKEA에 가서 가구들을 지르기 시작했다. 집세도 6개월치 미리 냈는데.. 와이프 학비에 생활비에 하다보니 이제 잔고도 얼마 남지 않았고...
@@ -71,4 +72,3 @@ lang: ko
 제가 많은 일을 했다니.. 믿을 수 없어요! ;;
 
 ---
-

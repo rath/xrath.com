@@ -1,8 +1,9 @@
 ---
 title: "Adobe AIR 컴포넌트 mx:HTML은 요청을 어떻게 보내나"
-date: 2008-09-17
+date: Wed Sep 17 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/09/adobe-air-컴포넌트-mxhtml은-요청을-어떻게-보내나
 lang: ko
+tags: ["adobe-air", "oauth", "actionsript-3", "web-development"]
 ---
 
 며칠전 [오픈아이디 귓속말](http://whisper.playmaru.net/) [OAuth](http://en.wikipedia.org/wiki/OAuth)에 대한 문의가 들어왔다. 
@@ -74,4 +75,3 @@ AIR에서는 뭔가 틀리게 날리는군요 ㅠ
 AIR의 app:/ 레퍼러를 받아주지 않는건가요? 흐음..
 
 ---
-

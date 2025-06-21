@@ -1,8 +1,9 @@
 ---
 title: "스프링노트 메신저 봇, MSN 신규 계정 추가"
-date: 2008-09-01
+date: Mon Sep 01 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/09/스프링노트-메신저-봇-msn-신규-계정-추가
 lang: ko
+tags: ["msn-messenger", "springnote", "messaging-bots", "technology"]
 ---
 
 [메신저에서 스프링노트에 글을 쓰는 MSN 봇](http://rath.springnote.com/pages/18623?read=1)이 한동안 잘 동작하지 않았을 겁니다.

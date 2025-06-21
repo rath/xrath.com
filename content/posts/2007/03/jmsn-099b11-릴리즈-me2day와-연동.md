@@ -1,8 +1,9 @@
 ---
 title: "JMSN 0.9.9b11 릴리즈 - me2day와 연동"
-date: 2007-03-15
+date: Thu Mar 15 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/jmsn-099b11-릴리즈-me2day와-연동
 lang: ko
+tags: ["technology", "software-integration", "openid"]
 ---
 
 아직 클로즈 베타인 [미투데이](http://me2day.net)와 5년째 잘 돌아가고 있는(중간에 한 2년 쉬긴 했어요) JMSN을 연동했습니다.
@@ -129,4 +130,3 @@ $JAVA_HOME/jre/lib/fontconfig.properties 파일에 한글 설정을 해주셔야
 고맙습니다. 자세히 설명해주셔서... 해보고 있는데 아직 성공을 못했네요^^;;; $JAVA_HOME(/usr/lib/jvm)설정하고 fontconfig.properties파일에서 font디렉토리를 재설정(또는 성공한 config 파일 down)하고 재부팅등 여러가지 해봤는데 잘 안되서 고민중입니다. 다시 열심히 시도해봐야겠네요.
 
 ---
-

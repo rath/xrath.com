@@ -1,8 +1,9 @@
 ---
 title: "Physiology of the Stress Response"
-date: 2006-10-09
+date: Mon Oct 09 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/10/physiology-of-the-stress-response
 lang: ko
+tags: ["health", "stress", "physiology"]
 ---
 
 no order
@@ -40,4 +41,3 @@ no order
 중학교 1년때 학교에서 친구들과 사전들고.. 그 부류(7)의 단어들을 모조리 찾아봤었지요 호호;
 
 ---
-

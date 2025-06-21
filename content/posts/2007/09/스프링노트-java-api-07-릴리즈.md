@@ -1,8 +1,9 @@
 ---
 title: "스프링노트 Java API 0.7 릴리즈"
-date: 2007-09-05
+date: Wed Sep 05 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/09/스프링노트-java-api-07-릴리즈
 lang: ko
+tags: ["java", "api", "springnote", "software-development"]
 ---
 
 [스프링노트 API for Java](http://code.google.com/p/springnote-api/) 를 0.7로 릴리즈 하였습니다.
@@ -78,4 +79,3 @@ rath님 Springnote Java API잘 쓰고 있습니다. 사용 중 에러가 발생�
 javax.net.ssl.SSLException: Unsupported record version Unknown-84.84
 
 ---
-

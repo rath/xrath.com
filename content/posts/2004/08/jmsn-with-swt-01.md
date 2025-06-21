@@ -1,8 +1,9 @@
 ---
 title: "JMSN with SWT 0.1"
-date: 2004-08-01
+date: Sun Aug 01 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/08/jmsn-with-swt-01
 lang: ko
+tags: ["jmsn", "swt", "java", "desktop-application"]
 ---
 
 [SWT](http://www.eclipse.org/swt/) 라이브러리를 사용하는 JMSN 버젼을 개발중입니다. 초기 버젼이라 기능도 매우 미약한데다가 Win32 용으로만 패키징 된 상태입니다.
@@ -80,4 +81,3 @@ Caused by: java.lang.ClassNotFoundException: rath.msnm.Debug not found in [file:
    ...7 more
 ```
 ---
-

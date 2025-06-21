@@ -1,8 +1,9 @@
 ---
 title: "멀티태스킹이 어떻게 당신을 위험에 빠트리는가"
-date: 2009-11-12
+date: Thu Nov 12 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/11/how-multitasking-can-defeat-you
 lang: ko
+tags: ["productivity", "multitasking", "psychology", "daily-life"]
 ---
 
 나는 멀티 태스킹을 좋아한다. 왜 좋아하는지는 명확히 기술하기는 어렵다.
@@ -56,4 +57,3 @@ lang: ko
 글 잘읽었어요~
 
 ---
-

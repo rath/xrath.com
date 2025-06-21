@@ -1,8 +1,9 @@
 ---
 title: "클라이언트 인증서로 로그인 하려면"
-date: 2012-01-27
+date: Fri Jan 27 2012 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2012/01/signing-in-with-client-certificate
 lang: ko
+tags: ["web-development", "client-certificate", "openssl", "authentication"]
 ---
 
 [앞 글](/2012/01/issues-on-authenticating-client-certificate/)에서 클라이언트 인증서 이야기를 꺼낸김에 [OpenSSL](http://openssl.org/)을 이용해 환경구축하는 방법을 간략히 설명한다.
@@ -166,4 +167,3 @@ request.headers['X-SSL-Subject']에 클라이언트 인증서의 DN이 담겨온
 아니요. 이 포스트는 클라이언트 인증서에 대한 이야기입니다. 클라이언트 인증서를 verify하는 서버측 인증서는 야매 인증서여도 무관하지만, 서버 인증서는 당연히 구매하셔야 합니다.
 
 ---
-

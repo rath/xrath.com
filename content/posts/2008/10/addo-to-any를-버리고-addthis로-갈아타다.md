@@ -1,8 +1,9 @@
 ---
 title: "Addo To Any를 버리고 AddThis로 갈아타다"
-date: 2008-10-19
+date: Sun Oct 19 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/addo-to-any를-버리고-addthis로-갈아타다
 lang: ko
+tags: ["social-media", "addthis", "blogging", "web-tools"]
 ---
 
 [블로그에 Add To Any 버튼](/2008/10/블로그에-add-to-any-버튼을-달다)을 단지 며칠만에.. 소셜 북마킹 버튼을 [AddThis](http://www.addthis.com/)로 바꿨습니다.
@@ -44,4 +45,3 @@ lang: ko
 AddThis 쓰는 곳이 많네요. readwriteweb도 쓰고..
 
 ---
-

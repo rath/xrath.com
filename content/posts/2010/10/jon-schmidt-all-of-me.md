@@ -1,8 +1,9 @@
 ---
 title: "Jon Schmidt - All Of Me"
-date: 2010-10-11
+date: Mon Oct 11 2010 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2010/10/jon-schmidt-all-of-me
 lang: ko
+tags: ["music", "piano", "entertainment"]
 ---
 
 백년만에 피아노 연주 포스팅.
@@ -52,4 +53,3 @@ Jon Schmidt 씨의 곡 All Of Me 입니다.
 john schmidt아저씨 내한공연 하는 날이 오면 거기 서 뵈요;;(한 번만 와줘..ㅜㅜ)
 
 ---
-

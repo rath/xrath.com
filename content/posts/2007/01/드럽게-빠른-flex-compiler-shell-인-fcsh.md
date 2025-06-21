@@ -1,8 +1,9 @@
 ---
 title: "드럽게 빠른 Flex Compiler Shell 인 fcsh"
-date: 2007-01-01
+date: Mon Jan 01 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/드럽게-빠른-flex-compiler-shell-인-fcsh
 lang: ko
+tags: ["technology", "flex", "compiler", "command-line"]
 ---
 
 정웅이와 Flex 수다를 떨다가 [labs.adobe.com](http://labs.adobe.com) 에 갔다가 [CLI](http://en.wikipedia.org/wiki/Command-line_interface) 매니아 눈에게 바로 들어온.

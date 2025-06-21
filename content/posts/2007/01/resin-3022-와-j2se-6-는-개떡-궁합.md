@@ -1,8 +1,9 @@
 ---
 title: "Resin 3.0.22 와 J2SE 6 는 개떡 궁합?"
-date: 2007-01-19
+date: Fri Jan 19 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/resin-3022-와-j2se-6-는-개떡-궁합
 lang: ko
+tags: ["technology", "java", "resin", "bug"]
 ---
 
 1시간 전 J2SE 6으로 올리면서 이것저것 주르륵 업데이트 하고 다 잘 돌아가는지 이것저것 눌러보았고 왠만큼 다 돌아가는 것처럼 보였다.
@@ -116,4 +117,3 @@ throw new UnsupportedOperationException();
 엉 콜이야 ㅋㅋ 새 회사 출근날짜가 2월 5일로 잡혀서 그 전에는 아주 널럴함!
 
 ---
-

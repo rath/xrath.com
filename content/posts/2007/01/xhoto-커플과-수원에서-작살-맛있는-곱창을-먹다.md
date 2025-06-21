@@ -1,8 +1,9 @@
 ---
 title: "xhoto 커플과 수원에서 작살 맛있는 곱창을 먹다"
-date: 2007-01-02
+date: Tue Jan 02 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/xhoto-커플과-수원에서-작살-맛있는-곱창을-먹다
 lang: ko
+tags: ["daily-life", "food", "travel", "personal-experience"]
 ---
 
 연중행사 빈도로 만나 식사를 함께 하는 [xhoto 군](http://xhoto.com)  

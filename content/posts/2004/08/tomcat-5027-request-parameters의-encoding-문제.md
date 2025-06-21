@@ -1,8 +1,9 @@
 ---
 title: "Tomcat 5.0.27 Request Parameters의 Encoding 문제"
-date: 2004-08-01
+date: Sun Aug 01 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/08/tomcat-5027-request-parameters의-encoding-문제
 lang: ko
+tags: ["tomcat", "java", "web-development", "encoding"]
 ---
 
 GET/POST 로 일반적인 form-data를 넘겼을 때, 한글 파라미터가 작살나는 일이 있습니다.

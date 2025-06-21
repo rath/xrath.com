@@ -1,8 +1,9 @@
 ---
 title: "네이트온 클론 JaTeOn 개발자 등록"
-date: 2007-02-11
+date: Sun Feb 11 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/네이트온-클론-jateon-개발자-등록
 lang: ko
+tags: ["jateon", "java", "opensource", "instant-messaging"]
 ---
 
 자바로 만든 네이트온 클론인 [JaTeOn 개발자 kfmes님](http://blog.kfmes.com/)과 대화하다가 
@@ -37,4 +38,3 @@ SKT 님의 딴지로 이렇게 되어있지만 앞으로 어떻게 정책이 바
 김장구리 진짜! ㅋㅋ 얼굴보기 진짜 힘드네. 아직 그 회사 잘있는겨?
 
 ---
-

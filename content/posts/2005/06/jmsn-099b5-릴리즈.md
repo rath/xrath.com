@@ -1,8 +1,9 @@
 ---
 title: "JMSN 0.9.9b5 릴리즈"
-date: 2005-06-21
+date: Tue Jun 21 2005 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2005/06/jmsn-099b5-릴리즈
 lang: ko
+tags: ["java", "instant-messaging", "msn", "library-release"]
 ---
 
 그저 릴리즈 했다.
@@ -34,4 +35,3 @@ jmsn 개발하지 않는다니 아쉽네요ㅠㅠ
 지금으로서도 그냥 쓰는데는 충분하죠.. MSN이 메신저 본연의 기능을 너무 오버해서 개발하고 있는게 문제지...;;;
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "냉정과 열정사이 OST - For Sure"
-date: 2006-11-25
+date: Sat Nov 25 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/11/냉정과-열정사이-ost-for-sure
 lang: ko
+tags: ["music", "personal-experience", "classical-music"]
 ---
 
 냉정과 열정사이 OST 10번 트랙 For Sure 입니다.
@@ -26,4 +27,3 @@ lang: ko
 아 어렵다 -_-
 
 ---
-

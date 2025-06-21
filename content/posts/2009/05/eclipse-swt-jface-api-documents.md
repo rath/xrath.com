@@ -1,8 +1,9 @@
 ---
 title: "Eclipse SWT & JFace API 문서 합본"
-date: 2009-05-12
+date: Tue May 12 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/05/eclipse-swt-jface-api-documents
 lang: ko
+tags: ["technology", "java", "swt", "jface"]
 ---
 
 몇해전 어느날, [jmsn-swt](http://jmsn.cvs.sourceforge.net/viewvc/jmsn/jmsn-swt/)를 만진 이후로 나로부터 버림받은 SWT.. 
@@ -97,4 +98,3 @@ vim build.xml, ... <javadoc ... excludepackagenames="org.eclipse.swt.internal.*"
 헤헤; 덕분에 SWT and JFace 책 재미나게 보고 있습니다. 무엇보다 osx에서 실행속도가 너무 맘에 드네요!
 
 ---
-

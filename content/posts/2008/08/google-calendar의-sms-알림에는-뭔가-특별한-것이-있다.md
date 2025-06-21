@@ -1,8 +1,9 @@
 ---
 title: "Google Calendar의 SMS 알림에는 뭔가 특별한 것이 있다."
-date: 2008-08-08
+date: Fri Aug 08 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/08/google-calendar의-sms-알림에는-뭔가-특별한-것이-있다
 lang: ko
+tags: ["google-calendar", "sms-notification", "pims", "api"]
 ---
 
 이제 [구글 캘린더 일정 알림에 sms가 추가](http://googlekoreablog.blogspot.com/2008/08/google.html)됐습니다.
@@ -50,4 +51,3 @@ Remember The Milk는 세계 각국의 SMS를 지원하지만 안타깝게도 한
 - 이 글을 본 소타군은 SMS 알림을 80바이트로 쪼개기 시작합니다. -
 
 ---
-

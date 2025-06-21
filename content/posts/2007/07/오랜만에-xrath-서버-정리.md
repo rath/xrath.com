@@ -1,8 +1,9 @@
 ---
 title: "오랜만에 xrath 서버 정리"
-date: 2007-07-05
+date: Thu Jul 05 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/07/오랜만에-xrath-서버-정리
 lang: ko
+tags: ["server-maintenance", "java", "apache", "software-updates"]
 ---
 
 오랜만에 xrath.com 서버 백업하러 들어갔다가 
@@ -32,4 +33,3 @@ xrath 호스팅 비용은 Javacity 커피 몇잔이면 되나요? ㅋㅋ
 100잔 ㅋㅋㅋ
 
 ---
-

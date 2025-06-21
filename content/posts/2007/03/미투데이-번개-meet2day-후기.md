@@ -1,8 +1,9 @@
 ---
 title: "미투데이 번개 (Meet2Day) 후기"
-date: 2007-03-03
+date: Sat Mar 03 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/미투데이-번개-meet2day-후기
 lang: ko
+tags: ["meetup", "social-life", "community", "daily-life"]
 ---
 
 지난 3월 9일 [jumagun님](http://me2day.net/jumagun)의 초대로 미투데이에 입성한 이 후

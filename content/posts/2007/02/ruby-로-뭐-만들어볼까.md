@@ -1,8 +1,9 @@
 ---
 title: "Ruby 로 뭐 만들어볼까"
-date: 2007-02-11
+date: Sun Feb 11 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/ruby-로-뭐-만들어볼까
 lang: ko
+tags: ["programming", "ruby", "learning", "project"]
 ---
 
 Ruby 학습용 프로젝트를 하려한다.
@@ -91,4 +92,3 @@ Exclude web
 이야~ 주소는 irc에서 +_+
 
 ---
-

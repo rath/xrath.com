@@ -1,8 +1,9 @@
 ---
 title: "JavaWear 상품들 드디어 도착!"
-date: 2004-11-30
+date: Tue Nov 30 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/12/javawear-상품들-드디어-도착
 lang: ko
+tags: ["java", "merchandise", "personal-experience"]
 ---
 
 [Java Wear](https://www.costore.com/javawear/welcome.asp) 에서 구입한 물건이 드디어 도착했습니다 +_+

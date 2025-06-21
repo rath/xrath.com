@@ -1,8 +1,9 @@
 ---
 title: "An Overview of CloudFoundry"
-date: 2012-06-11
+date: Mon Jun 11 2012 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2012/06/an-overview-of-cloudfoundry
 lang: ko
+tags: ["cloudfoundry", "paas", "cloud-computing", "devops"]
 ---
 
 몇달전부터 [CloudFoundry.org](http://cloudfoundry.org/)를 애용하고 있다.
@@ -46,4 +47,3 @@ CloudFoundry는 시스템엔지니어와 말 한마디도 섞지 않으면서 �
 특히 our-rooms.cloudfoundry.com 얘기는 저도 요새 고민하던 것이라 가슴에 와 닿네요. ^^
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "Wii로 즐기는 말랑말랑 두뇌 트레이닝"
-date: 2008-10-07
+date: Tue Oct 07 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/wii로-즐기는-말랑말랑-두뇌-트레이닝
 lang: ko
+tags: ["nintendo-wii", "brain-training", "gaming", "personal-experience"]
 ---
 
 &#13;
@@ -181,4 +182,3 @@ Wii 구매 및 말랑말랑 두뇌 트레이닝 구매 현장이 중계된 [미�
 구입하고 싶은 겜기 wii
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "가이드라인에 대한 단상"
-date: 2009-04-06
+date: Mon Apr 06 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/04/quick-consideration-for-guidelines
 lang: ko
+tags: ["thoughts", "self-improvement", "reflections"]
 ---
 
 가이드라인이란 무엇인가.
@@ -35,4 +36,3 @@ lang: ko
 백번 옳은 말씀입니다 흐아!!
 
 ---
-

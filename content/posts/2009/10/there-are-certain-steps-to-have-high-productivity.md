@@ -1,8 +1,9 @@
 ---
 title: "궁극적으로 높은 생산성을 위한"
-date: 2009-10-22
+date: Thu Oct 22 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/10/there-are-certain-steps-to-have-high-productivity
 lang: ko
+tags: ["productivity", "flow", "self-improvement", "mindset"]
 ---
 
 시중에는 높은 생산성을 갖추기 위한 훌륭한 품질의 책들이 많이 나와있다.
@@ -38,4 +39,3 @@ Mark Forster 할아버지의 [Do It Tomorrow](http://www.amazon.com/Tomorrow-Oth
 저 또한 감사합니다. ^^
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "http-replay-bench 첫 릴리즈"
-date: 2010-01-09
+date: Sat Jan 09 2010 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2010/01/http-replay-bench-was-released
 lang: ko
+tags: ["software-testing", "benchmarking", "open-source", "programming-tools"]
 ---
 
 4주전에 포스트했던 [테스트와 벤치마크 도구를 통해 용자 되기](/2009/12/be-a-brave-programmer-with-test-and-benchmark/)에서 소개드렸던 [http-replay-bench](http://github.com/rath/http-replay-bench/)의 초안을 완성했습니다.
@@ -147,4 +148,3 @@ jmeter는 테스트할 때 배치로 돌리기가 번거로웠는데.... 이 녀
 이런.. 용자 같으니라고.
 
 ---
-

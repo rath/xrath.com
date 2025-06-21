@@ -1,8 +1,9 @@
 ---
 title: "의사소통을 방해하는 겸손"
-date: 2009-10-06
+date: Tue Oct 06 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/10/how-extreme-humble-attitude-disrupt-communications
 lang: ko
+tags: ["communication", "humility", "social-behavior", "self-improvement"]
 ---
 
 의도된 겸손은 소통을 방해한다. 물론, 겸손은 나쁜 말이 아니다. 대한민국에서는 더욱 그렇다. 겸손하지 않은 자는 누가 마음먹고 선동하지 않아도 자연스럽게 배척된다.
@@ -45,4 +46,3 @@ lang: ko
 응원 감사하고요, 기대를 져버리지 않도록 열심히 살겠습니다.
 
 ---
-

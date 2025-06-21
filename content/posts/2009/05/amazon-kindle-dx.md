@@ -1,8 +1,9 @@
 ---
 title: "Amazon Kindle DX"
-date: 2009-05-06
+date: Wed May 06 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/05/amazon-kindle-dx
 lang: ko
+tags: ["technology", "kindle", "ebook", "gadgets"]
 ---
 
 이런 저런 경로로 4월초에 [Amazon Kindle 2](http://www.amazon.com/Kindle-Amazons-Wireless-Reading-Generation/dp/B00154JDAI/)를 질렀고 2주째 사용중이다. 
@@ -112,4 +113,3 @@ Kindle 덕에 다독하게 되어 얻는 잠재적 가치를 생각해보면 엄
 가볍고 부담없는.. Kindle 2 구매를 강력히 추천해드립니다. :$
 
 ---
-

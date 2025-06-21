@@ -1,8 +1,9 @@
 ---
 title: "Wii Sports 플레이 영상"
-date: 2007-01-24
+date: Wed Jan 24 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/wii-sports-플레이-영상
 lang: ko
+tags: ["daily-life", "gaming", "wii", "video"]
 ---
 
 월요일에 도착한 Wii를 가지고 열심히 놀고 있다. 
@@ -110,4 +111,3 @@ Wii 안의 Mii 군요.
 (3번째 동영상 Mii 표정으로) :|
 
 ---
-

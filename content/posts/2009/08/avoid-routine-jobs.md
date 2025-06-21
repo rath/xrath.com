@@ -1,8 +1,9 @@
 ---
 title: "잘할 수 있는 것만 계속 하면"
-date: 2009-08-17
+date: Mon Aug 17 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/08/avoid-routine-jobs
 lang: ko
+tags: ["self-improvement", "thoughts", "work-habits"]
 ---
 
 잘할 수 있는 일만 계속 하면 어떻게 될까?
@@ -26,4 +27,3 @@ lang: ko
 그런 의미에서 저도 우분투를...ㅋㅋ
 
 ---
-

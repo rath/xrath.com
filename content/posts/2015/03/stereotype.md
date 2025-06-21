@@ -1,8 +1,9 @@
 ---
 title: "Stereotype"
-date: 2015-03-16
+date: Mon Mar 16 2015 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2015/03/stereotype
 lang: ko
+tags: ["stereotype", "psychology", "social-behavior", "self-awareness"]
 ---
 
 사람들이 내게 할당한 수많은 고정관념들이 있다. 그 종류도 다양하고 별의별 말도 안되는 것들이 수두룩한데, 가만히 보고 있으면 내 이야기인데도 전혀 기분나쁘지 않고 재미있고 흥미진진할 때가 참 많다. 그래서 어떠한 오해가 생기더라도 풀려는 노력을 하지 않고 강건너 불구경하는 습관이 있다. 게다가 나 자신에게 중요한 사람이란 항상 손에 꼽을 정도로 매우 적다. 그 사람들이 내게 오해를 품는다면 무슨 수를 쓰더라도 오해를 풀어놔야겠지만, 이외의 사람들쯤이야 나를 어떻게보든 별로 중요하지 않다.

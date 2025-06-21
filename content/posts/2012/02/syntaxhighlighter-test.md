@@ -1,8 +1,9 @@
 ---
 title: "SyntaxHighlighter 테스트"
-date: 2012-02-15
+date: Wed Feb 15 2012 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2012/02/syntaxhighlighter-test
 lang: ko
+tags: ["programming", "syntax-highlighting", "tools"]
 ---
 
 무슨 깡으로 블로그에 [SyntaxHighlighter](https://github.com/alexgorbatchev/SyntaxHighlighter) 테스트를 하는지 모르겠으나, ANSI 컬러로 SQL colorize하는 소스코드를 붙여본다.
@@ -121,4 +122,3 @@ Java에서는 120컬럼 정도가 어떠할지.
 오... 뭔가 예쁘네요 ㅎㅎ
 
 ---
-

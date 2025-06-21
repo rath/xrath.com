@@ -1,8 +1,9 @@
 ---
 title: "대인관계 시리즈 :: 사람과 사람간의 Context"
-date: 2007-10-10
+date: Wed Oct 10 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/10/대인관계-시리즈-사람과-사람간의-context
 lang: ko
+tags: ["interpersonal-relationships", "context", "social-dynamics"]
 ---
 
 일을 하거나 생각을 함에 있어, 원래의 목적을 상실한 채 Context 를 유지하려는 것에 대해 몇가지 글들을 작성하다보니, 인간관계에서도 Context를 유지하려하는 내 자신이 떠올랐다. 
@@ -113,4 +114,3 @@ lang: ko
 어퍼컷은 피했다 -_-
 
 ---
-

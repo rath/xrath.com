@@ -1,8 +1,9 @@
 ---
 title: "성격파탄자 - Me2Day 편"
-date: 2007-04-01
+date: Sun Apr 01 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/성격파탄자-me2day-편
 lang: ko
+tags: ["me2day", "social-media", "humor"]
 ---
 
 지난 밤, [스프링노트 봇](http://rath.springnote.com/pages/18623) 개편도 미루고 즐겁게 시작한 미투데이질.
@@ -68,4 +69,3 @@ p.s.: 모든 KoRn 팬 여러분! [jumagun님을 테러](http://me2day.net/jumagu
 테러를 가장한 주마군님 미투데이 홍보 글이였습니다. (-_-)
 
 ---
-

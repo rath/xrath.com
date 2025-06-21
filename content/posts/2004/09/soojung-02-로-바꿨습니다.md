@@ -1,8 +1,9 @@
 ---
 title: "soojung 0.2 로 바꿨습니다"
-date: 2004-09-15
+date: Wed Sep 15 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/09/soojung-02-로-바꿨습니다
 lang: ko
+tags: ["soojung", "blog-software", "open-source"]
 ---
 
 kldp.net 의 프로젝트이며 ddt, Mithland님이 개발하신 

@@ -1,8 +1,9 @@
 ---
 title: "IRC 클라이언트 - SK-VM 1.2.0"
-date: 2004-08-13
+date: Fri Aug 13 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/08/irc-클라이언트-sk-vm-120
 lang: ko
+tags: ["irc-client", "sk-telecom", "bug-fix", "mobile-software"]
 ---
 
 SK 텔레콤 사용자들은 다음 URL 에서 다운로드 할 수 있습니다 :http://xrath.com/irc
@@ -98,4 +99,3 @@ SK 텔레콤 사용자들은 다음 URL 에서 다운로드 할 수 있습니다
 검색따라오다보니 여기네요...좋은 곳이로군요.
 
 ---
-

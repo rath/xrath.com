@@ -1,8 +1,9 @@
 ---
 title: "회사에서 msn 메신저가 안된다."
-date: 2006-08-09
+date: Wed Aug 09 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/08/회사에서-msn-메신저가-안된다
 lang: ko
+tags: ["msn-messenger", "work-life", "technology", "productivity"]
 ---
 
 이상하게 회사에서 msn 메신저가 잘 안된다.
@@ -148,4 +149,3 @@ NS에만 있고 대답안하는.. 오해를 살 수 있으니 아예 msn 을 종
 아히히힉~
 
 ---
-

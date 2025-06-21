@@ -1,8 +1,9 @@
 ---
 title: "JDK 5.0 Update 9"
-date: 2006-10-06
+date: Fri Oct 06 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/10/jdk-50-update-9
 lang: ko
+tags: ["technology", "java"]
 ---
 
 JDK 5.0 Update 9 release

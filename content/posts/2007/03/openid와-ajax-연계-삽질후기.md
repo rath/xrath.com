@@ -1,8 +1,9 @@
 ---
 title: "OpenID와 AJAX 연계 삽질후기"
-date: 2007-03-12
+date: Mon Mar 12 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/openid와-ajax-연계-삽질후기
 lang: ko
+tags: ["technology", "openid", "ajax"]
 ---
 
 삽질록이니 경어를 자제하겠습니다.
@@ -88,4 +89,3 @@ iframe으로 할 수 있으면 ajax에서도 다 할 수 있으니.. ㅎㅎ
 ㅎㅎ rath.naver.com 이런 OpenID 가지고 싶어용 -ㅇ-
 
 ---
-

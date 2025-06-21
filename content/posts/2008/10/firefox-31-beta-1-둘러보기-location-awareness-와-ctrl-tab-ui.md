@@ -1,8 +1,9 @@
 ---
 title: "Firefox 3.1 beta 1 둘러보기, Location awareness 와 Ctrl-Tab UI"
-date: 2008-10-15
+date: Wed Oct 15 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/firefox-31-beta-1-둘러보기-location-awareness-와-ctrl-tab-ui
 lang: ko
+tags: ["firefox", "javascript", "web-browser", "technology"]
 ---
 
 [iPAQ hx4700 덕](/2006/04/ipaq-hx4700)분에 잘 읽지 못하고 휙휙 넘겼던 RSS feed 들을 많이 읽다보니 자연스레 관심사가 바뀌어 [이 글](http://lifehacker.com/5063202/firefox-31-beta-1-now-available-for-download-first-look)을 보고 나도 파폭 3.1 베타 써보자.. 하고 요리조리 둘러본 후기를 남겨봅니다. 다운로드는 [여기](http://www.mozilla.com/en-US/firefox/all-beta.html)서 할 수 있습니다.&#13;
@@ -167,4 +168,3 @@ Addon 호환 문제[#](#toc_4)&#13;
 스프링노트 댓글 API 열어달라고 해야겠어요 :$
 
 ---
-

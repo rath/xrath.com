@@ -1,8 +1,9 @@
 ---
 title: "스프링노트 댓글 API 활용"
-date: 2008-10-20
+date: Mon Oct 20 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/스프링노트-댓글-api-활용
 lang: ko
+tags: ["springnote", "comments-api", "blogging-tools", "web-development"]
 ---
 
 지난달 개편된 [스프링노트](http://www.springnote.com/)에는 읽기모드, 대쉬보드, 페이지 댓글 등의 기능들이 있다.
@@ -101,4 +102,3 @@ deepblue// 그러게 ㅠㅠ metaWeblog 같은 API엔 왜 comment api가 없는�
 정원희// 몇년 묵은 초 구세대 블로그긴 하지만 사제 블로그라.. 설치형이나 다른 곳으로 갈아타지 않고 있습니다. ㅎㅎ 새 NC 사옥 최고에요! 아아 회사가 좋아지면 힘들어지는데 -_- 말입니다;
 
 ---
-

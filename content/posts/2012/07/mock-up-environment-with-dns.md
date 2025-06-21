@@ -1,8 +1,9 @@
 ---
 title: "Mock up 환경에 DNS 도 꾸겨 넣기"
-date: 2012-07-13
+date: Fri Jul 13 2012 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2012/07/mock-up-environment-with-dns
 lang: ko
+tags: ["dns", "mock-environment", "java", "networking"]
 ---
 
 **동기**
@@ -100,4 +101,3 @@ Lookup.setDefaultResolver(new ExtendedResolver(new String[]{"8.8.8.8", "168.126.
 이 글 덕분에, 처음으로 직접 바로 바로 고칠 수 있는 DNS를 써 보았네요. Android에서 웹을 만들고 있는데 제 컴퓨터로 접속하기 위해서 dns만 올려주신 것 처럼 띄우고 잘 쓰고 있습니다. 감사합니다~
 
 ---
-

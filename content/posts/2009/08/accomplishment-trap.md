@@ -1,8 +1,9 @@
 ---
 title: "많은 성취는 환상이다."
-date: 2009-08-10
+date: Mon Aug 10 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/08/accomplishment-trap
 lang: ko
+tags: ["thoughts", "productivity", "self-improvement", "reflections"]
 ---
 
 성취(accomplishment)에 눈먼 사람들이 있다. 아, 물론 내 얘기다.
@@ -50,4 +51,3 @@ Release It! 서문에서도 나오는 내용인데, 모든 feature set을 다 �
 그나저나 언어 장벽이 제일 크지요... 흐흐;;
 
 ---
-

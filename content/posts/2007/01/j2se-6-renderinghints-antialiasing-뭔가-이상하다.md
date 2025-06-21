@@ -1,8 +1,9 @@
 ---
 title: "J2SE 6 RenderingHints antialiasing 뭔가 이상하다"
-date: 2007-01-19
+date: Fri Jan 19 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/j2se-6-renderinghints-antialiasing-뭔가-이상하다
 lang: ko
+tags: ["technology", "java", "rendering", "bug"]
 ---
 
 xrath.com 서버에 너무 무관심 했었어서 간만에 쭈우욱 버전 업을 해줬다.

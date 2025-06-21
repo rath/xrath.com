@@ -1,8 +1,9 @@
 ---
 title: "cat"
-date: 2008-09-10
+date: Wed Sep 10 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/09/cat
 lang: ko
+tags: ["pets", "cats", "daily-life", "personal-experience"]
 ---
 
 오늘부터 합숙하게된 엘레강스한 망초를 소개합니다.
@@ -58,4 +59,3 @@ lang: ko
 탁묘해서 4개월간 우리집에 있을꺼야. 놀러와! ㅎㅎ
 
 ---
-

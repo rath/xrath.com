@@ -1,8 +1,9 @@
 ---
 title: "IKEA에서 가구 질렀습니다."
-date: 2009-08-19
+date: Wed Aug 19 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/08/ikea에서-가구-질렀습니다
 lang: ko
+tags: ["daily-life", "shopping", "furniture", "ikea"]
 ---
 
 ![IKEA, UK](http://farm3.static.flickr.com/2550/3830344080_e77a446499.jpg)
@@ -184,4 +185,3 @@ Oh, already, have you master that in alien level S. so did I. I think it's also 
 Let's keep going anyway
 
 ---
-

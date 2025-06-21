@@ -1,8 +1,9 @@
 ---
 title: "Context 크기 줄이기"
-date: 2010-01-28
+date: Thu Jan 28 2010 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2010/01/reduce-size-of-context-you-have
 lang: ko
+tags: ["productivity", "context-switching", "work-efficiency", "self-improvement"]
 ---
 
 당연하게도, 유지해야할 문맥의 크기가 작으면 작을수록 우리는 더욱 유연해질 수 있다.
@@ -67,4 +68,3 @@ lang: ko
 그런 경우에는 maskable interrupt라는 개념을 써보라고 하더군.
 
 ---
-

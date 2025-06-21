@@ -1,8 +1,9 @@
 ---
 title: "Facebook 적극 사용중"
-date: 2008-08-19
+date: Tue Aug 19 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/08/facebook-적극-사용중
 lang: ko
+tags: ["facebook", "social-network", "application-development", "mobile"]
 ---
 
 짧게 쓰고 짧은 사진과 글들을 친구들과 나누는 [미투데이](http://me2day.net/)와는 또다른 재미를 주는 [Facebook](http://www.facebook.com)을 아시나요.
@@ -101,4 +102,3 @@ XP님 오랜만이에요~ 요새도 irc 하세요? 오랜만에 들어가볼까.
 요즘에 컴을 잘 못하는 상황이라.. 폰클라이언트가 매우 아쉬워용.. 흐흐
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "자연스러운 업무 리듬과 흐름을 찾기"
-date: 2009-02-22
+date: Sun Feb 22 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/02/finding-the-natural-rhythms-and-flows-of-working
 lang: ko
+tags: ["remote-work", "work-life-balance", "freelancing"]
 ---
 
 [http://zenhabits.net/2009/02/finding-the-natural-rhythms-and-flows-of-working/](http://zenhabits.net/2009/02/finding-the-natural-rhythms-and-flows-of-working/)
@@ -121,6 +122,4 @@ lang: ko
 
  
 
-가장 좋은 방법은 없다. 나 같은 경우, 가장 좋은 방법은 규칙적으로 바뀐다. 그리고 이것은 좋은 현상이다. - 이것은 일을 함에 있어 더 자연스러운 방법이며, 수년내로 더욱더 많은 사람들이 그들의 자연스러운 업무 리듬을 찾기 시작할 때가 올 것이라고 믿고 있다. 
-
-
+가장 좋은 방법은 없다. 나 같은 경우, 가장 좋은 방법은 규칙적으로 바뀐다. 그리고 이것은 좋은 현상이다. - 이것은 일을 함에 있어 더 자연스러운 방법이며, 수년내로 더욱더 많은 사람들이 그들의 자연스러운 업무 리듬을 찾기 시작할 때가 올 것이라고 믿고 있다.

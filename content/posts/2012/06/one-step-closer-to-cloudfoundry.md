@@ -1,8 +1,9 @@
 ---
 title: "CloudFoundry 구조 살펴보기 시작"
-date: 2012-06-19
+date: Tue Jun 19 2012 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2012/06/one-step-closer-to-cloudfoundry
 lang: ko
+tags: ["cloudfoundry", "architecture", "web-development", "devops"]
 ---
 
 지난번 [CloudFoundry 소개글](/2012/06/an-overview-of-cloudfoundry/)에 이어 이번에는 CloudFoundry 구조를 살펴본다.
@@ -62,4 +63,3 @@ Router 에 관련하여 하나 더. 초반에 말했듯이 CloudFoundry Router �
 설명 깔끔하네요. :)
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "대인관계를 Context 측면에서 해석해본다"
-date: 2007-10-10
+date: Wed Oct 10 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/10/대인관계를-context-측면에서-해석해본다
 lang: ko
+tags: ["interpersonal-relationships", "social-context", "culture"]
 ---
 
 외부 인터럽트에 의한 새로운 Context 유입을 극도로 싫어하지만, 이런 사람은 골방에 쳐박혀 살아야 한다.

@@ -1,8 +1,9 @@
 ---
 title: "두려움 없는 삶 Fear less for life"
-date: 2006-07-17
+date: Mon Jul 17 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/07/두려움-없는-삶-fear-less-for-life
 lang: ko
+tags: ["self-improvement", "personal-thoughts", "music", "fear"]
 ---
 
 RATM 2집 Vietnow을 좋아하는데 후렴구에 가사를 난 대단히 좋아한다.
@@ -63,4 +64,3 @@ FEAR를 "False Evidence Appearing Real"이라고 말하는 사람도 있더군�
 흥미로운 의견인 것 같아서 끄적였습니다. ^^
 
 ---
-

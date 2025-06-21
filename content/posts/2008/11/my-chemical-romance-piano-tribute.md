@@ -1,8 +1,9 @@
 ---
 title: "My Chemical Romance - Piano Tribute"
-date: 2008-11-22
+date: Sat Nov 22 2008 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2008/11/my-chemical-romance-piano-tribute
 lang: ko
+tags: ["music", "my-chemical-romance", "piano-tribute", "music-recommendation"]
 ---
 
 [My Chemical Romance](http://www.soundunwound.com/sp/contributor/view/My+Chemical+Romance?contributorId=18626&ref=SA) 좋아하시는 분 중에 [piano tribute](http://www.amazon.com/My-Chemical-Romance-Piano-Tribute/dp/B000KP6338/ref=wl_it_dp?ie=UTF8&coliid=I1FA3CWXU6UVCE&colid=2V4E8MXHMI9GA) 못들어보신 분 있나요?
@@ -31,4 +32,3 @@ lang: ko
 ^^;
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "네이트온 lib 개발 성공!"
-date: 2005-05-22
+date: Sun May 22 2005 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2005/05/네이트온-lib-개발-성공
 lang: ko
+tags: ["java", "reverse-engineering", "instant-messaging", "bot-development"]
 ---
 
 삽질에 뻘짓을 거듭하여 msnmlib-java 와 거의 동일한 인터페이스를 가지는
@@ -103,4 +104,3 @@ nateonlib-java 공개 안 해 주시나요.
 생각은 있지만, 실천으로 옮겨지려면 동기부여가 될만한 재미난 아이템이 있어야 할 것 같습니다. 무엇보다 제가 네이트온을 자주 안쓰다보니.. 타자봇 같은것을 만들더라도 msn 용으로만 만들어 버릇하는게 문제인거 같네요.. ^^
 
 ---
-

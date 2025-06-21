@@ -1,8 +1,9 @@
 ---
 title: "생산성에 관한 짧은 이야기"
-date: 2010-02-23
+date: Tue Feb 23 2010 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2010/02/it-is-okay
 lang: ko
+tags: ["software-development", "programming", "productivity"]
 ---
 
 지금보다 더 개념없던 시절에는 아는 것이 없어 코딩을 빨리 할 수 있었다. 예외 처리는 e.printStackTrace() 일단 넣고 넘어가면 그만이었다. 그저 생각나는대로 일단 만들어서 결과물이 돌아가면 그만이다 .
@@ -120,4 +121,3 @@ Task Managing의 오랜 숙제인 머릿속 과제간 경쟁 문제군. 요즘 �
 아.....이런 이유였군요 ㅠㅠ 어쩐지....
 
 ---
-

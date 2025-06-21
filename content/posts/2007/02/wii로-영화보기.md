@@ -1,8 +1,9 @@
 ---
 title: "Wii로 영화보기"
-date: 2007-02-01
+date: Thu Feb 01 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/wii로-영화보기
 lang: ko
+tags: ["nintendo-wii", "flash-video", "flv-player", "vmware"]
 ---
 
 Nintendo Wii 에서 FLV가 잘돌아가는 것을 확인했으나 Flash Player v7 밖에 안돌아가는 것에 

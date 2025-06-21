@@ -1,8 +1,9 @@
 ---
 title: "리듬의 중요성"
-date: 2009-09-20
+date: Sun Sep 20 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/importance-of-the-rhythm
 lang: ko
+tags: ["thoughts", "productivity", "self-improvement"]
 ---
 
 생각하는 머리와

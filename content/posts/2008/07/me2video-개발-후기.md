@@ -1,8 +1,9 @@
 ---
 title: "me2video 개발 후기"
-date: 2008-07-08
+date: Tue Jul 08 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/07/me2video-개발-후기
 lang: ko
+tags: ["video-development", "me2day", "mobile", "multimedia"]
 ---
 
 근 1년만에 me2day 범주에 글을 씁니다.
@@ -245,4 +246,3 @@ mms로 보내는 것이 아니라, 프로그랭방식 (VM인가요?)으로 보�
 미투데이가 더 짱이라능. ㅋㅋㅋ
 
 ---
-

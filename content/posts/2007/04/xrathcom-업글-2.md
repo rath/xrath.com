@@ -1,8 +1,9 @@
 ---
 title: "xrath.com 업글 2"
-date: 2007-04-01
+date: Sun Apr 01 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/xrathcom-업글-2
 lang: ko
+tags: ["blogging", "web-development", "me2day"]
 ---
 
 오랜만에 xrath.com 에 수정을 가했습니다.
@@ -96,4 +97,3 @@ IDTail 로 남겨보는 코멘트
 미투스럽게. 아주 심플하게요 ;)
 
 ---
-

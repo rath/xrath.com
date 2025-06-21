@@ -1,8 +1,9 @@
 ---
 title: "MSN 타자봇 - 거의 다 만들었음~!"
-date: 2006-07-05
+date: Wed Jul 05 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/07/msn-타자봇-거의-다-만들었음
 lang: ko
+tags: ["programming", "msn-bot", "software-development", "chatbot"]
 ---
 
 ㅎㅎ 생각나거나, 아이디어 노트에 적은 것 거의 다 만들었습니다.
@@ -276,4 +277,3 @@ taja봇에 대한 건의는 어디에 하면 되나요~
 타자연습 하려고요
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "테스트와 벤치마크 툴을 통해 용자 되기"
-date: 2009-12-05
+date: Sat Dec 05 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/12/be-a-brave-programmer-with-test-and-benchmark
 lang: ko
+tags: ["testing", "tdd", "software-development", "programming-practice"]
 ---
 
 나는 TDD를 제대로 공부해본 적이 없다. 테스트 코드 작성하는 것을 무지 싫어한다. 하지만 테스트 하기는 무척이나 좋아한다. 그 이유는 두려움을 경감시켜 창의력을 발현하는데 도움을 주기 때문이다. 새로운 시도를 해보고 싶으면 dummy 프로젝트를 하나 만들어 단위 테스트를 하고 실 프로젝트에 옮기는 일을 자주 한다.
@@ -53,4 +54,3 @@ github들어갔다가... 허거 하고 다시 꼼꼼히 읽으니..
 핫핫핫; 밀린 일이 너무 많아요 흑흑
 
 ---
-

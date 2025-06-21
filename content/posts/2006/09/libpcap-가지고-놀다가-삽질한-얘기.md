@@ -1,8 +1,9 @@
 ---
 title: "libpcap 가지고 놀다가 삽질한 얘기"
-date: 2006-09-21
+date: Thu Sep 21 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/09/libpcap-가지고-놀다가-삽질한-얘기
 lang: ko
+tags: ["programming", "java", "debugging", "technology"]
 ---
 
 무슨 바람이 들었는지 libpcap 가지고 놀았다.
@@ -127,4 +128,3 @@ P.S.: 원저자에게 보고 해줄까?
 아아 밉다 밉다~
 
 ---
-

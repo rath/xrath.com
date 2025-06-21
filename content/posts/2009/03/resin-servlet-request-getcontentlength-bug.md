@@ -1,8 +1,9 @@
 ---
 title: "ServletRequest.getContentLength() always returns -1 on Resin"
-date: 2009-03-22
+date: Sun Mar 22 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/03/resin-servlet-request-getcontentlength-bug
 lang: ko
+tags: ["technology", "java", "web-development", "bug-fix"]
 ---
 
 ## [Resin 3.2의 getContentLength() 버그](http://bugs.caucho.com/view.php?id=2995)

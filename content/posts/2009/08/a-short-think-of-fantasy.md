@@ -1,8 +1,9 @@
 ---
 title: "유환론에 대한 단상"
-date: 2009-08-03
+date: Mon Aug 03 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/08/a-short-think-of-fantasy
 lang: ko
+tags: ["thoughts", "philosophy", "culture", "reflections"]
 ---
 
 내가 좋아라하는, 기시다 슈가 쓴 '게으름뱅이 정신분석' 1권을 보다보면 유환론을 주장하는 내용이 나온다. 모든 것이 환상이라는 것.

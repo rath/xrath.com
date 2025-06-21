@@ -1,8 +1,9 @@
 ---
 title: "Qt 4.5 was released!"
-date: 2009-03-04
+date: Wed Mar 04 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/03/qt-45-was-released
 lang: ko
+tags: ["technology", "programming", "software-development"]
 ---
 
 공부 중이라 많은 코멘트는 없고, 간단히 소식만 전합니다. 
@@ -37,4 +38,3 @@ Boost 좋아보이네요. 지금 둘러보기만 했는데 BOOST_FOREACH가 매�
 
 
 ---
-

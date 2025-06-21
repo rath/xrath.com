@@ -1,8 +1,9 @@
 ---
 title: "YouTube API V2 나옴"
-date: 2008-10-23
+date: Thu Oct 23 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/youtube-api-v2-나옴
 lang: ko
+tags: ["youtube-api", "facebook-integration", "api-v2", "video-services"]
 ---
 
 Facebook 미니피드에 자신의 YouTube 계정을 연결해둔 사람은 알 것이다.

@@ -1,8 +1,9 @@
 ---
 title: "FreeMind 마인드맵 프로그램"
-date: 2004-12-08
+date: Wed Dec 08 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/12/freemind-마인드맵-프로그램
 lang: ko
+tags: ["mind-mapping", "java", "productivity-tools"]
 ---
 
 [http://freemind.sourceforge.net/wiki/index.php/Main_Page](http://freemind.sourceforge.net/wiki/index.php/Main_Page)

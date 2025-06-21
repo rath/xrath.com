@@ -1,8 +1,9 @@
 ---
 title: "Efficiency Trap 일상 생활 버전"
-date: 2009-08-05
+date: Wed Aug 05 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/08/efficiency-trap-in-daily-life
 lang: ko
+tags: ["daily-life", "efficiency", "philosophy"]
 ---
 
 어느 곳에서는, 어떤 시간대에는, 누구를 만났을 때는, 왠지 그 일을 해야할 것만 같은 기분이 든다.
@@ -50,4 +51,3 @@ lang: ko
 누나도 미국 생활 화이팅!! :D
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "블로그에 Add To Any 버튼을 달다"
-date: 2008-10-15
+date: Wed Oct 15 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/블로그에-add-to-any-버튼을-달다
 lang: ko
+tags: ["social-sharing", "blogging-tools", "addtoany", "web-integration"]
 ---
 
 블로그에 [Add To Any 버튼](http://www.addtoany.com/buttons/)을 달았습니다.
@@ -38,4 +39,3 @@ Share 서비스에 [미투데이](http://me2day.net/)도 있으면 좋겠다는 
 ```
 
 나름 [API](http://www.addtoany.com/buttons/api/)도 있고 [워드프레스 플러그인](http://wordpress.org/extend/plugins/add-to-any/)도 있고 [Blogger](http://www.blogger.com/)도 지원하니 관심있으신 분들은 한 번 써보실 것을 권장합니다.
-

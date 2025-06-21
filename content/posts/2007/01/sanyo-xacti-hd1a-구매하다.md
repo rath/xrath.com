@@ -1,8 +1,9 @@
 ---
 title: "Sanyo Xacti HD1a 구매하다"
-date: 2007-01-18
+date: Thu Jan 18 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/sanyo-xacti-hd1a-구매하다
 lang: ko
+tags: ["technology", "gadgets", "digital-camera", "product-review"]
 ---
 
 얼마전 IPAQ hx4700에 새로 설치한 [Spb Insight](http://www.spbsoftwarehouse.com/products/insight/?en)로 Digital Tech News를 구경하다가
@@ -44,4 +45,3 @@ lang: ko
 profile 사진도 업뎃~
 
 ---
-

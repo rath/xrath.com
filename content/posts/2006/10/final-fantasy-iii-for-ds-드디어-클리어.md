@@ -1,8 +1,9 @@
 ---
 title: "Final Fantasy III for DS 드디어 클리어!"
-date: 2006-10-01
+date: Sun Oct 01 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/10/final-fantasy-iii-for-ds-드디어-클리어
 lang: ko
+tags: ["gaming", "rpg", "final-fantasy", "personal-experience"]
 ---
 
 지난 8월 25일 Final Fantasy III for DS 소프트웨어를 구입하였습니다.
@@ -44,4 +45,3 @@ amazon.co.jp에 가서 FF3 DS용 OST를 구입해버렸습니다. (씨익)
 조금전 이 글에 비정상 코멘트 4개 다신분 IP 막았습니다.
 
 ---
-

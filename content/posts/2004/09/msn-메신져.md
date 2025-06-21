@@ -1,8 +1,9 @@
 ---
 title: "MSN 메신져"
-date: 2004-09-22
+date: Wed Sep 22 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/09/msn-메신져
 lang: ko
+tags: ["msn-messenger", "instant-messaging", "personal-experience"]
 ---
 
 업무시간에는 사용하지 않기로 했습니다.

@@ -1,8 +1,9 @@
 ---
 title: "Quercus 에서 워드프레스 metaWeblog.newMediaObject 호출시 문제점"
-date: 2008-11-02
+date: Sun Nov 02 2008 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2008/11/quercus-에서-워드프레스-metaweblognewmediaobject-호출시-문제점
 lang: ko
+tags: ["wordpress", "quercus", "php", "java-integration"]
 ---
 
 Resin 3.2.0 의 Quercus 위에서 WordPress 2.6.3 을 돌렸다.
@@ -38,4 +39,3 @@ Resin에서 wordpress를 어케 돌렸나 했더니, Quercus 라... Java에서 P
 가끔 디테일에서 문제가 생기긴 하지만.. 쓸만해요. phpMyAdmin도 잘 돌아가고요 ^^
 
 ---
-

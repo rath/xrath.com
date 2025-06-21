@@ -1,8 +1,9 @@
 ---
 title: "냉정과 열정사이 OST - For Sure (Flash version)"
-date: 2006-11-25
+date: Sat Nov 25 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/11/냉정과-열정사이-ost-for-sure-flash-version
 lang: ko
+tags: ["technology", "flash", "flex-sdk", "media-player"]
 ---
 
 사이버강의 듣다 지겨워서  CLI 기반의 Flex 2 SDK로 mp3 재생기를 만들어보았습니다. 
@@ -51,4 +52,3 @@ UI 좀 개선하고 해샤님을 위해 object 태그 박아 넣었습니다.
 Flash Player 버전은 9,0,16,0으로 해두었고요.. ㅎㅎ
 
 ---
-

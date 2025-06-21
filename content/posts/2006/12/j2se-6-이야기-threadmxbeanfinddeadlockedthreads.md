@@ -1,8 +1,9 @@
 ---
 title: "J2SE 6 이야기 - ThreadMXBean.findDeadlockedThreads()"
-date: 2006-12-04
+date: Mon Dec 04 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/12/j2se-6-이야기-threadmxbeanfinddeadlockedthreads
 lang: ko
+tags: ["java", "deadlock", "threadmxbean", "concurrency"]
 ---
 
 이번엔 [윤종현님](http://blog.naver.com/neoctrl)이 놀라움을 표현해주신 '데드락 스레드를 찾을 수 있는 함수!'에 대해 자세히 살펴보겠습니다.
@@ -67,4 +68,3 @@ ReetrantLock.tryLock은 timeout을 받을 수 있고 interruptable 이므로 데
 해피하지 않을거 같아요 ㅎㅎ 아우.. 전 피곤한 겨울예요 -,.-
 
 ---
-

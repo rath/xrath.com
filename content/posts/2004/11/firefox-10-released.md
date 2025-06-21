@@ -1,8 +1,9 @@
 ---
 title: "Firefox 1.0 released!"
-date: 2004-11-10
+date: Wed Nov 10 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/11/firefox-10-released
 lang: ko
+tags: ["firefox", "browser", "mozilla", "software-release"]
 ---
 
 Firefox 1.0이 드디어 릴리즈 되었습니다.
@@ -39,4 +40,3 @@ mozilla 1.8 기반이라 [싸이월드](http://cyworld.com)도 잘 됩니다. :)
 으흐흐 한글판 아직도 안나왔네 --;
 
 ---
-

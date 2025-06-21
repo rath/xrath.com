@@ -1,8 +1,9 @@
 ---
 title: "J2SE 6 이야기 - Selector impl use epoll in Linux 2.6 and newer"
-date: 2006-12-03
+date: Sun Dec 03 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/12/j2se-6-이야기-selector-impl-use-epoll-in-linux-26-and-newer
 lang: ko
+tags: ["java", "linux", "epoll", "nio"]
 ---
 
 많은 사용자가 붙는 서버를 만들 일이 많지 않았지만, 꽤 괜찮은 내용을 찾았다.
@@ -122,4 +123,3 @@ pistos: 코멘트 삭제 기능을 만들어 넣어야겠네요 --;
 아름다운 세상~
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "생업에 치이느라 Java 7의 NIO.2에 관심없던 분들을 위한"
-date: 2012-03-02
+date: Fri Mar 02 2012 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2012/03/for-those-who-are-too-busy-to-look-around-whats-new-in-java7-nio2
 lang: ko
+tags: ["java", "nio", "java7", "file-io"]
 ---
 
 Java 7 에 java.nio.file 패키지가 들어왔다.
@@ -50,4 +51,3 @@ NIO.2 소개는 여기까지다.
 간만에 글남기네요..잘봤습니다. ^^
 
 ---
-

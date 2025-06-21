@@ -1,8 +1,9 @@
 ---
 title: "Implementation Patterns 보다가"
-date: 2009-05-12
+date: Tue May 12 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/05/implementation-patterns
 lang: ko
+tags: ["technology", "software-development", "code-quality", "programming"]
 ---
 
 Kent Beck이 쓴 [Implementation Patterns](http://www.amazon.com/Implementation-Patterns/dp/B000XPRRVM/ref=sr_1_2?ie=UTF8&s=books&qid=1242091955&sr=8-2)을 보다가

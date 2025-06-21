@@ -1,8 +1,9 @@
 ---
 title: "프로그래머로 돌아왔다"
-date: 2010-01-26
+date: Tue Jan 26 2010 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2010/01/back-to-be-programmer
 lang: ko
+tags: ["programming", "career", "trial-and-error", "self-improvement"]
 ---
 
 2009년 8월, [프로그래머로 살던 나는 어디로 갔을까](/2009/08/프로그래머로-살던-나는-어디로-갔을까/)라는 포스트를 올린 적이 있다.
@@ -91,4 +92,3 @@ ps. 가끔 올려주시는 곡들은 여전히 잘 듣고 있습니다. 그 역�
 계속 start하지 않기 위해서는, 한번 start를 하지 않아야 겠구만! 난 게으름뱅이.;
 
 ---
-

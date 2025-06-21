@@ -1,8 +1,9 @@
 ---
 title: "결혼 그 후 Part 1"
-date: 2008-04-17
+date: Thu Apr 17 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/04/결혼-그-후-part-1
 lang: ko
+tags: ["wedding", "personal-experience", "reflection", "social"]
 ---
 
 사람은 하루 아침에 변화되지 않는다고, 
@@ -110,4 +111,3 @@ lang: ko
 와... 재밌게 사세요..ㅋㅋ
 
 ---
-

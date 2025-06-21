@@ -1,8 +1,9 @@
 ---
 title: "성취중독 주의"
-date: 2010-02-20
+date: Sat Feb 20 2010 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2010/02/be-aware-not-to-complete-making-another-trash
 lang: ko
+tags: ["productivity", "self-improvement", "motivation"]
 ---
 
 [Zen Habits](http://zenhabits.net/)의 [4 Simple Principles of Getting to Completion](http://zenhabits.net/2010/02/completion-principles/)을 읽다가 생각한 것들.
@@ -48,4 +49,3 @@ lang: ko
 성장하는 과정에서 발생한 쓰레기를 쓰레기가 아닌 금덩이로 바꾸는 방법을 깨우친다면 정말 좋지 않을까라는 생각을 감히 해봅니다. 물론 어렵겠지만요....
 
 ---
-

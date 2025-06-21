@@ -1,8 +1,9 @@
 ---
 title: "Java 5 에서 xml transform시 indent 안먹는 문제"
-date: 2005-12-01
+date: Thu Dec 01 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/12/java-5-에서-xml-transform시-indent-안먹는-문제
 lang: ko
+tags: ["technology", "java", "xml", "programming"]
 ---
 
 [http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6296446](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6296446)

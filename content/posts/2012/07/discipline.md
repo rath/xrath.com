@@ -1,8 +1,9 @@
 ---
 title: "절제"
-date: 2012-07-07
+date: Sat Jul 07 2012 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2012/07/discipline
 lang: ko
+tags: ["self-reflection", "philosophy", "self-awareness"]
 ---
 
 한 방향으로만 하염없이 나아가는 사람들이 있다.

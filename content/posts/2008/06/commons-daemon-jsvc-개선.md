@@ -1,8 +1,9 @@
 ---
 title: "commons-daemon jsvc 개선"
-date: 2008-06-19
+date: Thu Jun 19 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/06/commons-daemon-jsvc-개선
 lang: ko
+tags: ["java", "linux", "daemon", "native-integration"]
 ---
 
 첫 회사를 다닐때부터.. 리눅스에서 Java 프로세스 띄울 때 setproctitle 도 먹게 하고 싶기도하고
@@ -85,4 +86,3 @@ neonatas// 시스템 프로그램들이 다 그렇지 뭐 (...)
 다즐링// 쩜쩜쩜...
 
 ---
-

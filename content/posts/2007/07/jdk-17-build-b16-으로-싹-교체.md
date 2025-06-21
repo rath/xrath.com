@@ -1,8 +1,9 @@
 ---
 title: "JDK 1.7 Build b16 으로 싹 교체"
-date: 2007-07-21
+date: Sat Jul 21 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/07/jdk-17-build-b16-으로-싹-교체
 lang: ko
+tags: ["java", "server-management"]
 ---
 
 다 바꿔버렸다.

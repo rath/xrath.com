@@ -1,8 +1,9 @@
 ---
 title: "자급자족 개발자"
-date: 2012-05-31
+date: Thu May 31 2012 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2012/05/self-sufficient-developer
 lang: ko
+tags: ["software-development", "mobile-apps", "personal-experience"]
 ---
 
 언젠가부터 만든 프로그램을 외부에 노출하지 않기 시작했다.
@@ -51,4 +52,3 @@ Michael T. Nygard의 [Release it: Design and Deploy Production-Ready Software](h
 10여년째 눈팅만 하다 궁금해서 글하나 씁니다. 유투브에서 영상 다운로드할 때 어떤 기법을 쓰셨나요? 알려줄수 있나요? 기술적으로 좀 알려주십시오. 어떤 해가 되거나 불이익 같은 건 없게 하겠습니다. 개발자로써 정말 궁금해서 그렇습니다. 메일로 소스를 보내주시면 정말 감사하구요.. 외부로 유출같은 건 하지 않을께요.
 
 ---
-

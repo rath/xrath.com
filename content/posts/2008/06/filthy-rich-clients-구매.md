@@ -1,8 +1,9 @@
 ---
 title: "Filthy Rich Clients 구매"
-date: 2008-06-05
+date: Thu Jun 05 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/06/filthy-rich-clients-구매
 lang: ko
+tags: ["java", "swing", "ui-programming", "filthy-rich-clients"]
 ---
 
 [Translucent and Shaped Swing Windows](http://today.java.net/pub/a/today/2008/03/18/translucent-and-shaped-swing-windows.html) 이거 보다가, 

@@ -1,8 +1,9 @@
 ---
 title: "제3회 KLDP CodeFest에 다녀오다"
-date: 2004-12-05
+date: Sun Dec 05 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/12/제3회-kldp-codefest에-다녀오다
 lang: ko
+tags: ["python", "irc-bot", "codefest", "programming-experience"]
 ---
 
 3회 [KLDP CodeFest](http://wiki.kldp.org/wiki.php/CodeFest/20041204)에 다녀왔습니다. 낯선 사람과 이야기를 못하는 병이 있어서 최소 5번은 말없이 만나야 말을 하기 시작하느라, 뭐 대화는 거의 없었습니다. orz (덕분에 열심히 코딩만했지요)
@@ -55,4 +56,3 @@ CodeFest에서 받은 침낭 아직도 펼쳐보지 못했네요.
 메일 보내드렸습니다. (URL)
 
 ---
-

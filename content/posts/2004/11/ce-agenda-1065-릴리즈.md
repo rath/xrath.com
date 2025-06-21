@@ -1,8 +1,9 @@
 ---
 title: "CE Agenda 1.0.6.5 릴리즈"
-date: 2004-11-23
+date: Tue Nov 23 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/11/ce-agenda-1065-릴리즈
 lang: ko
+tags: ["pims", "schedule-management", "programming", "wince"]
 ---
 
 WinCE HandheldPC 용 슈퍼막강 일정관리 프로그램인 [CE Agenda](http://hkcho.hdmember.net/ceagenda/ceagenda.html)가 
@@ -92,4 +93,3 @@ CE Agenda는 **한국사람**이 만들었습니다. -ㅁ-
 너무 많은 것을 알고 있군 -_-;
 
 ---
-

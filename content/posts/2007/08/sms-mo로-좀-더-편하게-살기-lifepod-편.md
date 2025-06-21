@@ -1,8 +1,9 @@
 ---
 title: "SMS MO로 좀 더 편하게 살기 - Lifepod 편"
-date: 2007-08-15
+date: Wed Aug 15 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/08/sms-mo로-좀-더-편하게-살기-lifepod-편
 lang: ko
+tags: ["sms", "mobile-technology", "pims", "social-networking"]
 ---
 
 SMS MO를 아는가? Mobile Originate 다. 
@@ -167,4 +168,3 @@ aromi님, mms-mo 서비스도 있어요. 사업자, 고객 모두에게 비싸�
 좋은 정보 감사합니다.
 
 ---
-

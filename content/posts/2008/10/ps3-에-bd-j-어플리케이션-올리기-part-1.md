@@ -1,8 +1,9 @@
 ---
 title: "PS3 에 BD-J 어플리케이션 올리기, Part 1"
-date: 2008-10-06
+date: Mon Oct 06 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/ps3-에-bd-j-어플리케이션-올리기-part-1
 lang: ko
+tags: ["java", "bd-j", "ps3-development", "blu-ray"]
 ---
 
 오랜만에 [java.sun.com](http://java.sun.com/) 에 갔더니 [이목을 끄는 기사](http://java.sun.com/developer/technicalArticles/javame/bluray/)가 있어서 옮겨보고자 합니다.
@@ -98,4 +99,3 @@ GP, PS 레지스터 얘기는 전혀 모르겠네요. 드라이버 작업이랑 
 그나저나 PS3 에서 뭔가 올려볼 수 있다니 넘 신나는데, 경제적 리소스가 더 투입되는 건 없는거죠? (블루레이 라이터 빼고요 ㅎㅎ) 장난칠 기회가 오면 요것죠것 물어볼께요.  
 
 ---
-

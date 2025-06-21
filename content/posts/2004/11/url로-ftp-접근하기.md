@@ -1,8 +1,9 @@
 ---
 title: "URL로 ftp 접근하기"
-date: 2004-11-27
+date: Sat Nov 27 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/11/url로-ftp-접근하기
 lang: ko
+tags: ["ftp", "java", "url-connection", "networking"]
 ---
 
 언제부터 이렇게 된건지 모르겠지만.
@@ -28,4 +29,3 @@ jar일 경우는 spec이 어떻게 지원되는지는 모르겠지만,
 오호.. 좋은정보!
 
 ---
-

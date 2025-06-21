@@ -1,8 +1,9 @@
 ---
 title: "Reverse engineering"
-date: 2007-04-19
+date: Thu Apr 19 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/reverse-engineering
 lang: ko
+tags: ["reverse-engineering", "programming", "technology"]
 ---
 
 ## 쓰면서 내용을 만드는 글이니 경어를 피하겠습니다
@@ -164,4 +165,3 @@ HTTP, FTP, POP3, IMAP 등을 역공학으로 접근하다보면, 온몸에 전�
 모든 잼있어야 즐거운거죠 ㅋㅋ
 
 ---
-

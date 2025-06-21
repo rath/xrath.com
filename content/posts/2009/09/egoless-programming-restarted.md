@@ -1,8 +1,9 @@
 ---
 title: "다시 시작된 Egoless Programming"
-date: 2009-09-23
+date: Wed Sep 23 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/egoless-programming-restarted
 lang: ko
+tags: ["technology", "programming", "egoless-programming", "software-development"]
 ---
 
 나는 프로그래밍 할 때 모든 주의력과 정신을 지금 하고 있는 프로그램에 집중하는 편이다.
@@ -79,4 +80,3 @@ lang: ko
 다 어렵게 느껴지신다면.. ego-driven programming을 해보시는건 어떨까요. 효율이 극으로 달하실 것 같은데요 -ㅇ-
 
 ---
-

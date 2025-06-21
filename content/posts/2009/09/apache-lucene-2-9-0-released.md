@@ -1,8 +1,9 @@
 ---
 title: "Apache Lucene 2.9.0 릴리즈 소식"
-date: 2009-09-27
+date: Sun Sep 27 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/apache-lucene-2-9-0-released
 lang: ko
+tags: ["technology", "java", "apache-lucene", "software-release"]
 ---
 
 지난 9월 25일 [Apache Lucene Java 가 2.9.0 로 릴리즈](http://lucene.apache.org/java/docs/index.html#25+September+2009+-+Lucene+Java+2.9.0+available) 되었습니다.

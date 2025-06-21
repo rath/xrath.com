@@ -1,8 +1,9 @@
 ---
 title: "me2terminal 프로젝트를 도와주실 분을 찾습니다."
-date: 2009-09-18
+date: Fri Sep 18 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/recruit-for-me2terminal
 lang: ko
+tags: ["technology", "python", "open-source", "ncurses", "recruit"]
 ---
 
 몇년동안 제쳐놓게 되는 일들이 있습니다. 그 중 하나가 제겐 ncurses를 이용한 프로그래밍이였지요. api가 간단하여 만들기 제일 만만한(?) 미투데이 클라이언트를 만들기로 하고 오랜만에 python을 열어 ncurses로 콘솔 베이스 미투데이 클라이언트를 만들었습니다.
@@ -181,4 +182,3 @@ midnight commander 과 mc -> midnight commander과  linm  ㅎㅎ
 준철형 만세~
 
 ---
-

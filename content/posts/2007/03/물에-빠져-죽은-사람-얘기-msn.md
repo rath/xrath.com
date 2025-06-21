@@ -1,8 +1,9 @@
 ---
 title: "물에 빠져 죽은 사람 얘기 - MSN"
-date: 2007-03-02
+date: Fri Mar 02 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/물에-빠져-죽은-사람-얘기-msn
 lang: ko
+tags: ["messaging", "msn", "communication", "daily-life"]
 ---
 
 최근 들어 MSN에서 나와 가장 많은 패킷을 주고 받는 이승훈님과의 대화

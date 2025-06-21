@@ -1,8 +1,9 @@
 ---
 title: "The Fast and the Furious: Tokyo Drift"
-date: 2006-08-07
+date: Mon Aug 07 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/08/the-fast-and-the-furious-tokyo-drift
 lang: ko
+tags: ["movie-review", "entertainment", "cars"]
 ---
 
 조금전 메가박스에서 패스트 & 퓨리어스 도쿄 드리프트를 보고 왔습니다.

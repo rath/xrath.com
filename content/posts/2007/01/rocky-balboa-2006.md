@@ -1,8 +1,9 @@
 ---
 title: "Rocky Balboa (2006)"
-date: 2007-01-14
+date: Sun Jan 14 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/rocky-balboa-2006
 lang: ko
+tags: ["daily-life", "movies", "rocky-balboa", "inspiration"]
 ---
 
 인터넷으로 록키 발보아를 봤다. (록키 6이라고 하는 사람들도 있음)
@@ -67,4 +68,3 @@ lang: ko
 무플 방지용이야 --
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "JavaFX 개발 후기"
-date: 2009-03-10
+date: Tue Mar 10 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/03/javafx-개발-후기
 lang: ko
+tags: ["technology", "javafx", "programming", "software-development"]
 ---
 
 믿거나 말거나, 사람들은 자기가 어떤 일을 하게 된 이유를 그 일을 하고난 후에서야 알 수 있다고 한다. 일을 마친 후에는 전후 사정을 고려하여 이야기를 만들어 내기가 쉽다. 그래서 '나 이거 공부해봐야지!' 하는 어떠한 포스팅이나 announce 없이 JavaFX를 공부하며 열심히 코딩을 하고, 이제 다른 플랫폼으로 도망치는 시점이 되어 후기를 남겨본다.
@@ -81,4 +82,3 @@ Java 에는 관심이 없어서, 그냥 포스팅을 읽어내려갔지만, 압�
 의견이 어떠신지 궁금합니다.
 
 ---
-

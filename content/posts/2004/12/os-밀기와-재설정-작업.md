@@ -1,8 +1,9 @@
 ---
 title: "OS 밀기와 재설정 작업"
-date: 2004-12-19
+date: Sun Dec 19 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/12/os-밀기와-재설정-작업
 lang: ko
+tags: ["operating-systems", "system-administration", "backup"]
 ---
 
 본의 아니게 데스크탑의 윈도우즈를 날려먹었습니다. 
@@ -36,4 +37,3 @@ RSS Feed 기능이 있길래 xrath.com의 blog도 좀 손을 보는 김에 sooju
 오.. 성수씨 1년만이네요. 2004년은 서로 못보고 지나가나 봅니다 ㅎㅎ 즐거운 학교 생활되시길!
 
 ---
-

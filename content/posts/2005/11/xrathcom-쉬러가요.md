@@ -1,8 +1,9 @@
 ---
 title: "xrath.com 쉬러가요~"
-date: 2005-11-10
+date: Thu Nov 10 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/11/xrathcom-쉬러가요
 lang: ko
+tags: ["technology", "server-management", "personal-experience"]
 ---
 
 집PC에서 서버를 돌리니 이상하게 2일째 연속 오후 4-5시경에 서버가 먹통이 되네요.. (재부팅이 필요한)
@@ -49,4 +50,3 @@ lang: ko
 스즙 스즈즙 스즙
 
 ---
-

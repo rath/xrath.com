@@ -1,8 +1,9 @@
 ---
 title: "블로그 휴면 해제 기념"
-date: 2012-10-10
+date: Wed Oct 10 2012 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2012/10/end-of-the-rest
 lang: ko
+tags: ["personal-experience", "self-improvement", "reflection"]
 ---
 
 쇼펜하우어님이 문장론에 말하길, 이미 사고과정이 다 끝난후 그것을 주르르 뱉는 것만이 옳고 나머지는 다 쓰레기라고 하셨다. 나는 오늘 쓰레기 글을 만들 예정이니, 바쁜 일정에 치이는 분이라면 이 글을 더이상 읽지 않기를 바란다.
@@ -61,4 +62,3 @@ lang: ko
 복귀 매우 환영합니다.
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "여기는 KLDP CodeFest!"
-date: 2005-02-19
+date: Sat Feb 19 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/02/여기는-kldp-codefest
 lang: ko
+tags: ["codefest", "programming-event", "software-development"]
 ---
 
 여기는 가락동에 위치한 KIPA 입니다.
@@ -38,4 +39,3 @@ P.S.: 하단의 게시물은 보안정책상 삭제되었으며, Comment를 달�
 언제 함 보여줘야지?
 
 ---
-

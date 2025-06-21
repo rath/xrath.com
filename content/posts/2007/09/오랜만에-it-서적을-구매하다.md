@@ -1,8 +1,9 @@
 ---
 title: "오랜만에 IT 서적을 구매하다."
-date: 2007-09-15
+date: Sat Sep 15 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/09/오랜만에-it-서적을-구매하다
 lang: ko
+tags: ["java", "programming-books", "hibernate", "spring-framework"]
 ---
 
 국내에서 자바 웹프로그래머 딱지를 붙이기 위해 Amazon.com 에서 책을 구매했습니다.
@@ -69,4 +70,3 @@ lang: ko
 아 3일이 지났지만 hibernate 30페이지밖에 안읽었구나
 
 ---
-

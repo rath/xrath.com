@@ -1,8 +1,9 @@
 ---
 title: "xnote 에 우분투 설치"
-date: 2007-08-05
+date: Sun Aug 05 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/08/xnote-에-우분투-설치
 lang: ko
+tags: ["linux", "ubuntu", "system-setup"]
 ---
 
 CDROM + 윈도우가 맛가서 3달 썩히다가 심장군이 수리해준, 2003년산 xnote.
@@ -43,4 +44,3 @@ CDROM + 윈도우가 맛가서 3달 썩히다가 심장군이 수리해준, 2003
 네 페이스티요
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "OpenID 삽질로 몸이 둔해졌음을 다시 한 번 느끼다."
-date: 2007-11-20
+date: Tue Nov 20 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/11/openid-삽질로-몸이-둔해졌음을-다시-한-번-느끼다
 lang: ko
+tags: ["programming", "openid", "java", "development-struggles"]
 ---
 
 한 6달은 된 거 같다. 해맑게 코딩해 본 적이 언제인지 기억도 나지 않는다.
@@ -94,4 +95,3 @@ tomcat6 의 디렉토리 구조는 맘에 든다. 아직 쓰지는 않지만
 이번에 OpenID Consumer구현하면서 rath님의 Spring note글과 여기에 적인 글들이 정말 많은 도움이 되었습니다. 감사합니다. ㅎㅎㅎ
 
 ---
-

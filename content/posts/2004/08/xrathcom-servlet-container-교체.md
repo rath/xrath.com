@@ -1,8 +1,9 @@
 ---
 title: "xrath.com Servlet Container 교체"
-date: 2004-08-01
+date: Sun Aug 01 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/08/xrathcom-servlet-container-교체
 lang: ko
+tags: ["servlet-container", "tomcat", "web-development", "mod_jk"]
 ---
 
 3년간 아무 이상없이 사용하던 [Resin 2.x](http://www.caucho.com)를 버리고 

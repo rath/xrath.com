@@ -1,8 +1,9 @@
 ---
 title: "봄공책 MSN 사용법 리뉴얼"
-date: 2008-09-02
+date: Tue Sep 02 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/09/봄공책-msn-사용법-리뉴얼
 lang: ko
+tags: ["msn-messenger", "springnote", "messaging-bots", "productivity-tools"]
 ---
 
 MSN 메신저로 스프링노트에 메모를 쉽게 해주는 봄공책군의 사용이 조금 더 쉬워졌습니다.&#13;

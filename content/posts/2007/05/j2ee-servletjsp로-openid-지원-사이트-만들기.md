@@ -1,8 +1,9 @@
 ---
 title: "J2EE Servlet/JSP로 OpenID 지원 사이트 만들기"
-date: 2007-05-09
+date: Wed May 09 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/05/j2ee-servletjsp로-openid-지원-사이트-만들기
 lang: ko
+tags: ["technology", "java", "openid", "web-development"]
 ---
 
 지난주부터 현재 재직중인 회사에서 팀을 옮겼습니다. 인프라팀에서 웹서비스 팀으로요!
@@ -67,4 +68,3 @@ verification = manager.verify(receiveURL, paramList, di);
 그래서 더이상 진행되지가 않는데요. 추가 정보 받아오는것에대한 설명 좀 부탁드려요;
 
 ---
-

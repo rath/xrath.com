@@ -1,8 +1,9 @@
 ---
 title: "Android SDK r16에서의 ant 빌드 이슈"
-date: 2012-01-25
+date: Wed Jan 25 2012 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2012/01/android-sdk-r16-issue
 lang: ko
+tags: ["android", "build-tools", "android-sdk", "programming"]
 ---
 
 Android SDK Tools r16에서 생겨난 [이슈](http://code.google.com/p/android/issues/detail?id=22948)입니다.

@@ -1,8 +1,9 @@
 ---
 title: "Flex 좀 제대로 공부해야겠다"
-date: 2007-02-08
+date: Thu Feb 08 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/flex-좀-제대로-공부해야겠다
 lang: ko
+tags: ["programming", "flex", "learning", "self-improvement"]
 ---
 
 98년에 자바 공부 할 때는 학교 도서관에 살면서 자바 책이란 책은 다 보면서 놀았었는데
@@ -78,4 +79,3 @@ http://myhome.naver.com/orion0326/e.html
 아싸 낚았다 :$
 
 ---
-

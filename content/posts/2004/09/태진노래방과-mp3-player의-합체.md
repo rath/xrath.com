@@ -1,8 +1,9 @@
 ---
 title: "태진노래방과 mp3 player의 합체"
-date: 2004-09-21
+date: Tue Sep 21 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/09/태진노래방과-mp3-player의-합체
 lang: ko
+tags: ["mp3-player", "karaoke", "id3-tags", "music-organization"]
 ---
 
 문득 생각났다.
@@ -33,4 +34,3 @@ ID3 태그에 태진노래방 **곡번호**를 반드시 넣어놓는다.
 앗 까나리오빠 오랜만이에요 갸아악
 
 ---
-

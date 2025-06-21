@@ -1,8 +1,9 @@
 ---
 title: "Lucene 공부 중"
-date: 2007-01-16
+date: Tue Jan 16 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/lucene-공부-중
 lang: ko
+tags: ["technology", "programming", "search-engine", "lucene"]
 ---
 
 월요일부터 [Apache Lucene](http://lucene.apache.org)을 공부중이다.

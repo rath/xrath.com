@@ -1,8 +1,9 @@
 ---
 title: "Resin 3.0.18의 PHP 5 Cleanroom 구현 Quercus"
-date: 2006-04-08
+date: Sat Apr 08 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/04/resin-3018의-php-5-cleanroom-구현-quercus
 lang: ko
+tags: ["php", "java", "web-development", "technology"]
 ---
 
 [http://wiki.caucho.com/Quercus](http://wiki.caucho.com/Quercus)
@@ -86,4 +87,3 @@ xml_get_error_code
 오옷 해볼만한 일이겠군요 ㅎㅎ
 
 ---
-

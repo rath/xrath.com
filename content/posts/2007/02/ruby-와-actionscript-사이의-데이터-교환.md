@@ -1,8 +1,9 @@
 ---
 title: "Ruby 와 ActionScript 사이의 데이터 교환"
-date: 2007-02-24
+date: Sat Feb 24 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/ruby-와-actionscript-사이의-데이터-교환
 lang: ko
+tags: ["programming", "ruby", "actionscript", "data-exchange"]
 ---
 
 근 2주에 한번씩 건드리고.. 시작한지 3개월이 다 되가는 Fresh Hollys 프로젝트.
@@ -64,4 +65,3 @@ Nil, Boolean, Fixnum, String, Symbol, Symlink, Array, Hash, Object, _dump 구현
 TYPE_LINK(@)도 파싱 성공~ 우왕ㅋ굳ㅋ
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "Oracle 10g for Windows 나쁘다"
-date: 2006-07-24
+date: Mon Jul 24 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/07/oracle-10g-for-windows-나쁘다
 lang: ko
+tags: ["oracle", "java", "software-development", "database"]
 ---
 
 회사에서 개발중인 미들웨어 제품에 백엔드로 Oracle을 지원하기 위해
@@ -108,4 +109,3 @@ CreateFileW (forwarded to KERNEL32.CreateFileW)
 해봤는데 안되더라구요 ;ㅁ;
 
 ---
-

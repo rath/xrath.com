@@ -1,8 +1,9 @@
 ---
 title: "미투데이에 남긴 흔적 - me2video 개발 시작부터 더블트랙 양도까지"
-date: 2008-09-09
+date: Tue Sep 09 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/09/미투데이에-남긴-흔적-me2video-개발-시작부터-더블트랙-양
 lang: ko
+tags: ["video-development", "mms", "java", "software-development"]
 ---
 
 토큰을 두둑히 챙기게 해준 me2video. 여러모로 좋은 경험이었습니다. :$
@@ -44,6 +45,3 @@ lang: ko
 
 
 이 글은 [rath](http://me2day.net/rath)님의 [2008년 6월 29일](http://me2day.net/rath/2008/06/29#16:03:22)에서 [2008년 8월 28일](http://me2day.net/rath/2008/08/28#08:47:48)까지의 미투데이 내용입니다.
-   
-
-

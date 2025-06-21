@@ -1,8 +1,9 @@
 ---
 title: "Falling Away From Me"
-date: 2006-07-23
+date: Sun Jul 23 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/07/falling-away-from-me
 lang: ko
+tags: ["music", "personal-thoughts", "entertainment"]
 ---
 
 KoRn 4집 2번 트랙인 이 노래를 대단히 좋아하는 편이다.

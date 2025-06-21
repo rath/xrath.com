@@ -1,8 +1,9 @@
 ---
 title: "습관들과의 전쟁"
-date: 2015-03-21
+date: Sat Mar 21 2015 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2015/03/basal-ganglia
 lang: ko
+tags: ["habits", "psychology", "self-control", "neuroscience"]
 ---
 
 상대방에게 '머리가 좋다'고 평가할 때의 심리를 분석해본다. 기저핵의 활동이 훌륭한 타인을 볼 때는 깎아내리려하기보다는 경탄하며 칭찬하는 경향이 있다. 사실은 조금도 부럽지 않기 때문이다. 이는 성능이 좋은 동물이나 짐승을 보며 경탄하는 것과 비슷한 것이다. 무의식적으로 무언가를 해낼 수 있는 점은 '우와' 싶기는 하지만 사실은 조금도 부럽지 않다. 인간적이지 않기 때문이다.

@@ -1,8 +1,9 @@
 ---
 title: "JMSN 0.9.9b2"
-date: 2004-08-04
+date: Wed Aug 04 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/08/jmsn-099b2
 lang: ko
+tags: ["jmsn", "java", "instant-messaging"]
 ---
 
 JMSN의 공식 홈페이지는 [http://sourceforge.net/projects/jmsn](http://sourceforge.net/projects/jmsn) 입니다. 
@@ -153,4 +154,3 @@ http://jmsn.sf.net 에서 파일을 받아서 압축을 풀고
 그럼 이만, 수고하세요
 
 ---
-

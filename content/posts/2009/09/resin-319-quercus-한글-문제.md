@@ -1,8 +1,9 @@
 ---
 title: "Resin 3.1.9 Quercus 한글 문제"
-date: 2009-09-09
+date: Wed Sep 09 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/resin-319-quercus-한글-문제
 lang: ko
+tags: ["java", "resin", "quercus", "character-encoding"]
 ---
 
 지난 2월 Resin 3.2.0에 포함된 [Quercus 한글 문제를 수정한 바](/2009/02/quercus-%ed%95%9c%ea%b8%80-%eb%ac%b8%ec%a0%9c%eb%a5%bc-%ed%95%b4%ea%b2%b0%ed%95%98%ea%b3%a0-wordpress%eb%a1%9c-%ea%b0%88%ec%95%84%ed%83%80%eb%8b%a4/) 있었습니다.

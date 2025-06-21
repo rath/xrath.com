@@ -1,8 +1,9 @@
 ---
 title: "안드로이드 코딩하다가 문득"
-date: 2010-10-22
+date: Fri Oct 22 2010 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2010/10/dont-make-me-hardcore
 lang: ko
+tags: ["android", "programming", "software-development"]
 ---
 
 안드로이드가 가끔씩 날 못살게 군다. 친구들끼리는 싸우면서 친해진다고 하지 않았나. 안드로이드랑도 싸울 때마다 조금씩 친해지는 기분.
@@ -40,4 +41,3 @@ lang: ko
 난 게임은 안만들어봤는데.. 호호;
 
 ---
-

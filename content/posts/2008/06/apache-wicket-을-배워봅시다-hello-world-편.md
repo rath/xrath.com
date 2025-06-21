@@ -1,8 +1,9 @@
 ---
 title: "Apache Wicket 을 배워봅시다. Hello World 편"
-date: 2008-06-17
+date: Tue Jun 17 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/06/apache-wicket-을-배워봅시다-hello-world-편
 lang: ko
+tags: ["apache-wicket", "java-web-framework", "java-development"]
 ---
 
 Wicket Hello World 예제  [원문: [Apache Wicket - ExampleHelloWorld](http://wicket.apache.org/examplehelloworld.html)]
@@ -171,4 +172,3 @@ spring, hibernate, ibatis 와의 연동도 제공하고 있다고 하는데, 제
 아참 그리고.. 어디서 많이 보던 URL이어서 생각해보니 JMSN만드신분이신듯.. 메신져 만드는데 목표 였습니다. 비록 도달을 못했지만..^^
 
 ---
-

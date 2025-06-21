@@ -1,8 +1,9 @@
 ---
 title: "Gmail 초대권 남발 사건"
-date: 2004-08-02
+date: Mon Aug 02 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/08/gmail-초대권-남발-사건
 lang: ko
+tags: ["gmail", "email", "personal-experience"]
 ---
 
 요새 Gmail에서 Invitation을 엄청나게 주는듯합니다.

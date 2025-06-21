@@ -1,8 +1,9 @@
 ---
 title: "Any Given Sunday - one inch at a time"
-date: 2008-10-09
+date: Thu Oct 09 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/any-given-sunday-one-inch-at-a-time
 lang: ko
+tags: ["motivation", "quotes", "movies", "self-improvement"]
 ---
 
 베토벤 바이러스 10화를 보다가 공연을 앞두고 악기가 망가지는 등 악조건 상황에서 단원들에게 용기를 주는 강마에의 스피치를 보고 있자니.. 영화 [애니 기븐 선데이(1999)](http://www.imdb.com/title/tt0146838/)에서 알파치노가 중요한 경기를 앞두고 카리스마를 휘날리며 팀원들에게 한 one inch at a time이 생각나서 youtube 에서 찾아봤다.
@@ -76,4 +77,3 @@ lang: ko
 저도 이 영화 보긴 봤는데.. 오래전에 본거라 가물가물하네요. -_-;
 
 ---
-

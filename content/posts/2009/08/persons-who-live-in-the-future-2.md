@@ -1,8 +1,9 @@
 ---
 title: "주제 없고 제목 없고 내용만 있음"
-date: 2009-08-26
+date: Wed Aug 26 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/08/persons-who-live-in-the-future-2
 lang: ko
+tags: ["thoughts", "philosophy", "self-reflection"]
 ---
 
 우리를 괴롭히는 것은 지금 눈 앞에 있는 일이 아니라, 제껴놓은 일들이다.
@@ -131,4 +132,3 @@ http://blog.naver.com/sunny98989?Redirect=Log&logNo=70036780449
 이후 행동이 쉽게 추측되지 않네요. 다음에 메신저에서 뵈면 꼭 물어보겠습니다. ^^
 
 ---
-

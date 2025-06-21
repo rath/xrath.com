@@ -1,8 +1,9 @@
 ---
 title: "JSR-45 보는중"
-date: 2005-07-08
+date: Fri Jul 08 2005 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2005/07/jsr-45-보는중
 lang: ko
+tags: ["java", "jsr-45", "debugging", "web-development"]
 ---
 
 JSR-45 Debugging Other Languages 를 보고 똑딱똑딱 구현해보는중이다.
@@ -91,4 +92,3 @@ resin은 jsp 파일의 수에 관계없이 #FileRef가 있는데 tomcat은 파�
 (가능할까 ㅡㅡa)
 
 ---
-

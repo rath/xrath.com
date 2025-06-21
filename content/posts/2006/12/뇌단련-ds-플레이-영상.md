@@ -1,8 +1,9 @@
 ---
 title: "뇌단련 DS 플레이 영상"
-date: 2006-12-09
+date: Sat Dec 09 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/12/뇌단련-ds-플레이-영상
 lang: ko
+tags: ["gaming", "nintendo-ds", "brain-training", "flash-development"]
 ---
 
 닌텐도 DS용 게임인 Brain Age - Train your brain in minutes a day!를  
@@ -101,4 +102,3 @@ expressInstall 되도록 몇가지 장치를 해놓아야...
 딴 한번 해보셔서 그럴실꺼에요. 여러번 해보면 금방 빨라지거든요 ㅎㅎ
 
 ---
-

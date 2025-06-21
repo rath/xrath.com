@@ -1,8 +1,9 @@
 ---
 title: "Context"
-date: 2007-10-10
+date: Wed Oct 10 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/10/context
 lang: ko
+tags: ["context-switching", "productivity", "mental-focus"]
 ---
 
 **Context Switching** <- 요새 자주 생각하는 거다.
@@ -94,4 +95,3 @@ Context 유지 중독에 빠져있는 사람은
 @위드, 좋은 의견 감사드립니다. '나중'과 '현재'의 괴리도 쉽질 않네요.
 
 ---
-

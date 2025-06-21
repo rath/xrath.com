@@ -1,8 +1,9 @@
 ---
 title: "OpenID 관련해 홈피 살짝 개편"
-date: 2007-05-20
+date: Sun May 20 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/05/openid-관련해-홈피-살짝-개편
 lang: ko
+tags: ["technology", "openid", "web-development", "java"]
 ---
 
 아무도 알아채지 못할 정도의 개편을 했습니다.
@@ -56,4 +57,3 @@ ID도 상큼(시큼?;)하게 바꿔봤.. =3
 rath님 생일 축하했어요..
 
 ---
-

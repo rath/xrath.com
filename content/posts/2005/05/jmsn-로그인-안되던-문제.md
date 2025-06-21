@@ -1,8 +1,9 @@
 ---
 title: "JMSN 로그인 안되던 문제"
-date: 2005-05-19
+date: Thu May 19 2005 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2005/05/jmsn-로그인-안되던-문제
 lang: ko
+tags: ["msn", "opensource", "python", "networking"]
 ---
 
 어제 (목요일) 오전부터 제가 만든 msnmlib 에서 MSN 네트워크로의 로그인이 막혔었습니다.
@@ -70,4 +71,3 @@ rath.msnm.util.UserStatusBox가 없다네요.
 암튼 대단합니다... 그리고 존경합니다 ㅎㅎ
 
 ---
-

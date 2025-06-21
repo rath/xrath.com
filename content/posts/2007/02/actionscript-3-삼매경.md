@@ -1,8 +1,9 @@
 ---
 title: "ActionScript 3 삼매경"
-date: 2007-02-19
+date: Mon Feb 19 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/actionscript-3-삼매경
 lang: ko
+tags: ["programming", "flash", "actionscript", "flex"]
 ---
 
 처음에 Flash 란 녀석을 접했을 때는 '디자이너만 쓰는 건가보다' 였다. 
@@ -60,4 +61,3 @@ Eclipse는 XP에, intel x86 에, win32 밖에 안되는듯. Vista x64, AMD64 에
 저런. 이클립스 계속 안써야겠군 후후 -_-
 
 ---
-

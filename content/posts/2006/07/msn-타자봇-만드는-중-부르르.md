@@ -1,8 +1,9 @@
 ---
 title: "MSN 타자봇 만드는 중 부르르~"
-date: 2006-07-04
+date: Tue Jul 04 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/07/msn-타자봇-만드는-중-부르르
 lang: ko
+tags: ["software-development", "msn-bot", "personal-project", "typing-game"]
 ---
 
 때는 7월 3일 월요일 오후 6시 40분, 위치는 내셔널그리드..
@@ -72,4 +73,3 @@ T03씨: "..."
 호곡 난초누나 이게 몇백만년만이야 ㅎㅎ 즐거운 가정 꾸리고 있낭~
 
 ---
-

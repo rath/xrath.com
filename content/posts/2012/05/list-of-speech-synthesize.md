@@ -1,8 +1,9 @@
 ---
 title: "TextToSpeech API 구축 방안들"
-date: 2012-05-30
+date: Wed May 30 2012 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2012/05/list-of-speech-synthesize
 lang: ko
+tags: ["text-to-speech", "tts", "software-development", "programming"]
 ---
 
 작년말에 [Neospeech](http://neospeech.com/) 에서 TTS 엔진을 구매했다. 한국어 Voice 인 유미, 준우 이렇게 2개를 구매했고 Voice 당 USD $138 를 줬다. Windows 전용이라 (리눅스 + API 버전은 가격이 정해져있지 않고, 마케팅 담당자를 계속 괴롭혀봤으나 혼자 쓸꺼라니까 안판다고 하고, 얼마면 되냐고 USD $1,000 까지 제시해봤으나 모호한 답만 나오는걸로 보아 욕심쟁이인듯해서 안쓰기로 함) Windows OS 라이센스가 필요하다. 중고로 구매해도 $50 정도 필요하다.
@@ -49,4 +50,3 @@ Neospeech 의 Yumi 보다 SVOX 의 Sora 의 음성 퀄리티가 떨어지긴 한
 도움 좀 부탁드립니다.
 
 ---
-

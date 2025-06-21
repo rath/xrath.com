@@ -1,8 +1,9 @@
 ---
 title: "Android UI 개발기: XML 안쓰고 UI 코딩하기"
-date: 2009-11-03
+date: Tue Nov 03 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/11/android-ui-개발기-xml-안쓰고-ui-코딩하기
 lang: ko
+tags: ["android", "ui-development", "android-ui", "mobile-development"]
 ---
 
 이전 [포스트](/2009/10/android-2-0-sdk-%ec%b6%9c%ec%8b%9c%eb%a5%bc-%ea%b8%b0%eb%85%90%ed%95%98%eb%a9%b0/)에서 Android로 계산기를 만든다고 했습니다.
@@ -288,4 +289,3 @@ All 소스 또는 All xml로 개발한다는것도 효율성에서 보면 분명
 앱을 개발하다보면 여기저기 찍어내야할 부분이 생기죠! 그런 부분들을 모듈화해야할때 적시적소에 잘 사용할 수 있도록 개발하는게 좋지 않을까 생각됩니다.
 
 ---
-

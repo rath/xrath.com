@@ -1,8 +1,9 @@
 ---
 title: "IRC 클라이언트 - LGT MIDP 1.1"
-date: 2004-08-22
+date: Sun Aug 22 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/08/irc-클라이언트-lgt-midp-11
 lang: ko
+tags: ["irc-client", "bug-fix", "mobile-software"]
 ---
 
 다음과 같은 부분이 수정되었습니다.

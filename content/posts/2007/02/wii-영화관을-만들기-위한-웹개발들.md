@@ -1,8 +1,9 @@
 ---
 title: "Wii 영화관을 만들기 위한 웹개발들"
-date: 2007-02-03
+date: Sat Feb 03 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/wii-영화관을-만들기-위한-웹개발들
 lang: ko
+tags: ["web-development", "wii", "java-servlet"]
 ---
 
 **[Wii 영화관 (1분 49초)]**
@@ -122,4 +123,3 @@ public abstract class **RathJsp** extends **com.caucho.jsp.JavaPage**
 엇 재미로 바꿔본건데, 미안해하시면 어뜨케요~ -ㅅ-;
 
 ---
-

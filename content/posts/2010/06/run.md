@@ -1,8 +1,9 @@
 ---
 title: "선택과 중독"
-date: 2010-06-22
+date: Tue Jun 22 2010 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2010/06/run
 lang: ko
+tags: ["working-memory", "productivity", "programming"]
 ---
 
 나는 흐름타서 일하는 것에 대해 중독이 있다. 물 흐르듯 진행을 못하고 매번 깊이있게 생각하고 선택하여 일하는 것은 내게 고문이나 다름없다.
@@ -38,4 +39,3 @@ lang: ko
 으흐흐흐흐흐흐흐흐흐흐흐! 배수의 진. ㅡ ,-;
 
 ---
-

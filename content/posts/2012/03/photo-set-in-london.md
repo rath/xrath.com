@@ -1,8 +1,9 @@
 ---
 title: "쉬어가는 페이지"
-date: 2012-03-24
+date: Sat Mar 24 2012 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2012/03/photo-set-in-london
 lang: ko
+tags: ["travel", "photography", "daily-life"]
 ---
 
 London 길거리 사진 몇 장 올립니다. :-)

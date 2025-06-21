@@ -1,8 +1,9 @@
 ---
 title: "ParkingWars, 아이스크림 트럭에 RV 놓으면"
-date: 2008-11-04
+date: Tue Nov 04 2008 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2008/11/parkingwars-아이스크림-트럭에-rv-놓으면
 lang: ko
+tags: ["gaming", "parking-wars", "game-update", "personal-experience"]
 ---
 
 짜잔 **$61,210**!!!
@@ -30,4 +31,3 @@ openid lib 청소 함 해야되는데.. 미루고 미루고 미루고 미루고 
 2D가 제일 좋더라고요. 어설픈 3D 타도하라! 타도하라!
 
 ---
-

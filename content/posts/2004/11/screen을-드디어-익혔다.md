@@ -1,8 +1,9 @@
 ---
 title: "Screen을 드디어 익혔다!"
-date: 2004-11-25
+date: Thu Nov 25 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/11/screen을-드디어-익혔다
 lang: ko
+tags: ["screen", "linux", "terminal-multiplexer", "unix-tools"]
 ---
 
 Screen의 사용법을 드디어 익히게 되었다.
@@ -75,4 +76,3 @@ Ctrl-a 때문에 복잡하시면, escape ^z^z 로 대신 사용할 수 있습니
 잇힝 코멘트 확인이 늦었네요. 히히 저는 그냥 디폴트 인생이 좋아요~
 
 ---
-

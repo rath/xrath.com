@@ -1,8 +1,9 @@
 ---
 title: "MSN 대화내용 스크랩"
-date: 2006-08-04
+date: Fri Aug 04 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/08/msn-대화내용-스크랩
 lang: ko
+tags: ["emotions", "relationships", "personal-reflection"]
 ---
 
 제일 우울한건 이거지

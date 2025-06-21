@@ -1,8 +1,9 @@
 ---
 title: "When you pass an object via AMF3 with Red5, be careful."
-date: 2009-03-15
+date: Sun Mar 15 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/03/when-you-pass-an-object-via-amf3-with-red5
 lang: ko
+tags: ["technology", "red5", "flash", "networking"]
 ---
 
 Flash나 Flex를 프론트 엔드로 쓰는 네트워크 프로그램을 개발한다면 Red5를 사용해볼 것을 추천한다. Red5는 FMS(Flash Media Server)의 자바 구현체이며 오픈소스이다. 많은 사람들이 red5를 오디오나 비디오를 스트리밍할 용도로 많이 사용하고 있는데, 나는 그런 것에는 별로 관심이 없고 그저 AMF를 쓸 수 있기 때문에 사용한다.

@@ -1,8 +1,9 @@
 ---
 title: "IRC 클라이언트 - LGT MIDP 1.0"
-date: 2004-08-14
+date: Sat Aug 14 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/08/irc-클라이언트-lgt-midp-10
 lang: ko
+tags: ["irc-client", "mobile-software", "lgt"]
 ---
 
 LG 텔레콤 사용자들은 다음 URL 에서 다운로드 할 수 있습니다 :http://m.xrath.com/lgt/

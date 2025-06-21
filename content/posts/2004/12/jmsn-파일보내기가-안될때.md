@@ -1,8 +1,9 @@
 ---
 title: "JMSN 파일보내기가 안될때"
-date: 2004-11-30
+date: Tue Nov 30 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/12/jmsn-파일보내기가-안될때
 lang: ko
+tags: ["messaging-protocols", "networking", "java"]
 ---
 
 JMSN은 MSNP9 이하 버젼의 파일전송 프로토콜을 사용합니다.

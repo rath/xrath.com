@@ -1,8 +1,9 @@
 ---
 title: "Autofocus Time Management System"
-date: 2009-02-17
+date: Tue Feb 17 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/02/autofocus-time-management-system
 lang: ko
+tags: ["time-management", "productivity", "getting-things-done"]
 ---
 
 [GTD](http://en.wikipedia.org/wiki/Getting_Things_Done)와 쌍벽을 이루는 [DIT](http://www.markforster.net/do-it-tomorrow/)의 Mark Forster가 [새로운 시간관리 시스템](http://www.markforster.net/autofocus-system/)을 내놓았습니다. 블로그에 Auto Focus 글을 쓰고 바로 [lifehacker에 소개](http://lifehacker.com/5151111/autofocus-is-a-single-paper+based-list-organization-system)되서 그날 UV가 5,322명을 찍었다고 하고요. 글을 쓰는 시점에 [그의 트위터](http://twitter.com/AutofocusTM)를 보니 25,557명이 방문했다고 합니다. delicious popular에도 종종 autofocus 내용이 올라오고 있는걸 보니 GTD를 소화할 수 없는 사람이 많은게 아닐까 생각하게 됩니다.
@@ -283,4 +284,3 @@ Quick Start의 마지막 부분을 조금 다듬어 보았습니다. 그냥 의�
 ——————————————————————————–
 
 ---
-

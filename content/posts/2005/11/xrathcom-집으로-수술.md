@@ -1,8 +1,9 @@
 ---
 title: "xrath.com 집으로 수술"
-date: 2005-11-08
+date: Tue Nov 08 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/11/xrathcom-집으로-수술
 lang: ko
+tags: ["technology", "server-management", "personal-experience"]
 ---
 
 지난 목요일 오후, xrath.com 서버를 IDC에서 뺐다. 
@@ -58,4 +59,3 @@ IDC 돈도 아깝고하여, 그저 집에서 쓰는 PC로 옮겼다.
 잘되는데, 큐앤미디어가 바꾼대니까 가격낮춰준다길래.. 파워콤 며칠쓰다가 가끔 인터넷 안되는일이 생겨서 열라 짱나서 다시 큐앤미디어로 바꿀 예정 -_-;
 
 ---
-

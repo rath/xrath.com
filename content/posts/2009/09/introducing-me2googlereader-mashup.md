@@ -1,8 +1,9 @@
 ---
 title: "미투 구글리더를 소개합니다."
-date: 2009-09-10
+date: Thu Sep 10 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/introducing-me2googlereader-mashup
 lang: ko
+tags: ["technology", "web-development", "mashup", "social-media"]
 ---
 
 미투 구글리더를 소개합니다.
@@ -67,4 +68,3 @@ lang: ko
 저도 오픈해놓고 보니까, 공유 버튼 누를때마다 '내 미투데이 모습이 헝클어지는 건 아닐까..' 생각하게 되더라고요. 한날님과 kz님도 필터가 없어서 안쓴다고 하시길래.. 넣어봤습니다. 지저깨비님도 필요했던 기능이라고 해주시니 더욱 기쁘네요 ^^
 
 ---
-

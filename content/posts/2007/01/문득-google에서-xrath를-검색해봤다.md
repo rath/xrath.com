@@ -1,8 +1,9 @@
 ---
 title: "문득 Google에서 xrath를 검색해봤다."
-date: 2007-01-10
+date: Wed Jan 10 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/문득-google에서-xrath를-검색해봤다
 lang: ko
+tags: ["technology", "web-development", "java", "seo"]
 ---
 
 구글에서 내 이름으로 검색을 해봤다. 
@@ -45,4 +46,3 @@ NEW: http://xrath.com/j2se/docs/ko/
 captcha 배경까지 염장이면 안디야 안디야~ ㅋㅋ
 
 ---
-

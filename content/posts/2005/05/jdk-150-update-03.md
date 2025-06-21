@@ -1,8 +1,9 @@
 ---
 title: "JDK 1.5.0 Update 03"
-date: 2005-04-30
+date: Sat Apr 30 2005 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2005/05/jdk-150-update-03
 lang: ko
+tags: ["java", "bug-fix", "software-updates"]
 ---
 
 jdk 1.5.0_03 이 나왔네. 버그픽스가 꽤 있다. 보러가기
@@ -39,4 +40,3 @@ Ctrl+Alt+->
 앗 엑형 +_+ 으흐 별거 아니고 저런 이유로도 버그리포팅을 하는게 귀여워서용. (아히 안귀엽다보다 --;)
 
 ---
-

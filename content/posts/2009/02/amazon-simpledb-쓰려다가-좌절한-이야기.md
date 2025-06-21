@@ -1,8 +1,9 @@
 ---
 title: "Amazon SimpleDB 쓰려다가 좌절한 이야기"
-date: 2009-01-31
+date: Sat Jan 31 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/02/amazon-simpledb-쓰려다가-좌절한-이야기
 lang: ko
+tags: ["amazon-simpledb", "cloud-computing", "database"]
 ---
 
 엔지니어링 일만 하면서는 내가 원하는 삶을 살 수 없기 때문에 [Amazon SimpleDB](http://aws.amazon.com/simpledb/)를 살펴봤다.
@@ -44,4 +45,3 @@ AWS 서비스들을 추상화하여 입력 attribute의 value가 1024 바이트�
 어우 그럼 select 할 때 어떻게 해요 ㅋㅋ;
 
 ---
-

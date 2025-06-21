@@ -1,8 +1,9 @@
 ---
 title: "rss.xml 에서 Personal과 Daily 범주 뺀 기념 포스트"
-date: 2007-01-03
+date: Wed Jan 03 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/rssxml-에서-personal과-daily-범주-뺀-기념-포스트
 lang: ko
+tags: ["technology", "programming", "rss", "web-development"]
 ---
 
 지눅님처럼 '손' 들어주시는 분들에게 보답하고자 :$ (보답이 아니라 귀찮게 하는거 아니냐? :@)
@@ -29,4 +30,3 @@ rss 서블릿 고칠 일은 없을지어다~
 요거 다시 없앴습니다 ㅎㅎ
 
 ---
-

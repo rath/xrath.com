@@ -1,8 +1,9 @@
 ---
 title: "Firefox Extension - Web Developer"
-date: 2004-09-15
+date: Wed Sep 15 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/09/firefox-extension-web-developer
 lang: ko
+tags: ["firefox-extension", "web-developer", "web-development", "browser"]
 ---
 
 [Firefox](http://www.mozilla.org/products/firefox/)의 Extension 중의 하나인 [Web Developer](http://www.chrispederick.com/work/firefox/webdeveloper/)를 사용해보았습니다.
@@ -45,4 +46,3 @@ lang: ko
 뭔가 쉬워보이는근영~*
 
 ---
-

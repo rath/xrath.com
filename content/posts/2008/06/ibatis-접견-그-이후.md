@@ -1,8 +1,9 @@
 ---
 title: "iBATIS 접견 그 이후"
-date: 2008-06-01
+date: Sun Jun 01 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/06/ibatis-접견-그-이후
 lang: ko
+tags: ["ibatis", "database", "java", "sql-mapper"]
 ---
 
 [iBATIS 접견](/2008/06/ibatis-접견) 그 이후.

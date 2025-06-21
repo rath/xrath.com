@@ -1,8 +1,9 @@
 ---
 title: "Concerto 수집기 Release Note"
-date: 2007-12-27
+date: Thu Dec 27 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/12/concerto-수집기-release-note
 lang: ko
+tags: ["firefox-extension", "video-collection", "web-tools", "concerto"]
 ---
 
 Firefox 확장 개발을 시작하게 된 프로젝트 [Concerto](http://concerto.playmaru.net/) 의 수집기가 1.0.13 로 릴리즈 되었습니다.
@@ -89,4 +90,3 @@ IE 확장도 거의 완성되어 갑니다. [이곳](http://concerto.playmaru.ne
 지꼴이도 새해 福 많이 받기를!
 
 ---
-

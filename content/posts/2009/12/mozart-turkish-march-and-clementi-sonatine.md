@@ -1,8 +1,9 @@
 ---
 title: "모차르트 터키행진곡과 클레멘티 소나티네"
-date: 2009-12-06
+date: Sun Dec 06 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/12/mozart-turkish-march-and-clementi-sonatine
 lang: ko
+tags: ["piano", "classical-music", "music-performance", "personal-experience"]
 ---
 
 오랜만에 피아노 연주 영상 올립니다.
@@ -77,4 +78,3 @@ ps. 피아노 저정도 칠려면 얼마나 쳐야되나요??
 흐흐 -ㅅ- 유부남이 되어.. rath v3로 변신하는 중 --v;
 
 ---
-

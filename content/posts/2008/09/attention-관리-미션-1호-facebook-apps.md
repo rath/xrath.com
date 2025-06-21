@@ -1,8 +1,9 @@
 ---
 title: "Attention 관리 미션 1호 - Facebook apps"
-date: 2008-09-01
+date: Mon Sep 01 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/09/attention-관리-미션-1호-facebook-apps
 lang: ko
+tags: ["facebook-apps", "attention-management", "gaming", "productivity-tools"]
 ---
 
 [주의력을 한 곳으로 몰기](/2008/08/주의력을-한-곳으로-몰기)의 첫번째 미션. 
@@ -53,4 +54,3 @@ class Array; def sum; inject(nil) { |sum,x| sum ? sum+x : x }; end; end; ((13...
 잘 지내시나요? 전 RV 카 살려고 요새도 열심히 파킹워즈 하고 있습니다. ㅎㅎ
 
 ---
-

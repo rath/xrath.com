@@ -1,8 +1,9 @@
 ---
 title: "Windows Vista 음성인식으로 펄 코딩하기"
-date: 2007-02-08
+date: Thu Feb 08 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/windows-vista-음성인식으로-펄-코딩하기
 lang: ko
+tags: ["windows-vista", "speech-recognition", "perl", "programming-humor"]
 ---
 
 YouTube - 비스타에서 제공되는 음성인식으로 Perl 코딩하기 
@@ -46,4 +47,3 @@ IRC 에서 이것 땜에 오랜만에 배아프도록 웃었습니다. ㅎㅎ
 아놔 딜리트 웃겨 죽을뻔했어 하하--
 
 ---
-

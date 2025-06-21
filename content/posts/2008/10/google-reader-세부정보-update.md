@@ -1,8 +1,9 @@
 ---
 title: "Google Reader 세부정보 update"
-date: 2008-09-30
+date: Tue Sep 30 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/google-reader-세부정보-update
 lang: ko
+tags: ["google-reader", "rss", "productivity-tools", "web-services"]
 ---
 
 RSS Reader로 [Google Reader](http://reader.google.com/)를 사용하고 있습니다.

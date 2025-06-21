@@ -1,8 +1,9 @@
 ---
 title: "베토벤 Appassionata Op 57 Mov 3"
-date: 2009-08-26
+date: Wed Aug 26 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/08/베토벤-appassionata-op-57-mov-3
 lang: ko
+tags: ["music", "classical-music", "beethoven", "performance"]
 ---
 
 이 곡을 딱히 좋아하는 것은 아니나..
@@ -54,4 +55,3 @@ lang: ko
 기분좋은것은 좋은 음악을 들어서이고, 화가나는것은 나는 이런 음악을 연주할 수 없어서에 가까워요.......
 
 ---
-

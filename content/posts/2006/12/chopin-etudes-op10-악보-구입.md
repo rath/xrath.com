@@ -1,8 +1,9 @@
 ---
 title: "Chopin Etudes Op.10 악보 구입"
-date: 2006-12-16
+date: Sat Dec 16 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/12/chopin-etudes-op10-악보-구입
 lang: ko
+tags: ["music", "classical-music", "piano", "sheet-music"]
 ---
 
 Chopin Etudes Op.10 악보를 구입했습니다. 세광껄로요
@@ -48,4 +49,3 @@ Op.10-4!!! 노다메 9화에서 노다메가 연주한 Op.10-4가 있습니다!
 언제 대한음악사 한번 구경가보는 것도 좋을듯^^ 명동은 사람도 많고 정신없으니까 예당오페라하우스 건물안에 있는데 이것저것 잘 알려줄거에요^^
 
 ---
-

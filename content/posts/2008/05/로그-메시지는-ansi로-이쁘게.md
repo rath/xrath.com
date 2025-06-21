@@ -1,8 +1,9 @@
 ---
 title: "로그 메시지는 ANSI로 이쁘게~"
-date: 2008-05-07
+date: Wed May 07 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/05/로그-메시지는-ansi로-이쁘게
 lang: ko
+tags: ["programming", "logging", "ansi", "tools"]
 ---
 
 PC통신 시절, 각종 ANSI 들 기억 하시나요.
@@ -49,4 +50,3 @@ Windows 에서는 [SetConsoleTextAttribute ](http://msdn.microsoft.com/en-us/lib
 ㅎㅎ 저는 색깔만 몇개 넣어서 썼었는데, 사람들이 눈 아프다고 못 쓰게 해서 그냥 평문으로 출력했다는... ;ㅅ;
 
 ---
-

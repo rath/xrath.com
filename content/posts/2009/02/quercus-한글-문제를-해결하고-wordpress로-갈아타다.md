@@ -1,8 +1,9 @@
 ---
 title: "Quercus 한글 문제를 해결하고 WordPress로 갈아타다"
-date: 2009-02-08
+date: Sun Feb 08 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/02/quercus-한글-문제를-해결하고-wordpress로-갈아타다
 lang: ko
+tags: ["programming", "php", "wordpress", "web-development"]
 ---
 
 5년만에 블로그를 바꿨습니다. 그동안 extends HttpServlet 과 JSP로 수작업한 블로그로, 버그도 많고 사용성 개선도 없고 기능 빼기도 없고 추가도 없고.. 그러다가 드디어 블로그를 엎었습니다. 워드프레스로! 
@@ -168,4 +169,3 @@ PHP 5를 100% 자바로 구현한 [Quercus](http://quercus.caucho.com/)는 몇�
 http://delicious.com/eva1998/theme
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "Jython auto completion 구현하다"
-date: 2005-01-16
+date: Sun Jan 16 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/01/jython-auto-completion-구현하다
 lang: ko
+tags: ["jython", "auto-completion", "gnu-readline", "java-integration"]
 ---
 
 [Jython](http://www.jython.org) interpreter에 tab auto-completion 기능 구현! 및 gnu-readline 연동
@@ -77,4 +78,3 @@ sys. 까지만 입력하고 TAB을 강하게 눌러보잣!
 그 날 패치 보냈었는데 소식이 없어요~;
 
 ---
-

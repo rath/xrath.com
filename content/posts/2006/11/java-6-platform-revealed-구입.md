@@ -1,8 +1,9 @@
 ---
 title: "Java 6 Platform Revealed 구입~"
-date: 2006-11-02
+date: Thu Nov 02 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/11/java-6-platform-revealed-구입
 lang: ko
+tags: ["technology", "java", "programming-books"]
 ---
 
 ![](http://java.sun.com/developer/Books/javaprogramming/se6_revealed/Java6PlatformRevealed.gif)

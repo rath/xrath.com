@@ -1,8 +1,9 @@
 ---
 title: "훌륭한 POJO 도우미인 Project Lombok"
-date: 2009-10-02
+date: Fri Oct 02 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/10/훌륭한-pojo-마스터인-project-lombok
 lang: ko
+tags: ["java", "project-lombok", "programming-tools", "code-generation"]
 ---
 
 며칠전에 발견한 멋진 POJO 도우미인 [Project Lombok](http://projectlombok.org/)을 소개한다.
@@ -153,4 +154,3 @@ lombok 소개글 제목을 엄하게 지어서 죄송합니다. 본문과 제목
 오래된 덧글들이라 지금 덧글을 추가하기가 조심스럽긴 하지만 가시성을 떨어뜨린다고 이야기한다면 Spring이나 기타 자바 프레임워크들의 어노테이션 기반 모든 것들이 가시성을 떨어뜨란다고 이야기할 수도 있게 되지 않나 싶네요. 멤버변수 20개 갖고 있는 POJO가 있다고 가정할때 IDE의 코드생성 기능으로 40개의 getter/setter가 생기는 것과(어차피 컴파일 에러나지 않는 이상 하나하나 다 살펴보지도 않을) 그냥 @Data 혹은 @Getter @Setter적어주는 것만으로 그게 해결된다면 과연 어느쪽이 가시성이 떨어지고 혼란을 유발하는 건지 생각해 볼 일입니다.
 
 ---
-

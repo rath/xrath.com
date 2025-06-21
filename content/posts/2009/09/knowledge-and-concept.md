@@ -1,8 +1,9 @@
 ---
 title: "지식과 개념에 대한 단상"
-date: 2009-09-16
+date: Wed Sep 16 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/knowledge-and-concept
 lang: ko
+tags: ["thoughts", "knowledge", "learning", "concepts"]
 ---
 
 개념탑재에는 정신적인 리소스가 투입된다.

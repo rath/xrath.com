@@ -1,8 +1,9 @@
 ---
 title: "미투데이 친구들로 만드는 미디어 아트 me2face"
-date: 2008-11-03
+date: Mon Nov 03 2008 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2008/11/미투데이-친구들로-만드는-미디어-아트-me2face
 lang: ko
+tags: ["media-art", "me2face", "social-network", "flash"]
 ---
 
 [me2face](http://mobsword.com/me2app/me2face)가 렌더링해낸 제 프로필 사진입니다. 
@@ -37,4 +38,3 @@ Flash Player 10을 필요로 합니다. 만약 Flash Player 9만 사용할 수 �
 마상에! +_+
 
 ---
-

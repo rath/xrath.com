@@ -1,8 +1,9 @@
 ---
 title: "SQ 사회지능"
-date: 2006-11-02
+date: Thu Nov 02 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/11/sq-사회지능
 lang: ko
+tags: ["social-intelligence", "psychology", "self-improvement", "emotions"]
 ---
 
 요새 Daniel goleman 씨가 쓴 [SQ 사회지능](http://www.yes24.com/Goods/FTGoodsView.aspx?goodsNo=2172137&CategoryNumber=001001025001006) 이란 책을 읽고 있다.
@@ -74,4 +75,3 @@ high road를 단련시켜 통제하다보면 low road에 영향을 미칠 수 �
 집중력, 체력저하로 이제 p405 돌파.. 두껍고 잘 모르는 분야의 책을 읽기란 쉬운 일이 아니군요 (@)
 
 ---
-

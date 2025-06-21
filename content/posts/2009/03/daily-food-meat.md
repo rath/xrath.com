@@ -1,8 +1,9 @@
 ---
 title: "삼겹살"
-date: 2009-03-08
+date: Sun Mar 08 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/03/daily-food-meat
 lang: ko
+tags: ["food", "daily-life", "personal-experience"]
 ---
 
 바쁜 와중에도 와이프가 가끔 이렇게 삼겹살을 해줍니다. 
@@ -47,4 +48,3 @@ lang: ko
 [@다즐링](#comment-5962) 봉지에 '생오겹살' 써있었는데 ( -.-)
 
 ---
-

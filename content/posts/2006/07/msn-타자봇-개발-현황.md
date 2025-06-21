@@ -1,8 +1,9 @@
 ---
 title: "MSN 타자봇 개발 현황"
-date: 2006-07-08
+date: Sat Jul 08 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/07/msn-타자봇-개발-현황
 lang: ko
+tags: ["programming", "software-development", "msn-bot", "typing-game"]
 ---
 
 이번 화요일 밤부터 시작된 타자봇 개발이 대략 마무리 되어가고 있습니다.
@@ -101,4 +102,3 @@ Vc.하라는 기억나지 않지만, 총사파 고독은 생각납니다. 반가
 아.. 싸이 나타사 클럽에 저도 가입했던 기억이 있네요. ^^ 그곳을 참고하도록 할게요. ^^  행복하세요 ~!!!
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "생각을 정리하면"
-date: 2009-09-18
+date: Fri Sep 18 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/when-you-arrange-your-thoughts
 lang: ko
+tags: ["self-improvement", "thoughts", "problem-solving"]
 ---
 
 무엇인가를 골똘히 생각하다가, 혼자 생각만해서는 해결책이 안나오겠다는 판단을 하고  해결책을 다른 곳으로 위임하는 경우가 있다.

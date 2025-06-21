@@ -1,8 +1,9 @@
 ---
 title: "로그인"
-date: 2012-01-27
+date: Fri Jan 27 2012 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2012/01/issues-on-authenticating-client-certificate
 lang: ko
+tags: ["web-development", "authentication", "web-security"]
 ---
 
 혼자 또는 측근들과 사용할 웹서비스를 만드는 경우 인증이 항상 번거로운 존재가 된다.
@@ -39,4 +40,3 @@ nginx 쪽에서 클라이언트 인증서 verify 까지 모두 마치고 applica
 ^^ 결론에 뭔가 매직이 있을 줄 알았는데 여전히 번거로운거군요 ㅠㅠㅠ
 
 ---
-

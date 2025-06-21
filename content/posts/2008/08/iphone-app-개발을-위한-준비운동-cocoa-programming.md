@@ -1,8 +1,9 @@
 ---
 title: "iPhone app 개발을 위한 준비운동, Cocoa programming"
-date: 2008-07-31
+date: Thu Jul 31 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/08/iphone-app-개발을-위한-준비운동-cocoa-programming
 lang: ko
+tags: ["iphone-development", "cocoa", "objective-c", "mobile"]
 ---
 
 iPhone 국내 출시에 대한 루머가 바글바글한 상황이지만, 국내 출시가 안되면 뭐 어떻습니까.

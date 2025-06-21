@@ -1,8 +1,9 @@
 ---
 title: "스프링노트 MSN 봄공책 봇 이용자 수"
-date: 2007-04-07
+date: Sat Apr 07 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/스프링노트-msn-봄공책-봇-이용자-수
 lang: ko
+tags: ["springnote", "msn-bot", "technology"]
 ---
 
 스프링노트 MSN 봄공책 봇의 이용자 수 입니다.
@@ -65,4 +66,3 @@ mysql> select count(distinct(openid)) from springnote_user;
 저도 이제 다시 여유를 찾아야 겠어요.. ㅎㅎ
 
 ---
-

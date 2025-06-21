@@ -1,8 +1,9 @@
 ---
 title: "Google이 발표한 새로운 시스템 프로그래밍 언어 Go 써보기"
-date: 2009-11-12
+date: Thu Nov 12 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/11/practice-google-go-language-with-me2day
 lang: ko
+tags: ["programming-language", "go-language", "system-programming", "bug-fix"]
 ---
 
 구글이 새로운 시스템 프로그래밍 언어인 [Go](http://golang.org/)를 발표했습니다.
@@ -194,4 +195,3 @@ func (b B) Foo(value int) string {
 으로 구현해줘야 하더군요. 도대체 어디에도.. B가 A를 구현한다는 것이 명시적으로 나와있지 않아서, 꽤나 당황했더라지요..
 
 ---
-

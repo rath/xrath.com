@@ -1,8 +1,9 @@
 ---
 title: "의지력"
-date: 2015-03-28
+date: Sat Mar 28 2015 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2015/03/willpower
 lang: ko
+tags: ["willpower", "self-improvement", "mental-health", "habits"]
 ---
 
 의지력은 근육과 비슷한 면이 많아서 한 번 힘을 발휘한 뒤에는 일시적으로라도 꼭 휴식을 취해야 회복이 되는 것만 같다. 웨이트를 할 때 세트간 휴식시간을 심하게 줄였거나 기구간 휴식시간을 줄였을 때 어떤 피해를 입는지 생각해보면 쉬울 것 같다. 평소에는 딴 생각하면서도 가지고 놀듯이 쉽게 할 수 있었던 일이 갑자기 열라 어려운 일로 둔갑하는 것이다.

@@ -1,8 +1,9 @@
 ---
 title: "채널 기반 동영상 서비스 Concerto"
-date: 2007-12-10
+date: Mon Dec 10 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/12/채널-기반-동영상-서비스-concerto
 lang: ko
+tags: ["video-service", "openid", "web-development", "concerto"]
 ---
 
 지난  몇개월간 작업한 채널기반 동영상 서비스인 Concerto 를 소개합니다.
@@ -80,4 +81,3 @@ xrathx@gmail.com 으로 메일 보내는 게 더 좋아~
 onionmen// 3,000표 넘게 받은 우왕ㅋ굳ㅋ http://barunmal.org/member/gisa_view.htm?idx=527
 
 ---
-

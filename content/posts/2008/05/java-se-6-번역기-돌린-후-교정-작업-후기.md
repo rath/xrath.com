@@ -1,8 +1,9 @@
 ---
 title: "Java SE 6 번역기 돌린 후 교정 작업 후기"
-date: 2008-05-26
+date: Mon May 26 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/05/java-se-6-번역기-돌린-후-교정-작업-후기
 lang: ko
+tags: ["java", "translation", "documentation", "programming"]
 ---
 
 ezTrans 로 슥슥 번역 후..
@@ -98,4 +99,3 @@ empty....
 404 Not Found 뜨는데... 조치를 취해주시면 안되나요?? ㅜㅜ
 
 ---
-

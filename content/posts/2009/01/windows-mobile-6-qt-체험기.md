@@ -1,8 +1,9 @@
 ---
 title: "Windows Mobile 6 - Qt 체험기"
-date: 2009-01-03
+date: Sat Jan 03 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/01/windows-mobile-6-qt-체험기
 lang: ko
+tags: ["windows-mobile", "gui-programming"]
 ---
 
 노키아가 인수한 Qt가 버전 4.5부터는(지금은 4.4.3) LGPL로 바뀐다고 해서 GUI 프로그래밍으로 먹고 살던 시절, 호기심으로 찝쩍거렸던 Qt를 기억해보다가.. 윈도우용이라도 받아서 이것저것 데모 프로그램들을 돌려보다보니 간지가 좔좔 흐르길래 :$ 책도 다시 읽고 이것저것 디깅을 해봤습니다. &#13;
@@ -62,4 +63,3 @@ Qt를 실행하기 위한 필수 DLL들만 다 합쳤는데 8.6 메가입니다.
 
 1. 기업용/개인용 소프트웨어나 만들어야지. 엔드유저용 만들었다가는 굶어 죽기 딱 좋겠네.
 2. 그래 아이폰이나 하자.
-

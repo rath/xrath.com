@@ -1,8 +1,9 @@
 ---
 title: "네이트온 lib 개발 중 생각난 것"
-date: 2007-02-20
+date: Tue Feb 20 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/네이트온-lib-개발-중-생각난-것
 lang: ko
+tags: ["nateon", "open-source", "java", "chatbot"]
 ---
 
 네이트온의 문자대화 기능과 싸이월드와 연동된 수많은 응용기술들을 생각하다보니
@@ -72,4 +73,3 @@ http://myohan.egloos.com/2968270
 ㅎㅎ
 
 ---
-

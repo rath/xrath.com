@@ -1,8 +1,9 @@
 ---
 title: "Quote 시리즈"
-date: 2006-11-01
+date: Wed Nov 01 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/11/quote-시리즈
 lang: ko
+tags: ["quotes", "self-improvement", "reflections", "stress-management"]
 ---
 
 내 홈피 상단에 랜덤으로 나오는 천여개의 quotes 중 새로고침하면서

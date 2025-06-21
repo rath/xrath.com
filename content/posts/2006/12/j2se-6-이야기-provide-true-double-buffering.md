@@ -1,8 +1,9 @@
 ---
 title: "J2SE 6 이야기 - Provide true double buffering"
-date: 2006-12-03
+date: Sun Dec 03 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/12/j2se-6-이야기-provide-true-double-buffering
 lang: ko
+tags: ["java", "swing", "double-buffering", "jdk6"]
 ---
 
 제목에서 알 수 있듯이 '그럼 여태까진 구라 더블버퍼링이였단 말이냐? :@'를 나타낸다.

@@ -1,8 +1,9 @@
 ---
 title: "munggo님 결혼하다"
-date: 2006-09-24
+date: Sun Sep 24 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/09/munggo님-결혼하다
 lang: ko
+tags: ["wedding", "personal-experience", "daily-life", "travel"]
 ---
 
 9월 24일 안동에서 서문교 군이 씩씩하고 멋진 모습으로 예식을 올렸습니다.
@@ -59,4 +60,3 @@ lang: ko
 장호형 와줘서 고마워용... ^^
 
 ---
-

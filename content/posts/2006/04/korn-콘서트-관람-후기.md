@@ -1,8 +1,9 @@
 ---
 title: "KoRn 콘서트 관람 후기"
-date: 2006-04-27
+date: Thu Apr 27 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/04/korn-콘서트-관람-후기
 lang: ko
+tags: ["concert", "korn", "music", "entertainment"]
 ---
 
 지난 토요일(4월 22일) 올림픽공원으로 KoRn 콘서트를 다녀왔습니다.
@@ -46,4 +47,3 @@ KoRn 콘서트! 두둥.. 처음 간것이였습니다.
 어디가 웃긴건데-_-
 
 ---
-

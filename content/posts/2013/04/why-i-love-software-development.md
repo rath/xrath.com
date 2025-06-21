@@ -1,8 +1,9 @@
 ---
 title: "내가 소프트웨어 개발을 즐기는 이유"
-date: 2013-04-24
+date: Wed Apr 24 2013 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2013/04/why-i-love-software-development
 lang: ko
+tags: ["software-development", "motivation", "technology", "programming"]
 ---
 
 중력을 비롯한 온갖 물리적 제한들이 존재하지 않는 세상이기 때문이다.
@@ -27,4 +28,3 @@ You're a wizard. In both way. ;p
 뉘앙스를 살리기 위해 콩글리쉬로.. =3
 
 ---
-

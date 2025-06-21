@@ -1,8 +1,9 @@
 ---
 title: "Adobe Flex 2 온라인 코딩 훈련 프로그램 만들다!"
-date: 2007-01-01
+date: Mon Jan 01 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/adobe-flex-2-온라인-코딩-훈련-프로그램-만들다
 lang: ko
+tags: ["technology", "programming", "flex", "actionscript"]
 ---
 
 Flash 9 플레이어가 있으면 어디서든 쌩쌩 잘돌아가는 Flex 2 + ActionScript 3.0.

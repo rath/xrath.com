@@ -1,8 +1,9 @@
 ---
 title: "코멘트 쓰기의 CAPTCHA를 한글로 재구현하다"
-date: 2006-12-07
+date: Thu Dec 07 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2006/12/코멘트-쓰기의-captcha를-한글로-재구현하다
 lang: ko
+tags: ["technology", "programming", "captcha", "unicode"]
 ---
 
 pistos님의 좋은 의견인 '왜 captcha는 항상 알파벳이여야 하는가'..  
@@ -251,4 +252,3 @@ CN: 바꿨습니다. 올바르게 쓰기 훈련이 부족했나봐요 흑흑
 소스좀 공유해주실수 있으신가요 ㅠ
 
 ---
-

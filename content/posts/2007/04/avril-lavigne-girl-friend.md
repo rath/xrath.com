@@ -1,8 +1,9 @@
 ---
 title: "Avril Lavigne - Girl friend"
-date: 2007-04-01
+date: Sun Apr 01 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/avril-lavigne-girl-friend
 lang: ko
+tags: ["music", "avril-lavigne", "entertainment"]
 ---
 
 며칠전 숏텀 우울증을 겪고 있을 때, 제 우울증을 언제 그랬냐는 듯이 날려준 

@@ -1,8 +1,9 @@
 ---
 title: "접근성"
-date: 2010-10-24
+date: Sun Oct 24 2010 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2010/10/accessibility
 lang: ko
+tags: ["psychology", "addiction", "self-control"]
 ---
 
 접근성이 현저하게 낮아서 접근이 불가능한 정도까지는 아니고. 마음만 먹으면 언제든 접근할 수 있지만, 심심할 때 하기에는 귀찮을 정도로 접근성을 떨어트리면 언제든 할 수 있다고 생각하기 때문에 갈망도 생기지 않고, 접근하려고 하면 귀찮음이 느껴지기 때문에 스스로 대상에 대한 의존성을 줄이게 된다.
@@ -33,4 +34,3 @@ lang: ko
 욕시. 많은 진리들은 한곳에서 만나는듯. ㅋ.ㅋ
 
 ---
-

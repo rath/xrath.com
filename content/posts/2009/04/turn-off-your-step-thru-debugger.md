@@ -1,8 +1,9 @@
 ---
 title: "디버거랑 결별하세요"
-date: 2009-04-14
+date: Tue Apr 14 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/04/turn-off-your-step-thru-debugger
 lang: ko
+tags: ["technology", "programming", "debugging", "software-development"]
 ---
 
 assertTrue()의 Turn off your step-thru debugger를 보다가 어딘가 옮겨놓고 싶어서, 옮겨봅니다. 
@@ -85,4 +86,3 @@ assertTrue()의 Turn off your step-thru debugger를 보다가 어딘가 옮겨�
 crash report 보다는 logging에 가깝지만 모두 포함된다고 생각하셔도 무난할 듯 합니다.
 
 ---
-

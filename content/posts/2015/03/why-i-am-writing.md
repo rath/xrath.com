@@ -1,8 +1,9 @@
 ---
 title: "글을 쓰는 이유"
-date: 2015-03-15
+date: Sun Mar 15 2015 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2015/03/why-i-am-writing
 lang: ko
+tags: ["writing", "self-reflection", "personal-experience", "creativity"]
 ---
 
 무엇을 할 것이라는 내용의 글은 의미가 없다.  무엇을 해냈다는 내용의 글 또한 별로 의미가 없다. 그 행동 자체로서의 의미가 얼마나 없었으면 글이라는 형태를 빌어 또 한번 출판되어야 했을까.
@@ -37,4 +38,3 @@ lang: ko
 @dolpang2, 나쁘지 않은 용도라고 생각합니다. 저의 경우 그런 용도로 글을 썼을 때의 문제점이라면 분명히 기록했었음에도 불구하고 실수가 반복될때가 많더라고요. 기록을 안했다면 핑계라도 댈 수 있을텐데 말입니다 --;
 
 ---
-

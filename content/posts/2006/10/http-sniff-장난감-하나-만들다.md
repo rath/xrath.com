@@ -1,8 +1,9 @@
 ---
 title: "HTTP Sniff 장난감 하나 만들다"
-date: 2006-10-05
+date: Thu Oct 05 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/10/http-sniff-장난감-하나-만들다
 lang: ko
+tags: ["technology", "java", "networking", "tools"]
 ---
 
 얼마전 타자방으로 알게된 [하앙e님](http://kernys.net/)의 MSN기능형 봇을 보다가 
@@ -108,4 +109,3 @@ HttpWatch (http://httpwatch.com) 쓰고 있는뎅..
 4월부터 7월까지 개인 사정으로 잠시 닫았었습니다. 또 뵈어요 +_+
 
 ---
-

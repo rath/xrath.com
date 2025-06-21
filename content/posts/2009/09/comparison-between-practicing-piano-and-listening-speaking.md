@@ -1,8 +1,9 @@
 ---
 title: "피아노 연주와 외국어 말하기/듣기의 비교"
-date: 2009-09-23
+date: Wed Sep 23 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/comparison-between-practicing-piano-and-listening-speaking
 lang: ko
+tags: ["music", "language-learning", "practice", "comparison"]
 ---
 
 아무리 바쁘더라도 피아노 연습은 적어도 하루에 50분이상 하는 편이다.

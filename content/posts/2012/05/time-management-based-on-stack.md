@@ -1,8 +1,9 @@
 ---
 title: "스택 기반 시간 관리"
-date: 2012-05-31
+date: Thu May 31 2012 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2012/05/time-management-based-on-stack
 lang: ko
+tags: ["time-management", "productivity", "self-improvement"]
 ---
 
 프로그래밍을 하다보면 초심을 잃게 되는 경우가 많다. 세계 각지에 퍼져있는 정보들에 대한 접근성이 기하급수적으로 높아졌기 때문이다. 라고 썼지만 그 근원은 지적 욕심 때문이다.
@@ -138,4 +139,3 @@ http://github.com/limeburst/timestack
 안시컬러코드 예쁘네요 ^_^
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "Projects 메뉴 오픈!"
-date: 2005-01-11
+date: Tue Jan 11 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/01/projects-메뉴-오픈
 lang: ko
+tags: ["web-development", "servlets", "file-download", "jsp"]
 ---
 
 1월 3일부터 어딘가에 출퇴근을 하고 있습니다. 계약당시 서로간의 합의하에 출퇴근 시간은 유연하게 했지만, 근 2년만에 '어딘가로' 출퇴근 하는 거라.. 왠만하면 아침에 출근을 하고 있습니다.

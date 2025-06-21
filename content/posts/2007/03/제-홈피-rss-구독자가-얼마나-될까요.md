@@ -1,8 +1,9 @@
 ---
 title: "제 홈피 RSS 구독자가 얼마나 될까요"
-date: 2007-03-15
+date: Thu Mar 15 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/제-홈피-rss-구독자가-얼마나-될까요
 lang: ko
+tags: ["rss", "web-analytics", "technology"]
 ---
 
 xrath.com를 rss로 구경하는 사람이 얼마나 될까 궁금하여 tail 과 grep으로 간단히 분석해봤습니다.
@@ -162,4 +163,3 @@ T.T ㅋㅋㅋ
 엄허 그게 지눅님이였구나 :$
 
 ---
-

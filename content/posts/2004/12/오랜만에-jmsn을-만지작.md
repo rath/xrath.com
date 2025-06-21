@@ -1,8 +1,9 @@
 ---
 title: "오랜만에 JMSN을 만지작"
-date: 2004-12-03
+date: Fri Dec 03 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/12/오랜만에-jmsn을-만지작
 lang: ko
+tags: ["bug-tracking", "application-development", "software-maintenance"]
 ---
 
 JMSN을 만들어낸지도 어언 2년 8개월이 지났습니다.

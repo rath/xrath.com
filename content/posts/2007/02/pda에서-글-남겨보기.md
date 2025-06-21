@@ -1,8 +1,9 @@
 ---
 title: "pda에서 글 남겨보기"
-date: 2007-02-04
+date: Sun Feb 04 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/pda에서-글-남겨보기
 lang: ko
+tags: ["mobile", "pda", "web-development"]
 ---
 
 오랜만에 잠자리에서 4700으로 웹써핑을 하다가, 한번쯤은 pda에서 포스트를 남겨봐야 하지 않겠나하는 생각이 들었다.
@@ -70,4 +71,3 @@ fdb 사용법도 익혔다. -debug=true 줘야하는거 첨 알았다 (7)
 wm2003에서 오페라 미니도 잘 돌아갑니다.
 
 ---
-

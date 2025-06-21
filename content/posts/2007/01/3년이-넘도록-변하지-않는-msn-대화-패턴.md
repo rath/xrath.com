@@ -1,8 +1,9 @@
 ---
 title: "3년이 넘도록 변하지 않는 MSN 대화 패턴"
-date: 2007-01-19
+date: Fri Jan 19 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/3년이-넘도록-변하지-않는-msn-대화-패턴
 lang: ko
+tags: ["daily-life", "communication", "msn", "social-patterns"]
 ---
 
 때는 2003년 12월
@@ -97,4 +98,3 @@ secure character ...... 인생에서가 -_-;;
 아타마 스캔 - 에이지 스크린샷 포스팅 할 거삼 ㅋㅋ
 
 ---
-

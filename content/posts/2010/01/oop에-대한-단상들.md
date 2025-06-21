@@ -1,8 +1,9 @@
 ---
 title: "OOP에 대한 단상들"
-date: 2010-01-29
+date: Fri Jan 29 2010 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2010/01/oop에-대한-단상들
 lang: ko
+tags: ["oop", "programming-paradigms", "software-development", "thoughts"]
 ---
 
 우연히 박영록이 쓴 [안드로이드를 하면서 다시 생각해본 OOP](http://youngrok.com/moin.cgi/안드로이드를%20하면서%20다시%20생각해본%20OOP)를 읽고 OOP에 대한 단상들을 뱉어내기로 했다. 영록이가 쓴 글의 문맥과는 거리가 멀다는 점을 염두해두시라.
@@ -78,4 +79,3 @@ lang: ko
 이게 돌아갈지 안돌아갈지 잘 모를 때는 나도 줄줄 짬.. 구현 코딩에 아무런 문제가 없을 때.. 지겨워서 -_-? 추상화니 뭐니 이짓저짓 하는 듯..;;
 
 ---
-

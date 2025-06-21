@@ -1,8 +1,9 @@
 ---
 title: "Software Creativity 2.0"
-date: 2009-06-08
+date: Mon Jun 08 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/06/software-creativity-20
 lang: ko
+tags: ["technology", "software-development", "programming", "books"]
 ---
 
 그날 그날 기분에 따라 쉽게 환호하고 쉽게 무시하기도 하는 성격이긴 하지만,
@@ -78,4 +79,3 @@ Effective Java 1판 이후로 이렇게 임팩트 넘치는 책을 읽어본 적
 이 책에서 얻은 가장 큰 이점은 말씀하신 것 처럼 개발에 대한 자연스러운 접근이 잘못된 게 아니라는 것을 느끼는 데서 오는 안도감이네요..
 
 ---
-

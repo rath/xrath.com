@@ -1,8 +1,9 @@
 ---
 title: "Moral Self-Licensing"
-date: 2012-07-04
+date: Wed Jul 04 2012 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2012/07/moral-self-licensing
 lang: ko
+tags: ["psychology", "self-discipline", "moral-licensing", "behavior"]
 ---
 
 **서문**
@@ -65,4 +66,3 @@ Moral Licensing 이 Willpower 와 무슨 관계가 있는지는 이 포스트의
 지금까지 미친듯이 청소를 하고 그 상으로 (?) 티라미수를 먹으려던 차에 이 글이 생각나서 ㅋ
 
 ---
-

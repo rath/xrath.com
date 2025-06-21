@@ -1,8 +1,9 @@
 ---
 title: "검색창에 기능 추가 - Google과 네이버 조금씩 따라하기"
-date: 2007-01-18
+date: Thu Jan 18 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/검색창에-기능-추가-google과-네이버-조금씩-따라하기
 lang: ko
+tags: ["technology", "web-development", "search-engine", "frontend"]
 ---
 
 이 기능은 검색엔진 코어(Lucene)와는 전혀 관련이 없고 단순히 웹 프론트엔드에서 처리하는 것이다.
@@ -73,4 +74,3 @@ Google에서 실수로 [javaa로 검색](http://www.google.co.kr/search?hl=ko&q=
 주로 사용하는 닉네임은 "개굴" '.' 처음 글을 남기는데 ... 어떻게 하다보니 개가 됐네요 -_-;;
 
 ---
-

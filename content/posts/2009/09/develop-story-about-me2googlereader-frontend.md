@@ -1,8 +1,9 @@
 ---
 title: "미투 구글리더 개발 후기 : Ext GWT"
-date: 2009-09-10
+date: Thu Sep 10 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/develop-story-about-me2googlereader-frontend
 lang: ko
+tags: ["technology", "web-development", "ext-gwt", "java"]
 ---
 
 [미투 구글리더](/2009/09/introducing-me2googlereader-mashup/) 개발 후기입니다.
@@ -130,4 +131,3 @@ VerticalPanel panel = new VerticalPanel() {
 어려운가.. '-'a 다음엔 꼭 Actionscript 3.0 쓸 일이 있기를~
 
 ---
-

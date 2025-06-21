@@ -1,8 +1,9 @@
 ---
 title: "심심풀이 JMSN 0.9.9b8 릴리즈"
-date: 2007-01-21
+date: Sun Jan 21 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/심심풀이-jmsn-099b8-릴리즈
 lang: ko
+tags: ["technology", "software-development", "msn", "bugfix"]
 ---
 
 MSN 타자봇(taja@xrath.com) 덕분에 msnmlib은 꾸준히 관리하지만 
@@ -93,4 +94,3 @@ Microsoft 님이 프로토콜을 크게 안바꿔주신 것이 큰 도움이 됐
 아닙니다. -_-; 차단을 알 수는 없습니다.
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "막시무스 Quote 들"
-date: 2007-03-06
+date: Tue Mar 06 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/막시무스-quote-들
 lang: ko
+tags: ["quotes", "philosophy", "self-improvement", "culture"]
 ---
 
 지난 하루를 돌이켜보면 막시무스의 ['지구에서 인간으로 유쾌하게 사는 법'](http://www.yes24.com/Goods/FTGoodsView.aspx?goodsNo=2129508&CategoryNumber=001001017002001)의 문구에서 많은 에너지를 얻었기에, 퇴근길에 좀 더 심오하게 읽어봤습니다.

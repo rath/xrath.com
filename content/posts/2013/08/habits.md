@@ -1,8 +1,9 @@
 ---
 title: "습관"
-date: 2013-08-05
+date: Mon Aug 05 2013 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2013/08/habits
 lang: ko
+tags: ["habits", "self-improvement", "psychology", "behavior"]
 ---
 
 어떤 일을 반복하다보면 그 행동이 습관으로 자리 잡는다. 그 행동이 무엇이든간에 습관이 되어버리면 평범한 행위가 되어버린다. 스트레스를 전혀 받지 않고 할 수 있다. 그 일을 처리하는데 필요한 혈관이 있다 친다면 혈관의 크기가 늘어나게 되는 것이다. 웬만한 혈류랑으로는 혈압 상승이 조금도 일어나지 않게 된다.

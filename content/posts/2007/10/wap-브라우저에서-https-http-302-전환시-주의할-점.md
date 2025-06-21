@@ -1,8 +1,9 @@
 ---
 title: "WAP 브라우저에서 https => http 302 전환시 주의할 점"
-date: 2007-10-15
+date: Mon Oct 15 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/10/wap-브라우저에서-https-http-302-전환시-주의할-점
 lang: ko
+tags: ["wap", "mobile-development", "openid", "web-development"]
 ---
 
 1달전에 삽질한 내용이지만 저같은 순진무구 :$ 한 개발자가 덜 고생하라고 포스팅 하나 남깁니다.
@@ -69,4 +70,3 @@ IDP에 모바일 디바이스를 위한 페이지 뷰와 약간의 로직(선별
 http://openid.net/ 을 참고해주세요.
 
 ---
-

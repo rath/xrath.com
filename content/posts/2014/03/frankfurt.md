@@ -1,8 +1,9 @@
 ---
 title: "독일로 이사"
-date: 2014-03-31
+date: Mon Mar 31 2014 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2014/03/frankfurt
 lang: ko
+tags: ["personal-experience", "relocation", "work-life-balance", "culture"]
 ---
 
 5년전 어느 여름 아내와 함께 런던으로 이사했다. 그리고 아내의 학교생활이 거의 끝나 며칠전 독일로 이사했다. 런던에 처음 왔을 때는 1-2개월정도 "나도 취업이란걸 해볼까" 하는 생각이 있었는데 어쩌다보니 원격알바와 앱개발로 생활비가 잘 충당되었기에 취업 생각은 완전히 버렸었다. 아니 생활비가 충당하지 못했더라도 취업은 안했을거다.
@@ -105,4 +106,3 @@ ps. 한글로 번역한 api 문서가 없어져서 아쉽네요.
 메일로 연락한번 부탁드리겠습니다.
 
 ---
-

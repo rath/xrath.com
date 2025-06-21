@@ -1,8 +1,9 @@
 ---
 title: "Google Web Toolkit 2.0 릴리즈"
-date: 2009-12-12
+date: Sat Dec 12 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/12/google-web-toolkit-2-0-릴리즈
 lang: ko
+tags: ["gwt", "web-development", "java", "programming-framework"]
 ---
 
 어지간한 소식이 아니면, 제가 만들지 않은 것에 대한 릴리즈 소식을 전하지 않는데요.
@@ -36,4 +37,3 @@ GWT 공부해두길 잘했다는 생각이 들고, 자바 프로그래머인 것
 한동안 사람들이 많이 혼동하던 "자바랑 자바스크립트 같은 거 아니에요?"가 다시 도질지도 모르겠네요.. ㅎㅎ
 
 ---
-

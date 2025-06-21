@@ -1,8 +1,9 @@
 ---
 title: "IRC 클라이언트 - LGT MIDP 1.1.8"
-date: 2004-08-28
+date: Sat Aug 28 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/08/irc-클라이언트-lgt-midp-118
 lang: ko
+tags: ["irc-client", "bug-fix", "nickname", "mobile-software"]
 ---
 
 수정된 사항입니다. 이번 수정 사항은 거친마루님과 XPsEternity님의 버그리포팅이 
@@ -21,4 +22,3 @@ lang: ko
 한번 매직엔접속식으로 만드시는건 어떨까요 ^_^
 
 ---
-

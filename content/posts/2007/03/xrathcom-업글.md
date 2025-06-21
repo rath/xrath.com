@@ -1,8 +1,9 @@
 ---
 title: "xrath.com 업글"
-date: 2007-03-17
+date: Sat Mar 17 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/xrathcom-업글
 lang: ko
+tags: ["openid", "trackback", "ajax", "web-development"]
 ---
 
 o **OpenID 로그인/로그아웃**
@@ -153,4 +154,3 @@ RSS의 <description> 부분에 모든 내용을 다 담는건 불필요해 보�
 스파게티 사주면.. 뭉고 OpenID로 쓴 글은 지우지 못하게 해줄께 -_-
 
 ---
-

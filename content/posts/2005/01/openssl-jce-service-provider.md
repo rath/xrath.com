@@ -1,8 +1,9 @@
 ---
 title: "OpenSSL - JCE Service Provider"
-date: 2005-01-25
+date: Tue Jan 25 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/01/openssl-jce-service-provider
 lang: ko
+tags: ["openssl", "java-cryptography", "jca", "jni"]
 ---
 
 전혀 새로운 기술은 아니지만, 살짝 구글링 해봐도 안나오길래.. 만들기로 결심했다.
@@ -151,4 +152,3 @@ P.S. 장호님 덕분에 미투데이를 알게 되어서 쓰고 있어요. 그 
 좋은 하루 보내세요^^
 
 ---
-

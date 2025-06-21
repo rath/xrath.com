@@ -1,8 +1,9 @@
 ---
 title: "J2EE web.xml 의 servlet-mapping, uri-pattern 과 생이별 + 정규식 지원"
-date: 2008-07-06
+date: Sun Jul 06 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/07/j2ee-webxml-의-servlet-mapping-uri-pattern-과-생이별-정규식-지원
 lang: ko
+tags: ["java", "servlet", "uri-mapping"]
 ---
 
 머리속에 아이디어는 떠오르고 이녀석들을 그냥 버리기는 아까워서 [RTM](http://www.rememberthemilk.com/)에 등록해두기만 했다가, 오늘처럼 와이프 늦잠자는 일요일 오전이면 한두개씩 실행에 옮기곤 한다.
@@ -123,4 +124,3 @@ http://www.djangoproject.com/documentation/url_dispatch/
 응 완전히 똑같은 거라고 봐도 대~ ㅎㅎ
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "OpenID 귓속말 서비스"
-date: 2007-07-23
+date: Mon Jul 23 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/07/openid-귓속말-서비스
 lang: ko
+tags: ["openid", "authentication", "sms-notifications", "web-service"]
 ---
 
 # OpenID 귓속말 소개
@@ -289,4 +290,3 @@ codian님에게 책 한권 정말 드렸습니까. ㅋㅋㅋ
 귓속말 개편으로 한동안 API가 작동하지 않을겁니다. 양해 부탁드립니다.
 
 ---
-

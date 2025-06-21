@@ -1,8 +1,9 @@
 ---
 title: "오늘 집에 가서 하고 싶은 일 (rev 2)"
-date: 2007-02-26
+date: Mon Feb 26 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/오늘-집에-가서-하고-싶은-일-rev-2
 lang: ko
+tags: ["java", "jsmooth", "software-development", "programming-tools"]
 ---
 
 내 홈피 유입검색어와 lucene 쿼리 로그를 보면 가끔 [JSmooth](http://sourceforge.net/projects/jsmooth/) 가 나온다.
@@ -63,4 +64,3 @@ The JDK1_1InitArgs and JDK1_1AttachArgs data structures are no longer used, but 
 흐흐 지하철에서밖에 못놀았지만 재밌었어요 -ㅅ-
 
 ---
-

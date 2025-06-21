@@ -1,8 +1,9 @@
 ---
 title: "iPod Touch에서 글쓰기"
-date: 2009-02-08
+date: Sun Feb 08 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/02/ipod-touch에서-글쓰기
 lang: ko
+tags: ["mobile-writing", "ipod-touch", "personal-experience"]
 ---
 
 입력하는게 다소 힘들긴 하지만, 지하철이나 버스에서 글쓰기 용도로는 그럭저럭 괜찮은 역할을 해줄꺼라고 생각한다.
@@ -114,4 +115,3 @@ http://freemind.sourceforge.net/wiki/index.php/Main_Page (자바기반)
 형 아이팟 터치에서 글쓰는 것 완전 빡세던데요...
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "Perfume: The Story Of A Murderer, 2006 (스포)"
-date: 2007-04-01
+date: Sun Apr 01 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/perfume-the-story-of-a-murderer-2006-스포일러
 lang: ko
+tags: ["movie-review", "perfume", "entertainment"]
 ---
 
 지인이 추천해준 영화 '향수'를 봤습니다.
@@ -108,4 +109,3 @@ lang: ko
 아아 성수씨 보러 포항 언제가지~ 언제가지~
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "Listening 공부를 망치려면 이렇게 하자"
-date: 2009-03-08
+date: Sun Mar 08 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/03/how-to-fail-in-listening
 lang: ko
+tags: ["language-learning", "listening-skills", "self-improvement"]
 ---
 
 며칠전에 Listening 공부의 어려움이라는 포스팅을 했었다. 오늘은 주의력과 불안 관리면을 살펴보겠다. 
@@ -50,4 +51,3 @@ lang: ko
 그리고 잠의 세계로..
 
 ---
-

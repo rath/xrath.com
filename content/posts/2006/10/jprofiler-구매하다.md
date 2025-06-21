@@ -1,8 +1,9 @@
 ---
 title: "JProfiler 구매하다."
-date: 2006-10-02
+date: Mon Oct 02 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/10/jprofiler-구매하다
 lang: ko
+tags: ["technology", "java", "profiling", "memory-management"]
 ---
 
 회사 제품 개발 중, 전혀 메모리 부족할 상황이 아니였는데 OutOfMemoryError가 발생해버렸다.

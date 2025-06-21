@@ -1,8 +1,9 @@
 ---
 title: "soojung 업데이트"
-date: 2005-03-26
+date: Sat Mar 26 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/03/soojung-업데이트
 lang: ko
+tags: ["blog-software", "fedora-core", "php", "mysql"]
 ---
 
 제 홈피에서도 사용중인 soojung 블로그를 0.4.6 으로 업데이트 하였습니다.
@@ -67,4 +68,3 @@ FC2는 괜찮데요~ (저도 들은것~;)
 젠투나 우분투? 도전해볼까 싶네요.ㅋ
 
 ---
-

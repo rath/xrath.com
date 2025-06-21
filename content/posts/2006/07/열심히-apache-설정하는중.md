@@ -1,8 +1,9 @@
 ---
 title: "열심히 Apache 설정하는중"
-date: 2006-07-03
+date: Mon Jul 03 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/07/열심히-apache-설정하는중
 lang: ko
+tags: ["web-server", "apache", "security", "web-configuration"]
 ---
 
 블로그를 개장한게 겨우 2일밖에 안되었는데,
@@ -61,4 +62,3 @@ Referer도 거르고 요리조리 다 걸러야겠습니다. 평온한 사이트
 사실 거의 반년정도 닫혀있었다가 7월 2일에 재개장했어요. 성수씨 진짜 오랜만~! :D
 
 ---
-

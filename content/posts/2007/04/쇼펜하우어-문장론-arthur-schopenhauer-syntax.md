@@ -1,8 +1,9 @@
 ---
 title: "쇼펜하우어 문장론 : Arthur schopenhauer; syntax"
-date: 2007-04-22
+date: Sun Apr 22 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/쇼펜하우어-문장론-arthur-schopenhauer-syntax
 lang: ko
+tags: ["philosophy", "writing", "schopenhauer"]
 ---
 
 [유혹하는 글쓰기](http://www.yes24.com/Goods/FTGoodsView.aspx?goodsNo=256998&CategoryNumber=001001017004004)를 구입하러 서점에 갔다가 정작 그 책은 안사고 옆에 놓여있던 책을 샀다.
@@ -60,4 +61,3 @@ lang: ko
 어떤 종류의 책을 읽으셨어요? 쇼펜하우어의 저 말은 충분히 자기 것으로 소화를 하고 재해석하라는 의미인 것 같아요. 잘은 모르지만 denim님은 해당되지 않을 것 같은데요 ^^
 
 ---
-

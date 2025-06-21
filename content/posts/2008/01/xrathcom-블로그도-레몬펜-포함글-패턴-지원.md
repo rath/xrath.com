@@ -1,8 +1,9 @@
 ---
 title: "xrath.com 블로그도 레몬펜 포함글 패턴 지원"
-date: 2008-01-02
+date: Wed Jan 02 2008 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2008/01/xrathcom-블로그도-레몬펜-포함글-패턴-지원
 lang: ko
+tags: ["blogging", "web-development", "lemonpen"]
 ---
 
 [레몬펜 포함글 패턴 지원](http://lemonpen.springnote.com/pages/685640.xhtml)..  
@@ -73,4 +74,3 @@ http://xrath.com/blog.jsp?category=-1&page=1
 이미 테스트 하셨다니 다행이네요 :-)
 
 ---
-

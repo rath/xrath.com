@@ -1,8 +1,9 @@
 ---
 title: "Daum 웹인사이드를 통한 xrath.com 사이트 리포트"
-date: 2007-01-21
+date: Sun Jan 21 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/daum-웹인사이드를-통한-xrathcom-사이트-리포트
 lang: ko
+tags: ["technology", "web-analytics", "daum", "web-development"]
 ---
 
 지난달 12월 28일경 내 사이트를 [다음 웹인사이드](http://inside.daum.net/dwi/top/Top.dwi)에 등록했다.
@@ -51,4 +52,3 @@ lang: ko
 웹인사이드 재밌어요 ㅎㅎ 저도 제 기록빼고 보니까 그래프가 평평~한게 아주 보기 좋더라구요 ㅎㅎ
 
 ---
-

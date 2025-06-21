@@ -1,8 +1,9 @@
 ---
 title: "OpenID 붙이기 끝"
-date: 2007-03-10
+date: Sat Mar 10 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/03/openid-붙이기-끝
 lang: ko
+tags: ["technology", "openid", "web-development"]
 ---
 
 xrath.com 코멘트 쓰기에 [OpenID](http://openid.net) 를 붙였습니다.
@@ -121,4 +122,3 @@ rath.myopenid.com으로 남겨보는 코멘트
 코멘트 입력 당시.. 특별히 운좋은 인간이 아니였던게야 _-_
 
 ---
-

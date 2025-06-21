@@ -1,8 +1,9 @@
 ---
 title: "피아노 연습 :: Kuhlau Sonatine Op.55-1, Op-20.1"
-date: 2009-06-19
+date: Fri Jun 19 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/06/kuhlau-sonatine-plays
 lang: ko
+tags: ["daily-life", "music", "piano", "practice"]
 ---
 
 즐거운 피아노 연습 영상으로 안부 메시지 올립니다. 진행중이던 프로젝트의 끝자락이 보여서  Xacti로 녹화해봤습니다.
@@ -40,4 +41,3 @@ lang: ko
 *부끄부끄* 감사합니닷!
 
 ---
-

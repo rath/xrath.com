@@ -1,8 +1,9 @@
 ---
 title: "iPAQ hx4700"
-date: 2006-04-02
+date: Sun Apr 02 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/04/ipaq-hx4700
 lang: ko
+tags: ["pocket-pc", "technology", "personal-electronics"]
 ---
 
 어느덧 4월이 밝았습니다.
@@ -50,4 +51,3 @@ Memo 살려주세요
 메일 보내주기 바람 ppc app 보내주겠음 -_-/
 
 ---
-

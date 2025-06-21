@@ -1,8 +1,9 @@
 ---
 title: "system of a down이 부른 젤다의 전설 테마"
-date: 2008-11-22
+date: Sat Nov 22 2008 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2008/11/system-of-a-down이-부른-젤다의-전설-테마
 lang: ko
+tags: ["music", "system-of-a-down", "legend-of-zelda", "cover-song"]
 ---
 
 경쾌하고 좋습니다. [Serj Tankian myspace](http://www.myspace.com/serjtankian)도 있네요.

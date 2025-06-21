@@ -1,8 +1,9 @@
 ---
 title: "혼자하는 Wicket 스터디"
-date: 2008-06-16
+date: Mon Jun 16 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/06/혼자하는-wicket-스터디
 lang: ko
+tags: ["apache-wicket", "study", "java", "web-development"]
 ---
 
 오늘부터 시작-
@@ -32,4 +33,3 @@ lang: ko
 미안 내 홈피는 불친절해 ㅋㅋㅋ
 
 ---
-

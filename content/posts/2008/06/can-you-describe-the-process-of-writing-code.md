@@ -1,8 +1,9 @@
 ---
 title: "Can you describe the process of writing code?"
-date: 2008-06-05
+date: Thu Jun 05 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/06/can-you-describe-the-process-of-writing-code
 lang: ko
+tags: ["java-programming", "software-development", "coding-process", "developer-interview"]
 ---
 
 2008 JavaOne Conference 에서 [Chet Haase 씨 인터뷰 내용](http://java.sun.com/javaone/sf/2008/articles/rockstar_chethaase.jsp) 중 재미있고 인상 깊은 것 몇 개.
@@ -52,4 +53,3 @@ A: Pick up a pen and paper and think through the problem. Take a walk. Talk to s
 자, 이 글을 번역해라. 번역툴은 레몬펜을 쓰도록 해!
 
 ---
-

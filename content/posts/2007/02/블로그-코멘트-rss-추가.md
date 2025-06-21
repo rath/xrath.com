@@ -1,8 +1,9 @@
 ---
 title: "블로그 코멘트 RSS 추가"
-date: 2007-02-12
+date: Mon Feb 12 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/블로그-코멘트-rss-추가
 lang: ko
+tags: ["rss", "blogging", "web-development", "productivity"]
 ---
 
 홈피에 빈번히 접속하는 이유를 살펴보니 오직 새로 올라온 코멘트가 있는지 확인하러 오는 것 뿐이였다.
@@ -47,4 +48,3 @@ lang: ko
 리접님 만세~
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "Tiger로 프로젝트 개발하기"
-date: 2004-10-02
+date: Sat Oct 02 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/10/tiger로-프로젝트-개발하기
 lang: ko
+tags: ["java-5", "tiger", "generics", "programming"]
 ---
 
 Java 5 (1.5)가 정식 릴리즈 된지도 이제 한달이 지났다.

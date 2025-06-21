@@ -1,8 +1,9 @@
 ---
 title: "리눅스에서 쓸만한 편집기 찾기 - gedit"
-date: 2007-08-05
+date: Sun Aug 05 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/08/리눅스에서-쓸만한-편집기-찾기-gedit
 lang: ko
+tags: ["linux", "text-editor", "vim", "programming-tools"]
 ---
 
 백가지 장점이 있더라도 단 하나의 단점을 발견하는 순간 그것을 싫어하는 나.
@@ -170,4 +171,3 @@ hhk의 키 배치가 이상하다고 생각되면, 리얼포스 원츄. ^^
 경험담 간간히 올려 주시면 도움이 많이 될듯 합니다.. ^^
 
 ---
-

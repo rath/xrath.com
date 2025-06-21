@@ -1,8 +1,9 @@
 ---
 title: "Google Ads"
-date: 2004-11-10
+date: Wed Nov 10 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/11/google-ads
 lang: ko
+tags: ["google-ads", "online-advertising", "monetization"]
 ---
 
 제 홈피에도 구글 광고를 게시하기 시작했습니다. -ㅅ- 
@@ -35,4 +36,3 @@ lang: ko
 새로운 수익 모델인걸
 
 ---
-

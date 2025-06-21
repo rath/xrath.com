@@ -1,8 +1,9 @@
 ---
 title: "오픈소스 SSH/Telnet/CMD 클라이언트 MEConsole"
-date: 2006-12-31
+date: Sun Dec 31 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/오픈소스-sshtelnetcmd-클라이언트-meconsole
 lang: ko
+tags: ["technology", "ssh", "telnet", "opensource"]
 ---
 
 SourceForge에 등록된 프로젝트인 [MEConsole](http://sourceforge.net/projects/meconsole)을 사용해봤다.

@@ -1,8 +1,9 @@
 ---
 title: "Spring framework을 공부하며: 무엇을 dependency로 규정해야 할까?"
-date: 2009-09-15
+date: Tue Sep 15 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/brain-snippets-on-learning-spring-framework
 lang: ko
+tags: ["technology", "spring-framework", "dependency-injection", "java"]
 ---
 
 **도대체 이제서야 Spring 을 공부하는 이유가 뭡니까?**
@@ -104,4 +105,3 @@ SpringMVC는 아직 살펴보지 않았는데, 쓸만한가보네요. 하긴 저
 하이버닛 문제 많은가요? 몇달전 프로젝트에서 한번 써봤었는데, 선행되야할 학습더미;; 가 많아서 그렇지 신선하고 괜찮았거든요.  전 그래도 꿋꿋하게 하이버닛을 고수해볼랍니다. 으흐~;
 
 ---
-

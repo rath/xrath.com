@@ -1,8 +1,9 @@
 ---
 title: "Pros and cons: About writing"
-date: 2009-08-23
+date: Sun Aug 23 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/08/about-writing
 lang: ko
+tags: ["thoughts", "writing", "communication", "self-improvement"]
 ---
 
 내게는 글쓰기가 말하기보다 훨씬 쉬운 활동이다.
@@ -107,4 +108,3 @@ TV 프로그램은 전혀 안보는.....
 안녕~ 브리티쉬맨~
 
 ---
-

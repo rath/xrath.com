@@ -1,8 +1,9 @@
 ---
 title: "Windows Live OpenID 체험기"
-date: 2008-10-01
+date: Wed Oct 01 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/10/windows-live-openid-체험기
 lang: ko
+tags: ["openid", "windows-live", "authentication", "web-identity"]
 ---
 
 **Windows Live ID Becomes an OpenID Provider**

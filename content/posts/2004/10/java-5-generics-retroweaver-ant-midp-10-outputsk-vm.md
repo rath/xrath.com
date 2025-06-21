@@ -1,8 +1,9 @@
 ---
 title: "Java 5 Generics + RetroWeaver + Ant = MIDP 1.0 Output(SK-VM)"
-date: 2004-10-02
+date: Sat Oct 02 2004 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2004/10/java-5-generics-retroweaver-ant-midp-10-outputsk-vm
 lang: ko
+tags: ["java-5", "retroweaver", "ant", "mobile-development"]
 ---
 
 [RetroWeaver](http://retroweaver.sourceforge.net)의 도움으로 현재 서비스중인 SK-VM 컨텐트 3개를 

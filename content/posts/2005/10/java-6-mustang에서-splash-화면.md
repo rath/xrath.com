@@ -1,8 +1,9 @@
 ---
 title: "Java 6 Mustang에서 Splash 화면!"
-date: 2005-10-01
+date: Sat Oct 01 2005 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2005/10/java-6-mustang에서-splash-화면
 lang: ko
+tags: ["java", "splash-screen", "desktop-development"]
 ---
 
 요새는 JRE가 무진장 빨라져서 큰 이펙트는 없겠지만, jdk 1.6인 mustang에 splash-screen 기능이 들어갔다. 확 JMSN에 Splash screen만 넣어서 릴리즈 해버릴까보다 -_-;

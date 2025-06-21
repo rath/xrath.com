@@ -1,8 +1,9 @@
 ---
 title: "yGuard 만세!"
-date: 2004-11-03
+date: Wed Nov 03 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/11/yguard-만세
 lang: ko
+tags: ["java", "bytecode-obfuscation", "yguard", "ant"]
 ---
 
 문득 쓸만한 Java bytecode Obfuscaor 찾고 싶었다.
@@ -96,4 +97,3 @@ Proguard는 단순한 함수에서는 아예 난독화 도움이 안되더라구
 죄송하지만 사용법좀 알려 주실 수 있으신가요.
 
 ---
-

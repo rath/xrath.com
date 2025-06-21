@@ -1,8 +1,9 @@
 ---
 title: "Hibernate로 프로젝트를 진행하며 느낀 점들"
-date: 2009-09-29
+date: Tue Sep 29 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/generated-emotions-when-i-use-hibernate-framework
 lang: ko
+tags: ["technology", "hibernate", "java", "database"]
 ---
 
 c3p0을 썼을 때 DB가 안떠있으면 정상적으로 connection refused가 뜨기도 하지만, 어이없게도 deadlock이 의심된다는 예외가 뜰 때가 있다.  
@@ -56,4 +57,3 @@ L1 캐시를 없애는 방법은 없지만, 캐시를 안하게는 할 수 있�
 좋은 정보 감사합니다.
 
 ---
-

@@ -1,8 +1,9 @@
 ---
 title: "우선순위 측정"
-date: 2009-02-21
+date: Sat Feb 21 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/02/measure-priorities
 lang: ko
+tags: ["self-improvement", "thoughts", "reflection"]
 ---
 
 우선순위를 측정할 수 없다면 초심을 잃거나 기회를 놓치게 될 것이다.

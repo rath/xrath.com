@@ -1,8 +1,9 @@
 ---
 title: "청강 Festival 2004"
-date: 2004-11-01
+date: Mon Nov 01 2004 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2004/11/청강-festival-2004
 lang: ko
+tags: ["festival", "technology-showcase", "mobile-applications"]
 ---
 
 2004년 10월 28, 29, 30일은 청강문화산업대학 Festival 2004 였습니다.

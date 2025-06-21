@@ -1,8 +1,9 @@
 ---
 title: "Dear rath."
-date: 2008-06-19
+date: Thu Jun 19 2008 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2008/06/dear-rath
 lang: ko
+tags: ["personal-letter", "relationship", "daily-life", "emotions"]
 ---
 
 아, 오늘은 이 홈페이지 주인이자, 제 사랑하는 남편의 생일입니다. 사실 공개적인 편지라는 것이 조금 창피하고 두서 없이 지난 시간을 써 놓은 일이라 부끄럽지만, 편지를 하나 올리려고 합니다. 의도치 않게 RSS로 수신하시는 분들, 방문하셔서 읽으시는 분들, 내키지 않더라도 용서하셔요. (찡긋)
@@ -120,4 +121,3 @@ neonatas// 그런 것이지.. 유후
 감동
 
 ---
-

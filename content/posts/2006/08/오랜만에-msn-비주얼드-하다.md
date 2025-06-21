@@ -1,8 +1,9 @@
 ---
 title: "오랜만에 MSN 비주얼드 하다"
-date: 2006-08-24
+date: Thu Aug 24 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/08/오랜만에-msn-비주얼드-하다
 lang: ko
+tags: ["msn-messenger", "online-games", "daily-life", "social-interaction"]
 ---
 
 대단히 오랜만에 MSN 플러그인 게임인 비주얼드를 했다.
@@ -71,4 +72,3 @@ rath님 msn주소를 찾아볼수없네요 @.@
 메일로 연락주세요. rath @at@ xrath @dot@ com 로 보내주시기 바랍니다. 그리고.. jmsn과 msnmlib 입니다. jmsnlib이란건 만든적이 없습니다 -_-;
 
 ---
-

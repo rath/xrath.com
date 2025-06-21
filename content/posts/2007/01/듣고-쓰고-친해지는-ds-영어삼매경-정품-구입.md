@@ -1,8 +1,9 @@
 ---
 title: "듣고 쓰고 친해지는 DS 영어삼매경 정품 구입"
-date: 2007-01-25
+date: Thu Jan 25 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/듣고-쓰고-친해지는-ds-영어삼매경-정품-구입
 lang: ko
+tags: ["daily-life", "gaming", "education"]
 ---
 
 1월 18일 발매된 '듣고 쓰고 친해지는 DS 영어삼매경'.
@@ -77,4 +78,3 @@ p.s. 위스포츠 몸나이 측정해보니까 35살 나왔다. 하필 점수 �
 근육없는 비실비실이 될 것 같은데 -_-
 
 ---
-

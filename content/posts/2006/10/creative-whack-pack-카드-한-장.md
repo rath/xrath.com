@@ -1,8 +1,9 @@
 ---
 title: "Creative Whack Pack 카드 한 장"
-date: 2006-10-12
+date: Thu Oct 12 2006 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2006/10/creative-whack-pack-카드-한-장
 lang: ko
+tags: ["self-improvement", "quotes", "creativity"]
 ---
 
 몇주전 [퍼키님](http://openlook.org/blog/)의 소개로 구입하게 된 Creative Whack Pack 
@@ -79,4 +80,3 @@ Priority를 결정하는데, 중요지만 급하지 않은 것이 먼저일까�
 엇 이거 문교님 결혼식장 옆에서 찍은건데~ (7)
 
 ---
-

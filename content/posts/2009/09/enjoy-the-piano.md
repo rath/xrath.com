@@ -1,8 +1,9 @@
 ---
 title: "주말아저씨 복장으로 연주한 소나티네와 터키행진곡"
-date: 2009-09-29
+date: Tue Sep 29 2009 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2009/09/enjoy-the-piano
 lang: ko
+tags: ["music", "piano", "performance", "classical-music"]
 ---
 
 한동안 프로그래밍에 관련된 이야기만 올린 듯 하여 간만에 피아노 연주 영상을 올립니다.
@@ -43,4 +44,3 @@ lang: ko
 더 멋진 연주자(?)가 되기 위해 오늘 열심히 연습하겠사옵니다~ ㅎㅎ
 
 ---
-

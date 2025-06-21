@@ -1,8 +1,9 @@
 ---
 title: "변화역량을 키우는 피드백의 힘 : The power of feedback"
-date: 2007-04-01
+date: Sun Apr 01 2007 02:00:00 GMT+0200 (Central European Summer Time)
 slug: 2007/04/변화역량을-키우는-피드백의-힘-the-power-of-feedback
 lang: ko
+tags: ["self-improvement", "feedback", "thoughts"]
 ---
 
 Avril Lavigne 앨범을 사러 코엑스몰에 갔다가, 서점을 그냥 지나칠 수 없어서 이리저리 싸-핑하다가 덧글과 피드백에 굶주린 제 눈에 멋진 책 이름이 들어왔습니다.

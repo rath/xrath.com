@@ -1,8 +1,9 @@
 ---
 title: "피아노 연주, 소나티네와 이루마 River Flows In You"
-date: 2009-10-31
+date: Sat Oct 31 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/11/playing-the-piano-sonatine-and-river-flows-in-you
 lang: ko
+tags: ["piano", "classical-music", "music-performance", "personal-experience"]
 ---
 
 머리가 많이 길었어요. 간만에 피아노 연주 영상 촬영하여 공유합니다.
@@ -32,4 +33,3 @@ lang: ko
 고마워라 ^_^
 
 ---
-

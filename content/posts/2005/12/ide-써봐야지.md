@@ -1,8 +1,9 @@
 ---
 title: "IDE 써봐야지"
-date: 2005-12-21
+date: Wed Dec 21 2005 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2005/12/ide-써봐야지
 lang: ko
+tags: ["technology", "ide", "java", "software-development"]
 ---
 
 JBuilder 2006 공부하고 있다.
@@ -119,4 +120,3 @@ JBuilder 2006 공부하고 있다.
 새해복 마이 받으세요~
 
 ---
-

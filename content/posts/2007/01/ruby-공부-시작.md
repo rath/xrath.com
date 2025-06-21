@@ -1,8 +1,9 @@
 ---
 title: "Ruby 공부 시작"
-date: 2006-12-31
+date: Sun Dec 31 2006 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/01/ruby-공부-시작
 lang: ko
+tags: ["technology", "programming", "ruby", "learning"]
 ---
 
 지인들과 함께하는 소규모 프로젝트가 있다. 

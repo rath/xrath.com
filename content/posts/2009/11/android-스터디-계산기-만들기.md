@@ -1,8 +1,9 @@
 ---
 title: "Android 스터디: 계산기 만들기"
-date: 2009-11-10
+date: Tue Nov 10 2009 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2009/11/android-스터디-계산기-만들기
 lang: ko
+tags: ["android", "calculator-app", "ui-design", "android-development"]
 ---
 
 [저번 포스트](/2009/10/android-2-0-sdk-%EC%B6%9C%EC%8B%9C%EB%A5%BC-%EA%B8%B0%EB%85%90%ED%95%98%EB%A9%B0/)에 이어 오늘은 Android로 계산기를 만들어보도록 하겠습니다.
@@ -284,4 +285,3 @@ log 부분을 퍼갔는데 실례가 아닌지요?
 main.xml 파일보고 빵 터졌습니다.
 
 ---
-

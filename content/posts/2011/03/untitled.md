@@ -1,8 +1,9 @@
 ---
 title: "제목 없음"
-date: 2011-03-09
+date: Wed Mar 09 2011 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2011/03/untitled
 lang: ko
+tags: ["self-improvement", "personal-reflection", "thoughts"]
 ---
 
 요새 내가 하는 일들을 머리속에서 나열하다보니, 이것들은 개개인들이 관심을 가질 정도로 독립적이지도 않고, 특정 욕구와 목표를 공유하고 있는 집단들에게 유용할 정도로 정치적 이용가치가 있지도 않으며, 사회적으로 지탄을 받거나 칭송을 받을 정도로 트렌드와 함께 흘러가거나 대립하지도 않는다.
@@ -35,4 +36,3 @@ lang: ko
 축.하.할.일.!
 
 ---
-

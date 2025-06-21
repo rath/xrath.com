@@ -1,8 +1,9 @@
 ---
 title: "네이트온 lib 재개발 중"
-date: 2007-02-17
+date: Sat Feb 17 2007 01:00:00 GMT+0100 (Central European Standard Time)
 slug: 2007/02/네이트온-lib-재개발-중
 lang: ko
+tags: ["nateon", "reverse-engineering", "java-library", "authentication"]
 ---
 
 TR 모사에 근무할 때 아무런 동기없이 만들었던 nateon.jar (버전을 보니 2005/05/20)
@@ -43,4 +44,3 @@ nateonlib API docs!  감사합니다.
 재미나게 사용하시길 바랍니다 ;)
 
 ---
-
