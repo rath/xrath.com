@@ -48,8 +48,8 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-sm font-semibold text-foreground/90 uppercase tracking-wider">Quick Links</h3>
             <div className="grid grid-cols-2 gap-2">
-              <Link href="/archive" className="text-sm text-foreground/70 hover:text-foreground hover:gradient-text transition-colors duration-300">
-                Archive
+              <Link href="/blogs" className="text-sm text-foreground/70 hover:text-foreground hover:gradient-text transition-colors duration-300">
+                Blog
               </Link>
               <Link href="mailto:rath@xrath.com" className="text-sm text-foreground/70 hover:text-foreground hover:gradient-text transition-colors duration-300">
                 Contact

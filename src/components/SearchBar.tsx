@@ -10,15 +10,15 @@ export default function SearchBar() {
 
   const handleSearch = useCallback((value: string) => {
     const params = new URLSearchParams(searchParams.toString());
-    
+
     if (value) {
       params.set('q', value);
       params.delete('page'); // Reset to page 1 when searching
     } else {
       params.delete('q');
     }
-    
-    router.push(`/archive?${params.toString()}`);
+
+    router.push(`/blogs?${params.toString()}`);
   }, [router, searchParams]);
 
   // Debounced search
@@ -48,25 +48,25 @@ export default function SearchBar() {
           className="
             w-full pl-14 pr-12 py-4 text-base rounded-2xl
             bg-background/50 backdrop-blur-sm
-            border border-foreground/10 
+            border border-foreground/10
             focus:border-primary/50 focus:outline-none focus:ring-2 focus:ring-primary/20
             transition-all duration-300
             placeholder:text-foreground/40
           "
         />
-        
+
         {/* Search icon */}
-        <svg 
+        <svg
           className="absolute left-5 top-1/2 -translate-y-1/2 w-5 h-5 text-foreground/40"
-          fill="none" 
-          stroke="currentColor" 
+          fill="none"
+          stroke="currentColor"
           viewBox="0 0 24 24"
         >
-          <path 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            strokeWidth={2} 
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" 
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
           />
         </svg>
 

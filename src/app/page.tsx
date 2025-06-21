@@ -29,7 +29,7 @@ export default async function HomePage() {
               <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-primary via-secondary to-accent rounded-full opacity-50"></div>
             </div>
             <a
-              href="/archive"
+              href="/blogs"
               className="group relative inline-flex items-center text-sm font-medium overflow-hidden rounded-lg px-4 py-2 transition-all duration-300"
             >
               <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>

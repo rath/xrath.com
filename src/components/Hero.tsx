@@ -144,7 +144,7 @@ export default function Hero() {
           {/* Enhanced CTA buttons */}
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <a
-              href="/archive"
+              href="/blogs"
               className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold overflow-hidden rounded-2xl transition-all duration-300 hover:scale-105"
             >
               {/* Animated background */}

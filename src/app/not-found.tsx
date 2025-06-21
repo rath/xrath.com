@@ -23,15 +23,15 @@ export default async function NotFound() {
         <h1 className="text-6xl font-bold mb-4">
           <span className="gradient-text">404</span>
         </h1>
-        
+
         <h2 className="text-2xl font-semibold mb-4 text-foreground">
           Page Not Found
         </h2>
-        
+
         <p className="text-lg text-foreground/70 max-w-md mx-auto leading-relaxed">
           Sorry, the page you&apos;re looking for doesn&apos;t exist or has been moved.
         </p>
-        
+
         {/* Search suggestion */}
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
@@ -43,15 +43,15 @@ export default async function NotFound() {
             </svg>
             Go to Homepage
           </Link>
-          
+
           <Link
-            href="/archive"
+            href="/blogs"
             className="inline-flex items-center px-6 py-3 rounded-full border border-foreground/20 hover:border-foreground/40 transition-all duration-300"
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
             </svg>
-            Browse Archive
+            Browse Blog Archive
           </Link>
         </div>
       </div>
@@ -62,11 +62,11 @@ export default async function NotFound() {
           <h3 className="text-2xl font-bold mb-8 text-center">
             <span className="gradient-text">Recent Posts</span>
           </h3>
-          
+
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {await Promise.all(latestPosts.map(async (post, index) => {
               const excerpt = await generateExcerpt(post.content, 100);
-              
+
               return (
                 <Link
                   key={post.slug}
@@ -77,13 +77,13 @@ export default async function NotFound() {
                   <article className="relative h-full rounded-2xl glass-effect border border-foreground/10 p-6 transition-all duration-300 hover:border-foreground/20 overflow-hidden">
                     {/* Hover gradient overlay */}
                     <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    
+
                     {/* Content */}
                     <div className="relative">
                       <h4 className="text-lg font-semibold mb-2 line-clamp-2 transition-all duration-300 group-hover:gradient-text">
                         {post.title}
                       </h4>
-                      
+
                       <time className="text-xs text-foreground/60 mb-3 block">
                         {new Date(post.date).toLocaleDateString('en-US', {
                           year: 'numeric',
@@ -91,12 +91,12 @@ export default async function NotFound() {
                           day: 'numeric',
                         })}
                       </time>
-                      
+
                       <p className="text-sm text-foreground/70 line-clamp-3 leading-relaxed">
                         {excerpt}
                       </p>
                     </div>
-                    
+
                     {/* Decorative accent */}
                     <div className="absolute top-0 right-0 w-16 h-16 overflow-hidden rounded-2xl">
                       <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-primary/10 to-secondary/10 translate-x-12 -translate-y-12 rotate-45 group-hover:scale-150 transition-transform duration-700"></div>

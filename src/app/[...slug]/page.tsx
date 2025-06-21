@@ -163,17 +163,17 @@ export default async function BlogPostPage({ params }: PageProps) {
   const pathSegments = slug.split('/');
   const breadcrumbItems = [
     { name: 'Home', url: '/' },
-    { name: 'Archive', url: '/archive' },
+    { name: 'Blog', url: '/blogs' },
   ];
-  
+
   // Add year if present
   if (pathSegments.length > 0 && /^\d{4}$/.test(pathSegments[0])) {
     breadcrumbItems.push({
       name: pathSegments[0],
-      url: `/archive?year=${pathSegments[0]}`,
+      url: `/blogs?year=${pathSegments[0]}`,
     });
   }
-  
+
   breadcrumbItems.push({
     name: post.title,
     url: postUrl,
@@ -205,14 +205,14 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         <div className="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb navigation */}
-          <Breadcrumb 
-            items={breadcrumbItems.map(item => ({ 
-              name: item.name, 
-              url: item.url !== postUrl ? item.url : undefined 
-            }))} 
+          <Breadcrumb
+            items={breadcrumbItems.map(item => ({
+              name: item.name,
+              url: item.url !== postUrl ? item.url : undefined
+            }))}
             className="mb-8"
           />
-          
+
           <header className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
               <span className="gradient-text leading-tight">{post.title}</span>
@@ -247,7 +247,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   {post.tags.map((tag, index) => (
                     <Link
                       key={tag}
-                      href={`/archive/tags/${encodeURIComponent(tag)}`}
+                      href={`/blogs/tags/${encodeURIComponent(tag)}`}
                       className="group relative inline-flex items-center px-4 py-2 text-sm font-medium rounded-xl glass-effect border border-foreground/10 hover:border-primary/30 transition-all duration-300 hover:scale-105 overflow-hidden"
                     >
                       {/* Hover gradient overlay */}
@@ -436,7 +436,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             {/* View all posts link */}
             <div className="mt-10 text-center">
               <Link
-                href="/archive"
+                href="/blogs"
                 className="group inline-flex items-center text-foreground/80 hover:text-foreground transition-colors duration-300"
               >
                 <span className="font-medium">View all posts</span>

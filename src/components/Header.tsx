@@ -52,10 +52,10 @@ export default function Header() {
 
           <div className="hidden md:flex items-center space-x-8">
             <Link
-              href="/archive"
+              href="/blogs"
               className="relative text-sm font-medium text-foreground/80 hover:text-foreground transition-colors duration-300 group"
             >
-              Archive
+              Blog
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 gradient-primary group-hover:w-full transition-all duration-300"></span>
             </Link>
           </div>
@@ -179,11 +179,11 @@ export default function Header() {
               Home
             </Link>
             <Link
-              href="/archive"
+              href="/blogs"
               onClick={() => setIsMenuOpen(false)}
               className="block py-3 px-4 rounded-xl text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-all duration-200 font-medium text-right"
             >
-              Archive
+              Blog
             </Link>
           </nav>
         </div>

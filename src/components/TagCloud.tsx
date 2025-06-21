@@ -30,7 +30,7 @@ export default function TagCloud({ tags, limit = 15 }: TagCloudProps) {
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-2xl font-bold gradient-text">Popular Tags</h2>
         <Link
-          href="/archive"
+          href="/blogs"
           className="text-sm text-foreground/60 hover:text-foreground transition-colors duration-300"
         >
           View all posts →
@@ -41,7 +41,7 @@ export default function TagCloud({ tags, limit = 15 }: TagCloudProps) {
       <div className="relative rounded-2xl glass-effect border border-foreground/10 p-8 overflow-hidden">
         {/* Decorative background gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5"></div>
-        
+
         {/* Floating orbs for depth */}
         <div className="absolute top-10 right-10 w-32 h-32 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-10 left-10 w-24 h-24 bg-gradient-to-br from-secondary/10 to-accent/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
@@ -51,29 +51,29 @@ export default function TagCloud({ tags, limit = 15 }: TagCloudProps) {
           {displayTags.map(({ tag, count }, index) => {
             const size = getTagSize(count);
             const intensity = getTagIntensity(count);
-            
+
             return (
               <Link
                 key={tag}
-                href={`/archive/tags/${encodeURIComponent(tag)}`}
+                href={`/blogs/tags/${encodeURIComponent(tag)}`}
                 className="group relative inline-flex items-center animate-fade-in-up hover:scale-110 transition-all duration-300"
-                style={{ 
+                style={{
                   fontSize: `${size}rem`,
                   animationDelay: `${index * 0.05}s`
                 }}
               >
                 {/* Hover glow effect */}
-                <span 
+                <span
                   className="absolute inset-0 rounded-lg blur-md transition-opacity duration-300 opacity-0 group-hover:opacity-100"
                   style={{
-                    background: `linear-gradient(135deg, 
-                      rgba(var(--primary-rgb), ${intensity * 0.3}) 0%, 
+                    background: `linear-gradient(135deg,
+                      rgba(var(--primary-rgb), ${intensity * 0.3}) 0%,
                       rgba(var(--secondary-rgb), ${intensity * 0.3}) 100%)`
                   }}
                 ></span>
-                
+
                 {/* Tag text */}
-                <span 
+                <span
                   className="relative px-4 py-2 font-medium transition-all duration-300"
                   style={{
                     color: `rgba(var(--foreground-rgb), ${0.5 + intensity * 0.5})`,
@@ -82,7 +82,7 @@ export default function TagCloud({ tags, limit = 15 }: TagCloudProps) {
                   <span className="group-hover:gradient-text transition-all duration-300">
                     {tag}
                   </span>
-                  <span 
+                  <span
                     className="ml-2 text-xs opacity-50 group-hover:opacity-100 transition-opacity"
                     style={{ fontSize: '0.7em' }}
                   >
@@ -98,7 +98,7 @@ export default function TagCloud({ tags, limit = 15 }: TagCloudProps) {
         {tags.length > limit && (
           <div className="mt-8 text-center">
             <Link
-              href="/archive"
+              href="/blogs"
               className="group inline-flex items-center text-sm text-foreground/60 hover:text-foreground transition-all duration-300"
             >
               <span>Explore all {tags.length} tags</span>

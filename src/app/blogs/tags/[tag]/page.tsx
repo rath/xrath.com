@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return generateSEO({
     title: `Posts tagged "${tag}"`,
     description: `Browse all blog posts tagged with "${tag}". Explore thoughts on ${tag} and related topics.`,
-    url: `https://xrath.com/archive/tags/${encodeURIComponent(tag)}`,
+    url: `https://xrath.com/blogs/tags/${encodeURIComponent(tag)}`,
     keywords: [tag, 'blog', 'posts', 'tags'],
   });
 }
@@ -95,7 +95,7 @@ export default async function TagPage({ params, searchParams }: PageProps) {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
-              <Link href="/archive" className="hover:text-foreground transition-colors">Archive</Link>
+              <Link href="/blogs" className="hover:text-foreground transition-colors">Blog</Link>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
@@ -114,7 +114,7 @@ export default async function TagPage({ params, searchParams }: PageProps) {
               {relatedTags.map(({ tag: relatedTag, count }) => (
                 <Link
                   key={relatedTag}
-                  href={`/archive/tags/${encodeURIComponent(relatedTag)}`}
+                  href={`/blogs/tags/${encodeURIComponent(relatedTag)}`}
                   className="group inline-flex items-center px-3 py-1.5 text-sm font-medium rounded-xl bg-gradient-to-r from-foreground/5 to-foreground/10 hover:from-primary/10 hover:to-secondary/10 transition-all duration-300 hover:scale-105"
                 >
                   <svg className="w-3 h-3 mr-1.5 opacity-50 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -219,7 +219,7 @@ export default async function TagPage({ params, searchParams }: PageProps) {
             {/* Previous button */}
             {currentPage > 1 && (
               <Link
-                href={`/archive/tags/${encodeURIComponent(tag)}?page=${currentPage - 1}`}
+                href={`/blogs/tags/${encodeURIComponent(tag)}?page=${currentPage - 1}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
@@ -250,7 +250,7 @@ export default async function TagPage({ params, searchParams }: PageProps) {
                 return (
                   <Link
                     key={i}
-                    href={`/archive/tags/${encodeURIComponent(tag)}?page=${pageNumber}`}
+                    href={`/blogs/tags/${encodeURIComponent(tag)}?page=${pageNumber}`}
                     className={`
                       relative w-10 h-10 flex items-center justify-center rounded-lg text-sm font-medium
                       transition-all duration-300 hover:scale-110
@@ -269,7 +269,7 @@ export default async function TagPage({ params, searchParams }: PageProps) {
             {/* Next button */}
             {currentPage < totalPages && (
               <Link
-                href={`/archive/tags/${encodeURIComponent(tag)}?page=${currentPage + 1}`}
+                href={`/blogs/tags/${encodeURIComponent(tag)}?page=${currentPage + 1}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>

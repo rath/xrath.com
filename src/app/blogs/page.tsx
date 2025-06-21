@@ -8,7 +8,7 @@ import SearchBar from '@/components/SearchBar';
 export const metadata: Metadata = generateSEO({
   title: 'Blog Archive',
   description: 'Browse through all blog posts from 2004 to present. Thoughts on software development, technology, and life.',
-  url: 'https://xrath.com/archive',
+  url: 'https://xrath.com/blogs',
   keywords: ['blog', 'archive', 'software development', 'technology', 'programming'],
 });
 
@@ -110,7 +110,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
                   return (
                     <Link
                       key={tagName}
-                      href={`/archive/tags/${encodeURIComponent(tagName)}`}
+                      href={`/blogs/tags/${encodeURIComponent(tagName)}`}
                       className={`
                         group relative inline-flex items-center rounded-xl transition-all duration-300
                         ${isPopular
@@ -171,7 +171,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             </p>
             {query && (
               <Link
-                href="/archive"
+                href="/blogs"
                 className="inline-flex items-center px-4 py-2 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
               >
                 Clear search
@@ -261,7 +261,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             {/* Previous button */}
             {currentPage > 1 && (
               <Link
-                href={`/archive?page=${currentPage - 1}${year ? `&year=${year}` : ''}${query ? `&q=${encodeURIComponent(query)}` : ''}`}
+                href={`/blogs?page=${currentPage - 1}${year ? `&year=${year}` : ''}${query ? `&q=${encodeURIComponent(query)}` : ''}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
@@ -292,7 +292,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
                 return (
                   <Link
                     key={i}
-                    href={`/archive?page=${pageNumber}${year ? `&year=${year}` : ''}${query ? `&q=${encodeURIComponent(query)}` : ''}`}
+                    href={`/blogs?page=${pageNumber}${year ? `&year=${year}` : ''}${query ? `&q=${encodeURIComponent(query)}` : ''}`}
                     className={`
                       relative w-10 h-10 flex items-center justify-center rounded-lg text-sm font-medium
                       transition-all duration-300 hover:scale-110
@@ -311,7 +311,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             {/* Next button */}
             {currentPage < totalPages && (
               <Link
-                href={`/archive?page=${currentPage + 1}${year ? `&year=${year}` : ''}${query ? `&q=${encodeURIComponent(query)}` : ''}`}
+                href={`/blogs?page=${currentPage + 1}${year ? `&year=${year}` : ''}${query ? `&q=${encodeURIComponent(query)}` : ''}`}
                 className="group relative px-6 py-3 text-sm font-medium overflow-hidden rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
