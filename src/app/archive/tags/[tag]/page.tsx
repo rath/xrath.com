@@ -20,7 +20,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const resolvedParams = await params;
   const tag = decodeURIComponent(resolvedParams.tag);
-  
+
   return generateSEO({
     title: `Posts tagged "${tag}"`,
     description: `Browse all blog posts tagged with "${tag}". Explore thoughts on ${tag} and related topics.`,
@@ -38,7 +38,7 @@ export default async function TagPage({ params, searchParams }: PageProps) {
   // Get all tags to find the current tag
   const allTags = await getAllTags();
   const tagInfo = allTags.find(t => t.tag === tag);
-  
+
   if (!tagInfo) {
     notFound();
   }
@@ -75,7 +75,7 @@ export default async function TagPage({ params, searchParams }: PageProps) {
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <header className="text-center">
             {/* Tag icon */}
-            <div className="mb-6 animate-fade-in">
+            <div className="mb-6">
               <svg className="w-16 h-16 mx-auto text-primary/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h10l4 4-4 4H7l4-4-4-4z" />
               </svg>
@@ -84,8 +84,8 @@ export default async function TagPage({ params, searchParams }: PageProps) {
             <h1 className="text-4xl sm:text-5xl font-bold mb-4">
               <span className="gradient-text">{tag}</span>
             </h1>
-            
-            <p className="text-xl text-foreground/70 max-w-2xl mx-auto animate-fade-in-up">
+
+            <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
               <span className="font-semibold text-foreground">{totalPosts}</span> posts tagged with "{tag}"
             </p>
 
@@ -145,9 +145,7 @@ export default async function TagPage({ params, searchParams }: PageProps) {
               return (
                 <article
                   key={post.slug}
-                  className="group relative animate-fade-in-up"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
+                  className="group relative">
                   <Link href={`/${post.slug}`} className="block">
                     <div className="relative h-full rounded-2xl border border-foreground/10 p-6 transition-all duration-300 hover:border-foreground/20 glass-effect overflow-hidden flex flex-col">
                       {/* Hover gradient overlay */}

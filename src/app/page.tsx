@@ -17,7 +17,7 @@ export default async function HomePage() {
           <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-purple-400/10 to-pink-400/10 rounded-full blur-3xl animate-float"></div>
           <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-blue-400/10 to-cyan-400/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }}></div>
         </div>
-        
+
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-12">
             <div className="relative">
@@ -48,11 +48,7 @@ export default async function HomePage() {
             {await Promise.all(latestPosts.map(async (post, index) => {
               const excerpt = await generateExcerpt(post.content, 150);
               return (
-                <div
-                  key={post.slug}
-                  className="animate-fade-in-up"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
+                <div key={post.slug}>
                   <BlogCard
                     title={post.title}
                     date={post.date}
@@ -109,7 +105,7 @@ export default async function HomePage() {
               <span className="inline-block animate-float" style={{ animationDelay: "0.2s" }}>Create,</span>{' '}
               <span className="inline-block gradient-text animate-glow">Connect</span>
             </h2>
-            
+
             {/* Enhanced description */}
             <div className="relative max-w-2xl mx-auto mb-10">
               <p className="text-xl text-foreground/70 animate-fade-in-up">
@@ -120,7 +116,7 @@ export default async function HomePage() {
               <div className="absolute -left-8 top-1/2 -translate-y-1/2 w-6 h-px bg-gradient-to-r from-transparent to-primary/50"></div>
               <div className="absolute -right-8 top-1/2 -translate-y-1/2 w-6 h-px bg-gradient-to-l from-transparent to-secondary/50"></div>
             </div>
-            
+
             {/* CTA with glassmorphism effect */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
               <a
@@ -132,7 +128,7 @@ export default async function HomePage() {
                   <span className="absolute inset-0 rounded-2xl animated-gradient opacity-50"></span>
                   <span className="absolute inset-0 rounded-2xl bg-background/90"></span>
                 </span>
-                
+
                 {/* Content */}
                 <span className="relative flex items-center">
                   Explore My Work

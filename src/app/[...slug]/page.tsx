@@ -210,7 +210,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               name: item.name, 
               url: item.url !== postUrl ? item.url : undefined 
             }))} 
-            className="mb-8 animate-fade-in"
+            className="mb-8"
           />
           
           <header className="text-center">
@@ -242,14 +242,13 @@ export default async function BlogPostPage({ params }: PageProps) {
 
             {/* Enhanced Tags Display */}
             {post.tags && post.tags.length > 0 && (
-              <div className="mt-6 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
+              <div className="mt-6">
                 <div className="flex flex-wrap items-center justify-center gap-2">
                   {post.tags.map((tag, index) => (
                     <Link
                       key={tag}
                       href={`/archive/tags/${encodeURIComponent(tag)}`}
                       className="group relative inline-flex items-center px-4 py-2 text-sm font-medium rounded-xl glass-effect border border-foreground/10 hover:border-primary/30 transition-all duration-300 hover:scale-105 overflow-hidden"
-                      style={{ animationDelay: `${0.2 + index * 0.05}s` }}
                     >
                       {/* Hover gradient overlay */}
                       <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/10 to-secondary/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -294,7 +293,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </div>
 
         {comments.length > 0 && (
-          <section className="mt-16 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+          <section className="mt-16">
             {/* Comments header */}
             <div className="relative mb-10">
               <h2 className="text-3xl font-bold gradient-text mb-2">Comments</h2>
@@ -307,8 +306,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               {comments.map((comment, index) => (
                 <div
                   key={index}
-                  className="group relative animate-fade-in-up"
-                  style={{ animationDelay: `${0.5 + index * 0.1}s` }}
+                  className="group relative"
                 >
                   <div className="relative rounded-2xl glass-effect border border-foreground/10 p-6 transition-all duration-300 hover:border-foreground/20 overflow-hidden">
                     {/* Hover gradient overlay */}
@@ -375,7 +373,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         {/* More posts section */}
         {morePosts.length > 0 && (
-          <section className="mt-20 animate-fade-in-up" style={{ animationDelay: `${comments.length > 0 ? '0.6s' : '0.4s'}` }}>
+          <section className="mt-20">
             {/* Section header */}
             <div className="relative mb-10">
               <h2 className="text-3xl font-bold gradient-text mb-2">Continue Reading</h2>
@@ -392,8 +390,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   <Link
                     key={relatedPost.slug}
                     href={`/${relatedPost.slug}`}
-                    className="group animate-fade-in-up"
-                    style={{ animationDelay: `${(comments.length > 0 ? 0.7 : 0.5) + index * 0.1}s` }}
+                    className="group"
                   >
                     <article className="relative h-full rounded-2xl glass-effect border border-foreground/10 p-6 transition-all duration-300 hover:border-foreground/20 overflow-hidden">
                       {/* Hover gradient overlay */}
