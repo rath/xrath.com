@@ -6,7 +6,15 @@ import { useRouter, useSearchParams } from 'next/navigation';
 export default function SearchBar() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [query, setQuery] = useState(searchParams.get('q') || '');
+  const [query, setQuery] = useState('');
+  const [isInitialized, setIsInitialized] = useState(false);
+
+  // Initialize query from searchParams on client side only
+  useEffect(() => {
+    const initialQuery = searchParams.get('q') || '';
+    setQuery(initialQuery);
+    setIsInitialized(true);
+  }, [searchParams]);
 
   const handleSearch = useCallback((value: string) => {
     const params = new URLSearchParams(searchParams.toString());
@@ -23,6 +31,8 @@ export default function SearchBar() {
 
   // Debounced search
   useEffect(() => {
+    if (!isInitialized) return;
+
     const timeoutId = setTimeout(() => {
       if (query !== searchParams.get('q')) {
         handleSearch(query);
@@ -30,7 +40,7 @@ export default function SearchBar() {
     }, 300);
 
     return () => clearTimeout(timeoutId);
-  }, [query, handleSearch, searchParams]);
+  }, [query, handleSearch, searchParams, isInitialized]);
 
   const handleClear = () => {
     setQuery('');
@@ -45,14 +55,7 @@ export default function SearchBar() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search posts by title, content, or tags..."
-          className="
-            w-full pl-14 pr-12 py-4 text-base rounded-2xl
-            bg-background/50 backdrop-blur-sm
-            border border-foreground/10
-            focus:border-primary/50 focus:outline-none focus:ring-2 focus:ring-primary/20
-            transition-all duration-300
-            placeholder:text-foreground/40
-          "
+          className="w-full pl-14 pr-12 py-4 text-base rounded-2xl bg-background/50 backdrop-blur-sm border border-foreground/10 focus:border-primary/50 focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all duration-300 placeholder:text-foreground/40"
         />
 
         {/* Search icon */}
@@ -74,13 +77,7 @@ export default function SearchBar() {
         {query && (
           <button
             onClick={handleClear}
-            className="
-              absolute right-4 top-1/2 -translate-y-1/2
-              p-1.5 rounded-lg
-              text-foreground/40 hover:text-foreground/60
-              hover:bg-foreground/5
-              transition-all duration-200
-            "
+            className="absolute right-4 top-1/2 -translate-y-1/2 p-1.5 rounded-lg text-foreground/40 hover:text-foreground/60 hover:bg-foreground/5 transition-all duration-200"
             aria-label="Clear search"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

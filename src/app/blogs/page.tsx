@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { Suspense } from 'react';
 import { getPaginatedPosts, searchPosts, getAllTags } from '@/lib/posts';
 import { generateExcerpt } from '@/lib/excerpt';
 import { generateSEO } from '@/lib/seo';
@@ -81,7 +82,33 @@ export default async function BlogsPage({ searchParams }: PageProps) {
 
       {/* Search section */}
       <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-        <SearchBar />
+        <Suspense fallback={
+          <div className="relative w-full max-w-2xl mx-auto mb-8">
+            <div className="relative group">
+              <input
+                type="text"
+                disabled
+                placeholder="Search posts by title, content, or tags..."
+                className="w-full pl-14 pr-12 py-4 text-base rounded-2xl bg-background/50 backdrop-blur-sm border border-foreground/10 placeholder:text-foreground/40 opacity-50 cursor-not-allowed"
+              />
+              <svg
+                className="absolute left-5 top-1/2 -translate-y-1/2 w-5 h-5 text-foreground/40"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        }>
+          <SearchBar />
+        </Suspense>
 
         {/* Enhanced Tag Filter Section */}
         {allTags.length > 0 && (
