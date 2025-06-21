@@ -13,8 +13,35 @@ export default function Footer() {
               <span className="text-xl font-bold gradient-text">Jang-Ho Hwang</span>
             </div>
             <p className="text-sm text-foreground/70 max-w-xs">
-              Personal stories and events from 25 years of building apps.
+              Engineering stories, life lessons, and occasional wisdom from the trenches.
             </p>
+
+            {/* Subscribe feeds */}
+            <div className="pt-3">
+              <div className="flex items-center gap-2">
+                <Link
+                  href="/feed.xml"
+                  className="group flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-foreground/5 hover:bg-foreground/10 transition-all duration-300"
+                  aria-label="RSS Feed"
+                >
+                  <svg className="h-4 w-4 text-orange-500 group-hover:text-orange-400 transition-colors duration-300" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M3.429 5.1v2.4c7.248 0 13.114 5.886 13.114 13.142h2.4C18.943 12.11 11.98 5.1 3.429 5.1zm0 4.8v2.4a5.351 5.351 0 015.371 5.371h2.4c0-4.302-3.498-7.771-7.771-7.771zM6.171 16.386a1.714 1.714 0 11-3.428 0 1.714 1.714 0 013.428 0z"/>
+                  </svg>
+                  <span className="text-xs font-medium text-foreground/70 group-hover:text-foreground transition-colors duration-300">RSS</span>
+                </Link>
+
+                <Link
+                  href="/atom.xml"
+                  className="group flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-foreground/5 hover:bg-foreground/10 transition-all duration-300"
+                  aria-label="Atom Feed"
+                >
+                  <svg className="h-4 w-4 text-purple-500 group-hover:text-purple-400 transition-colors duration-300" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM6.5 12c0-1.38 1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5S6.5 13.38 6.5 12zm9 0c0 1.38-1.12 2.5-2.5 2.5s-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5zm2.5 0c0-1.38 1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5z"/>
+                  </svg>
+                  <span className="text-xs font-medium text-foreground/70 group-hover:text-foreground transition-colors duration-300">Atom</span>
+                </Link>
+              </div>
+            </div>
           </div>
 
           {/* Quick links */}
@@ -95,12 +122,6 @@ export default function Footer() {
               </Link>
             </div>
 
-            <div className="text-sm text-foreground/60">
-              <p>Berlin, Germany</p>
-              <Link href="mailto:rath@xrath.com" className="hover:gradient-text transition-colors duration-300">
-                rath@xrath.com
-              </Link>
-            </div>
           </div>
         </div>
 
