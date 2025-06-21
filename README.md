@@ -21,9 +21,15 @@ This is a bilingual personal homepage for a software developer. The site feature
 
 ### Implemented ✅
 
-- **Homepage** - Hero section with latest 6 blog posts
+- **Homepage** - Hero section with latest 6 blog posts and tag cloud
 - **Archive** - Paginated listing (20 posts per page) at `/archive`
 - **Individual Blog Posts** - Dynamic routing with markdown rendering
+- **Tag System** - Comprehensive tagging and filtering
+  - 700+ posts automatically tagged using OpenAI `gpt-4.1-mini`
+  - Dedicated tag pages at `/archive/tags/[tag]`
+  - Tag cloud component with size variation based on popularity
+  - Tag filtering and browsing
+  - Related tags discovery
 - **Responsive Design** - Mobile-first approach
 - **Korean Language Support** - Noto Sans KR font
 - **Legacy Comments** - Preserved from WordPress migration
@@ -48,7 +54,6 @@ This is a bilingual personal homepage for a software developer. The site feature
 
 ### Planned 🚧
 
-- Tag/category filtering
 - Portfolio/Work section
 
 ## Project Structure
@@ -61,12 +66,16 @@ This is a bilingual personal homepage for a software developer. The site feature
 │   │   ├── page.tsx      # Homepage
 │   │   ├── not-found.tsx # Custom 404 page
 │   │   ├── archive/      # Blog archive page
+│   │   │   └── tags/     # Tag pages
+│   │   │       └── [tag]/ # Individual tag pages
 │   │   ├── [...slug]/    # Dynamic blog post pages
 │   │   └── img/          # Image serving route
 │   ├── components/       # React components
 │   │   ├── Header.tsx    # Navigation with theme switcher
 │   │   ├── Hero.tsx      # Homepage hero section
 │   │   ├── BlogCard.tsx  # Post preview cards
+│   │   ├── TagCloud.tsx  # Tag cloud component
+│   │   ├── SearchBar.tsx # Search functionality
 │   │   ├── Breadcrumb.tsx # Breadcrumb navigation
 │   │   ├── JsonLd.tsx    # Structured data component
 │   │   ├── OptimizedImage.tsx # Image optimization
@@ -90,7 +99,9 @@ This is a bilingual personal homepage for a software developer. The site feature
 │   └── emoticons/       # Emoji image assets
 ├── scripts/             # Build and utility scripts
 │   ├── generate-sitemap.js # Sitemap generation
-│   └── generate-feeds.js   # RSS/Atom feed generation
+│   ├── generate-feeds.js   # RSS/Atom feed generation
+│   ├── generate-tags.js    # Automatic tag extraction using OpenAI
+│   └── README-tags.md      # Tag extraction documentation
 └── next.config.ts       # Next.js configuration with caching headers
 ```
 
@@ -116,7 +127,7 @@ title: "Post Title"
 date: 2025-06-18
 slug: post-slug
 lang: en
-tags: [tag1, tag2]  # Optional tags for SEO
+tags: ["tag1", "tag2"]  # Tags for categorization and SEO
 ---
 
 Post content in markdown...
