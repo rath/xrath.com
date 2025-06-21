@@ -1,10 +1,12 @@
 import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
-import { getLatestPosts } from "@/lib/posts";
+import TagCloud from "@/components/TagCloud";
+import { getLatestPosts, getAllTags } from "@/lib/posts";
 import { generateExcerpt } from "@/lib/excerpt";
 
 export default async function HomePage() {
   const latestPosts = await getLatestPosts(6);
+  const allTags = await getAllTags();
   return (
     <>
       <Hero />
@@ -63,6 +65,20 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Tag Cloud Section */}
+      {allTags.length > 0 && (
+        <section className="relative py-20 sm:py-32">
+          {/* Subtle background pattern */}
+          <div className="absolute inset-0 -z-10">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent"></div>
+          </div>
+
+          <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+            <TagCloud tags={allTags} limit={20} />
+          </div>
+        </section>
+      )}
 
       <section className="relative py-20 sm:py-32 overflow-hidden">
         {/* Animated mesh gradient background */}

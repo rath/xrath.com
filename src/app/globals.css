@@ -29,6 +29,11 @@
   --color-success: #10b981;
   --color-warning: #f59e0b;
   --color-error: #ef4444;
+
+  /* RGB values for dynamic opacity */
+  --primary-rgb: 82, 82, 91;
+  --secondary-rgb: 113, 113, 122;
+  --foreground-rgb: 26, 26, 28;
 }
 
 /* Apply theme variables */

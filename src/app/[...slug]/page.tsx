@@ -240,6 +240,33 @@ export default async function BlogPostPage({ params }: PageProps) {
               </span>
             </div>
 
+            {/* Enhanced Tags Display */}
+            {post.tags && post.tags.length > 0 && (
+              <div className="mt-6 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
+                <div className="flex flex-wrap items-center justify-center gap-2">
+                  {post.tags.map((tag, index) => (
+                    <Link
+                      key={tag}
+                      href={`/archive/tags/${encodeURIComponent(tag)}`}
+                      className="group relative inline-flex items-center px-4 py-2 text-sm font-medium rounded-xl glass-effect border border-foreground/10 hover:border-primary/30 transition-all duration-300 hover:scale-105 overflow-hidden"
+                      style={{ animationDelay: `${0.2 + index * 0.05}s` }}
+                    >
+                      {/* Hover gradient overlay */}
+                      <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/10 to-secondary/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                      {/* Tag content */}
+                      <svg className="relative w-3.5 h-3.5 mr-2 opacity-50 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h10l4 4-4 4H7l4-4-4-4z" />
+                      </svg>
+                      <span className="relative group-hover:gradient-text transition-all duration-300">
+                        {tag}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Decorative divider */}
             <div className="mt-8 flex items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
               <div className="h-px w-24 bg-gradient-to-r from-transparent to-primary/50"></div>

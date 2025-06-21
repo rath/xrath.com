@@ -86,8 +86,13 @@ export async function getLatestPosts(limit: number = 10): Promise<Post[]> {
 }
 
 // Get posts for blogs page with pagination
-export async function getPaginatedPosts(page: number = 1, perPage: number = 20, year?: number) {
+export async function getPaginatedPosts(page: number = 1, perPage: number = 20, year?: number, tag?: string) {
   let posts = await getAllPosts();
+
+  // Filter by tag if provided
+  if (tag) {
+    posts = posts.filter(post => post.tags && post.tags.includes(tag));
+  }
 
   // Filter by year if provided
   if (year) {
@@ -126,7 +131,7 @@ export async function getRandomPosts(count: number, excludeSlug?: string): Promi
 }
 
 // Search posts by query
-export async function searchPosts(query: string, page: number = 1, perPage: number = 20, year?: number) {
+export async function searchPosts(query: string, page: number = 1, perPage: number = 20, year?: number, tag?: string) {
   let posts = await getAllPosts();
 
   // Filter by search query
@@ -136,6 +141,11 @@ export async function searchPosts(query: string, page: number = 1, perPage: numb
       const searchableContent = `${post.title} ${post.content} ${(post.tags || []).join(' ')}`.toLowerCase();
       return searchTerms.every(term => searchableContent.includes(term));
     });
+  }
+
+  // Filter by tag if provided
+  if (tag) {
+    posts = posts.filter(post => post.tags && post.tags.includes(tag));
   }
 
   // Filter by year if provided
@@ -157,4 +167,22 @@ export async function searchPosts(query: string, page: number = 1, perPage: numb
     totalPages,
     currentPage: page,
   };
+}
+
+// Get all unique tags from all posts
+export async function getAllTags(): Promise<{ tag: string; count: number }[]> {
+  const posts = await getAllPosts();
+  const tagCounts = new Map<string, number>();
+
+  for (const post of posts) {
+    if (post.tags) {
+      for (const tag of post.tags) {
+        tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+      }
+    }
+  }
+
+  return Array.from(tagCounts.entries())
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => b.count - a.count);
 }
