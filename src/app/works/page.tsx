@@ -48,19 +48,21 @@ function TimelineItem({ year, title, company, companyUrl, period, description }:
         </div>
       )}
       <div className="absolute left-8 w-4 h-4 bg-gray-400 rounded-full -translate-x-1/2 ring-4 ring-white"></div>
-      <div className="ml-20 w-full max-w-2xl">
+      <div className="ml-20 w-full">
         <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200 border border-gray-100">
-          <h3 className="text-lg font-semibold text-gray-900 mb-1">{title}</h3>
-          <p className="text-sm text-gray-600 mb-3">
-            {companyUrl ? (
-              <a href={companyUrl} target="_blank" rel="noopener noreferrer" className="hover:underline text-gray-700 font-medium">
-                {company}
-              </a>
-            ) : (
-              <span className="text-gray-700 font-medium">{company}</span>
-            )}
-            <span className="text-gray-500"> • {period}</span>
-          </p>
+          <div className="md:flex md:items-start md:justify-between mb-3">
+            <h3 className="text-lg font-semibold text-gray-900 mb-1 md:mb-0">{title}</h3>
+            <p className="text-sm text-gray-600">
+              {companyUrl ? (
+                <a href={companyUrl} target="_blank" rel="noopener noreferrer" className="hover:underline text-gray-700 font-medium">
+                  {company}
+                </a>
+              ) : (
+                <span className="text-gray-700 font-medium">{company}</span>
+              )}
+              <span className="text-gray-500"> • {period}</span>
+            </p>
+          </div>
           <p className="text-gray-700 text-sm leading-relaxed">{description}</p>
         </div>
       </div>
@@ -254,7 +256,6 @@ export default function WorksPage() {
               year="2022"
               title="Chief Technology Officer"
               company="TooEasy"
-              companyUrl="https://tooeasy.life"
               period="Jun 2022 - Dec 2023"
               description="Achieved 75% AWS cost reduction through strategic optimization. Led technical architecture using Django, React, and PostgreSQL."
             />
@@ -340,7 +341,7 @@ export default function WorksPage() {
               title="Early Career"
               company="Various Companies"
               period="1999 - 2007"
-              description="Started at CyberImagination (1999), progressed through roles at Linux Korea, and Tri-D Communication. Used Java, Python, and C++."
+              description="Started at CyberImagination (1999), progressed through roles at Linux Korea, and Tri-D Communication. Used Java, C++, and Python."
             />
           </div>
         </div>
