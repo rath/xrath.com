@@ -8,7 +8,7 @@ This is a bilingual personal homepage for a software developer. The site feature
 
 ## Tech Stack
 
-- **Framework**: Next.js 15.3.3 (App Router, Server Components, Turbopack)
+- **Framework**: Next.js 15.3.4 (App Router, Server Components, Turbopack)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS v4 with @tailwindcss/typography
 - **Content**: Markdown files with gray-matter for frontmatter parsing
@@ -21,12 +21,17 @@ This is a bilingual personal homepage for a software developer. The site feature
 
 ### Implemented ✅
 
-- **Homepage** - Hero section with latest 6 blog posts and tag cloud
-- **Archive** - Paginated listing (20 posts per page) at `/archive`
+- **Homepage** - Hero section with latest 6 blog posts
+- **Blog Archive** - Paginated listing (20 posts per page) at `/blogs`
 - **Individual Blog Posts** - Dynamic routing with markdown rendering
+- **Works/Portfolio Section** - iOS app showcase at `/works`
+  - Featured Mouton Journal section with interactive screenshot gallery
+  - Grid layout of 10 iOS apps with App Store links
+  - Custom Open Graph image generation with app icons
+  - Responsive design for mobile and desktop
 - **Tag System** - Comprehensive tagging and filtering
   - 700+ posts automatically tagged using OpenAI `gpt-4.1-mini`
-  - Dedicated tag pages at `/archive/tags/[tag]`
+  - Dedicated tag pages at `/blogs/tags/[tag]`
   - Tag cloud component with size variation based on popularity
   - Tag filtering and browsing
   - Related tags discovery
@@ -42,7 +47,7 @@ This is a bilingual personal homepage for a software developer. The site feature
   - Reading time estimates
   - Breadcrumb navigation
 - **GitHub Flavored Markdown** - Tables and extended syntax
-- **Search Functionality** - Full-text search for blog posts at `/archive`
+- **Search Functionality** - Full-text search for blog posts at `/blogs`
 - **Emoji Support** - MSN-style emoticons in posts and comments
   - Supports :( :@ :$ (@) :'( (7) (&) (L) :| :p :P (H) :S ;)
   - Client-side rendering with inline images
@@ -51,10 +56,6 @@ This is a bilingual personal homepage for a software developer. The site feature
   - Cache headers for static assets
   - Font preloading
   - Security headers
-
-### Planned 🚧
-
-- Portfolio/Work section
 
 ## Project Structure
 
@@ -65,9 +66,10 @@ This is a bilingual personal homepage for a software developer. The site feature
 │   │   ├── layout.tsx    # Root layout with theme provider
 │   │   ├── page.tsx      # Homepage
 │   │   ├── not-found.tsx # Custom 404 page
-│   │   ├── archive/      # Blog archive page
+│   │   ├── blogs/        # Blog archive page
 │   │   │   └── tags/     # Tag pages
 │   │   │       └── [tag]/ # Individual tag pages
+│   │   ├── works/        # Portfolio/iOS apps page
 │   │   ├── [...slug]/    # Dynamic blog post pages
 │   │   └── img/          # Image serving route
 │   ├── components/       # React components
@@ -82,12 +84,15 @@ This is a bilingual personal homepage for a software developer. The site feature
 │   │   ├── MDXImage.tsx  # Markdown image component
 │   │   ├── EmojiText.tsx # Emoji rendering component
 │   │   ├── BlogPostContent.tsx # Blog post markdown renderer
-│   │   └── CommentContent.tsx # Comment markdown renderer
+│   │   ├── CommentContent.tsx # Comment markdown renderer
+│   │   ├── MobileWorksGrid.tsx # iOS apps grid layout
+│   │   └── ScreenshotsGallery.tsx # Interactive screenshot viewer
 │   └── lib/             # Utility functions
 │       ├── posts.ts      # Post data handling
 │       ├── excerpt.ts    # Excerpt generation
 │       ├── seo.ts        # SEO utilities
-│       └── emoji.ts      # Emoji mapping configuration
+│       ├── emoji.ts      # Emoji mapping configuration
+│       └── mobile-works-data.ts # iOS apps portfolio data
 ├── content/
 │   ├── posts/           # Markdown blog posts (year/month structure)
 │   └── images/          # Image resources for posts
@@ -96,12 +101,16 @@ This is a bilingual personal homepage for a software developer. The site feature
 │   ├── sitemap.xml      # Generated sitemap
 │   ├── feed.xml         # RSS feed
 │   ├── atom.xml         # Atom feed
-│   └── emoticons/       # Emoji image assets
+│   ├── emoticons/       # Emoji image assets
+│   └── images/
+│       └── works/       # iOS app icons and screenshots
 ├── scripts/             # Build and utility scripts
 │   ├── generate-sitemap.js # Sitemap generation
 │   ├── generate-feeds.js   # RSS/Atom feed generation
 │   ├── generate-tags.js    # Automatic tag extraction using OpenAI
-│   └── README-tags.md      # Tag extraction documentation
+│   ├── README-tags.md      # Tag extraction documentation
+│   ├── appstore-scraper.mjs # App Store data scraper
+│   └── create-og-image.mjs # Open Graph image generator for Portfolio
 └── next.config.ts       # Next.js configuration with caching headers
 ```
 
