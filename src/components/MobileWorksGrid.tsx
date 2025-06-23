@@ -71,6 +71,11 @@ export default function WorksGrid({ works }: WorksGridProps) {
                 <div className="text-gray-500 dark:text-gray-500">
                   <span>Built with {work.builtWith}: {work.totalCommits} commits</span>
                 </div>
+              </div>
+              <div className="flex items-center justify-between text-sm">
+                <div className="text-gray-500 dark:text-gray-500">
+                  <span>Released: {work.releaseDate}</span>
+                </div>
                 <span className="font-semibold">
                   {work.price}
                 </span>
