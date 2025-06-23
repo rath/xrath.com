@@ -34,25 +34,25 @@ export default function MobileWorkDetail({ work, onClose }: MobileWorkDetailProp
           </svg>
         </button>
 
-        <div className="p-8">
-          <div className="flex items-start gap-6 mb-8">
+        <div className="p-6 md:p-8">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-6 mb-8">
             <Image
               src={work.icon}
               alt={`${work.name} icon`}
               width={120}
               height={120}
-              className="rounded-3xl flex-shrink-0"
+              className="rounded-3xl flex-shrink-0 w-24 h-24 md:w-32 md:h-32"
             />
 
-            <div className="flex-1">
-              <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+            <div className="flex-1 text-center md:text-left max-w-2xl">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">
                 {work.title}
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
                 {work.subtitle}
               </p>
 
-              <div className="flex items-center gap-4 mb-4">
+              <div className="flex flex-col sm:flex-row items-center md:items-start gap-3 sm:gap-6 mb-4">
                 <div className="flex items-center gap-2">
                   <div className="flex items-center">
                     {[...Array(5)].map((_, i) => (
@@ -70,17 +70,17 @@ export default function MobileWorkDetail({ work, onClose }: MobileWorkDetailProp
                       </svg>
                     ))}
                   </div>
-                  <span className="text-gray-600 dark:text-gray-400">
+                  <span className="text-base text-gray-600 dark:text-gray-400">
                     {work.rating.average} ({work.rating.count} reviews)
                   </span>
                 </div>
 
-                <span className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
+                <span className="text-xl font-bold">
                   {work.price}
                 </span>
               </div>
 
-              <div className="flex gap-4 text-sm text-gray-600 dark:text-gray-400">
+              <div className="flex flex-wrap justify-center md:justify-start gap-2 md:gap-4 text-sm text-gray-600 dark:text-gray-400">
                 <span>{work.releaseDate}</span>
                 <span>•</span>
                 <span>Built with {work.builtWith}: {work.totalCommits} commits</span>

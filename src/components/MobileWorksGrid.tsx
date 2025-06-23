@@ -36,10 +36,7 @@ export default function WorksGrid({ works }: WorksGridProps) {
                   <h3 className="font-semibold text-lg text-gray-900 dark:text-gray-100">
                     {work.name}
                   </h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    {work.subtitle}
-                  </p>
-                  <div className="flex items-center gap-2 mt-2">
+                  <div className="flex items-center gap-2">
                     <div className="flex items-center">
                       {[...Array(5)].map((_, i) => (
                         <svg
@@ -60,20 +57,21 @@ export default function WorksGrid({ works }: WorksGridProps) {
                       {work.rating.average} ({work.rating.count})
                     </span>
                   </div>
+                  <p className="mt-1 text-sm text-gray-500 dark:text-gray-400 min-h-[2.5rem]">
+                    {work.subtitle}
+                  </p>
                 </div>
               </div>
 
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 min-h-[5.5rem]">
                 {work.description}
               </p>
 
               <div className="flex items-center justify-between text-sm">
                 <div className="text-gray-500 dark:text-gray-500">
-                  <span className="font-medium">{work.releaseDate}</span>
-                  <span className="mx-2">•</span>
                   <span>Built with {work.builtWith}: {work.totalCommits} commits</span>
                 </div>
-                <span className="font-semibold text-indigo-600 dark:text-indigo-400">
+                <span className="font-semibold">
                   {work.price}
                 </span>
               </div>

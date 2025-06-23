@@ -222,7 +222,7 @@ export const mobileWorksData: MobileWork[] = [
     price: '$0.99',
     releaseDate: 'April 2015',
     totalCommits: 236,
-    builtWith: 'Objective-C',
+    builtWith: 'Obj-C',
     appStoreUrl: 'https://apps.apple.com/us/app/tabatach/id982434641'
   }
 ];
