@@ -110,7 +110,7 @@ export default function WorksPage() {
   return (
     <main className="max-w-screen-lg mx-auto px-4 py-8">
       {/* Mouton Journal - Featured Project */}
-      <div className="mb-16 bg-gradient-to-br from-yellow-50/50 to-orange-50/50 dark:from-yellow-900/10 dark:to-orange-900/10 rounded-2xl p-8 border border-yellow-200/50 dark:border-yellow-800/30">
+      <div className="mb-16 bg-gradient-to-br from-yellow-50/50 to-orange-50/50 rounded-2xl p-8 border border-yellow-200/50">
         <div className="flex items-center gap-4 mb-6">
           <img
             src="https://dhnar509ehx3i.cloudfront.net/mouton_trans.png"
@@ -118,20 +118,20 @@ export default function WorksPage() {
             className="w-20 h-20 rounded-2xl shadow-lg"
           />
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Mouton Journal</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400">Private diary with a cute AI companion.</p>
+            <h2 className="text-2xl font-bold text-gray-900">Mouton Journal</h2>
+            <p className="text-lg text-gray-600">Private diary with a cute AI companion.</p>
           </div>
         </div>
 
-        <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+        <p className="text-gray-700 mb-6 leading-relaxed">
           A subscription-based commercial iOS app (actively developed until April 2025). I built everything from ideation to planning, design, and back-office tools entirely on my own. Available in 8 languages: English, German, Korean, Japanese, Chinese, French, Italian, and Spanish.
         </p>
 
         <details className="mb-6 open">
-          <summary className="cursor-pointer text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">
+          <summary className="cursor-pointer text-lg font-semibold text-gray-800 mb-3">
             Key Features
           </summary>
-          <div className="text-gray-700 dark:text-gray-300">
+          <div className="text-gray-700">
             <ul className="list-disc list-inside space-y-1 text-sm">
               <li>AI Companion that likes your posts and writes empathetic comments on your diary entries</li>
               <li>Clean, social media-inspired design</li>
@@ -165,29 +165,29 @@ export default function WorksPage() {
         />
 
         <div className="flex flex-wrap gap-4 mb-6">
-          <div className="bg-white dark:bg-gray-800 rounded-lg px-4 py-2 shadow">
-            <span className="text-sm text-gray-600 dark:text-gray-400">Started</span>
+          <div className="bg-white rounded-lg px-4 py-2 shadow">
+            <span className="text-sm text-gray-600">Started</span>
             <p className="font-semibold">Jan 2025</p>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg px-4 py-2 shadow">
-            <span className="text-sm text-gray-600 dark:text-gray-400">Released</span>
+          <div className="bg-white rounded-lg px-4 py-2 shadow">
+            <span className="text-sm text-gray-600">Released</span>
             <p className="font-semibold">Mar 2025</p>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg px-4 py-2 shadow">
-            <span className="text-sm text-gray-600 dark:text-gray-400">Commits</span>
+          <div className="bg-white rounded-lg px-4 py-2 shadow">
+            <span className="text-sm text-gray-600">Commits</span>
             <p className="font-semibold">1,653</p>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg px-4 py-2 shadow">
-            <span className="text-sm text-gray-600 dark:text-gray-400">Built with</span>
+          <div className="bg-white rounded-lg px-4 py-2 shadow">
+            <span className="text-sm text-gray-600">Built with</span>
             <p className="font-semibold">Flutter, Django</p>
           </div>
         </div>
 
         <details className="mb-6">
-          <summary className="cursor-pointer text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">
+          <summary className="cursor-pointer text-lg font-semibold text-gray-800 mb-3">
             Technical Details
           </summary>
-          <div className="space-y-4 text-sm text-gray-700 dark:text-gray-300">
+          <div className="space-y-4 text-sm text-gray-700">
             <div>
               <h4 className="font-semibold mb-1">🗄️ Offline-First Architecture</h4>
               <p>All journal entries are stored locally using SQLite with FTS5 (Full-Text Search) for instant search capabilities.
@@ -235,7 +235,7 @@ export default function WorksPage() {
             href="https://apps.apple.com/us/app/mouton-journal/id6738821848"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+            className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
           >
             Download on App Store
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -247,13 +247,13 @@ export default function WorksPage() {
 
       {/* Other iOS Apps */}
       <div className="mb-12 text-center">
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">
           iOS Apps Built Together
         </h1>
-        <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
+        <p className="text-lg text-gray-600 mb-6">
           9 side projects created with designer Eui-Hyung Jung (2015-2023)
         </p>
-        <p className="text-base text-gray-500 dark:text-gray-500 italic">
+        <p className="text-base text-gray-500 italic">
           Except for the design, I worked on all the coding by myself and manage all the source code alone using Swift, Objective-C, and Flutter.
         </p>
       </div>
