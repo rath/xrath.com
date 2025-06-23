@@ -109,84 +109,10 @@ export default async function BlogsPage({ searchParams }: PageProps) {
         }>
           <SearchBar />
         </Suspense>
-
-        {/* Enhanced Tag Filter Section */}
-        {allTags.length > 0 && (
-          <div className="mt-10 relative">
-            {/* Section Header */}
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-lg font-semibold gradient-text">Browse by tags</h2>
-              <span className="text-sm text-foreground/60">
-                {allTags.length} tags total
-              </span>
-            </div>
-
-            {/* Tag Cloud Container */}
-            <div className="relative rounded-2xl glass-effect border border-foreground/10 p-6 overflow-hidden">
-              {/* Decorative gradient background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 opacity-50"></div>
-
-              {/* Tags Grid */}
-              <div className="relative flex flex-wrap gap-2">
-                {/* Top tags with size variation based on count */}
-                {allTags.slice(0, 24).map(({ tag: tagName, count }, index) => {
-                  const isPopular = index < 5;
-                  const maxCount = allTags[0]?.count || 1;
-                  const relativeSize = Math.max(0.7, count / maxCount);
-
-                  return (
-                    <Link
-                      key={tagName}
-                      href={`/blogs/tags/${encodeURIComponent(tagName)}`}
-                      className={`
-                        group relative inline-flex items-center rounded-xl transition-all duration-300
-                        ${isPopular
-                          ? 'px-4 py-2 text-sm font-medium glass-effect border border-foreground/10 hover:border-primary/30'
-                          : 'px-3 py-1.5 text-xs font-medium bg-gradient-to-r from-foreground/5 to-foreground/10 hover:from-primary/10 hover:to-secondary/10'
-                        }
-                        hover:scale-105 hover:shadow-lg
-                      `}
-                      style={{
-                        fontSize: isPopular ? `${0.875 + (relativeSize - 0.7) * 0.25}rem` : undefined
-                      }}
-                    >
-                      {/* Tag icon */}
-                      <svg className={`${isPopular ? 'w-4 h-4' : 'w-3 h-3'} mr-1.5 opacity-50 group-hover:opacity-100 transition-opacity`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h10l4 4-4 4H7l4-4-4-4z" />
-                      </svg>
-
-                      {/* Tag name */}
-                      <span className="group-hover:gradient-text transition-all duration-300">
-                        {tagName}
-                      </span>
-
-                      {/* Post count badge */}
-                      <span className={`
-                        ml-2 inline-flex items-center justify-center rounded-full
-                        ${isPopular
-                          ? 'w-6 h-6 text-[10px] bg-gradient-to-br from-primary/20 to-secondary/20 group-hover:from-primary/30 group-hover:to-secondary/30'
-                          : 'px-1.5 py-0.5 text-[10px] bg-foreground/10 group-hover:bg-primary/20'
-                        }
-                        font-bold transition-all duration-300
-                      `}>
-                        {count}
-                      </span>
-
-                      {/* Hover effect for popular tags */}
-                      {isPopular && (
-                        <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/0 via-primary/5 to-secondary/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                      )}
-                    </Link>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        )}
       </section>
 
       {/* Main content */}
-      <section className="mx-auto max-w-screen-xl mt-8 px-4 pb-20 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-screen-xl mt-12 px-4 pb-20 sm:px-6 lg:px-8">
         {posts.length === 0 ? (
           <div className="text-center py-20">
             <svg className="w-16 h-16 mx-auto mb-4 text-foreground/20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -352,6 +278,80 @@ export default async function BlogsPage({ searchParams }: PageProps) {
               </Link>
             )}
           </nav>
+        )}
+
+        {/* Enhanced Tag Filter Section */}
+        {allTags.length > 0 && (
+          <div className="mt-10 relative">
+            {/* Section Header */}
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-lg font-semibold gradient-text">Browse by tags</h2>
+              <span className="text-sm text-foreground/60">
+                {allTags.length} tags total
+              </span>
+            </div>
+
+            {/* Tag Cloud Container */}
+            <div className="relative rounded-2xl glass-effect border border-foreground/10 p-6 overflow-hidden">
+              {/* Decorative gradient background */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 opacity-50"></div>
+
+              {/* Tags Grid */}
+              <div className="relative flex flex-wrap gap-2">
+                {/* Top tags with size variation based on count */}
+                {allTags.slice(0, 24).map(({ tag: tagName, count }, index) => {
+                  const isPopular = index < 5;
+                  const maxCount = allTags[0]?.count || 1;
+                  const relativeSize = Math.max(0.7, count / maxCount);
+
+                  return (
+                    <Link
+                      key={tagName}
+                      href={`/blogs/tags/${encodeURIComponent(tagName)}`}
+                      className={`
+                        group relative inline-flex items-center rounded-xl transition-all duration-300
+                        ${isPopular
+                          ? 'px-4 py-2 text-sm font-medium glass-effect border border-foreground/10 hover:border-primary/30'
+                          : 'px-3 py-1.5 text-xs font-medium bg-gradient-to-r from-foreground/5 to-foreground/10 hover:from-primary/10 hover:to-secondary/10'
+                        }
+                        hover:scale-105 hover:shadow-lg
+                      `}
+                      style={{
+                        fontSize: isPopular ? `${0.875 + (relativeSize - 0.7) * 0.25}rem` : undefined
+                      }}
+                    >
+                      {/* Tag icon */}
+                      <svg className={`${isPopular ? 'w-4 h-4' : 'w-3 h-3'} mr-1.5 opacity-50 group-hover:opacity-100 transition-opacity`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h10l4 4-4 4H7l4-4-4-4z" />
+                      </svg>
+
+                      {/* Tag name */}
+                      <span className="group-hover:gradient-text transition-all duration-300">
+                        {tagName}
+                      </span>
+
+                      {/* Post count badge */}
+                      <span className={`
+                        ml-2 inline-flex items-center justify-center rounded-full
+                        ${isPopular
+                          ? 'w-6 h-6 text-[10px] bg-gradient-to-br from-primary/20 to-secondary/20 group-hover:from-primary/30 group-hover:to-secondary/30'
+                          : 'px-1.5 py-0.5 text-[10px] bg-foreground/10 group-hover:bg-primary/20'
+                        }
+                        font-bold transition-all duration-300
+                      `}>
+                        {count}
+                      </span>
+
+                      {/* Hover effect for popular tags */}
+                      {isPopular && (
+                        <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/0 via-primary/5 to-secondary/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                      )}
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
         )}
       </section>
     </>
