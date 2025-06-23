@@ -29,6 +29,45 @@ export const metadata: Metadata = {
   },
 };
 
+interface TimelineItemProps {
+  year?: string;
+  title: string;
+  company: string;
+  companyUrl?: string;
+  period: string;
+  description: string;
+}
+
+function TimelineItem({ year, title, company, companyUrl, period, description }: TimelineItemProps) {
+  return (
+    <div className="relative flex items-start">
+      {year && (
+        <div className="absolute bg-white border border-gray-300 rounded-full px-3 py-1 text-xs font-medium text-gray-600"
+          style={{ left: '4px', top: '27px' }}>
+          {year}
+        </div>
+      )}
+      <div className="absolute left-8 w-4 h-4 bg-gray-400 rounded-full -translate-x-1/2 ring-4 ring-white"></div>
+      <div className="ml-20 w-full max-w-2xl">
+        <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200 border border-gray-100">
+          <h3 className="text-lg font-semibold text-gray-900 mb-1">{title}</h3>
+          <p className="text-sm text-gray-600 mb-3">
+            {companyUrl ? (
+              <a href={companyUrl} target="_blank" rel="noopener noreferrer" className="hover:underline text-gray-700 font-medium">
+                {company}
+              </a>
+            ) : (
+              <span className="text-gray-700 font-medium">{company}</span>
+            )}
+            <span className="text-gray-500"> • {period}</span>
+          </p>
+          <p className="text-gray-700 text-sm leading-relaxed">{description}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function WorksPage() {
   return (
     <main className="max-w-screen-lg mx-auto px-4 py-8">
@@ -182,6 +221,130 @@ export default function WorksPage() {
       </div>
 
       <MobileWorksGrid works={mobileWorksData} />
+
+      {/* Professional Work Experience */}
+      <div className="mt-24 mb-16">
+        <h1 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+          Professional Work Experience
+        </h1>
+        <div className="relative">
+          {/* Timeline line */}
+          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-300"></div>
+
+          {/* Timeline items */}
+          <div className="space-y-8">
+            <TimelineItem
+              year="2024"
+              title="Product Owner & Engineer"
+              company="Self-Employed"
+              companyUrl="https://mouton.told.me"
+              period="Dec 2024 - Present"
+              description="Architected and launched Mouton Journal, a personal diary app with AI-powered features. Integrated LLM capabilities for intelligent comments, achieving 1,600+ commits in 5 months."
+            />
+
+            <TimelineItem
+              title="Senior Software Engineer"
+              company="Mediquitous"
+              companyUrl="https://mediquitous.com"
+              period="Jan 2024 - Aug 2024"
+              description="Architected RESTful APIs for Japanese e-commerce platform nugu.jp. Used Next.js, Svelte, Django. Mentored team on Django best practices."
+            />
+
+            <TimelineItem
+              year="2022"
+              title="Chief Technology Officer"
+              company="TooEasy"
+              companyUrl="https://tooeasy.life"
+              period="Jun 2022 - Dec 2023"
+              description="Achieved 75% AWS cost reduction through strategic optimization. Led technical architecture using Django, React, and PostgreSQL."
+            />
+
+            <TimelineItem
+              year="2019"
+              title="Chief Technology Officer"
+              company="LikeStudio"
+              period="Oct 2019 - May 2022"
+              description="Launched K-POP fandom app with Flutter reaching 10K+ users. Engineered real-time video broadcasting with WebRTC and FFmpeg/CUDA optimization."
+            />
+
+            <TimelineItem
+              year="2017"
+              title="Senior Software Engineer"
+              company="Kakao Corp"
+              companyUrl="https://www.kakaocorp.com"
+              period="Mar 2017 - Oct 2019"
+              description="Architected AI-powered chatbot engine for Kakao's smart speaker. Ported KakaoTalk messenger server from Linux to macOS for faster local development."
+            />
+
+            <TimelineItem
+              year="2016"
+              title="Chief Technology Officer"
+              company="MataCompany"
+              period="Jun 2016 - Feb 2017"
+              description="Co-founded company, developed iOS app with Swift and Flask backend. Led team of 2 junior engineers to deliver in 4 months."
+            />
+
+            <TimelineItem
+              year="2015"
+              title="Senior Software Engineer"
+              company="Electronic Arts"
+              companyUrl="https://www.ea.com"
+              period="Nov 2015 - May 2016"
+              description='Designed UI test automation for "Need for Speed Edge". Reduced QA testing time by automated test suite implementation using customized PhantomJS.'
+            />
+
+            <TimelineItem
+              year="2013"
+              title="Senior Software Engineer"
+              company="BeatPacking Company"
+              period="Oct 2013 - Mar 2015"
+              description="Developed social music player Android application. Maintained Python API server handling 1M+ daily requests."
+            />
+
+            <TimelineItem
+              year="2012"
+              title="Senior Software Engineer"
+              company="Fancy.com"
+              period="Oct 2012 - Aug 2013"
+              description="Reduced AWS costs by $200,000/month through infrastructure optimization. Maintained Android App. Enhanced Django app for 10M+ daily requests."
+            />
+
+            <TimelineItem
+              year="2011"
+              title="Professional Consultant"
+              company="SK Planet"
+              companyUrl="https://www.skplanet.com"
+              period="Nov 2011 - Oct 2012"
+              description="Prototyped comment plugin backend using Node.js. Implemented Platform-as-a-Service solution based on CloudFoundry. Developed custom Nginx extension using C/GLib."
+            />
+
+            <TimelineItem
+              year="2009"
+              title="Independent Software Engineer"
+              company="Self-Employed"
+              period="Jul 2009 - Oct 2011"
+              description="Developed MSN Messenger clone for Android with 2M+ downloads, generating $100K+ revenue through Google Ads."
+            />
+
+            <TimelineItem
+              year="2007"
+              title="Software Engineer"
+              company="NCsoft"
+              companyUrl="https://www.ncsoft.com"
+              period="Feb 2007 - Apr 2009"
+              description="Developed MSN Messenger bot for SpringNote. Implemented secure private messaging service with OpenID authentication."
+            />
+
+            <TimelineItem
+              year="1999"
+              title="Early Career"
+              company="Various Companies"
+              period="1999 - 2007"
+              description="Started at CyberImagination (1999), progressed through roles at Linux Korea, and Tri-D Communication. Used Java, Python, and C++."
+            />
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
