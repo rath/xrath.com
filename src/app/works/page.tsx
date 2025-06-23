@@ -40,30 +40,66 @@ interface TimelineItemProps {
 
 function TimelineItem({ year, title, company, companyUrl, period, description }: TimelineItemProps) {
   return (
-    <div className="relative flex items-start">
+    <div className="relative flex items-start group">
+      {/* Year badge with gradient */}
       {year && (
-        <div className="absolute bg-white border border-gray-300 rounded-full px-3 py-1 text-xs font-medium text-gray-600"
-          style={{ left: '4px', top: '27px' }}>
+        <div className="absolute -left-1 top-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg px-3 py-1.5 text-xs font-bold shadow-lg transform -rotate-3 group-hover:rotate-0 transition-transform duration-300">
           {year}
         </div>
       )}
-      <div className="absolute left-8 w-4 h-4 bg-gray-400 rounded-full -translate-x-1/2 ring-4 ring-white"></div>
+
+      {/* Timeline dot with animation */}
+      <div className="absolute left-8 w-4 h-4 -translate-x-1/2">
+        <div className="w-full h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full animate-pulse"></div>
+        <div className="absolute inset-0 bg-white rounded-full scale-50"></div>
+      </div>
+
+      {/* Content card with gradient border on hover */}
       <div className="ml-20 w-full">
-        <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200 border border-gray-100">
-          <div className="md:flex md:items-start md:justify-between mb-3">
-            <h3 className="text-lg font-semibold text-gray-900 mb-1 md:mb-0">{title}</h3>
-            <p className="text-sm text-gray-600">
-              {companyUrl ? (
-                <a href={companyUrl} target="_blank" rel="noopener noreferrer" className="hover:underline text-gray-700 font-medium">
-                  {company}
-                </a>
-              ) : (
-                <span className="text-gray-700 font-medium">{company}</span>
-              )}
-              <span className="text-gray-500"> • {period}</span>
+        <div className="relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group-hover:transform group-hover:scale-[1.02]">
+          {/* Gradient border effect */}
+          <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-xl"></div>
+
+          <div className="relative bg-white rounded-2xl p-6 border border-gray-100">
+            {/* Header section */}
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
+              <div>
+                <h3 className="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-200">
+                  {title}
+                </h3>
+                <div className="flex items-center gap-2 mt-1 text-sm">
+                  {companyUrl ? (
+                    <a
+                      href={companyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-indigo-600 font-medium transition-colors duration-200 flex items-center gap-1"
+                    >
+                      {company}
+                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  ) : (
+                    <span className="text-gray-600 font-medium">{company}</span>
+                  )}
+                </div>
+              </div>
+
+              {/* Period badge */}
+              <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium text-indigo-700 border border-indigo-100">
+                <svg className="w-3 h-3 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                {period}
+              </div>
+            </div>
+
+            {/* Description with better typography */}
+            <p className="text-gray-600 text-base leading-relaxed">
+              {description}
             </p>
           </div>
-          <p className="text-gray-700 text-sm leading-relaxed">{description}</p>
         </div>
       </div>
     </div>
