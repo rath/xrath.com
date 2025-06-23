@@ -14,10 +14,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://dhnar509ehx3i.cloudfront.net/og_image_de.jpg',
+        url: '/images/works/og-image-composite.jpg',
         width: 1200,
         height: 630,
-        alt: 'App Icons',
+        alt: 'iOS App Portfolio - 10 apps including Mouton Journal',
       }
     ],
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Works - iOS Apps Portfolio | Jang-Ho Hwang',
     description: 'Featured: Mouton Journal - AI-powered diary app. Portfolio of 10 iOS apps built solo.',
-    images: ['https://dhnar509ehx3i.cloudfront.net/og_image_de.jpg'],
+    images: ['/images/works/og-image-composite.jpg'],
   },
 };
 
