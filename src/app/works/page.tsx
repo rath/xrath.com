@@ -87,7 +87,7 @@ function TimelineItem({ year, title, company, companyUrl, period, description }:
               </div>
 
               {/* Period badge */}
-              <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium text-indigo-700 border border-indigo-100">
+              <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium text-black-100 border border-black-100">
                 <svg className="w-3 h-3 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
@@ -247,14 +247,14 @@ export default function WorksPage() {
 
       {/* Other iOS Apps */}
       <div className="mb-12 text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          iOS Apps Built Together
+        <h1 className="text-4xl font-bold text-gray-900 mb-2">
+          iOS Apps built in Collaboration
         </h1>
-        <p className="text-lg text-gray-600 mb-6">
+        <p className="text-lg text-gray-600 mb-1">
           9 side projects created with designer Eui-Hyung Jung (2015-2023)
         </p>
-        <p className="text-base text-gray-500 italic">
-          Except for the design, I worked on all the coding by myself and manage all the source code alone using Swift, Objective-C, and Flutter.
+        <p className="text-lg text-gray-500 italic">
+          Sole developer on all projects (Swift, Objective-C, Flutter)
         </p>
       </div>
 
@@ -263,7 +263,7 @@ export default function WorksPage() {
       {/* Professional Work Experience */}
       <div className="mt-24 mb-16">
         <h1 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-          Professional Work Experience
+          Work Experience
         </h1>
         <div className="relative">
           {/* Timeline line */}
