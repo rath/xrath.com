@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { mobileWorksData } from '@/lib/mobile-works-data';
 import MobileWorksGrid from '@/components/MobileWorksGrid';
+import ScreenshotsGallery from '@/components/ScreenshotsGallery';
 
 export const metadata: Metadata = {
   title: 'Works - Jang-Ho Hwang',
@@ -49,28 +50,26 @@ export default function WorksPage() {
           </div>
         </details>
 
-        <div className="grid grid-cols-4 gap-2 mb-6">
-          <img
-            src="https://dhnar509ehx3i.cloudfront.net/framed-en-01home.jpg"
-            alt="Mouton Screenshot - Home"
-            className="rounded-lg shadow-md w-full h-auto"
-          />
-          <img
-            src="https://dhnar509ehx3i.cloudfront.net/framed-en-02notifications.jpg"
-            alt="Mouton Screenshot - Notifications"
-            className="rounded-lg shadow-md w-full h-auto"
-          />
-          <img
-            src="https://dhnar509ehx3i.cloudfront.net/framed-en-03search.jpg"
-            alt="Mouton Screenshot - Search"
-            className="rounded-lg shadow-md w-full h-auto"
-          />
-          <img
-            src="https://dhnar509ehx3i.cloudfront.net/framed-en-04calendar.jpg"
-            alt="Mouton Screenshot - Calendar"
-            className="rounded-lg shadow-md w-full h-auto"
-          />
-        </div>
+        <ScreenshotsGallery
+          images={[
+            {
+              src: "https://dhnar509ehx3i.cloudfront.net/framed-en-01home.jpg",
+              alt: "Mouton Screenshot - Home"
+            },
+            {
+              src: "https://dhnar509ehx3i.cloudfront.net/framed-en-02notifications.jpg",
+              alt: "Mouton Screenshot - Notifications"
+            },
+            {
+              src: "https://dhnar509ehx3i.cloudfront.net/framed-en-03search.jpg",
+              alt: "Mouton Screenshot - Search"
+            },
+            {
+              src: "https://dhnar509ehx3i.cloudfront.net/framed-en-04calendar.jpg",
+              alt: "Mouton Screenshot - Calendar"
+            }
+          ]}
+        />
 
         <div className="flex flex-wrap gap-4 mb-6">
           <div className="bg-white dark:bg-gray-800 rounded-lg px-4 py-2 shadow">
@@ -98,27 +97,31 @@ export default function WorksPage() {
           <div className="space-y-4 text-sm text-gray-700 dark:text-gray-300">
             <div>
               <h4 className="font-semibold mb-1">🗄️ Offline-First Architecture</h4>
-              <p>All journal entries are stored locally using SQLite with FTS5 (Full-Text Search) for instant search capabilities. Data syncs to the server when online with sophisticated conflict resolution and change tracking.</p>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-1">🚀 High-Performance Backend</h4>
-              <p>Built with Django Ninja for modern, fast API performance. Uses ORJSON for high-speed JSON parsing and JWT tokens for secure authentication.</p>
+              <p>All journal entries are stored locally using SQLite with FTS5 (Full-Text Search) for instant search capabilities.
+                 Data syncs to the server when online with sophisticated conflict resolution and change tracking.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-1">🤖 AI-Powered Interactions</h4>
-              <p>Mouton's personality is powered by OpenAI's GPT models with custom prompt engineering. Includes content moderation, emotion matching, and multi-language support. Comments are generated contextually based on entry content and attached images.</p>
+              <p>Mouton's personality is powered by OpenAI's GPT models with custom prompt engineering.
+                 Includes content moderation, emotion matching, and multi-language support.
+                 Comments are generated contextually based on entry content and attached images.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-1">🦀 Rust Integration</h4>
-              <p>Performance-critical operations like image resizing are handled by Rust modules via <a href="https://github.com/fzyzcjy/flutter_rust_bridge">flutter_rust_bridge</a>. Uses the fast_image_resize crate for efficient image processing, ensuring smooth performance even with multiple high-resolution photos.</p>
+              <p>Performance-critical operations like image resizing are handled by Rust modules via
+                <a href="https://github.com/fzyzcjy/flutter_rust_bridge">flutter_rust_bridge</a>.
+                Uses the fast_image_resize crate for efficient image processing, ensuring smooth performance
+                even with multiple high-resolution photos.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-1">🔄 Smart Synchronization</h4>
-              <p>Implements a sophisticated sync protocol with change tokens, automatic conflict resolution, and retry logic. Supports offline post creation with automatic sync when reconnected.</p>
+              <p>Implements a sophisticated sync protocol with change tokens, automatic conflict resolution,
+                 and retry logic. Supports offline post creation with automatic sync when reconnected.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-1">🔗 Rich Content Support</h4>
-              <p>Automatic link preview generation with OpenGraph parsing, special YouTube handling, and support for quoting other entries or comments in a social media-style interface.</p>
+              <p>Automatic link preview generation with OpenGraph parsing, special YouTube handling,
+                 and support for quoting other entries or comments in a social media-style interface.</p>
             </div>
           </div>
         </details>
