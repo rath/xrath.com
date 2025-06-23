@@ -51,6 +51,9 @@ export default function Footer() {
               <Link href="/blogs" className="text-sm text-foreground/70 hover:text-foreground hover:gradient-text transition-colors duration-300">
                 Blog
               </Link>
+              <Link href="/works" className="text-sm text-foreground/70 hover:text-foreground hover:gradient-text transition-colors duration-300">
+                Works
+              </Link>
               <Link href="mailto:rath@xrath.com" className="text-sm text-foreground/70 hover:text-foreground hover:gradient-text transition-colors duration-300">
                 Contact
               </Link>
