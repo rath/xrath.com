@@ -5,11 +5,27 @@ import ScreenshotsGallery from '@/components/ScreenshotsGallery';
 
 export const metadata: Metadata = {
   title: 'Works - Jang-Ho Hwang',
-  description: 'Portfolio of 9 iOS apps developed over 10 years, built with Swift, Flutter, and Objective-C',
+  description: 'Portfolio of iOS apps including Mouton Journal - a subscription-based diary app with AI companion. Built with Flutter, Swift, Python, and Rust. Solo developer from ideation to deployment.',
+  keywords: 'iOS apps, Flutter, Swift, Mouton Journal, AI diary app, mobile development, Rust integration, Django backend',
+  authors: [{ name: 'Jang-Ho Hwang' }],
   openGraph: {
-    title: 'Works - iOS Apps Portfolio',
-    description: 'Portfolio of 9 iOS apps developed over 10 years',
+    title: 'Works - iOS Apps Portfolio | Jang-Ho Hwang',
+    description: 'Featured: Mouton Journal - AI-powered diary app. Portfolio of 10 iOS apps built with Flutter, Swift, and Objective-C. Solo developer handling full stack.',
     type: 'website',
+    images: [
+      {
+        url: 'https://dhnar509ehx3i.cloudfront.net/og_image_de.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'App Icons',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Works - iOS Apps Portfolio | Jang-Ho Hwang',
+    description: 'Featured: Mouton Journal - AI-powered diary app. Portfolio of 10 iOS apps built solo.',
+    images: ['https://dhnar509ehx3i.cloudfront.net/og_image_de.jpg'],
   },
 };
 
