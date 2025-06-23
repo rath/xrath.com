@@ -35,8 +35,8 @@ async function createOGImage() {
     const rows = Math.ceil(allIcons.length / GRID_COLS);
     const gridWidth = GRID_COLS * (ICON_SIZE + ICON_PADDING) - ICON_PADDING;
     const gridHeight = rows * (ICON_SIZE + ICON_PADDING) - ICON_PADDING;
-    const cardPadding = 60; // Padding for the entire card
-    const startX = cardPadding + 20; // Icons start with extra padding inside card
+    const cardPadding = 100; // Padding for the entire card (moved right by 40px)
+    const startX = cardPadding + 30; // Icons start with extra padding inside card
     const startY = 180; // Below title area
 
     // Process icons into a composite
@@ -84,10 +84,10 @@ async function createOGImage() {
     const backgroundPath = path.join(WORKS_DIR, 'og-background.jpg');
 
     // Calculate card dimensions to cover both title and icons
-    const cardWidth = gridWidth + 40; // Extra padding on sides
-    const cardHeight = startY + gridHeight - 40 + 40; // From top of title to bottom of icons + padding
+    const cardWidth = gridWidth + 60; // Extra padding on sides
+    const cardHeight = startY + gridHeight - 40; // From top of title to bottom of icons + padding
     const cardX = cardPadding;
-    const cardY = 40; // Start from top with some margin
+    const cardY = 70; // Start from top with some margin
 
     // Create unified card background with 40% opacity
     const cardBackground = await sharp({
@@ -95,7 +95,7 @@ async function createOGImage() {
         width: Math.ceil(cardWidth),
         height: Math.ceil(cardHeight),
         channels: 4,
-        background: { r: 0, g: 0, b: 0, alpha: 0.4 }
+        background: { r: 0, g: 0, b: 0, alpha: 0.5 }
       }
     })
     .composite([{
@@ -114,12 +114,12 @@ async function createOGImage() {
     const titleSvg = `
       <svg width="${cardWidth}" height="150">
         <style>
-          .title { fill: white; font-size: 48px; font-weight: bold; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-          .subtitle { fill: white; font-size: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; opacity: 0.9; }
+          .title { fill: white; font-size: 42px; font-weight: bold; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+          .subtitle { fill: white; font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; opacity: 0.9; }
         </style>
         <!-- Text content aligned to left within card -->
-        <text x="20" y="60" text-anchor="start" class="title">Apps I've Built</text>
-        <text x="20" y="100" text-anchor="start" class="subtitle">Built with passion, delivered with quality</text>
+        <text x="30" y="60" text-anchor="start" class="title">Apps I have built</text>
+        <text x="30" y="95" text-anchor="start" class="subtitle">Quality apps, thoughtfully crafted</text>
       </svg>
     `;
 
