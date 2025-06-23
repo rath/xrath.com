@@ -42,12 +42,12 @@ export default function WorksPage() {
           />
           <div>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Mouton Journal</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400">Your private diary with a cute AI companion.</p>
+            <p className="text-lg text-gray-600 dark:text-gray-400">Private diary with a cute AI companion.</p>
           </div>
         </div>
 
         <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-          A subscription-based commercial iOS app (actively developed until April 2024). I built everything from ideation to planning, design, and back-office tools entirely on my own. Available in 8 languages: English, German, Korean, Japanese, Chinese, French, Italian, and Spanish.
+          A subscription-based commercial iOS app (actively developed until April 2025). I built everything from ideation to planning, design, and back-office tools entirely on my own. Available in 8 languages: English, German, Korean, Japanese, Chinese, French, Italian, and Spanish.
         </p>
 
         <details className="mb-6 open">
@@ -58,10 +58,10 @@ export default function WorksPage() {
             <ul className="list-disc list-inside space-y-1 text-sm">
               <li>AI Companion that likes your posts and writes empathetic comments on your diary entries</li>
               <li>Clean, social media-inspired design</li>
-              <li>Support for comments and quote-sharing</li>
               <li>Calendar view and search functionality</li>
-              <li>Up to 5 photos per post</li>
-              <li>PDF export functionality</li>
+              <li>Optimized for iPhone and iPad, also runs on macOS (Apple Silicon)</li>
+              <li>Support for comments and quote-sharing</li>
+              <li>PDF export</li>
             </ul>
           </div>
         </details>
@@ -102,7 +102,7 @@ export default function WorksPage() {
           </div>
           <div className="bg-white dark:bg-gray-800 rounded-lg px-4 py-2 shadow">
             <span className="text-sm text-gray-600 dark:text-gray-400">Built with</span>
-            <p className="font-semibold">Flutter, Python</p>
+            <p className="font-semibold">Flutter, Django</p>
           </div>
         </div>
 
