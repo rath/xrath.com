@@ -58,6 +58,13 @@ export default function Header() {
               Blog
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 gradient-primary group-hover:w-full transition-all duration-300"></span>
             </Link>
+            <Link
+              href="/works"
+              className="relative text-sm font-medium text-foreground/80 hover:text-foreground transition-colors duration-300 group"
+            >
+              Works
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 gradient-primary group-hover:w-full transition-all duration-300"></span>
+            </Link>
           </div>
 
           <div className="flex items-center gap-3">
@@ -184,6 +191,13 @@ export default function Header() {
               className="block py-3 px-4 rounded-xl text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-all duration-200 font-medium text-right"
             >
               Blog
+            </Link>
+            <Link
+              href="/works"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-3 px-4 rounded-xl text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-all duration-200 font-medium text-right"
+            >
+              Works
             </Link>
           </nav>
         </div>
