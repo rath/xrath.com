@@ -17,10 +17,10 @@ export default function WorksPage() {
     <main className="max-w-screen-lg mx-auto px-4 py-8">
       <div className="mb-12 text-center">
         <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-          iOS Apps I've built
+          iOS Apps Built Together
         </h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-          9 apps built over 10 years with a visual designer (Eui-Hyung Jung)
+          9 side projects created with designer Eui-Hyung Jung (2015-2023)
         </p>
         <p className="text-base text-gray-500 dark:text-gray-500 italic">
           Except for the design, I worked on all the coding by myself and manage all the source code alone using Swift, Objective-C, and Flutter.

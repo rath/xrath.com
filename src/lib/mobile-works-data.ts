@@ -24,7 +24,7 @@ export const mobileWorksData: MobileWork[] = [
     name: 'Daygram',
     icon: '/images/works/daygram-icon.png',
     title: 'Daygram : My Secret Diary',
-    subtitle: 'Simple journaling',
+    subtitle: 'E-ink Style Simple Diary with Password',
     description: 'Minimal diary app designed to capture thoughts and feelings with intuitive interface. Features password protection and cloud sync.',
     screenshots: [
       '/images/works/daygram-screenshot-1.jpg',
