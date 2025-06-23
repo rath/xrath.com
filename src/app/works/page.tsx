@@ -16,7 +16,7 @@ export default function WorksPage() {
   return (
     <main className="max-w-screen-lg mx-auto px-4 py-8">
       {/* Mouton Journal - Featured Project */}
-      <div className="mb-16 bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 rounded-2xl p-8 border border-yellow-200 dark:border-yellow-800">
+      <div className="mb-16 bg-gradient-to-br from-yellow-50/50 to-orange-50/50 dark:from-yellow-900/10 dark:to-orange-900/10 rounded-2xl p-8 border border-yellow-200/50 dark:border-yellow-800/30">
         <div className="flex items-center gap-4 mb-6">
           <img
             src="https://dhnar509ehx3i.cloudfront.net/mouton_trans.png"
@@ -24,8 +24,8 @@ export default function WorksPage() {
             className="w-20 h-20 rounded-2xl shadow-lg"
           />
           <div>
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Mouton Journal</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400">Your private diary with a cute AI lamb companion.</p>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Mouton Journal</h2>
+            <p className="text-lg text-gray-600 dark:text-gray-400">Your private diary with a cute AI companion.</p>
           </div>
         </div>
 
@@ -33,15 +33,21 @@ export default function WorksPage() {
           A subscription-based commercial iOS app (actively developed until April 2024). I built everything from ideation to planning, design, and back-office tools entirely on my own. Available in 8 languages: English, German, Korean, Japanese, Chinese, French, Italian, and Spanish.
         </p>
 
-        <div className="text-gray-700 dark:text-gray-300 mb-6">
-          <p className="font-semibold mb-2">Key features:</p>
-          <ul className="list-disc list-inside space-y-1 text-sm">
-            <li>AI Companion that likes your posts and writes empathetic comments on your diary entries</li>
-            <li>Clean, social media-inspired design</li>
-            <li>Support for comments and quote-sharing</li>
-            <li>Calendar view and search functionality</li>
-          </ul>
-        </div>
+        <details className="mb-6 open">
+          <summary className="cursor-pointer text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">
+            Key Features
+          </summary>
+          <div className="text-gray-700 dark:text-gray-300">
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>AI Companion that likes your posts and writes empathetic comments on your diary entries</li>
+              <li>Clean, social media-inspired design</li>
+              <li>Support for comments and quote-sharing</li>
+              <li>Calendar view and search functionality</li>
+              <li>Up to 5 photos per post</li>
+              <li>PDF export functionality</li>
+            </ul>
+          </div>
+        </details>
 
         <div className="grid grid-cols-4 gap-2 mb-6">
           <img
