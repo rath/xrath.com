@@ -18,7 +18,7 @@ export default function WorksGrid({ works }: WorksGridProps) {
         {works.map((work) => (
           <div
             key={work.id}
-            className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-shadow cursor-pointer overflow-hidden"
+            className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow cursor-pointer overflow-hidden"
             onClick={() => setSelectedWork(work)}
           >
             <div className="p-6">
@@ -33,26 +33,26 @@ export default function WorksGrid({ works }: WorksGridProps) {
                   />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-lg text-gray-900 dark:text-gray-100">
+                  <h3 className="font-semibold text-lg text-gray-900">
                     {work.name}
                   </h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                  <p className="text-sm text-gray-500">
                     {work.subtitle}
                   </p>
                 </div>
               </div>
 
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 min-h-[5.0rem]">
+              <p className="text-sm text-gray-600 mb-4 min-h-[5.0rem]">
                 {work.description}
               </p>
 
               <div className="flex items-center justify-between text-sm">
-                <div className="text-gray-500 dark:text-gray-500">
+                <div className="text-gray-500">
                   <span>Built with {work.builtWith}: {work.totalCommits} commits</span>
                 </div>
               </div>
               <div className="flex items-center justify-between text-sm">
-                <div className="text-gray-500 dark:text-gray-500">
+                <div className="text-gray-500">
                   <span>Released: {work.releaseDate}</span>
                 </div>
                 <span className="font-semibold">

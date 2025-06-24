@@ -24,10 +24,10 @@ export default function MobileWorkDetail({ work, onClose }: MobileWorkDetailProp
         onClick={onClose}
       />
 
-      <div className="relative bg-white dark:bg-gray-800 rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
+      <div className="relative bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+          className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:bg-gray-200 transition-colors"
         >
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -45,14 +45,14 @@ export default function MobileWorkDetail({ work, onClose }: MobileWorkDetailProp
             />
 
             <div className="flex-1 mt-2 text-center md:text-left max-w-2xl">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
                 {work.title}
               </h2>
-              <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
+              <p className="text-lg text-gray-600 mb-4">
                 {work.subtitle}
               </p>
 
-              <div className="flex flex-wrap justify-center md:justify-start gap-2 md:gap-4 text-sm text-gray-600 dark:text-gray-400">
+              <div className="flex flex-wrap justify-center md:justify-start gap-2 md:gap-4 text-sm text-gray-600">
                 <span>{work.releaseDate}</span>
                 <span>•</span>
                 <span>Built with {work.builtWith}: {work.totalCommits} commits</span>
@@ -61,7 +61,7 @@ export default function MobileWorkDetail({ work, onClose }: MobileWorkDetailProp
           </div>
 
           <div className="mb-8">
-            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed">
               {work.description}
             </p>
           </div>
@@ -88,7 +88,7 @@ export default function MobileWorkDetail({ work, onClose }: MobileWorkDetailProp
               <h3 className="text-xl font-semibold mb-4">Reviews</h3>
               <div className="space-y-4">
                 {work.reviews.map((review, index) => (
-                  <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                  <div key={index} className="bg-gray-50 rounded-lg p-4">
                     <div className="flex items-center gap-1 mb-2">
                       {[...Array(5)].map((_, i) => (
                         <svg
@@ -101,7 +101,7 @@ export default function MobileWorkDetail({ work, onClose }: MobileWorkDetailProp
                         </svg>
                       ))}
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 italic">"{review}"</p>
+                    <p className="text-gray-600 italic">"{review}"</p>
                   </div>
                 ))}
               </div>
