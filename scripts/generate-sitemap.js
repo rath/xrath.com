@@ -10,7 +10,8 @@ const currentDate = new Date().toISOString();
 // Define static pages with their priorities and change frequencies
 const staticPages = [
   { loc: '/', priority: '1.0', changefreq: 'daily', lastmod: currentDate },
-  { loc: '/archive', priority: '0.8', changefreq: 'weekly', lastmod: currentDate }
+  { loc: '/works', priority: '0.9', changefreq: 'daily', lastmod: currentDate },
+  { loc: '/blogs', priority: '0.8', changefreq: 'weekly', lastmod: currentDate }
 ];
 
 // Extract frontmatter from markdown content
