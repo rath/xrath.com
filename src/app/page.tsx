@@ -104,7 +104,7 @@ export default async function HomePage() {
             {/* CTA with glassmorphism effect */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
               <a
-                href="/portfolio"
+                href="/works"
                 className="group relative inline-flex items-center px-8 py-4 text-lg font-semibold overflow-hidden rounded-2xl transition-all duration-300 hover:scale-105 glass-effect"
               >
                 {/* Animated gradient border */}
