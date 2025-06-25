@@ -1,6 +1,6 @@
 # Rath World - xrath.com
 
-A personal blog and portfolio site built with Next.js, featuring 700+ posts migrated from WordPress (2004-2015).
+A personal blog and portfolio site built with Next.js.
 
 ## Overview
 
@@ -41,7 +41,7 @@ This is a bilingual personal homepage for a software developer. The site feature
 - **Advanced SEO**
   - JSON-LD structured data (Organization, Article, Breadcrumb schemas)
   - RSS 2.0 and Atom 1.0 feeds
-  - Sitemap generation with 760+ URLs
+  - Sitemap generation with 900+ URLs
   - OpenGraph and Twitter Card meta tags
   - Custom 404 page with content suggestions
   - Reading time estimates
@@ -176,7 +176,7 @@ npm start
 ## Performance
 
 Optimizations implemented:
-- Static generation for all 760+ blog posts
+- Static generation for all 900+ blog posts
 - Image optimization with lazy loading and WebP/AVIF formats
 - Font preloading for Inter and Noto Sans KR
 - Cache headers for static assets (1 year)

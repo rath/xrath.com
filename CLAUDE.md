@@ -29,7 +29,7 @@ This is a personal homepage for a software developer, replacing a legacy WordPre
 │  └─ lib/             # Utility functions (posts, excerpt, seo)
 ├─ public/             # Static assets & generated files
 │  ├─ robots.txt       # SEO crawling rules
-│  ├─ sitemap.xml      # Generated sitemap (760+ URLs)
+│  ├─ sitemap.xml      # Generated sitemap (900+ URLs)
 │  ├─ feed.xml         # RSS 2.0 feed
 │  └─ atom.xml         # Atom 1.0 feed
 ├─ content/            # Markdown posts
@@ -82,7 +82,7 @@ This is a personal homepage for a software developer, replacing a legacy WordPre
 - Accessibility with ARIA labels
 
 ### 4. Performance & SEO
-- Static generation for all 760+ blog posts
+- Static generation for all 900+ blog posts
 - Lighthouse scores target ≥90 across all metrics
 - Comprehensive SEO implementation:
   - JSON-LD structured data (Organization, Article, Breadcrumb)
@@ -104,12 +104,12 @@ This is a personal homepage for a software developer, replacing a legacy WordPre
 
 1. **Server Components First**: Use React Server Components by default, client components only when needed for interactivity
 2. **Type Safety**: Full TypeScript coverage with strict type checking
-3. **SEO Excellence**: 
+3. **SEO Excellence**:
    - Structured data for rich snippets
    - Automated sitemap and feed generation on build
    - Custom meta tags per page type
    - robots.txt with crawler-specific rules
-4. **Build Process**: 
+4. **Build Process**:
    - `npm run build` automatically generates sitemap and feeds
    - `npm run generate-seo` for manual SEO asset generation
 5. **Error Handling**: Custom 404 page with related content suggestions
@@ -141,7 +141,7 @@ This is a personal homepage for a software developer, replacing a legacy WordPre
 
 The tag system uses OpenAI GPT to automatically categorize posts into 4 main categories:
 1. **Technology** - programming languages, frameworks, tools
-2. **Daily Life** - work experiences, entertainment, personal events  
+2. **Daily Life** - work experiences, entertainment, personal events
 3. **Thoughts** - philosophy, self-improvement, reflections
 4. **Quotes/Culture** - quotes, cultural references, humor
 
@@ -180,7 +180,7 @@ The Works page showcases a portfolio of iOS applications with a featured section
 ### ReactMarkdown className Error
 **Issue**: ReactMarkdown v9+ no longer accepts `className` prop directly, causing assertion errors.
 
-**Solution**: 
+**Solution**:
 1. Wrap ReactMarkdown in a div element that receives the className
 2. Do not spread props in component overrides that might contain className
 3. Explicitly destructure and ignore className in custom components if needed
@@ -195,4 +195,3 @@ The Works page showcases a portfolio of iOS applications with a featured section
   <ReactMarkdown />
 </div>
 ```
-

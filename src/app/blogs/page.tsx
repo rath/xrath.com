@@ -65,7 +65,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
                 <>
                   <span className="font-semibold text-foreground">{totalPosts}</span> posts
                   {year && ` from ${year}`}
-                  {!year && ' from 2004 to 2015'}
+                  {!year && ' from 2004'}
                 </>
               )}
             </p>
