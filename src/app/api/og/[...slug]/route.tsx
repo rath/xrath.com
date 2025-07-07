@@ -15,7 +15,7 @@ export async function GET(
       return new Response('Not found', { status: 404 });
     }
 
-    // Extract first 150 characters of content (removing markdown)
+    // Extract first 200 characters of content (removing markdown)
     const plainContent = post.content
       .replace(/#+\s/g, '') // Remove headers
       .replace(/\*\*/g, '') // Remove bold
@@ -25,8 +25,8 @@ export async function GET(
       .replace(/\n+/g, ' ') // Replace newlines with spaces
       .trim();
 
-    const excerpt = plainContent.length > 150
-      ? plainContent.substring(0, 150) + '...'
+    const excerpt = plainContent.length > 200
+      ? plainContent.substring(0, 200) + '...'
       : plainContent;
 
     // Format date
@@ -46,12 +46,12 @@ export async function GET(
             flexDirection: 'column',
             width: '100%',
             height: '100%',
-            backgroundColor: '#1a1a1a',
-            padding: '60px',
+            backgroundColor: '#ffffff',
+            padding: '100px',
             fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
           }}
         >
-          {/* Background gradient */}
+          {/* Background gradient - subtle light gradient */}
           <div
             style={{
               position: 'absolute',
@@ -59,9 +59,30 @@ export async function GET(
               left: 0,
               right: 0,
               bottom: 0,
-              background: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',
+              background: 'linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)',
             }}
           />
+
+          {/* Brand Identity - Upper Right */}
+          <div
+            style={{
+              position: 'absolute',
+              top: '48px',
+              right: '110px',
+              display: 'flex',
+            }}
+          >
+            <span
+              style={{
+                fontSize: '26px',
+                fontWeight: 'bold',
+                color: '#1a1a1a',
+                letterSpacing: '-0.5px',
+              }}
+            >
+              Rath World
+            </span>
+          </div>
 
           {/* Content container */}
           <div
@@ -78,13 +99,13 @@ export async function GET(
               style={{
                 fontSize: '56px',
                 fontWeight: 'bold',
-                color: 'white',
+                color: '#1a1a1a',
                 lineHeight: 1.2,
                 marginBottom: '20px',
                 overflow: 'hidden',
                 textOverflow: 'ellipsis',
                 display: '-webkit-box',
-                WebkitLineClamp: 2,
+                WebkitLineClamp: 1,
                 WebkitBoxOrient: 'vertical',
               }}
             >
@@ -95,7 +116,7 @@ export async function GET(
             <p
               style={{
                 fontSize: '28px',
-                color: '#e0e0e0',
+                color: '#4a4a4a',
                 lineHeight: 1.5,
                 flex: 1,
                 marginTop: '20px',
@@ -103,7 +124,7 @@ export async function GET(
                 overflow: 'hidden',
                 textOverflow: 'ellipsis',
                 display: '-webkit-box',
-                WebkitLineClamp: 3,
+                WebkitLineClamp: 4,
                 WebkitBoxOrient: 'vertical',
               }}
             >
@@ -120,10 +141,10 @@ export async function GET(
             >
               {/* Author and date */}
               <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <span style={{ fontSize: '24px', color: '#a0a0a0' }}>
+                <span style={{ fontSize: '24px', color: '#666666' }}>
                   {formattedDate}
                 </span>
-                <span style={{ fontSize: '20px', color: '#818cf8', marginTop: '8px' }}>
+                <span style={{ fontSize: '20px', color: '#4f46e5', marginTop: '8px' }}>
                   xrath.com
                 </span>
               </div>
@@ -136,11 +157,11 @@ export async function GET(
                       key={index}
                       style={{
                         fontSize: '18px',
-                        color: '#ffffff',
-                        backgroundColor: 'rgba(129, 140, 248, 0.2)',
+                        color: '#4f46e5',
+                        backgroundColor: 'rgba(79, 70, 229, 0.1)',
                         padding: '8px 16px',
                         borderRadius: '20px',
-                        border: '1px solid rgba(129, 140, 248, 0.3)',
+                        border: '1px solid rgba(79, 70, 229, 0.2)',
                       }}
                     >
                       #{tag}
