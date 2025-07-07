@@ -58,13 +58,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Extract tags from frontmatter if available
   const keywords = post.tags || [];
 
+  // Use OG image API for all posts
+  const ogImageUrl = `https://xrath.com/api/og/${encodeURIComponent(slug)}`;
+  
   return generateSEO({
     title: post.title,
     description,
     url: postUrl,
     type: 'article',
     publishedTime: post.date,
-    image: firstImage || undefined,
+    image: ogImageUrl,
     keywords,
   });
 }
