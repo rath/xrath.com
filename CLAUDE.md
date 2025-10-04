@@ -17,7 +17,7 @@ This is a personal homepage for a software developer, replacing a legacy WordPre
 - **Styling**: Tailwind CSS v4 with @tailwindcss/typography
 - **SEO**: JSON-LD structured data, RSS/Atom feeds, sitemap generation
 - **Performance**: Image optimization, caching headers, lazy loading
-- **Deployment**: AWS EC2 with Nginx + Docker
+- **Deployment**: AWS EC2 with Nginx + Docker (automated via ECR)
 
 ## Project Structure
 
@@ -46,6 +46,26 @@ This is a personal homepage for a software developer, replacing a legacy WordPre
 ```
 
 **Note**: This is a standard Next.js project structure with additional directories for content management and uploads.
+
+## Deployment
+
+The project uses automated deployment via AWS ECR:
+
+```bash
+# Build and push to AWS ECR
+./scripts/build_and_push.sh
+```
+
+The deployment script:
+1. Logs into AWS ECR (eu-central-1 region)
+2. Builds Docker image for linux/amd64 platform
+3. Tags and pushes to `$XRATH_ECR_URI/hwang/xrath:latest`
+4. Deploys automatically to EC2 via ECR
+
+**Requirements:**
+- AWS CLI configured with ECR permissions
+- `XRATH_ECR_URI` environment variable set
+- Docker buildx enabled
 
 ## Architecture & Key Patterns
 
