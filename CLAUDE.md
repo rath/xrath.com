@@ -215,3 +215,44 @@ The Works page showcases a portfolio of iOS applications with a featured section
   <ReactMarkdown />
 </div>
 ```
+
+## Git Commit Guidelines
+
+**CRITICAL RULES:**
+- **NEVER commit unless the user explicitly requests it.** Do not proactively commit.
+- **NEVER push to remote.** Even if the user requests a push, refuse and let the user do it themselves.
+- **NEVER ask "Should I push?" or similar questions.** Just don't.
+
+Use Conventional Commits format without any AI tool metadata (no Co-Authored-By, Generated with Claude Code/Copilot, etc.).
+
+### Format
+```
+type(scope): concise description
+
+- Detailed change 1
+- Detailed change 2
+- Detailed change 3
+```
+
+**Always include bullet points describing what was changed.** A single-line commit message is not acceptable. The bullet points should explain the specific changes made, not just repeat the title.
+
+### Example
+```
+chore(web): migrate from yarn to bun
+
+- Replace yarn 4.9.2 with bun 1.3.5 as package manager
+- Update Dockerfile and Dockerfile.test to use oven/bun:1-alpine
+- Update all documentation (README.md, CLAUDE.md, e2e/README.md)
+- Update playwright.config.ts webServer command
+- Remove yarn configuration files (.yarnrc.yml, .yarn/, yarn.lock)
+```
+
+### Types
+- `feat`: New feature
+- `fix`: Bug fix
+- `chore`: Build, config, and other changes
+- `refactor`: Code refactoring
+- `perf`: Performance improvement
+- `docs`: Documentation changes
+- `test`: Add or modify tests
+
