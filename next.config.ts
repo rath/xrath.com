@@ -8,7 +8,6 @@ const nextConfig: NextConfig = {
     '*': [
       'node_modules/typescript/**',
       'node_modules/@swc/**',
-      'content/**',
     ],
   },
   images: {
