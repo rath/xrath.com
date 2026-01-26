@@ -5,6 +5,9 @@ import { getAllTags, searchPosts } from '@/lib/posts';
 import { generateExcerpt } from '@/lib/excerpt';
 import { generateSEO } from '@/lib/seo';
 
+// All tag pages are pre-generated at build time
+export const dynamicParams = false;
+
 interface PageProps {
   params: Promise<{ tag: string }>;
   searchParams: Promise<{ page?: string }>;

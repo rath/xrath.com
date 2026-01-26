@@ -3,6 +3,14 @@ import createMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
+  // Exclude unnecessary files from standalone output
+  outputFileTracingExcludes: {
+    '*': [
+      'node_modules/typescript/**',
+      'node_modules/@swc/**',
+      'content/**',
+    ],
+  },
   images: {
     remotePatterns: [
       {

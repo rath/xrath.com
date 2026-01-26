@@ -10,6 +10,9 @@ import JsonLd from '@/components/JsonLd';
 import Breadcrumb from '@/components/Breadcrumb';
 import { generateSEO, generateArticleSchema, generateBreadcrumbSchema, getReadingTime } from '@/lib/seo';
 
+// All posts are pre-generated at build time
+export const dynamicParams = false;
+
 interface PageProps {
   params: Promise<{ slug: string[] }>;
 }

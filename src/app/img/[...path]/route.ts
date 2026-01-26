@@ -2,6 +2,9 @@ import { readFile } from 'fs/promises';
 import path from 'path';
 import { notFound } from 'next/navigation';
 
+// All images are pre-generated at build time
+export const dynamicParams = false;
+
 export async function GET(
   request: Request,
   { params }: { params: Promise<{ path: string[] }> }
