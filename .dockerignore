@@ -1,11 +1,34 @@
+# Dependencies & build artifacts
 node_modules
 .next
 .git
-.gitignore
-README.md
-CLAUDE.md
+
+# IDE & editor
+.idea
+.ropeproject
+.vscode
+*.swp
+*.swo
+
+# Documentation (not needed for build)
+*.md
+LICENSE
+
+# Docker files
+Dockerfile*
+docker-compose*
+
+# Environment & config
 .env*
 .DS_Store
+
+# Testing & coverage
 coverage
-.claude
+e2e
+*.test.*
+*.spec.*
+
+# Temp & cache
 tmp
+.claude
+.aider*
