@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
-const matter = require('gray-matter');
-const { Feed } = require('feed');
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { Feed } from 'feed';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content', 'posts');
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
@@ -84,7 +84,7 @@ function generateFeeds() {
   posts.slice(0, 10).forEach(post => {
     // Remove comments section from content
     const contentWithoutComments = post.content.split(/## Comments/i)[0].trim();
-    
+
     feed.addItem({
       title: post.title,
       id: `https://xrath.com/${post.slug}`,

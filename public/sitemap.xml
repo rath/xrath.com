@@ -2,45 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://xrath.com/</loc>
-    <lastmod>2025-06-25T22:26:53.089Z</lastmod>
+    <lastmod>2026-01-26T19:30:02.779Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://xrath.com/works</loc>
-    <lastmod>2025-06-25T22:26:53.089Z</lastmod>
+    <lastmod>2026-01-26T19:30:02.779Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://xrath.com/blogs</loc>
-    <lastmod>2025-06-25T22:26:53.089Z</lastmod>
+    <lastmod>2026-01-26T19:30:02.779Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xrath.com/2025/06/taming-drunk-claude-code</loc>
+    <lastmod>2025-06-29T09:28:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xrath.com/2025/06/local-ai-models-golden-age</loc>
     <lastmod>2025-06-04T03:35:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xrath.com/2025/05/to-seniors-dismissing-vibe-coding</loc>
     <lastmod>2025-05-27T05:39:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xrath.com/2025/05/python-3-14-updates</loc>
     <lastmod>2025-05-30T00:56:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xrath.com/2025/05/gui-wont-disappear-llm-era</loc>
     <lastmod>2025-05-31T19:45:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xrath.com/2022/06/diet-10-weeks-transformation</loc>
@@ -93,128 +99,128 @@
   <url>
     <loc>https://xrath.com/2021/12/procrastination-optimization</loc>
     <lastmod>2021-12-27T19:30:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/11/dopamine-detox-freelance-dilemma</loc>
     <lastmod>2021-11-26T11:20:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/11/defi-addiction-dopamine-trap</loc>
     <lastmod>2021-11-14T11:30:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/09/uniswap-invisible-relationships</loc>
     <lastmod>2021-09-27T02:10:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/09/defi-greed-hell</loc>
     <lastmod>2021-09-01T05:50:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/09/defi-gas-fee-shock</loc>
     <lastmod>2021-09-04T07:35:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/09/defi-and-self-reflection</loc>
     <lastmod>2021-09-25T09:40:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/09/chuseok-qa-tradition</loc>
     <lastmod>2021-09-23T07:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/07/starting-without-consent</loc>
     <lastmod>2021-07-13T16:30:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/06/flutter-app-migration</loc>
     <lastmod>2021-06-22T23:40:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/06/blockchain-power-tutoring</loc>
     <lastmod>2021-06-01T05:40:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/05/idol-meditation-practice</loc>
     <lastmod>2021-05-10T21:50:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/04/flutter-2-years-productivity</loc>
     <lastmod>2021-04-01T14:40:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/03/dart-null-safety-migration</loc>
     <lastmod>2021-03-13T05:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/02/intp-self-destructive-scenario</loc>
     <lastmod>2021-02-22T02:30:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/02/clubhouse-saju-readonly-fate</loc>
     <lastmod>2021-02-11T14:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/01/webrtc-vp9-flutter-development</loc>
     <lastmod>2021-01-16T17:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/01/webrtc-debugging-old-connections</loc>
     <lastmod>2021-01-12T10:50:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/01/silicon-mac-terminal-setup</loc>
     <lastmod>2021-01-07T16:30:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/01/rust-addiction-silicon-mac</loc>
     <lastmod>2021-01-04T06:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2021/01/alacritty-nfc-patch</loc>
     <lastmod>2021-01-05T15:45:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://xrath.com/2020/12/put-option-to-ethereum-mining</loc>
@@ -676,61 +682,61 @@
     <loc>https://xrath.com/2016/12/daygram-beautiful-app-2nd</loc>
     <lastmod>2016-12-01T10:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2016/11/swift-15k-to-kotlin-9k</loc>
     <lastmod>2016-11-16T05:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2016/10/adult-flow-letting-go</loc>
     <lastmod>2016-10-19T14:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2016/08/saju-human-diversity</loc>
     <lastmod>2016-08-15T09:20:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2016/06/new-company-day-3</loc>
     <lastmod>2016-06-15T12:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2016/06/ea-13-weeks-resignation</loc>
     <lastmod>2016-06-10T06:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2016/05/feedback-no-change-real-meaning</loc>
     <lastmod>2016-05-20T14:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2016/05/cant-write-when-feeling-good</loc>
     <lastmod>2016-05-26T14:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2016/05/10-weeks-soulless-work</loc>
     <lastmod>2016-05-15T12:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2016/02/muscle-as-luxury-item</loc>
     <lastmod>2016-02-19T07:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://xrath.com/2015/12/typescript-vs-javascript-memory-struggle</loc>
