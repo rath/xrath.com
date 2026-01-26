@@ -6,7 +6,7 @@
  *   node appstore-scraper.js "https://apps.apple.com/us/app/…"
  *
  * Requires Node ≥ 18 (global fetch) and one external package:
- *   npm i cheerio
+ *   bun add cheerio
  */
 import { load } from 'cheerio';
 import process from 'process';

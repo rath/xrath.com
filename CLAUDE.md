@@ -130,8 +130,8 @@ The deployment script:
    - Custom meta tags per page type
    - robots.txt with crawler-specific rules
 4. **Build Process**:
-   - `npm run build` automatically generates sitemap and feeds
-   - `npm run generate-seo` for manual SEO asset generation
+   - `bun run build` automatically generates sitemap and feeds
+   - `bun run generate-seo` for manual SEO asset generation
 5. **Error Handling**: Custom 404 page with related content suggestions
 6. **Performance**: Optimized images, fonts, and caching headers
 

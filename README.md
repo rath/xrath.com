@@ -147,31 +147,31 @@ Post content in markdown...
 ### Prerequisites
 
 - Node.js 18+
-- npm or yarn
+- bun
 
 ### Setup
 
 ```bash
 # Install dependencies
-npm install
+bun install
 
 # Run development server
-npm run dev
+bun run dev
 
 # Build for production
-npm run build
+bun run build
 
 # Start production server
-npm start
+bun run start
 ```
 
 ### Scripts
 
-- `npm run dev` - Start development server with Turbopack
-- `npm run build` - Build for production (includes sitemap & feed generation)
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run generate-seo` - Manually generate sitemap and feeds
+- `bun run dev` - Start development server with Turbopack
+- `bun run build` - Build for production (includes sitemap & feed generation)
+- `bun run start` - Start production server
+- `bun run lint` - Run ESLint
+- `bun run generate-seo` - Manually generate sitemap and feeds
 
 ## Performance
 
