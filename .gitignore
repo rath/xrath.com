@@ -36,6 +36,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated SEO files (created during build)
+/public/sitemap.xml
+/public/feed.xml
+/public/atom.xml
 /.claude
 /tmp
 .aider*
