@@ -229,7 +229,7 @@ export default function WorksPage() {
             </svg>
           </a>
           <a
-            href="https://apps.apple.com/us/app/mouton-journal/id6738821848"
+            href="https://apps.apple.com/us/app/mouton-journal/id6740142703"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
