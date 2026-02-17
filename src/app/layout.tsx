@@ -1,18 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Noto_Sans_KR } from "next/font/google";
+import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import { generateSEO, generateOrganizationSchema, siteConfig } from "@/lib/seo";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-  preload: true,
-  adjustFontFallback: true,
-});
 
 const notoSansKr = Noto_Sans_KR({
   subsets: ["latin"],
@@ -36,10 +28,10 @@ export default function RootLayout({
   const organizationSchema = generateOrganizationSchema();
 
   return (
-    <html lang="en" className={`${inter.variable} ${notoSansKr.variable}`}>
+    <html lang="en" className={notoSansKr.variable}>
       <head>
         {/* Primary favicon - works in modern browsers */}
-        <link rel="icon" href="/favicon-slash.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         
         {/* Fallback for older browsers - you'll need to generate these files */}
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />

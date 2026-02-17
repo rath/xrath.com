@@ -1,7 +1,63 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Interop";
+  src: url("/fonts/interop/Interop-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Interop";
+  src: url("/fonts/interop/Interop-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Interop";
+  src: url("/fonts/interop/Interop-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Interop";
+  src: url("/fonts/interop/Interop-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Interop";
+  src: url("/fonts/interop/Interop-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Interop";
+  src: url("/fonts/interop/Interop-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Interop";
+  src: url("/fonts/interop/Interop-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Interop";
+  src: url("/fonts/interop/Interop-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-display: swap;
+}
+
 @theme {
-  --font-family-sans: Inter, "Noto Sans KR", system-ui, sans-serif;
+  --font-family-sans: Interop, "Noto Sans KR", system-ui, sans-serif;
 }
 
 /* Default Theme Variables */
