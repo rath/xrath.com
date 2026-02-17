@@ -57,7 +57,7 @@
 }
 
 @theme {
-  --font-family-sans: Interop, "Noto Sans KR", system-ui, sans-serif;
+  --font-family-sans: Interop, system-ui, sans-serif;
 }
 
 /* Default Theme Variables */

@@ -1,18 +1,9 @@
 import type { Metadata } from "next";
-import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import { generateSEO, generateOrganizationSchema, siteConfig } from "@/lib/seo";
-
-const notoSansKr = Noto_Sans_KR({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-noto-sans-kr",
-  preload: true,
-  adjustFontFallback: true,
-});
 
 export const metadata: Metadata = generateSEO({
   title: siteConfig.title,
@@ -28,7 +19,7 @@ export default function RootLayout({
   const organizationSchema = generateOrganizationSchema();
 
   return (
-    <html lang="en" className={notoSansKr.variable}>
+    <html lang="en" className="">
       <head>
         {/* Primary favicon - works in modern browsers */}
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
