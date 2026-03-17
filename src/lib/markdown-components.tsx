@@ -1,4 +1,5 @@
 import { Components } from 'react-markdown';
+import RawImage from '@/components/RawImage';
 
 export const markdownComponents: Components = {
   a: ({ href, children }) => {
@@ -71,9 +72,11 @@ export const markdownComponents: Components = {
     <hr className="my-8 border-t border-border" />
   ),
   img: ({ src, alt }) => (
-    <img
+    <RawImage
       src={src}
       alt={alt || ''}
+      loading="lazy"
+      decoding="async"
       className="rounded-lg shadow-md my-6 mx-auto max-w-full"
     />
   ),

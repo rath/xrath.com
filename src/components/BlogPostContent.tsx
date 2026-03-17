@@ -3,6 +3,7 @@
 import ReactMarkdown, { Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import EmojiText from './EmojiText';
+import RawImage from './RawImage';
 
 interface BlogPostContentProps {
   content: string;
@@ -77,9 +78,11 @@ export default function BlogPostContent({ content, className }: BlogPostContentP
       <hr className="my-8 border-t border-border" />
     ),
     img: ({ src, alt }) => (
-      <img
+      <RawImage
         src={src}
         alt={alt || ''}
+        loading="lazy"
+        decoding="async"
         className="rounded-lg shadow-md my-6 mx-auto max-w-full"
       />
     ),

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 interface ScreenshotsGalleryProps {
   images: {
@@ -10,7 +11,7 @@ interface ScreenshotsGalleryProps {
 }
 
 export default function ScreenshotsGallery({ images }: ScreenshotsGalleryProps) {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedImage, setSelectedImage] = useState<ScreenshotsGalleryProps['images'][number] | null>(null);
 
   return (
     <>
@@ -18,12 +19,14 @@ export default function ScreenshotsGallery({ images }: ScreenshotsGalleryProps) 
         {images.map((image, index) => (
           <button
             key={index}
-            onClick={() => setSelectedImage(image.src)}
+            onClick={() => setSelectedImage(image)}
             className="relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-zoom-in"
           >
-            <img
+            <Image
               src={image.src}
               alt={image.alt}
+              width={390}
+              height={844}
               className="w-full h-auto"
             />
           </button>
@@ -37,9 +40,11 @@ export default function ScreenshotsGallery({ images }: ScreenshotsGalleryProps) 
           onClick={() => setSelectedImage(null)}
         >
           <div className="relative max-w-4xl max-h-[90vh]">
-            <img
-              src={selectedImage}
-              alt="Enlarged screenshot"
+            <Image
+              src={selectedImage.src}
+              alt={selectedImage.alt}
+              width={390}
+              height={844}
               className="w-auto h-auto max-w-full max-h-[90vh] rounded-lg shadow-2xl"
               onClick={(e) => e.stopPropagation()}
             />

@@ -18,6 +18,10 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'dhnar509ehx3i.cloudfront.net',
+      },
+      {
+        protocol: 'https',
         hostname: 'farm4.static.flickr.com',
       },
     ],

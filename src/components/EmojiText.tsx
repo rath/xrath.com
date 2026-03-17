@@ -2,6 +2,7 @@
 
 import { useMemo } from 'react';
 import { emojiMap } from '@/lib/emoji';
+import RawImage from './RawImage';
 
 interface EmojiTextProps {
   text: string;
@@ -91,10 +92,12 @@ export default function EmojiText({ text, className = '' }: EmojiTextProps) {
         part.type === 'text' ? (
           <span key={index}>{part.content}</span>
         ) : (
-          <img 
+          <RawImage
             key={index}
-            src={part.src} 
+            src={part.src}
             alt={part.alt}
+            loading="lazy"
+            decoding="async"
             className="inline-block align-text-bottom mx-0.5"
             style={{ height: '1.2em', verticalAlign: 'text-bottom' }}
           />

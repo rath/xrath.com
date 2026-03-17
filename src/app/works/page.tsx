@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
+import Image from 'next/image';
 import { mobileWorksData } from '@/lib/mobile-works-data';
 import MobileWorksGrid from '@/components/MobileWorksGrid';
 import ScreenshotsGallery from '@/components/ScreenshotsGallery';
@@ -285,9 +286,11 @@ export default function WorksPage() {
       {/* Mouton Journal - Featured Project */}
       <div className="mb-16 bg-gradient-to-br from-yellow-50/50 to-orange-50/50 rounded-2xl p-8 border border-yellow-200/50">
         <div className="flex items-center gap-4 mb-6">
-          <img
+          <Image
             src="https://dhnar509ehx3i.cloudfront.net/mouton_trans.png"
             alt="Mouton Journal"
+            width={80}
+            height={80}
             className="w-20 h-20 rounded-2xl shadow-lg"
           />
           <div>

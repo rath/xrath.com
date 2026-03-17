@@ -1,6 +1,7 @@
 'use client';
 
 import OptimizedImage from './OptimizedImage';
+import RawImage from './RawImage';
 
 interface MDXImageProps {
   src?: string;
@@ -21,11 +22,12 @@ export default function MDXImage({ src, alt, title }: MDXImageProps) {
   if (isExternal) {
     return (
       <figure className="my-8">
-        <img
+        <RawImage
           src={src}
           alt={imageAlt}
           title={title}
           loading="lazy"
+          decoding="async"
           className="rounded-lg shadow-md mx-auto max-w-full h-auto"
         />
         {title && (
