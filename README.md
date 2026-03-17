@@ -195,4 +195,4 @@ This is a personal project, but suggestions and bug reports are welcome via GitH
 
 ## License
 
-All blog content © 2004-2025 by the Jang-Ho Hwang. Code is available under MIT license.
+All blog content © 2004-2026 by the Jang-Ho Hwang. Code is available under MIT license.
