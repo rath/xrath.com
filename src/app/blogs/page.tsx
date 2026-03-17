@@ -107,7 +107,7 @@ export default async function BlogsPage({ searchParams }: PageProps) {
             </div>
           </div>
         }>
-          <SearchBar />
+          <SearchBar key={query} initialQuery={query} />
         </Suspense>
       </section>
 

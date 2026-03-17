@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
 import { getLatestPosts } from "@/lib/posts";
@@ -30,7 +31,7 @@ export default async function HomePage() {
                 Reflection, Self-awareness, and Thoughts
               </p>
             </div>
-            <a
+            <Link
               href="/blogs"
               className="group inline-flex items-center text-sm font-medium text-foreground/60 hover:text-foreground transition-colors"
             >
@@ -48,7 +49,7 @@ export default async function HomePage() {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Bento Grid Layout */}
@@ -138,7 +139,7 @@ export default async function HomePage() {
             </p>
 
             {/* CTA Button */}
-            <a
+            <Link
               href="/works"
               className="group inline-flex items-center px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
               style={{
@@ -160,7 +161,7 @@ export default async function HomePage() {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

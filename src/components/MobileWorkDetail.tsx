@@ -101,7 +101,7 @@ export default function MobileWorkDetail({ work, onClose }: MobileWorkDetailProp
                         </svg>
                       ))}
                     </div>
-                    <p className="text-gray-600 italic">"{review}"</p>
+                    <p className="text-gray-600 italic">&ldquo;{review}&rdquo;</p>
                   </div>
                 ))}
               </div>

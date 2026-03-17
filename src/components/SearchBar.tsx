@@ -3,18 +3,14 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
-export default function SearchBar() {
+interface SearchBarProps {
+  initialQuery?: string;
+}
+
+export default function SearchBar({ initialQuery = '' }: SearchBarProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [query, setQuery] = useState('');
-  const [isInitialized, setIsInitialized] = useState(false);
-
-  // Initialize query from searchParams on client side only
-  useEffect(() => {
-    const initialQuery = searchParams.get('q') || '';
-    setQuery(initialQuery);
-    setIsInitialized(true);
-  }, [searchParams]);
+  const [query, setQuery] = useState(initialQuery);
 
   const handleSearch = useCallback((value: string) => {
     const params = new URLSearchParams(searchParams.toString());
@@ -31,8 +27,6 @@ export default function SearchBar() {
 
   // Debounced search
   useEffect(() => {
-    if (!isInitialized) return;
-
     const timeoutId = setTimeout(() => {
       if (query !== searchParams.get('q')) {
         handleSearch(query);
@@ -40,7 +34,7 @@ export default function SearchBar() {
     }, 300);
 
     return () => clearTimeout(timeoutId);
-  }, [query, handleSearch, searchParams, isInitialized]);
+  }, [query, handleSearch, searchParams]);
 
   const handleClear = () => {
     setQuery('');

@@ -89,7 +89,7 @@ export default async function TagPage({ params, searchParams }: PageProps) {
             </h1>
 
             <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
-              <span className="font-semibold text-foreground">{totalPosts}</span> posts tagged with "{tag}"
+              <span className="font-semibold text-foreground">{totalPosts}</span> posts tagged with &ldquo;{tag}&rdquo;
             </p>
 
             {/* Navigation breadcrumb */}

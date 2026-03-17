@@ -368,7 +368,7 @@ export default function WorksPage() {
             </div>
             <div>
               <h4 className="font-semibold mb-1">🤖 AI-Powered Interactions</h4>
-              <p>Mouton's personality is powered by OpenAI's GPT models with custom prompt engineering.
+              <p>Mouton&apos;s personality is powered by OpenAI&apos;s GPT models with custom prompt engineering.
                  Includes content moderation, emotion matching, and multi-language support.
                  Comments are generated contextually based on entry content and attached images.</p>
             </div>

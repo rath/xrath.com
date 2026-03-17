@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import HeroTitle from "./HeroTitle";
 
 export default function Hero() {
@@ -29,7 +30,7 @@ export default function Hero() {
 
           {/* CTA button */}
           <div className="mt-12">
-            <a
+            <Link
               href="/blogs"
               className="group inline-flex items-center px-8 py-4 text-lg font-semibold rounded-full border-2 border-foreground/10 hover:border-foreground/20 transition-all duration-300 hover:scale-105"
             >
@@ -47,7 +48,7 @@ export default function Hero() {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Scroll indicator */}
