@@ -1,4 +1,5 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import { mobileWorksData } from '@/lib/mobile-works-data';
 import MobileWorksGrid from '@/components/MobileWorksGrid';
 import ScreenshotsGallery from '@/components/ScreenshotsGallery';
@@ -35,8 +36,183 @@ interface TimelineItemProps {
   company: string;
   companyUrl?: string;
   period: string;
-  description: string;
+  description: ReactNode;
 }
+
+const workExperience: TimelineItemProps[] = [
+  {
+    year: '2026',
+    title: 'Freelance Software Architect',
+    company: 'AI3',
+    companyUrl: 'https://ai3.kr',
+    period: 'Dec 2025 - Mar 2026',
+    description: (
+      <>
+        Returned to maintain{' '}
+        <a
+          href="https://bizrouter.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:text-indigo-700"
+        >
+          BizRouter
+        </a>{' '}
+        in production while launching AI{' '}
+        <a
+          href="https://apps.wrks.ai/image/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:text-indigo-700"
+        >
+          image
+        </a>
+        ,{' '}
+        <a
+          href="https://apps.wrks.ai/video/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:text-indigo-700"
+        >
+          video
+        </a>
+        , and{' '}
+        <a
+          href="https://apps.wrks.ai/notes/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:text-indigo-700"
+        >
+          notes
+        </a>{' '}
+        SaaS products on a standardized React 19, NestJS, Drizzle ORM, and Aurora stack that established a commercially viable SaaS portfolio.
+      </>
+    ),
+  },
+  {
+    year: '2025',
+    title: 'Software Architect',
+    company: 'Everest Systems',
+    companyUrl: 'https://everest-systems.com',
+    period: 'Sep 2025 - Dec 2025',
+    description: 'Built and optimized an AI-powered coding agent with Python and TypeScript, focusing on maintenance, feature delivery, and Claude Code-driven development workflows.',
+  },
+  {
+    title: 'Freelance Software Architect',
+    company: 'AI3',
+    companyUrl: 'https://ai3.kr',
+    period: 'Jun 2025 - Aug 2025',
+    description: (
+      <>
+        Served as the sole architect and engineer for{' '}
+        <a
+          href="https://bizrouter.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:text-indigo-700"
+        >
+          BizRouter
+        </a>
+        , an OpenRouter-compatible B2B LLM gateway for the Korean market, delivered end-to-end with React 19, Django, and a Rust API server.
+      </>
+    ),
+  },
+  {
+    year: '2024',
+    title: 'Product Owner & Engineer',
+    company: 'Self-Employed',
+    companyUrl: 'https://mouton.told.me/en/',
+    period: 'Dec 2024 - Jun 2025',
+    description: 'Architected and launched Mouton Journal for iOS, built Django-Ninja and PostgreSQL APIs, integrated LiteLLM-powered diary comments, and used Rust for performance-critical photo resizing.',
+  },
+  {
+    title: 'Senior Software Engineer',
+    company: 'Mediquitous',
+    companyUrl: 'https://mediquitous.com',
+    period: 'Jan 2024 - Aug 2024',
+    description: 'Architected APIs and infrastructure for the Japanese e-commerce platform nugu.jp, built product and back-office systems with Next.js, TypeScript, Django, and Svelte, and mentored the team on Django practices.',
+  },
+  {
+    year: '2022',
+    title: 'Chief Technology Officer',
+    company: 'TooEasy',
+    period: 'Jun 2022 - Dec 2023',
+    description: 'Led company-wide API architecture with Django, React, and PostgreSQL, cut AWS infrastructure costs by 75 percent, and managed a fully remote engineering team across time zones.',
+  },
+  {
+    year: '2019',
+    title: 'Chief Technology Officer',
+    company: 'LikeStudio',
+    period: 'Oct 2019 - May 2022',
+    description: 'Led development of a Flutter-based K-pop fandom app to 10K+ users, built scalable Django and PostgreSQL APIs, and engineered real-time video broadcasting with WebRTC, RTMP, FFmpeg, and CUDA.',
+  },
+  {
+    year: '2017',
+    title: 'Senior Software Engineer',
+    company: 'Kakao Corp',
+    companyUrl: 'https://www.kakaocorp.com/page/',
+    period: 'Mar 2017 - Oct 2019',
+    description: "Architected the chatbot engine for Kakao's smart speaker, built an Angular management console for internal teams, and ported a high-traffic KakaoTalk server from Linux to macOS for faster local development.",
+  },
+  {
+    year: '2016',
+    title: 'Chief Technology Officer',
+    company: 'MataCompany',
+    period: 'Jun 2016 - Feb 2017',
+    description: 'Co-founded the company, shipped a native iOS app in Swift, built a Flask and SQLAlchemy backend on AWS, and mentored two junior developers through launch.',
+  },
+  {
+    year: '2015',
+    title: 'Senior Software Engineer',
+    company: 'Electronic Arts',
+    companyUrl: 'https://www.ea.com/ko-kr/',
+    period: 'Nov 2015 - May 2016',
+    description: 'Designed a UI test automation platform for Need for Speed Edge with Angular, Node.js, TypeScript, and Docker, reducing QA time by 70 percent.',
+  },
+  {
+    year: '2013',
+    title: 'Senior Software Engineer',
+    company: 'BeatPacking Company',
+    period: 'Oct 2013 - Mar 2015',
+    description: 'Developed a social music player for Android and maintained a high-traffic Python API server handling more than 1 million daily requests.',
+  },
+  {
+    year: '2012',
+    title: 'Senior Software Engineer',
+    company: 'Thingd (Fancy.com)',
+    period: 'Oct 2012 - Aug 2013',
+    description: 'Optimized AWS infrastructure to save about $200K per month, improved Django performance for 10M+ daily requests, and built Java-based sharding middleware for horizontal scaling.',
+  },
+  {
+    year: '2011',
+    title: 'Professional Consultant',
+    company: 'SK Planet',
+    companyUrl: 'https://www.skplanet.com/eng/main',
+    period: 'Nov 2011 - Oct 2012',
+    description: 'Prototyped a Node.js comment backend, researched a CloudFoundry-based PaaS, and developed a custom Nginx extension in C and GLib for request handling.',
+  },
+  {
+    year: '2009',
+    title: 'Independent Software Engineer',
+    company: 'Self-Employed',
+    period: 'Jul 2009 - Oct 2011',
+    description: 'Built an Android MSN Messenger clone that reached 2M+ downloads and generated more than $100K in ad revenue while handling the full product lifecycle alone.',
+  },
+  {
+    year: '2007',
+    title: 'Software Engineer',
+    company: 'NCsoft',
+    companyUrl: 'https://www.ncsoft.com/',
+    period: 'Feb 2007 - Apr 2009',
+    description: 'Developed SpringNote messaging integrations, implemented an OpenID-based private messaging service, and built a Firefox extension for content collection and metadata extraction.',
+  },
+  {
+    year: '1999',
+    title: 'Software Engineer / Lead Software Engineer',
+    company: 'Various Companies',
+    period: 'Dec 1999 - Jan 2007',
+    description: 'Worked across CyberImagination, Linux Korea, Tri-D Communication, and National Grid, building Java financial systems, RFC-based network authentication modules, Oracle-backed web services, and Java grid middleware while leading small engineering teams.',
+  },
+];
 
 function TimelineItem({ year, title, company, companyUrl, period, description }: TimelineItemProps) {
   return (
@@ -268,115 +444,12 @@ export default function WorksPage() {
 
           {/* Timeline items */}
           <div className="space-y-8">
-            <TimelineItem
-              year="2025"
-              title="Product Owner & Engineer"
-              company="Mouton Journal"
-              companyUrl="https://mouton.told.me"
-              period="Jan 2025 - Present"
-              description="Architected and launched Mouton Journal, a personal diary app with AI-powered features. Integrated LLM capabilities for intelligent comments, achieving 1,600+ commits in 5 months."
-            />
-
-            <TimelineItem
-              year="2024"
-              title="Senior Software Engineer"
-              company="Mediquitous"
-              companyUrl="https://mediquitous.com"
-              period="Jan 2024 - Aug 2024"
-              description="Architected RESTful APIs for Japanese e-commerce platform nugu.jp. Used Next.js, Svelte, Django. Mentored team on Django best practices."
-            />
-
-            <TimelineItem
-              year="2022"
-              title="Chief Technology Officer"
-              company="TooEasy"
-              period="Jun 2022 - Dec 2023"
-              description="Achieved 75% AWS cost reduction through strategic optimization. Led technical architecture using Django, React, and PostgreSQL."
-            />
-
-            <TimelineItem
-              year="2019"
-              title="Chief Technology Officer"
-              company="LikeStudio"
-              period="Oct 2019 - May 2022"
-              description="Launched K-POP fandom app with Flutter reaching 10K+ users. Engineered real-time video broadcasting with WebRTC and FFmpeg/CUDA optimization."
-            />
-
-            <TimelineItem
-              year="2017"
-              title="Senior Software Engineer"
-              company="Kakao Corp"
-              companyUrl="https://www.kakaocorp.com"
-              period="Mar 2017 - Oct 2019"
-              description="Architected AI-powered chatbot engine for Kakao's smart speaker. Ported KakaoTalk messenger server from Linux to macOS for faster local development."
-            />
-
-            <TimelineItem
-              year="2016"
-              title="Chief Technology Officer"
-              company="MataCompany"
-              period="Jun 2016 - Feb 2017"
-              description="Co-founded company, developed iOS app with Swift and Flask backend. Led team of 2 junior engineers to deliver in 4 months."
-            />
-
-            <TimelineItem
-              year="2015"
-              title="Senior Software Engineer"
-              company="Electronic Arts"
-              companyUrl="https://www.ea.com"
-              period="Nov 2015 - May 2016"
-              description='Designed UI test automation for "Need for Speed Edge". Reduced QA testing time by automated test suite implementation using customized PhantomJS.'
-            />
-
-            <TimelineItem
-              year="2013"
-              title="Senior Software Engineer"
-              company="BeatPacking Company"
-              period="Oct 2013 - Mar 2015"
-              description="Developed social music player Android application. Maintained Python API server handling 1M+ daily requests."
-            />
-
-            <TimelineItem
-              year="2012"
-              title="Senior Software Engineer"
-              company="Fancy.com"
-              period="Oct 2012 - Aug 2013"
-              description="Reduced AWS costs by $200,000/month through infrastructure optimization. Maintained Android App. Enhanced Django app for 10M+ daily requests."
-            />
-
-            <TimelineItem
-              year="2011"
-              title="Professional Consultant"
-              company="SK Planet"
-              companyUrl="https://www.skplanet.com"
-              period="Nov 2011 - Oct 2012"
-              description="Prototyped comment plugin backend using Node.js. Implemented Platform-as-a-Service solution based on CloudFoundry. Developed custom Nginx extension using C/GLib."
-            />
-
-            <TimelineItem
-              year="2009"
-              title="Independent Software Engineer"
-              company="Self-Employed"
-              period="Jul 2009 - Oct 2011"
-              description="Developed MSN Messenger clone for Android with 2M+ downloads, generating $100K+ revenue through Google Ads."
-            />
-
-            <TimelineItem
-              year="2007"
-              title="Software Engineer"
-              company="NCsoft"
-              companyUrl="https://www.ncsoft.com"
-              period="Feb 2007 - Apr 2009"
-              description="Developed MSN Messenger bot for SpringNote. Implemented secure private messaging service with OpenID authentication."
-            />
-
-            <TimelineItem
-              year="1999"
-              title="Early Career"
-              company="Various Companies"
-              period="1999 - 2007"
-              description="Started at CyberImagination (1999), progressed through roles at Linux Korea, and Tri-D Communication. Used Java, C++, and Python."
-            />
+            {workExperience.map((item) => (
+              <TimelineItem
+                key={`${item.period}-${item.title}-${item.company}`}
+                {...item}
+              />
+            ))}
           </div>
         </div>
       </div>
