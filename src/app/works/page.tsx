@@ -43,10 +43,10 @@ interface TimelineItemProps {
 const workExperience: TimelineItemProps[] = [
   {
     year: '2026',
-    title: 'Freelance Software Architect',
+    title: 'Software Architect',
     company: 'AI3',
     companyUrl: 'https://ai3.kr',
-    period: 'Dec 2025 - Mar 2026',
+    period: 'Dec 2025 - Present',
     description: (
       <>
         Returned to maintain{' '}
@@ -98,7 +98,7 @@ const workExperience: TimelineItemProps[] = [
     description: 'Built and optimized an AI-powered coding agent with Python and TypeScript, focusing on maintenance, feature delivery, and Claude Code-driven development workflows.',
   },
   {
-    title: 'Freelance Software Architect',
+    title: 'Software Architect',
     company: 'AI3',
     companyUrl: 'https://ai3.kr',
     period: 'Jun 2025 - Aug 2025',
