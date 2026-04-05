@@ -7,12 +7,12 @@ import ScreenshotsGallery from '@/components/ScreenshotsGallery';
 
 export const metadata: Metadata = {
   title: 'Works - Jang-Ho Hwang',
-  description: 'Portfolio of iOS apps including Mouton Journal - a subscription-based diary app with AI companion. Built with Flutter, Swift, Python, and Rust. Solo developer from ideation to deployment.',
-  keywords: 'iOS apps, Flutter, Swift, Mouton Journal, AI diary app, mobile development, Rust integration, Django backend',
+  description: 'Portfolio featuring Orrery, a browser-based astrology birth chart calculator, and Mouton Journal, a subscription-based diary app with AI companion. Built with React, TypeScript, Flutter, Swift, Python, and Rust.',
+  keywords: 'astrology, birth chart calculator, Four Pillars of Destiny, Purple Star Astrology, natal chart, iOS apps, Flutter, Swift, Mouton Journal, AI diary app, mobile development',
   authors: [{ name: 'Jang-Ho Hwang' }],
   openGraph: {
-    title: 'Works - iOS Apps Portfolio | Jang-Ho Hwang',
-    description: 'Featured: Mouton Journal - AI-powered diary app. Portfolio of 10 iOS apps built with Flutter, Swift, and Objective-C. Solo developer handling full stack.',
+    title: 'Works - Software Portfolio | Jang-Ho Hwang',
+    description: 'Featured: Orrery - browser-based astrology birth chart calculator, and Mouton Journal - AI-powered diary app. Portfolio of software projects and 10 iOS apps.',
     type: 'website',
     images: [
       {
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Works - iOS Apps Portfolio | Jang-Ho Hwang',
-    description: 'Featured: Mouton Journal - AI-powered diary app. Portfolio of 10 iOS apps built solo.',
+    title: 'Works - Software Portfolio | Jang-Ho Hwang',
+    description: 'Featured: Orrery birth chart calculator and Mouton Journal diary app. Portfolio of software projects built solo.',
     images: ['/images/works/og-image-composite.jpg'],
   },
 };
@@ -283,6 +283,112 @@ function TimelineItem({ year, title, company, companyUrl, period, description }:
 export default function WorksPage() {
   return (
     <main className="max-w-screen-lg mx-auto px-4 py-8">
+      {/* Orrery - Featured Project */}
+      <div className="mb-16 bg-gradient-to-br from-indigo-50/50 to-violet-50/50 rounded-2xl p-8 border border-indigo-200/50">
+        <div className="flex items-center gap-4 mb-6">
+          <Image
+            src="/images/works/orrery-icon.png"
+            alt="Orrery"
+            width={80}
+            height={80}
+            className="w-20 h-20 rounded-2xl shadow-lg"
+          />
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900">Orrery (혼천의)</h2>
+            <p className="text-lg text-gray-600">Birth chart calculator for Eastern and Western astrology.</p>
+          </div>
+        </div>
+
+        <p className="text-gray-700 mb-6 leading-relaxed">
+          An open-source client-side astrology calculator that computes three distinct chart systems entirely in the browser with zero backend.
+          Implements a pure TypeScript planetary ephemeris based on Moshier&apos;s analytical theory &mdash; no WASM, no external data files.
+          Available in Korean, Chinese, Japanese, and English. Core engine published as an npm package (<a href="https://www.npmjs.com/package/@orrery/core" target="_blank" rel="noopener noreferrer" className="underline">@orrery/core</a>).
+        </p>
+
+        <details className="mb-6" open={true}>
+          <summary className="cursor-pointer text-lg font-semibold text-gray-800 mb-3">
+            Key Features
+          </summary>
+          <div className="text-gray-700">
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li><strong>Four Pillars of Destiny (사주팔자)</strong> &mdash; Classical Chinese astrology based on the 60-year Heavenly Stem &amp; Earthly Branch cycle. Analyzes Ten Gods, 12 life stages, hidden stems, elemental interactions (合/沖/刑/破/害), 10-year major luck periods (大運), and daily/monthly transits</li>
+              <li><strong>Zi Wei Dou Shu (자미두수)</strong> &mdash; Traditional Chinese star-chart system using the lunar calendar. Places 14 major stars across a 4&times;4 palace grid (命盤), with brightness ratings, Four Transformations (四化), and decade/annual fortune forecasting</li>
+              <li><strong>Natal Chart (점성학)</strong> &mdash; Full horoscope with 10 planets, Chiron, and lunar nodes across 12 houses. Supports 10 house systems (Placidus default), 5 major aspects, and an interactive SVG zodiac wheel</li>
+              <li>AI-agent-friendly combined text export for all three chart systems</li>
+              <li>Profile management, dark/light theme, fully responsive</li>
+            </ul>
+          </div>
+        </details>
+
+        <div className="flex flex-wrap gap-4 mb-6">
+          <div className="bg-white rounded-lg px-4 py-2 shadow">
+            <span className="text-sm text-gray-600">Started</span>
+            <p className="font-semibold">Feb 2026</p>
+          </div>
+          <div className="bg-white rounded-lg px-4 py-2 shadow">
+            <span className="text-sm text-gray-600">Released</span>
+            <p className="font-semibold">Feb 2026</p>
+          </div>
+          <div className="bg-white rounded-lg px-4 py-2 shadow">
+            <span className="text-sm text-gray-600">Commits</span>
+            <p className="font-semibold">79</p>
+          </div>
+          <div className="bg-white rounded-lg px-4 py-2 shadow">
+            <span className="text-sm text-gray-600">Built with</span>
+            <p className="font-semibold">React, TypeScript</p>
+          </div>
+        </div>
+
+        <details className="mb-6">
+          <summary className="cursor-pointer text-lg font-semibold text-gray-800 mb-3">
+            Technical Details
+          </summary>
+          <div className="space-y-4 text-sm text-gray-700">
+            <div>
+              <h4 className="font-semibold mb-1">Pure Client-Side Ephemeris</h4>
+              <p>Planetary positions computed using Steve Moshier&apos;s analytical ephemeris theory implemented entirely in TypeScript, with no server calls, no WASM compilation, and no external data files.</p>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-1">Lunar Calendar Engine</h4>
+              <p>Full solar-to-lunar calendar conversion supporting leap months, required for accurate Four Pillars and Purple Star calculations.</p>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-1">Interactive SVG Zodiac Wheel</h4>
+              <p>The Western natal chart renders as a fully interactive SVG with zodiac ring, house cusps, aspect lines, and planet markers.</p>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-1">npm Package (<a href="https://www.npmjs.com/package/@orrery/core" target="_blank" rel="noopener noreferrer" className="underline">@orrery/core</a>)</h4>
+              <p>Core calculation engine published separately for programmatic use, enabling integration into other applications.</p>
+            </div>
+          </div>
+        </details>
+
+        <div className="flex flex-wrap gap-4">
+          <a
+            href="https://sky.told.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+          >
+            Try it Live
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/rath/orrery"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+          >
+            View Source
+            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
       {/* Mouton Journal - Featured Project */}
       <div className="mb-16 bg-gradient-to-br from-yellow-50/50 to-orange-50/50 rounded-2xl p-8 border border-yellow-200/50">
         <div className="flex items-center gap-4 mb-6">
