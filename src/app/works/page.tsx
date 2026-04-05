@@ -49,7 +49,7 @@ const workExperience: TimelineItemProps[] = [
     period: 'Dec 2025 - Present',
     description: (
       <>
-        Returned to maintain{' '}
+        Building and operating{' '}
         <a
           href="https://bizrouter.ai"
           target="_blank"
@@ -57,15 +57,17 @@ const workExperience: TimelineItemProps[] = [
           className="font-medium text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:text-indigo-700"
         >
           BizRouter
-        </a>{' '}
-        in production while launching AI{' '}
+        </a>
+        , an LLM gateway for the Korean enterprise market. At its core is a high-performance Rust API proxy handling streaming responses, tool calling, multimodal inputs, and provider-agnostic routing across OpenAI, Anthropic, Google Gemini, and more &mdash; behind a single OpenAI-compatible interface. Includes GCRA-based rate limiting, token-level usage metering, BYOK encryption, and PII masking for Korean data privacy compliance (PIPA).
+        <br /><br />
+        On top of BizRouter, shipped three customer-facing AI applications &mdash;{' '}
         <a
           href="https://apps.wrks.ai/image/"
           target="_blank"
           rel="noopener noreferrer"
           className="font-medium text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:text-indigo-700"
         >
-          image
+          AI Image Generation
         </a>
         ,{' '}
         <a
@@ -74,7 +76,7 @@ const workExperience: TimelineItemProps[] = [
           rel="noopener noreferrer"
           className="font-medium text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:text-indigo-700"
         >
-          video
+          AI Video Generation
         </a>
         , and{' '}
         <a
@@ -83,9 +85,9 @@ const workExperience: TimelineItemProps[] = [
           rel="noopener noreferrer"
           className="font-medium text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:text-indigo-700"
         >
-          notes
-        </a>{' '}
-        SaaS products on a standardized React 19, NestJS, Drizzle ORM, and Aurora stack that established a commercially viable SaaS portfolio.
+          AI Meeting Notes
+        </a>
+        {' '}&mdash; each taken from initial product planning and UX design through full-stack implementation to production deployment and ongoing operations, entirely solo.
       </>
     ),
   },
